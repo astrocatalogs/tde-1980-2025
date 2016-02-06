@@ -1,0 +1,50 @@
+{
+	"SDSS J0938":{
+		"name":"SDSS J0938",
+		"aliases":[
+			"SDSS J0938"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2012ApJ...749..115W'>Wang et al. 2012</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/SgAJlj'>SDSS J093801.64+135317.0</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"28650",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"SDSS",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"478.4",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.1006",
+				"source":"1"
+			}
+		]
+	}
+}

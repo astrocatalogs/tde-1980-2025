@@ -1,0 +1,50 @@
+{
+	"PGC 1185375":{
+		"name":"PGC 1185375",
+		"aliases":[
+			"PGC 1185375"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/nI4EGv'>2MASX J15035028+0107366</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"1560",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"Swift (BAT)",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"23.2",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.00523",
+				"source":"1"
+			}
+		]
+	}
+}

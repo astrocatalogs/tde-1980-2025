@@ -1,0 +1,50 @@
+{
+	"RX J1624+75":{
+		"name":"RX J1624+75",
+		"aliases":[
+			"RX J1624+75"
+		],
+		"sources":[
+			{
+				"name":"and Leighly 1999</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/xcdBKe'>RX J1624.9+7554</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"18500",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"ROSAT, NVSS&Dagger;, IRAS&Dagger;, McD*, MDM*",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"295",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0636",
+				"source":"1"
+			}
+		]
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"SDSS J1323":{
+		"name":"SDSS J1323",
+		"aliases":[
+			"SDSS J1323"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2007A%26A...462L..49E'>Esquej et al. 2007</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/E7Z5oS'>SDSS J132341.97+482701.3</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"25100",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"XMM-Newton, Swift XRT, ALFOSC, ROSAT",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"412.7",
+				"source":"D"
+			}
+		],
+		"notes":[
+			{
+				"value":"No emission or absorption features",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.08754",
+				"source":"1"
+			}
+		]
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"NGC 247":{
+		"name":"NGC 247",
+		"aliases":[
+			"NGC 247"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://goo.gl/pde8py'>Feng et al. 2015</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Low-mass TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/oYXebN'>NGC 247</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"159",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"XMM-Newton, Swift, Chandra",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"2.35",
+				"source":"D"
+			}
+		],
+		"notes":[
+			{
+				"value":"Possibly LMXB",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.000531",
+				"source":"1"
+			}
+		]
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"PGC 170392":{
+		"name":"PGC 170392",
+		"aliases":[
+			"PGC 170392"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/eE1bJ2'>6dFGS gJ222646.4-150123</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"4830.9",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"Swift (BAT)",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"72.791",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.016246",
+				"source":"1"
+			}
+		]
+	}
+}

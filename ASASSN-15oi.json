@@ -1,0 +1,50 @@
+{
+	"ASASSN-15oi":{
+		"name":"ASASSN-15oi",
+		"aliases":[
+			"ASASSN-15oi"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://www.astronomerstelegram.org/?read=7910'>Brimacombe et. al 2015</a>*",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/rfxed3'>2MASX J20390918-3045201</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"6000",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"ASAS-SN",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"90",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.02",
+				"source":"1"
+			}
+		]
+	}
+}

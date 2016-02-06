@@ -1,0 +1,56 @@
+{
+	"IC 3599":{
+		"name":"IC 3599",
+		"aliases":[
+			"IC 3599"
+		],
+		"sources":[
+			{
+				"name":"and Fink 1995</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/Ff57FM'>IC 3599</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"6301.5",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"ROSAT, FOS",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"95.545",
+				"source":"D"
+			}
+		],
+		"notes":[
+			{
+				"value":"Seyfert 1 features in spectrum",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.021245",
+				"source":"1"
+			}
+		]
+	}
+}

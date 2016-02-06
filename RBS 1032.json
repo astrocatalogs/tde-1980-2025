@@ -1,0 +1,50 @@
+{
+	"RBS 1032":{
+		"name":"RBS 1032",
+		"aliases":[
+			"RBS 1032"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1407.2928'>Maksym et al. 2015</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/NN9wNv'>SDSS J114726.69+494257.8</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"7700",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"ROSAT, XMM-Newton",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"120",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.026",
+				"source":"1"
+			}
+		]
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"Swift J1112-82":{
+		"name":"Swift J1112-82",
+		"aliases":[
+			"Swift J1112-82"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150703582B'>Brown et al. 2015</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150703582B'>Swift J1112.2-8238</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"170000",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"Swift (BAT, XRT), GMOS-S, FORS2-VLT",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"5900",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.89",
+				"source":"1"
+			}
+		]
+	}
+}

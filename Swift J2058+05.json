@@ -1,0 +1,50 @@
+{
+	"Swift J2058+05":{
+		"name":"Swift J2058+05",
+		"aliases":[
+			"Swift J2058+05"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2012ApJ...753...77C'>Cenko et al. 2012</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"Swift J205819.7+051329",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"195980",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"Swift (BAT, XRT), La Silla (g',r',i',z',J&Dagger;,H&Dagger;,K&Dagger;), Keck",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"8376.4",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"1.1853",
+				"source":"1"
+			}
+		]
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"PTF-10iam":{
+		"name":"PTF-10iam",
+		"aliases":[
+			"PTF-10iam"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://arxiv.org/abs/1405.1415v1'>Arcavi et al. 2014</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/Ljum2V'>SDSS J154530.83+540231.9</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"30900",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"P48 (R, g), P60 (g, r, i)",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"521",
+				"source":"D"
+			}
+		],
+		"notes":[
+			{
+				"value":"Significantly off-center from host galaxy",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.109",
+				"source":"1"
+			}
+		]
+	}
+}

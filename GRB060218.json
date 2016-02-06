@@ -1,0 +1,50 @@
+{
+	"GRB060218":{
+		"name":"GRB060218",
+		"aliases":[
+			"GRB060218"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2006Natur.442.1008C'>Campana et al. 2006</a>*",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"WD + IMBH",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/r5FoNI'>SDSS J032139.69+165201.7</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"9870",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"Swift (UVOT, XRT)",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"152",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0335",
+				"source":"1"
+			}
+		]
+	}
+}

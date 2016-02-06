@@ -1,0 +1,56 @@
+{
+	"Pictor A":{
+		"name":"Pictor A",
+		"aliases":[
+			"Pictor A"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/1995ApJ...438L...1S'>Sulentic et al. 1995</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/x0sPpj'>Pictor A</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"10000",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"1.5m ESO Telescope",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"150",
+				"source":"D"
+			}
+		],
+		"notes":[
+			{
+				"value":"Pre-TDE broad lines",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.034",
+				"source":"1"
+			}
+		]
+	}
+}

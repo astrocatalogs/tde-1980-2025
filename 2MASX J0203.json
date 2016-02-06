@@ -1,0 +1,56 @@
+{
+	"2MASX J0203":{
+		"name":"2MASX J0203",
+		"aliases":[
+			"2MASX J0203"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2007A%26A...462L..49E'>Esquej et al. 2007</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/SwQpJv'>2MASX J02030314&#8209;0741514</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"17900",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"2MASS, XMM-Newton, ROSAT",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"285",
+				"source":"D"
+			}
+		],
+		"notes":[
+			{
+				"value":"Star-forming host, possibly pre-TDE AGN",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0615",
+				"source":"1"
+			}
+		]
+	}
+}

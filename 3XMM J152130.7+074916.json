@@ -1,0 +1,56 @@
+{
+	"3XMM J152130.7+074916":{
+		"name":"3XMM J152130.7+074916",
+		"aliases":[
+			"3XMM J152130.7+074916"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2015ApJ...811...43L'>Lin et al. 2015</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/BSPj6n'>SDSS J152130.72+074916.5</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"48927",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"Swift, XMM-Newton, Chandra",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"894.21",
+				"source":"D"
+			}
+		],
+		"nh":[
+			{
+				"value":"2.61e+20",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.17901",
+				"source":"1"
+			}
+		]
+	}
+}

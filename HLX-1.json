@@ -1,0 +1,56 @@
+{
+	"HLX-1":{
+		"name":"HLX-1",
+		"aliases":[
+			"HLX-1"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2012sf2a.conf..631W'>Webb et al. 2012</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Giant + IMBH,Star wind + IMBH",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/TT8WSv'>ESO 243-49</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"6610",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"Swift, Chandra, ACTA, Swift, Chandra",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"100",
+				"source":"D"
+			}
+		],
+		"notes":[
+			{
+				"value":"<a href='http://www.astronomerstelegram.org/?read=5439'>Latest news</a> contradicts disruption interpretation",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0223",
+				"source":"1"
+			}
+		]
+	}
+}

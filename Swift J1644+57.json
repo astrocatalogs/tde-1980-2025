@@ -1,0 +1,50 @@
+{
+	"Swift J1644+57":{
+		"name":"Swift J1644+57",
+		"aliases":[
+			"Swift J1644+57"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2011Sci...333..203B'>Bloom et al. 2011</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"MS + SMBH",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2011Sci...333..199L'>Swift J164449.3+573451</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"88230",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"Swift (BAT, UVOT&Dagger;, XRT), CARMA, SMA, HST, VLA, NVSS&Dagger;, FIRST&Dagger;, AMI Large Array, OVRO, WISE&Dagger;, MMT*, GMOS*, Keck*",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"1942",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.3543",
+				"source":"1"
+			}
+		]
+	}
+}

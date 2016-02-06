@@ -1,0 +1,56 @@
+{
+	"SDSS J0939":{
+		"name":"SDSS J0939",
+		"aliases":[
+			"SDSS J0939"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2007A%26A...462L..49E'>Esquej et al. 2007</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/TgC7ES'>SDSS J093922.90+370944.0</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"50623",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"SDSS, XMM-Newton, ROSAT",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"932.36",
+				"source":"D"
+			}
+		],
+		"notes":[
+			{
+				"value":"Pre-TDE AGN",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.18589",
+				"source":"1"
+			}
+		]
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"SDSS J1311":{
+		"name":"SDSS J1311",
+		"aliases":[
+			"SDSS J1311"
+		],
+		"sources":[
+			{
+				"name":"and Eracleous 2010</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/bVmsdK'>SDSS J131122.15-012345.6</a>",
+				"source":"1"
+			}
+		],
+		"instruments":[
+			{
+				"value":"XMM-Newton, Chandra, HET*",
+				"source":"1"
+			}
+		]
+	}
+}

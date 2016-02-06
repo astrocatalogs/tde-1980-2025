@@ -1,0 +1,50 @@
+{
+	"PGC 133344":{
+		"name":"PGC 133344",
+		"aliases":[
+			"PGC 133344"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/yASUJ8'>6dFGS gJ214256.0-300758</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"7006",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"Swift (BAT)",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"106.6",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.02365",
+				"source":"1"
+			}
+		]
+	}
+}

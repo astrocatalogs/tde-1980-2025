@@ -1,0 +1,38 @@
+{
+	"IGR J17361-4441":{
+		"name":"IGR J17361-4441",
+		"aliases":[
+			"IGR J17361-4441"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2014arXiv1407.5081D'>Del Santo et al. 2014</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Planet + WD, MS + SMBH",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/WOubsV'>NGC 6388</a>",
+				"source":"1"
+			}
+		],
+		"instruments":[
+			{
+				"value":"Swift, INTEGRAL",
+				"source":"1"
+			}
+		],
+		"notes":[
+			{
+				"value":"Either planet disruption in NGC 6388 or star disruption in background galaxy",
+				"source":"1"
+			}
+		]
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"NGC 2110":{
+		"name":"NGC 2110",
+		"aliases":[
+			"NGC 2110"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2007ApJ...668L..31M'>Moran et al. 2007</a>*",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"No claim",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/hnYzAb'>NGC 2110</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"2264",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"Keck (LRIS), HST (STIS)",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"33.74",
+				"source":"D"
+			}
+		],
+		"notes":[
+			{
+				"value":"Transient \\({\\rm H}\\alpha\\) feature",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.007579",
+				"source":"1"
+			}
+		]
+	}
+}

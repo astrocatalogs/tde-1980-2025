@@ -1,0 +1,50 @@
+{
+	"UGC 01791":{
+		"name":"UGC 01791",
+		"aliases":[
+			"UGC 01791"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/z9n2Z1'>UGC 01791</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"4723.2",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"Swift (BAT)",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"71.136",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.015881",
+				"source":"1"
+			}
+		]
+	}
+}

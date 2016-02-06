@@ -1,0 +1,56 @@
+{
+	"NGC 3599":{
+		"name":"NGC 3599",
+		"aliases":[
+			"NGC 3599"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2007A%26A...462L..49E'>Esquej et al. 2007</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/wnl9Mm'>NGC 3599</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"808",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"XMM-Newton, Swift (XRT), ALFOSC, ROSAT",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"11.97",
+				"source":"D"
+			}
+		],
+		"notes":[
+			{
+				"value":"LLAGN features in spectrum, <a href='http://adsabs.harvard.edu/abs/2015arXiv150905193S'>bright for &gt;18 months</a>.",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.002699",
+				"source":"1"
+			}
+		]
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"RX J1420+53":{
+		"name":"RX J1420+53",
+		"aliases":[
+			"RX J1420+53"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2000A%26A...362L..25G'>Greiner et al. 2000</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/MC1jIc'>RX J1420.4+5334</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"40900",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"ROSAT, Special Astrophysical Observatory (V&Dagger;), Sonneberg (white&Dagger;), WIYN (R&Dagger;, B&Dagger;), Calar Alto*",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"720",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.147",
+				"source":"1"
+			}
+		]
+	}
+}

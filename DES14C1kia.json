@@ -1,0 +1,45 @@
+{
+	"DES14C1kia":{
+		"name":"DES14C1kia",
+		"aliases":[
+			"DES14C1kia"
+		],
+		"claimedtype":[
+			{
+				"value":"TDE"
+			}
+		],
+		"host":[
+			{
+				"value":"Uncatalogued, 03:34:47.49 -26:19:35.0"
+			}
+		],
+		"hvel":[
+			{
+				"value":"44700",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"DES, Swift (XRT), ATCA"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"801",
+				"source":"D"
+			}
+		],
+		"notes":[
+			{
+				"value":"HeII and HeI emission lines, no X-rays or radio"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.162"
+			}
+		]
+	}
+}

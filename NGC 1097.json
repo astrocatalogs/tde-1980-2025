@@ -1,0 +1,56 @@
+{
+	"NGC 1097":{
+		"name":"NGC 1097",
+		"aliases":[
+			"NGC 1097"
+		],
+		"sources":[
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/1995ApJ...443..617S'>Storchi-Bergmann et al. 1995</a>*&Dagger;",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Giant + SMBH",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"<a href='http://goo.gl/2Wr8lv'>NGC 1097</a>",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"1300",
+				"source":"D"
+			}
+		],
+		"instruments":[
+			{
+				"value":"CTIO, Shane",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"19",
+				"source":"D"
+			}
+		],
+		"notes":[
+			{
+				"value":"BH mass precludes MS disruption",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0042",
+				"source":"1"
+			}
+		]
+	}
+}
