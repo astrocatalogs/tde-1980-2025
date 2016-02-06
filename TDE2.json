@@ -107,6 +107,7 @@
 				"band":"g",
 				"magnitude":"21.969738194570407",
 				"instrument":"SDSS",
+				"source":"1",
 				"upperlimit":true,
 				"hostnhcorr":true
 			},
@@ -116,6 +117,7 @@
 				"band":"r",
 				"magnitude":"21.94987605054719",
 				"instrument":"SDSS",
+				"source":"1",
 				"upperlimit":true,
 				"hostnhcorr":true
 			},
@@ -125,6 +127,7 @@
 				"band":"u",
 				"magnitude":"21.990053812201463",
 				"instrument":"SDSS",
+				"source":"1",
 				"upperlimit":true,
 				"hostnhcorr":true
 			},
@@ -134,6 +137,7 @@
 				"band":"u",
 				"magnitude":"21.990053812201463",
 				"instrument":"SDSS",
+				"source":"1",
 				"upperlimit":true,
 				"hostnhcorr":true
 			},
@@ -143,6 +147,7 @@
 				"band":"g",
 				"magnitude":"21.969738194570407",
 				"instrument":"SDSS",
+				"source":"1",
 				"upperlimit":true,
 				"hostnhcorr":true
 			},
@@ -152,6 +157,7 @@
 				"band":"r",
 				"magnitude":"21.94987605054719",
 				"instrument":"SDSS",
+				"source":"1",
 				"upperlimit":true,
 				"hostnhcorr":true
 			},
@@ -161,6 +167,7 @@
 				"band":"Cr",
 				"magnitude":"19.260188040389384",
 				"e_magnitude":"0.1899600943225117",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -170,6 +177,7 @@
 				"magnitude":"20.054613338170384",
 				"e_magnitude":"0.04179515085555252",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -179,6 +187,7 @@
 				"magnitude":"20.367978716972004",
 				"e_magnitude":"0.049519317975693866",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -188,6 +197,7 @@
 				"magnitude":"19.926960517564545",
 				"e_magnitude":"0.05946550577423082",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -197,6 +207,7 @@
 				"magnitude":"20.096816615272992",
 				"e_magnitude":"0.04061611947517996",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -206,6 +217,7 @@
 				"magnitude":"20.499516294818307",
 				"e_magnitude":"0.055233085434426954",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -215,6 +227,7 @@
 				"magnitude":"19.873752947578453",
 				"e_magnitude":"0.05254247536126755",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -224,6 +237,7 @@
 				"magnitude":"20.202551544833426",
 				"e_magnitude":"0.039180119717032724",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -233,6 +247,7 @@
 				"magnitude":"20.58213918616603",
 				"e_magnitude":"0.05828647439385648",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -242,6 +257,7 @@
 				"magnitude":"20.22753794062519",
 				"e_magnitude":"0.040585887901324114",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -251,6 +267,7 @@
 				"magnitude":"20.48610859181329",
 				"e_magnitude":"0.051952959671082155",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -260,6 +277,7 @@
 				"magnitude":"20.2825442892557",
 				"e_magnitude":"0.07935788137130473",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -269,6 +287,7 @@
 				"magnitude":"20.398618417074793",
 				"e_magnitude":"0.048506560251526665",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -278,6 +297,7 @@
 				"magnitude":"20.46216518531955",
 				"e_magnitude":"0.056427232601729216",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -287,6 +307,7 @@
 				"magnitude":"20.107790676582624",
 				"e_magnitude":"0.04300441380978448",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -296,6 +317,7 @@
 				"magnitude":"20.539316161799384",
 				"e_magnitude":"0.08203337565753621",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -305,6 +327,7 @@
 				"magnitude":"20.38927686075337",
 				"e_magnitude":"0.08136828103270943",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -314,6 +337,7 @@
 				"magnitude":"20.40635769998186",
 				"e_magnitude":"0.042460245480381076",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -323,6 +347,7 @@
 				"magnitude":"20.64849749077937",
 				"e_magnitude":"0.05886087429711573",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -332,6 +357,7 @@
 				"magnitude":"20.13496886147893",
 				"e_magnitude":"0.06129451599250224",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -341,6 +367,7 @@
 				"magnitude":"20.49121772779491",
 				"e_magnitude":"0.06108289497551134",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -350,6 +377,7 @@
 				"magnitude":"20.816947820303525",
 				"e_magnitude":"0.06575367313622316",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -359,6 +387,7 @@
 				"magnitude":"20.744694358788315",
 				"e_magnitude":"0.0698349356067478",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -368,6 +397,7 @@
 				"magnitude":"20.4938176431465",
 				"e_magnitude":"0.04548340286595298",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -377,6 +407,7 @@
 				"magnitude":"20.634303766854103",
 				"e_magnitude":"0.059662011004292026",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -386,6 +417,7 @@
 				"magnitude":"20.502116210169902",
 				"e_magnitude":"0.06920007255577687",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -395,6 +427,7 @@
 				"magnitude":"20.41754338230848",
 				"e_magnitude":"0.04666243424632732",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -404,6 +437,7 @@
 				"magnitude":"20.709338533164036",
 				"e_magnitude":"0.059269000544169614",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -413,6 +447,7 @@
 				"magnitude":"20.46153032226858",
 				"e_magnitude":"0.06474091541205773",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -422,6 +457,7 @@
 				"magnitude":"20.766204123586675",
 				"e_magnitude":"0.0791311445673859",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -431,6 +467,7 @@
 				"magnitude":"20.394567386178124",
 				"e_magnitude":"0.10612794002055637",
 				"instrument":"SDSS",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -440,6 +477,7 @@
 				"magnitude":"21.184095168994496",
 				"e_magnitude":"0.10008162524941078",
 				"instrument":"GALEX",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -449,6 +487,7 @@
 				"magnitude":"21.402654332184532",
 				"e_magnitude":"0.15992502569683786",
 				"instrument":"GALEX",
+				"source":"1",
 				"hostnhcorr":true
 			},
 			{
@@ -458,6 +497,7 @@
 				"magnitude":"21.09925025696838",
 				"e_magnitude":"0.09601547856581405",
 				"instrument":"GALEX",
+				"source":"1",
 				"hostnhcorr":true
 			}
 		]

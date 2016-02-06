@@ -114,6 +114,7 @@
 				"magnitude":"22.80662819416738",
 				"e_magnitude":"0.13442813717108315",
 				"instrument":"GALEX",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -123,6 +124,7 @@
 				"magnitude":"22.038472499287547",
 				"e_magnitude":"0.19656597321174019",
 				"instrument":"GALEX",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -132,6 +134,7 @@
 				"magnitude":"22.93169943953643",
 				"e_magnitude":"0.20597036192647522",
 				"instrument":"GALEX",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -141,6 +144,7 @@
 				"magnitude":"21.977652702574332",
 				"e_magnitude":"0.19924954877932954",
 				"instrument":"GALEX",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -150,6 +154,7 @@
 				"magnitude":"23.100539089959153",
 				"e_magnitude":"0.1640662106963049",
 				"instrument":"GALEX",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -159,6 +164,7 @@
 				"magnitude":"22.303517146385488",
 				"e_magnitude":"0.20232497387669746",
 				"instrument":"GALEX",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -167,7 +173,8 @@
 				"band":"FUV",
 				"magnitude":"21.240666856654318",
 				"e_magnitude":"0.06998670086444392",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -175,7 +182,8 @@
 				"band":"NUV",
 				"magnitude":"21.18253063550869",
 				"e_magnitude":"0.19428612140210966",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -183,7 +191,8 @@
 				"band":"FUV",
 				"magnitude":"20.707537760045597",
 				"e_magnitude":"0.0898879072860268",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -191,7 +200,8 @@
 				"band":"NUV",
 				"magnitude":"20.60942101263418",
 				"e_magnitude":"0.19410800797948013",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -199,7 +209,8 @@
 				"band":"FUV",
 				"magnitude":"20.859551629144107",
 				"e_magnitude":"0.05984611000284978",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -207,7 +218,8 @@
 				"band":"NUV",
 				"magnitude":"20.78534957727748",
 				"e_magnitude":"0.20251496152750015",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -215,7 +227,8 @@
 				"band":"FUV",
 				"magnitude":"22.304478958867673",
 				"e_magnitude":"0.0900541464804796",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -223,7 +236,8 @@
 				"band":"NUV",
 				"magnitude":"21.864443811152277",
 				"e_magnitude":"0.19658972166809185",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -231,7 +245,8 @@
 				"band":"FUV",
 				"magnitude":"22.142680725752825",
 				"e_magnitude":"0.10000474969126927",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -239,7 +254,8 @@
 				"band":"NUV",
 				"magnitude":"21.82238529495583",
 				"e_magnitude":"0.19927329723567944",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -247,7 +263,8 @@
 				"band":"FUV",
 				"magnitude":"22.176546024508404",
 				"e_magnitude":"0.07993730407523536",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -255,7 +272,8 @@
 				"band":"NUV",
 				"magnitude":"21.819511731737435",
 				"e_magnitude":"0.19639973401728916",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			}
 		]
 	}

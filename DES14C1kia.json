@@ -4,14 +4,22 @@
 		"aliases":[
 			"DES14C1kia"
 		],
+		"sources":[
+			{
+				"name":"<a href='http://www.astronomerstelegram.org/?read=6877'>ATEL 6877</a>*",
+				"alias":"1"
+			}
+		],
 		"claimedtype":[
 			{
-				"value":"TDE"
+				"value":"TDE",
+				"source":"1"
 			}
 		],
 		"host":[
 			{
-				"value":"Uncatalogued, 03:34:47.49 -26:19:35.0"
+				"value":"Uncatalogued, 03:34:47.49 -26:19:35.0",
+				"source":"1"
 			}
 		],
 		"hvel":[
@@ -22,7 +30,8 @@
 		],
 		"instruments":[
 			{
-				"value":"DES, Swift (XRT), ATCA"
+				"value":"DES, Swift (XRT), ATCA",
+				"source":"1"
 			}
 		],
 		"lumdist":[
@@ -33,12 +42,14 @@
 		],
 		"notes":[
 			{
-				"value":"HeII and HeI emission lines, no X-rays or radio"
+				"value":"HeII and HeI emission lines, no X-rays or radio",
+				"source":"1"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.162"
+				"value":"0.162",
+				"source":"1"
 			}
 		]
 	}

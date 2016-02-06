@@ -107,6 +107,7 @@
 				"band":"r",
 				"magnitude":"24.69971629990577",
 				"instrument":"MegaCam",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -115,6 +116,7 @@
 				"band":"g",
 				"magnitude":"25.15013429143004",
 				"instrument":"MegaCam",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -123,6 +125,7 @@
 				"band":"i",
 				"magnitude":"24.49971529209016",
 				"instrument":"MegaCam",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -131,6 +134,7 @@
 				"band":"FUV",
 				"magnitude":"25.26928329192891",
 				"instrument":"GALEX",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -139,6 +143,7 @@
 				"band":"NUV",
 				"magnitude":"24.598405635704893",
 				"instrument":"GALEX",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -147,6 +152,7 @@
 				"band":"FUV",
 				"magnitude":"25.146430569063085",
 				"instrument":"GALEX",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -155,6 +161,7 @@
 				"band":"NUV",
 				"magnitude":"24.296060952688098",
 				"instrument":"GALEX",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -163,6 +170,7 @@
 				"band":"g",
 				"magnitude":"25.15013429143004",
 				"instrument":"MegaCam",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -171,6 +179,7 @@
 				"band":"r",
 				"magnitude":"24.69971629990577",
 				"instrument":"MegaCam",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -179,6 +188,7 @@
 				"band":"i",
 				"magnitude":"24.49971529209016",
 				"instrument":"MegaCam",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -187,7 +197,8 @@
 				"band":"r",
 				"magnitude":"23.867436973731287",
 				"e_magnitude":"0.07533421685168484",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -195,7 +206,8 @@
 				"band":"g",
 				"magnitude":"23.471642588272047",
 				"e_magnitude":"0.030713180716455568",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -203,7 +215,8 @@
 				"band":"g",
 				"magnitude":"23.27767587642165",
 				"e_magnitude":"0.025711895751552305",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -211,7 +224,8 @@
 				"band":"i",
 				"magnitude":"24.008921687688023",
 				"e_magnitude":"0.09605742533346096",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -219,7 +233,8 @@
 				"band":"r",
 				"magnitude":"23.67294115868561",
 				"e_magnitude":"0.045666644830662406",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -227,7 +242,8 @@
 				"band":"i",
 				"magnitude":"24.200771986757303",
 				"e_magnitude":"0.0658607501171602",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -235,7 +251,8 @@
 				"band":"g",
 				"magnitude":"23.42807975852738",
 				"e_magnitude":"0.028092860130309205",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -243,7 +260,8 @@
 				"band":"r",
 				"magnitude":"23.90128698053404",
 				"e_magnitude":"0.06509229071449063",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -251,7 +269,8 @@
 				"band":"i",
 				"magnitude":"24.310485313607025",
 				"e_magnitude":"0.09578027604069383",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -259,7 +278,8 @@
 				"band":"r",
 				"magnitude":"23.85747219688686",
 				"e_magnitude":"0.05798719066359759",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -267,7 +287,8 @@
 				"band":"i",
 				"magnitude":"24.154059733231207",
 				"e_magnitude":"0.0774254342425511",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -275,7 +296,8 @@
 				"band":"r",
 				"magnitude":"23.931483655750345",
 				"e_magnitude":"0.08266607541484206",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -283,7 +305,8 @@
 				"band":"i",
 				"magnitude":"24.393680492217143",
 				"e_magnitude":"0.1097133268497199",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -291,7 +314,8 @@
 				"band":"g",
 				"magnitude":"23.646700159738774",
 				"e_magnitude":"0.04147161235380281",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -299,7 +323,8 @@
 				"band":"r",
 				"magnitude":"24.087380132930882",
 				"e_magnitude":"0.08318258091499509",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -307,7 +332,8 @@
 				"band":"i",
 				"magnitude":"24.490267020745883",
 				"e_magnitude":"0.12756426084283667",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -315,7 +341,8 @@
 				"band":"g",
 				"magnitude":"23.623079481378085",
 				"e_magnitude":"0.03883869407253293",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -323,7 +350,8 @@
 				"band":"r",
 				"magnitude":"24.091323211505223",
 				"e_magnitude":"0.06772520899576406",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -331,7 +359,8 @@
 				"band":"r",
 				"magnitude":"24.269530206753373",
 				"e_magnitude":"0.13885179567546402",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -339,7 +368,8 @@
 				"band":"i",
 				"magnitude":"24.31600310407208",
 				"e_magnitude":"0.1322883965149746",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -347,7 +377,8 @@
 				"band":"g",
 				"magnitude":"23.613379256131296",
 				"e_magnitude":"0.056954179663287974",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -355,7 +386,8 @@
 				"band":"r",
 				"magnitude":"24.206806282722514",
 				"e_magnitude":"0.07925210003577732",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -363,7 +395,8 @@
 				"band":"g",
 				"magnitude":"23.720195113102108",
 				"e_magnitude":"0.034643661595673336",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -371,7 +404,8 @@
 				"band":"r",
 				"magnitude":"24.030967654157998",
 				"e_magnitude":"0.06718350810535689",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -379,7 +413,8 @@
 				"band":"r",
 				"magnitude":"24.230968661973606",
 				"e_magnitude":"0.10709300626357532",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -387,7 +422,8 @@
 				"band":"i",
 				"magnitude":"24.269013701253222",
 				"e_magnitude":"0.10366643318938351",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -395,7 +431,8 @@
 				"band":"g",
 				"magnitude":"23.663240933438818",
 				"e_magnitude":"0.04173616395144464",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -403,7 +440,8 @@
 				"band":"r",
 				"magnitude":"24.15039380394963",
 				"e_magnitude":"0.07217219537513486",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -411,7 +449,8 @@
 				"band":"g",
 				"magnitude":"23.760873070662992",
 				"e_magnitude":"0.0317587894118887",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -419,7 +458,8 @@
 				"band":"r",
 				"magnitude":"24.16612832516163",
 				"e_magnitude":"0.09528896593079317",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -427,7 +467,8 @@
 				"band":"g",
 				"magnitude":"23.740149862181216",
 				"e_magnitude":"0.0372639821818197",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -435,7 +476,8 @@
 				"band":"r",
 				"magnitude":"24.2236116080202",
 				"e_magnitude":"0.07927729542602968",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -443,7 +485,8 @@
 				"band":"r",
 				"magnitude":"24.15563444512192",
 				"e_magnitude":"0.09789668882181424",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -451,7 +494,8 @@
 				"band":"r",
 				"magnitude":"24.40237290185388",
 				"e_magnitude":"0.12362118226849184",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -459,7 +503,8 @@
 				"band":"g",
 				"magnitude":"23.802344683016795",
 				"e_magnitude":"0.023897827653453163",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -467,7 +512,8 @@
 				"band":"r",
 				"magnitude":"24.32281845713508",
 				"e_magnitude":"0.08344713251263514",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -475,7 +521,8 @@
 				"band":"r",
 				"magnitude":"24.152749572938134",
 				"e_magnitude":"0.07926469773090261",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -483,7 +530,8 @@
 				"band":"i",
 				"magnitude":"24.47741737171767",
 				"e_magnitude":"0.15197859399644287",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -491,7 +539,8 @@
 				"band":"r",
 				"magnitude":"24.566923995585768",
 				"e_magnitude":"0.13437961390583908",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -499,6 +548,7 @@
 				"band":"r",
 				"magnitude":"24.69971629990577",
 				"instrument":"MegaCam",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -507,7 +557,8 @@
 				"band":"r",
 				"magnitude":"24.558521332936927",
 				"e_magnitude":"0.1202072068894271",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -515,7 +566,8 @@
 				"band":"g",
 				"magnitude":"24.26192119889745",
 				"e_magnitude":"0.055631421675091275",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -523,7 +575,8 @@
 				"band":"g",
 				"magnitude":"24.142772198398582",
 				"e_magnitude":"0.06298847562849907",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -531,6 +584,7 @@
 				"band":"r",
 				"magnitude":"24.69971629990577",
 				"instrument":"MegaCam",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -539,7 +593,8 @@
 				"band":"FUV",
 				"magnitude":"22.9640310608771",
 				"e_magnitude":"0.3220474781933902",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -547,7 +602,8 @@
 				"band":"NUV",
 				"magnitude":"22.714155778058846",
 				"e_magnitude":"0.25695518747889956",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -555,7 +611,8 @@
 				"band":"g",
 				"magnitude":"24.315751150169564",
 				"e_magnitude":"0.07794193974270414",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -563,6 +620,7 @@
 				"band":"r",
 				"magnitude":"24.69971629990577",
 				"instrument":"MegaCam",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -571,7 +629,8 @@
 				"band":"g",
 				"magnitude":"24.675843667642567",
 				"e_magnitude":"0.10419553638466361",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -579,6 +638,7 @@
 				"band":"r",
 				"magnitude":"24.69971629990577",
 				"instrument":"MegaCam",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -587,6 +647,7 @@
 				"band":"r",
 				"magnitude":"24.69971629990577",
 				"instrument":"MegaCam",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -595,7 +656,8 @@
 				"band":"g",
 				"magnitude":"24.1687612434429",
 				"e_magnitude":"0.053804755881863287",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -603,7 +665,8 @@
 				"band":"g",
 				"magnitude":"24.2191520239457",
 				"e_magnitude":"0.06063270663999276",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -611,6 +674,7 @@
 				"band":"r",
 				"magnitude":"24.69971629990577",
 				"instrument":"MegaCam",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -619,7 +683,8 @@
 				"band":"r",
 				"magnitude":"24.673475300958938",
 				"e_magnitude":"0.16325353113394314",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -627,7 +692,8 @@
 				"band":"g",
 				"magnitude":"24.056679549909546",
 				"e_magnitude":"0.04777045991665396",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -635,6 +701,7 @@
 				"band":"r",
 				"magnitude":"24.69971629990577",
 				"instrument":"MegaCam",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -643,7 +710,8 @@
 				"band":"g",
 				"magnitude":"23.934116574031616",
 				"e_magnitude":"0.04541469092814765",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -651,7 +719,8 @@
 				"band":"g",
 				"magnitude":"24.178209514787177",
 				"e_magnitude":"0.09265604764952151",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -659,6 +728,7 @@
 				"band":"r",
 				"magnitude":"24.69971629990577",
 				"instrument":"MegaCam",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -667,7 +737,8 @@
 				"band":"g",
 				"magnitude":"24.03069050486523",
 				"e_magnitude":"0.04803501151429401",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -675,7 +746,8 @@
 				"band":"r",
 				"magnitude":"24.667176453396088",
 				"e_magnitude":"0.1280807663429897",
-				"instrument":"MegaCam"
+				"instrument":"MegaCam",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -683,7 +755,8 @@
 				"band":"FUV",
 				"magnitude":"23.418354337890342",
 				"e_magnitude":"0.09869034361473261",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -691,7 +764,8 @@
 				"band":"NUV",
 				"magnitude":"23.312584089614965",
 				"e_magnitude":"0.08425338500068058",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -699,7 +773,8 @@
 				"band":"FUV",
 				"magnitude":"24.355622855242405",
 				"e_magnitude":"0.20602270608569384",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -707,7 +782,8 @@
 				"band":"NUV",
 				"magnitude":"23.9747945315925",
 				"e_magnitude":"0.1690106778063889",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"yrs",
@@ -715,6 +791,7 @@
 				"band":"FUV",
 				"magnitude":"24.33700346184662",
 				"instrument":"GALEX",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -723,6 +800,7 @@
 				"band":"NUV",
 				"magnitude":"24.060358076886253",
 				"instrument":"GALEX",
+				"source":"1",
 				"upperlimit":true
 			}
 		]

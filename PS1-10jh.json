@@ -60,31 +60,31 @@
 		],
 		"maxabsmag":[
 			{
-				"value":"-42.65",
+				"value":"-20.45",
 				"source":"D"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"-3.027",
+				"value":"19.18",
 				"source":"D"
 			}
 		],
 		"maxday":[
 			{
-				"value":"2",
+				"value":"3",
 				"source":"D"
 			}
 		],
 		"maxmonth":[
 			{
-				"value":"6",
+				"value":"7",
 				"source":"D"
 			}
 		],
 		"maxyear":[
 			{
-				"value":"2010",
+				"value":"2009",
 				"source":"D"
 			}
 		],
@@ -113,6 +113,7 @@
 				"band":"NUV",
 				"magnitude":"23.7684045484",
 				"instrument":"GALEX",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -121,6 +122,7 @@
 				"band":"NUV",
 				"magnitude":"23.8223433158",
 				"instrument":"GALEX",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -129,6 +131,7 @@
 				"band":"i",
 				"magnitude":"22.9405293961",
 				"instrument":"Pan-STARRS1",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -137,6 +140,7 @@
 				"band":"z",
 				"magnitude":"22.9647222937",
 				"instrument":"Pan-STARRS1",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -145,6 +149,7 @@
 				"band":"NUV",
 				"magnitude":"23.8462691327",
 				"instrument":"GALEX",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -153,7 +158,8 @@
 				"band":"g",
 				"magnitude":"24.0856233739",
 				"e_magnitude":"0.46251647637",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -161,7 +167,8 @@
 				"band":"g",
 				"magnitude":"23.9604144169",
 				"e_magnitude":"0.38642730602",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -169,7 +176,8 @@
 				"band":"r",
 				"magnitude":"24.2086687853",
 				"e_magnitude":"0.80582658586",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -177,7 +185,8 @@
 				"band":"g",
 				"magnitude":"23.3025601315",
 				"e_magnitude":"0.23786320089",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -185,7 +194,8 @@
 				"band":"r",
 				"magnitude":"23.3351228378",
 				"e_magnitude":"0.38763205121",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -193,7 +203,8 @@
 				"band":"g",
 				"magnitude":"22.7489480095",
 				"e_magnitude":"0.24384465512",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -201,7 +212,8 @@
 				"band":"r",
 				"magnitude":"22.7072180953",
 				"e_magnitude":"0.29057608724",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -209,7 +221,8 @@
 				"band":"g",
 				"magnitude":"21.8364909058",
 				"e_magnitude":"0.07909046541",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -217,7 +230,8 @@
 				"band":"r",
 				"magnitude":"22.4604144169",
 				"e_magnitude":"0.17075677981",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -225,7 +239,8 @@
 				"band":"i",
 				"magnitude":"22.5894201467",
 				"e_magnitude":"0.26001360382",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -233,7 +248,8 @@
 				"band":"g",
 				"magnitude":"21.5039812313",
 				"e_magnitude":"0.05212108169",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -241,7 +257,8 @@
 				"band":"r",
 				"magnitude":"21.7977622866",
 				"e_magnitude":"0.09284992371",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -249,7 +266,8 @@
 				"band":"z",
 				"magnitude":"21.8215670526",
 				"e_magnitude":"0.10542577270",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -257,7 +275,8 @@
 				"band":"g",
 				"magnitude":"21.2463559820",
 				"e_magnitude":"0.03295083794",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -265,7 +284,8 @@
 				"band":"r",
 				"magnitude":"21.4969987049",
 				"e_magnitude":"0.06651461642",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -273,7 +293,8 @@
 				"band":"z",
 				"magnitude":"21.5100241717",
 				"e_magnitude":"0.10424216339",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -281,7 +302,8 @@
 				"band":"z",
 				"magnitude":"21.2829402700",
 				"e_magnitude":"0.06649348054",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -289,7 +311,8 @@
 				"band":"g",
 				"magnitude":"20.5585521537",
 				"e_magnitude":"0.01976204841",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -297,7 +320,8 @@
 				"band":"r",
 				"magnitude":"20.9397934832",
 				"e_magnitude":"0.04134178256",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -305,7 +329,8 @@
 				"band":"i",
 				"magnitude":"20.9963454140",
 				"e_magnitude":"0.06169563563",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -313,7 +338,8 @@
 				"band":"z",
 				"magnitude":"21.4668858393",
 				"e_magnitude":"0.10185380887",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -321,7 +347,8 @@
 				"band":"NUV",
 				"magnitude":"19.4738683657",
 				"e_magnitude":"0.06829003039",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -329,7 +356,8 @@
 				"band":"r",
 				"magnitude":"20.6869660788",
 				"e_magnitude":"0.03174609274",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -337,7 +365,8 @@
 				"band":"g",
 				"magnitude":"20.3980040042",
 				"e_magnitude":"0.01498533938",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -345,7 +374,8 @@
 				"band":"i",
 				"magnitude":"20.8495778588",
 				"e_magnitude":"0.05150814115",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -353,7 +383,8 @@
 				"band":"NUV",
 				"magnitude":"19.4055783353",
 				"e_magnitude":"0.07668097501",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -361,7 +392,8 @@
 				"band":"z",
 				"magnitude":"20.9738068795",
 				"e_magnitude":"0.04971159130",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -369,7 +401,8 @@
 				"band":"g",
 				"magnitude":"20.3129109487",
 				"e_magnitude":"0.01739482977",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -377,7 +410,8 @@
 				"band":"r",
 				"magnitude":"20.6258833837",
 				"e_magnitude":"0.03174609274",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -385,7 +419,8 @@
 				"band":"NUV",
 				"magnitude":"19.1796991787",
 				"e_magnitude":"0.04373013707",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -393,7 +428,8 @@
 				"band":"z",
 				"magnitude":"20.6406842645",
 				"e_magnitude":"0.03654393765",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -401,7 +437,8 @@
 				"band":"g",
 				"magnitude":"20.0193335664",
 				"e_magnitude":"0.01498533938",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -409,7 +446,8 @@
 				"band":"r",
 				"magnitude":"20.3233232521",
 				"e_magnitude":"0.02517283386",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -417,7 +455,8 @@
 				"band":"i",
 				"magnitude":"20.4775229516",
 				"e_magnitude":"0.03652280177",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -425,7 +464,8 @@
 				"band":"z",
 				"magnitude":"20.6700420027",
 				"e_magnitude":"0.03834048750",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -433,7 +473,8 @@
 				"band":"r",
 				"magnitude":"20.1166143393",
 				"e_magnitude":"0.01857843909",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -441,7 +482,8 @@
 				"band":"g",
 				"magnitude":"19.7766936565",
 				"e_magnitude":"0.00839094462",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -449,7 +491,8 @@
 				"band":"z",
 				"magnitude":"20.6221058254",
 				"e_magnitude":"0.03834048750",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -457,7 +500,8 @@
 				"band":"g",
 				"magnitude":"19.9120901080",
 				"e_magnitude":"0.01198404433",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -465,7 +509,8 @@
 				"band":"r",
 				"magnitude":"20.2322698782",
 				"e_magnitude":"0.02276334346",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -473,7 +518,8 @@
 				"band":"i",
 				"magnitude":"20.3475161497",
 				"e_magnitude":"0.03354264259",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -481,7 +527,8 @@
 				"band":"z",
 				"magnitude":"20.5735778434",
 				"e_magnitude":"0.03893229216",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -489,7 +536,8 @@
 				"band":"i",
 				"magnitude":"20.4655177714",
 				"e_magnitude":"0.03656507353",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -497,7 +545,8 @@
 				"band":"z",
 				"magnitude":"20.6377041053",
 				"e_magnitude":"0.04311719653",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -505,7 +554,8 @@
 				"band":"g",
 				"magnitude":"20.0672697437",
 				"e_magnitude":"0.01139223967",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -513,7 +563,8 @@
 				"band":"r",
 				"magnitude":"20.3586624446",
 				"e_magnitude":"0.02335514812",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -521,7 +572,8 @@
 				"band":"i",
 				"magnitude":"20.5056759446",
 				"e_magnitude":"0.03834048750",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -529,7 +581,8 @@
 				"band":"g",
 				"magnitude":"20.1175942756",
 				"e_magnitude":"0.01378059418",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -537,7 +590,8 @@
 				"band":"r",
 				"magnitude":"20.4587197036",
 				"e_magnitude":"0.02635644317",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -545,7 +599,8 @@
 				"band":"i",
 				"magnitude":"20.5206612840",
 				"e_magnitude":"0.03772754696",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -553,7 +608,8 @@
 				"band":"g",
 				"magnitude":"20.3572328905",
 				"e_magnitude":"0.02455989332",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -561,7 +617,8 @@
 				"band":"r",
 				"magnitude":"20.6899673738",
 				"e_magnitude":"0.04911978664",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -569,7 +626,8 @@
 				"band":"i",
 				"magnitude":"20.6913969279",
 				"e_magnitude":"0.04432194173",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -577,7 +635,8 @@
 				"band":"z",
 				"magnitude":"20.9540236952",
 				"e_magnitude":"0.05152927703",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -585,7 +644,8 @@
 				"band":"g",
 				"magnitude":"20.3830186649",
 				"e_magnitude":"0.02396808866",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -593,7 +653,8 @@
 				"band":"r",
 				"magnitude":"20.6959699639",
 				"e_magnitude":"0.03952409682",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -601,7 +662,8 @@
 				"band":"z",
 				"magnitude":"21.0187417618",
 				"e_magnitude":"0.05512237674",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -609,7 +671,8 @@
 				"band":"g",
 				"magnitude":"20.4716836842",
 				"e_magnitude":"0.02276334346",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -617,7 +680,8 @@
 				"band":"r",
 				"magnitude":"20.7181415027",
 				"e_magnitude":"0.03536032833",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -625,7 +689,8 @@
 				"band":"g",
 				"magnitude":"20.7538688268",
 				"e_magnitude":"0.02455989332",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -633,7 +698,8 @@
 				"band":"r",
 				"magnitude":"21.0800300513",
 				"e_magnitude":"0.04973272718",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -641,7 +707,8 @@
 				"band":"i",
 				"magnitude":"21.2737538476",
 				"e_magnitude":"0.07909046541",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -649,7 +716,8 @@
 				"band":"z",
 				"magnitude":"21.1325796150",
 				"e_magnitude":"0.05753186714",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -657,7 +725,8 @@
 				"band":"g",
 				"magnitude":"20.6909473101",
 				"e_magnitude":"0.02276334346",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -665,7 +734,8 @@
 				"band":"r",
 				"magnitude":"21.1009968449",
 				"e_magnitude":"0.04673143212",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -673,7 +743,8 @@
 				"band":"i",
 				"magnitude":"21.1389703367",
 				"e_magnitude":"0.06769822573",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -681,7 +752,8 @@
 				"band":"z",
 				"magnitude":"21.3212807575",
 				"e_magnitude":"0.06890297093",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -689,7 +761,8 @@
 				"band":"g",
 				"magnitude":"20.8197916386",
 				"e_magnitude":"0.02217153880",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -697,7 +770,8 @@
 				"band":"r",
 				"magnitude":"21.1447058461",
 				"e_magnitude":"0.04973272718",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -705,7 +779,8 @@
 				"band":"i",
 				"magnitude":"21.2419866190",
 				"e_magnitude":"0.07488442516",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -713,7 +788,8 @@
 				"band":"z",
 				"magnitude":"21.4686823891",
 				"e_magnitude":"0.09287105959",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -721,7 +797,8 @@
 				"band":"g",
 				"magnitude":"20.8377571372",
 				"e_magnitude":"0.02458102920",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -729,7 +806,8 @@
 				"band":"r",
 				"magnitude":"21.1830674695",
 				"e_magnitude":"0.05093747237",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -737,7 +815,8 @@
 				"band":"i",
 				"magnitude":"21.3127072757",
 				"e_magnitude":"0.08088701526",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -745,7 +824,8 @@
 				"band":"z",
 				"magnitude":"21.3854070194",
 				"e_magnitude":"0.07786458433",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -753,7 +833,8 @@
 				"band":"g",
 				"magnitude":"20.8988609681",
 				"e_magnitude":"0.03174609274",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -761,7 +842,8 @@
 				"band":"r",
 				"magnitude":"21.2154265028",
 				"e_magnitude":"0.05332582689",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -769,7 +851,8 @@
 				"band":"i",
 				"magnitude":"21.4307300333",
 				"e_magnitude":"0.08866501934",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -777,7 +860,8 @@
 				"band":"z",
 				"magnitude":"21.2517859819",
 				"e_magnitude":"0.09646415931",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -785,7 +869,8 @@
 				"band":"g",
 				"magnitude":"20.9402027507",
 				"e_magnitude":"0.03233789740",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -793,7 +878,8 @@
 				"band":"r",
 				"magnitude":"21.3819561065",
 				"e_magnitude":"0.06530987122",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -801,7 +887,8 @@
 				"band":"i",
 				"magnitude":"21.4678657756",
 				"e_magnitude":"0.09227925494",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -809,7 +896,8 @@
 				"band":"z",
 				"magnitude":"21.6010986815",
 				"e_magnitude":"0.09585121877",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -817,7 +905,8 @@
 				"band":"i",
 				"magnitude":"21.5175985028",
 				"e_magnitude":"0.09766890450",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -825,7 +914,8 @@
 				"band":"z",
 				"magnitude":"21.7940058642",
 				"e_magnitude":"0.14380853197",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -833,7 +923,8 @@
 				"band":"z",
 				"magnitude":"22.6639587120",
 				"e_magnitude":"0.22526621602",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -841,7 +932,8 @@
 				"band":"g",
 				"magnitude":"22.4685805526",
 				"e_magnitude":"0.10483396805",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -849,7 +941,8 @@
 				"band":"r",
 				"magnitude":"22.4688053615",
 				"e_magnitude":"0.16955203461",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -857,7 +950,8 @@
 				"band":"i",
 				"magnitude":"23.4497773046",
 				"e_magnitude":"0.83279596957",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -865,7 +959,8 @@
 				"band":"z",
 				"magnitude":"22.6555677673",
 				"e_magnitude":"0.22765457053",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -873,7 +968,8 @@
 				"band":"NUV",
 				"magnitude":"21.8278348019",
 				"e_magnitude":"0.12043224797",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -881,7 +977,8 @@
 				"band":"i",
 				"magnitude":"23.3179739529",
 				"e_magnitude":"0.55236510504",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -889,7 +986,8 @@
 				"band":"g",
 				"magnitude":"22.8987379957",
 				"e_magnitude":"0.16836842530",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -897,7 +995,8 @@
 				"band":"r",
 				"magnitude":"23.2943728599",
 				"e_magnitude":"0.37803636140",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -905,14 +1004,16 @@
 				"band":"NUV",
 				"magnitude":"21.9134985262",
 				"e_magnitude":"0.13300809696",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
 				"time":"55349.09820561337",
 				"band":"z",
-				"magnitude":"-3.0268721464",
+				"counts":"-3.0268721464",
 				"instrument":"Chandra",
+				"source":"1",
 				"upperlimit":true
 			},
 			{
@@ -921,7 +1022,8 @@
 				"band":"i",
 				"magnitude":"23.9074959361",
 				"e_magnitude":"1.05687857628",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -929,7 +1031,8 @@
 				"band":"g",
 				"magnitude":"23.0437512729",
 				"e_magnitude":"0.23065586559",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -937,7 +1040,8 @@
 				"band":"r",
 				"magnitude":"23.4921201594",
 				"e_magnitude":"0.45953631720",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -945,7 +1049,8 @@
 				"band":"NUV",
 				"magnitude":"22.2729775844",
 				"e_magnitude":"0.16056928533",
-				"instrument":"GALEX"
+				"instrument":"GALEX",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -953,7 +1058,8 @@
 				"band":"r",
 				"magnitude":"23.3848555650",
 				"e_magnitude":"0.74413095023",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -961,7 +1067,8 @@
 				"band":"i",
 				"magnitude":"23.3755058200",
 				"e_magnitude":"0.56437028525",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -969,7 +1076,8 @@
 				"band":"z",
 				"magnitude":"22.9838714016",
 				"e_magnitude":"0.39063334627",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -977,7 +1085,8 @@
 				"band":"g",
 				"magnitude":"22.9454905637",
 				"e_magnitude":"0.19233651396",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -985,7 +1094,8 @@
 				"band":"z",
 				"magnitude":"23.1036907090",
 				"e_magnitude":"0.46610957609",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -993,7 +1103,8 @@
 				"band":"i",
 				"magnitude":"23.6402961329",
 				"e_magnitude":"0.72732792510",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -1001,7 +1112,8 @@
 				"band":"g",
 				"magnitude":"23.1162473436",
 				"e_magnitude":"0.28759592807",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -1009,7 +1121,8 @@
 				"band":"r",
 				"magnitude":"23.5837653379",
 				"e_magnitude":"0.62549525211",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -1017,7 +1130,8 @@
 				"band":"g",
 				"magnitude":"23.2120985623",
 				"e_magnitude":"0.24805069537",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -1025,7 +1139,8 @@
 				"band":"r",
 				"magnitude":"23.7341682646",
 				"e_magnitude":"0.57337417041",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -1033,7 +1148,8 @@
 				"band":"z",
 				"magnitude":"23.5004323248",
 				"e_magnitude":"0.62557979563",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -1041,7 +1157,26 @@
 				"band":"i",
 				"magnitude":"23.6432974279",
 				"e_magnitude":"0.77107919806",
-				"instrument":"Pan-STARRS1"
+				"instrument":"Pan-STARRS1",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"56833.93991796288",
+				"band":"NUV",
+				"counts":"-3.0076600000",
+				"e_counts":"0.20171800000",
+				"instrument":"XMM",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57551.95525691684",
+				"band":"NUV",
+				"magnitude":"23.6900000000",
+				"e_magnitude":"0.05000000000",
+				"instrument":"GALEX",
+				"source":"1"
 			}
 		]
 	}
