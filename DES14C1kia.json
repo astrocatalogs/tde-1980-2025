@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://www.astronomerstelegram.org/?read=6877'>ATEL 6877</a>*",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
@@ -26,12 +32,6 @@
 			{
 				"value":"44700",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"DES, Swift (XRT), ATCA",
-				"source":"1"
 			}
 		],
 		"lumdist":[

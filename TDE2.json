@@ -10,28 +10,16 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2011ApJ...741...73V'>Van Velzen et al. 2011</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
 				"source":"1"
-			}
-		],
-		"discoverday":[
-			{
-				"value":"17",
-				"source":"D"
-			}
-		],
-		"discovermonth":[
-			{
-				"value":"11",
-				"source":"D"
-			}
-		],
-		"discoveryear":[
-			{
-				"value":"1858",
-				"source":"D"
 			}
 		],
 		"host":[
@@ -44,12 +32,6 @@
 			{
 				"value":"66150",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"SDSS (u, g, r), GALEX (NUV, FUV), NTT, WHT*",
-				"source":"1"
 			}
 		],
 		"lumdist":[
@@ -67,24 +49,6 @@
 		"maxappmag":[
 			{
 				"value":"19.26",
-				"source":"D"
-			}
-		],
-		"maxday":[
-			{
-				"value":"17",
-				"source":"D"
-			}
-		],
-		"maxmonth":[
-			{
-				"value":"11",
-				"source":"D"
-			}
-		],
-		"maxyear":[
-			{
-				"value":"1858",
 				"source":"D"
 			}
 		],

@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
@@ -19,12 +25,6 @@
 		"host":[
 			{
 				"value":"<a href='http://goo.gl/iT6l8P'>2SLAQ J011844.35-010906.8</a>*",
-				"source":"1"
-			}
-		],
-		"instruments":[
-			{
-				"value":"Swift (BAT)",
 				"source":"1"
 			}
 		]

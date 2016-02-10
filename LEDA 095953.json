@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2009A%26A...495L...9C'>Cappelluti et al. 2009</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
@@ -26,12 +32,6 @@
 			{
 				"value":"10800",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"ROSAT, XMM-Newton, Chandra, GROND (g', r', i', z', J, H, Ks)",
-				"source":"1"
 			}
 		],
 		"lumdist":[

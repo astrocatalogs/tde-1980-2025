@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1407.2928'>Maksym et al. 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
@@ -26,12 +32,6 @@
 			{
 				"value":"7700",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"ROSAT, XMM-Newton",
-				"source":"1"
 			}
 		],
 		"lumdist":[

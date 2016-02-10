@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015ApJ...811...43L'>Lin et al. 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
@@ -26,12 +32,6 @@
 			{
 				"value":"48927",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"Swift, XMM-Newton, Chandra",
-				"source":"1"
 			}
 		],
 		"lumdist":[

@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2007A%26A...462L..49E'>Esquej et al. 2007</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
@@ -26,12 +32,6 @@
 			{
 				"value":"5520",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"2MASS, XMM-Newton, ROSAT",
-				"source":"1"
 			}
 		],
 		"lumdist":[

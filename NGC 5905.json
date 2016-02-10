@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/1996A%26A...309L..35B'>Bade, Komossa, and Dahlem 1996</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
@@ -26,12 +32,6 @@
 			{
 				"value":"3351",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"ROSAT",
-				"source":"1"
 			}
 		],
 		"lumdist":[

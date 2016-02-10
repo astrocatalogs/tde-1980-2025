@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/1999A%26A...350L..31G'>Grupe, Thomas, and Leighly 1999</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
@@ -26,12 +32,6 @@
 			{
 				"value":"18500",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"ROSAT, NVSS&Dagger;, IRAS&Dagger;, McD*, MDM*",
-				"source":"1"
 			}
 		],
 		"lumdist":[

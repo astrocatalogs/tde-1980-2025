@@ -10,10 +10,22 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2011ApJ...741...73V'>Van Velzen et al. 2011</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
 				"source":"1"
+			}
+		],
+		"discoverdate":[
+			{
+				"value":"2005/11/19",
+				"source":"D"
 			}
 		],
 		"discoverday":[
@@ -46,12 +58,6 @@
 				"source":"D"
 			}
 		],
-		"instruments":[
-			{
-				"value":"SDSS (u, g, r), GALEX (NUV, FUV), Magellan*",
-				"source":"1"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"662",
@@ -67,6 +73,12 @@
 		"maxappmag":[
 			{
 				"value":"20.74",
+				"source":"D"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2005/11/30",
 				"source":"D"
 			}
 		],

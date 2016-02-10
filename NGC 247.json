@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://goo.gl/pde8py'>Feng et al. 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"Low-mass TDE",
@@ -26,12 +32,6 @@
 			{
 				"value":"159",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"XMM-Newton, Swift, Chandra",
-				"source":"1"
 			}
 		],
 		"lumdist":[

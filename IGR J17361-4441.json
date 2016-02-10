@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2014arXiv1407.5081D'>Del Santo et al. 2014</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"Planet + WD, MS + SMBH",
@@ -19,12 +25,6 @@
 		"host":[
 			{
 				"value":"<a href='http://goo.gl/WOubsV'>NGC 6388</a>",
-				"source":"1"
-			}
-		],
-		"instruments":[
-			{
-				"value":"Swift, INTEGRAL",
 				"source":"1"
 			}
 		],

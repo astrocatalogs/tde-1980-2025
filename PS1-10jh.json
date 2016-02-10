@@ -6,19 +6,37 @@
 		],
 		"sources":[
 			{
-				"name":"<a href='http://adsabs.harvard.edu/abs/2012Natur.485..217G'>Gezari et al. 2012</a>*&Dagger;",
+				"name":"2012Natur.485..217G",
+				"url":"http://adsabs.harvard.edu/abs/2012Natur.485..217G",
+				"bibcode":"2012Natur.485..217G",
 				"alias":"1"
+			},
+			{
+				"name":"<a href='http://adsabs.harvard.edu/abs/2012Natur.485..217G'>Gezari et al. 2012</a>*&Dagger;",
+				"alias":"2"
+			}
+		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2012Natur.485..217G'>Gezari et al. 2012</a>*&Dagger;, <a href='http://adsabs.harvard.edu/abs/2013arXiv1304.6397G'>Guillochon et al. 2013</a>&Dagger;",
+				"source":"2"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"He + SMBH, MS + SMBH",
-				"source":"1"
+				"source":"1,2"
+			}
+		],
+		"discoverdate":[
+			{
+				"value":"2009/05/23",
+				"source":"D"
 			}
 		],
 		"discoverday":[
 			{
-				"value":"13",
+				"value":"23",
 				"source":"D"
 			}
 		],
@@ -37,19 +55,13 @@
 		"host":[
 			{
 				"value":"<a href='http://goo.gl/wLmfc2'>SDSS J160928.27+534023.9</a>",
-				"source":"1"
+				"source":"1,2"
 			}
 		],
 		"hvel":[
 			{
 				"value":"46590",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"Pan-STARRS (g, r, i, z), Chandra&Dagger;, MMT",
-				"source":"1"
 			}
 		],
 		"lumdist":[
@@ -67,6 +79,12 @@
 		"maxappmag":[
 			{
 				"value":"19.18",
+				"source":"D"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2009/07/03",
 				"source":"D"
 			}
 		],
@@ -91,19 +109,19 @@
 		"nh":[
 			{
 				"value":"7.2e+19",
-				"source":"1"
+				"source":"1,2"
 			}
 		],
 		"notes":[
 			{
 				"value":"HeII \\(\\lambda 4686\\) and HeII \\(\\lambda 3203\\) in emission",
-				"source":"1"
+				"source":"1,2"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.1696",
-				"source":"1"
+				"source":"1,2"
 			}
 		],
 		"photometry":[

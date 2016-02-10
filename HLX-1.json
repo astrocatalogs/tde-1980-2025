@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2012sf2a.conf..631W'>Webb et al. 2012</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"Giant + IMBH,Star wind + IMBH",
@@ -26,12 +32,6 @@
 			{
 				"value":"6610",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"Swift, Chandra, ACTA, Swift, Chandra",
-				"source":"1"
 			}
 		],
 		"lumdist":[

@@ -10,21 +10,33 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150701598H'>Holoien et al. 2015</a>*",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
 				"source":"1"
 			}
 		],
+		"discoverdate":[
+			{
+				"value":"2014/11/11",
+				"source":"D"
+			}
+		],
 		"discoverday":[
 			{
-				"value":"13",
+				"value":"11",
 				"source":"D"
 			}
 		],
 		"discovermonth":[
 			{
-				"value":"7",
+				"value":"11",
 				"source":"D"
 			}
 		],
@@ -46,12 +58,6 @@
 				"source":"D"
 			}
 		],
-		"instruments":[
-			{
-				"value":"ASAS-SN, LCOGT 1-m, Swift (UVOT, XRT), SNIFS IFU",
-				"source":"1"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"92.6",
@@ -67,6 +73,12 @@
 		"maxappmag":[
 			{
 				"value":"15.8",
+				"source":"D"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2014/11/11",
 				"source":"D"
 			}
 		],

@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2007ApJ...668L..31M'>Moran et al. 2007</a>*",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"No claim",
@@ -26,12 +32,6 @@
 			{
 				"value":"2264",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"Keck (LRIS), HST (STIS)",
-				"source":"1"
 			}
 		],
 		"lumdist":[

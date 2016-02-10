@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2010ApJ...722.1035M'>Maksym, Ulmer, and Eracleous 2010</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
@@ -19,12 +25,6 @@
 		"host":[
 			{
 				"value":"<a href='http://goo.gl/bVmsdK'>SDSS J131122.15-012345.6</a>",
-				"source":"1"
-			}
-		],
-		"instruments":[
-			{
-				"value":"XMM-Newton, Chandra, HET*",
 				"source":"1"
 			}
 		]

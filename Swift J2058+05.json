@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2012ApJ...753...77C'>Cenko et al. 2012</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
@@ -26,12 +32,6 @@
 			{
 				"value":"195980",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"Swift (BAT, XRT), La Silla (g',r',i',z',J&Dagger;,H&Dagger;,K&Dagger;), Keck",
-				"source":"1"
 			}
 		],
 		"lumdist":[

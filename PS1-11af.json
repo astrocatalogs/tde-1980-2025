@@ -10,27 +10,39 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2013arXiv1309.3009C'>Chornock et al. 2013</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"MS + SMBH",
 				"source":"1"
 			}
 		],
+		"discoverdate":[
+			{
+				"value":"2010/12/30",
+				"source":"D"
+			}
+		],
 		"discoverday":[
 			{
-				"value":"28",
+				"value":"30",
 				"source":"D"
 			}
 		],
 		"discovermonth":[
 			{
-				"value":"11",
+				"value":"12",
 				"source":"D"
 			}
 		],
 		"discoveryear":[
 			{
-				"value":"2009",
+				"value":"2010",
 				"source":"D"
 			}
 		],
@@ -44,12 +56,6 @@
 			{
 				"value":"98110",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"Pan-STARRS (g, r, i, z), Magellan**, MMT**, Gemini",
-				"source":"1"
 			}
 		],
 		"lumdist":[
@@ -67,6 +73,12 @@
 		"maxappmag":[
 			{
 				"value":"21.35",
+				"source":"D"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2011/01/29",
 				"source":"D"
 			}
 		],

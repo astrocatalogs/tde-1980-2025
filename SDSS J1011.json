@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://arxiv.org/abs/1509.03640v1'>Runnoe et al. 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"AGN variability",
@@ -26,12 +32,6 @@
 			{
 				"value":"64911",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"SDSS, CSS, LINEAR, TDSS",
-				"source":"1"
 			}
 		],
 		"lumdist":[

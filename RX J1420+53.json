@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2000A%26A...362L..25G'>Greiner et al. 2000</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
@@ -26,12 +32,6 @@
 			{
 				"value":"40900",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"ROSAT, Special Astrophysical Observatory (V&Dagger;), Sonneberg (white&Dagger;), WIYN (R&Dagger;, B&Dagger;), Calar Alto*",
-				"source":"1"
 			}
 		],
 		"lumdist":[

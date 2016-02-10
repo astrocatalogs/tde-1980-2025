@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150703582B'>Brown et al. 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
@@ -26,12 +32,6 @@
 			{
 				"value":"170000",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"Swift (BAT, XRT), GMOS-S, FORS2-VLT",
-				"source":"1"
 			}
 		],
 		"lumdist":[

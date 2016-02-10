@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2006Natur.442.1008C'>Campana et al. 2006</a>*, <a href='http://adsabs.harvard.edu/abs/2013ApJ...769...85S'>Shcherbakov et al. 2013</a>&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"WD + IMBH",
@@ -26,12 +32,6 @@
 			{
 				"value":"9870",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"Swift (UVOT, XRT)",
-				"source":"1"
 			}
 		],
 		"lumdist":[

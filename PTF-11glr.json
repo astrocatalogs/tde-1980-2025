@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://arxiv.org/abs/1405.1415v1'>Arcavi et al. 2014</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
@@ -26,12 +32,6 @@
 			{
 				"value":"55700",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"P48 (R, g), P60 (g, r, i)",
-				"source":"1"
 			}
 		],
 		"lumdist":[

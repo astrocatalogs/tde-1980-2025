@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2013A%26A...552A..75N'>Niko&#322;ajuk and Walter 2013</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"Planet + SMBH",
@@ -26,12 +32,6 @@
 			{
 				"value":"1230",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"INTEGRAL, XMM-Newton, Swift, MAXI, Einstein",
-				"source":"1"
 			}
 		],
 		"lumdist":[

@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/1999A%26A...349L..45K'>Komossa and Greiner 1999</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
@@ -26,12 +32,6 @@
 			{
 				"value":"10000",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"ROSAT, XMM-Newton, Chandra, La Silla*",
-				"source":"1"
 			}
 		],
 		"lumdist":[

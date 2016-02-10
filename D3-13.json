@@ -10,28 +10,16 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2006ApJ...653L..25G&db_key=AST&link_type=ABSTRACT&high=4df54da3c231258'>Gezari et al. 2006</a>*&Dagger;, <a href='http://adsabs.harvard.edu/abs/2008ApJ...676..944G'>Gezari et al. 2008</a>",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
 				"source":"1"
-			}
-		],
-		"discoverday":[
-			{
-				"value":"17",
-				"source":"D"
-			}
-		],
-		"discovermonth":[
-			{
-				"value":"11",
-				"source":"D"
-			}
-		],
-		"discoveryear":[
-			{
-				"value":"1858",
-				"source":"D"
 			}
 		],
 		"host":[
@@ -44,12 +32,6 @@
 			{
 				"value":"91340",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"MegaCam (g, r, i, z), GALEX (NUV, FUV), Keck*",
-				"source":"1"
 			}
 		],
 		"lumdist":[
@@ -67,24 +49,6 @@
 		"maxappmag":[
 			{
 				"value":"22.66",
-				"source":"D"
-			}
-		],
-		"maxday":[
-			{
-				"value":"17",
-				"source":"D"
-			}
-		],
-		"maxmonth":[
-			{
-				"value":"11",
-				"source":"D"
-			}
-		],
-		"maxyear":[
-			{
-				"value":"1858",
 				"source":"D"
 			}
 		],

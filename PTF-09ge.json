@@ -10,21 +10,33 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://arxiv.org/abs/1405.1415v1'>Arcavi et al. 2014</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
 				"source":"1"
 			}
 		],
+		"discoverdate":[
+			{
+				"value":"2009/05/07",
+				"source":"D"
+			}
+		],
 		"discoverday":[
 			{
-				"value":"20",
+				"value":"7",
 				"source":"D"
 			}
 		],
 		"discovermonth":[
 			{
-				"value":"3",
+				"value":"5",
 				"source":"D"
 			}
 		],
@@ -36,7 +48,7 @@
 		],
 		"host":[
 			{
-				"value":"<a href='http://goo.gl/H6KJ40'>SDSS",
+				"value":"<a href='http://goo.gl/H6KJ40'>SDSS J145703.17+493640.9</a>",
 				"source":"1"
 			}
 		],
@@ -44,12 +56,6 @@
 			{
 				"value":"19000",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"P48 (R, g), P60 (g, r, i)",
-				"source":"1"
 			}
 		],
 		"lumdist":[
@@ -67,6 +73,12 @@
 		"maxappmag":[
 			{
 				"value":"17.61",
+				"source":"D"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2009/06/01",
 				"source":"D"
 			}
 		],

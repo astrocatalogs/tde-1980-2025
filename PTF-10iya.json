@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2012MNRAS.420.2684C'>Cenko et al. 2012</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
@@ -26,12 +32,6 @@
 			{
 				"value":"59795",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"PTF (g, r, i), Swift (UVOT, XRT), WHT, Keck**",
-				"source":"1"
 			}
 		],
 		"lumdist":[

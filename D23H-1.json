@@ -10,28 +10,16 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2009ApJ...698.1367G'>Gezari et al. 2009</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
 				"source":"1"
-			}
-		],
-		"discoverday":[
-			{
-				"value":"17",
-				"source":"D"
-			}
-		],
-		"discovermonth":[
-			{
-				"value":"11",
-				"source":"D"
-			}
-		],
-		"discoveryear":[
-			{
-				"value":"1858",
-				"source":"D"
 			}
 		],
 		"host":[
@@ -44,12 +32,6 @@
 			{
 				"value":"50530",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"GALEX (NUV, FUV)",
-				"source":"1"
 			}
 		],
 		"lumdist":[
@@ -67,24 +49,6 @@
 		"maxappmag":[
 			{
 				"value":"20.61",
-				"source":"D"
-			}
-		],
-		"maxday":[
-			{
-				"value":"19",
-				"source":"D"
-			}
-		],
-		"maxmonth":[
-			{
-				"value":"11",
-				"source":"D"
-			}
-		],
-		"maxyear":[
-			{
-				"value":"1858",
 				"source":"D"
 			}
 		],

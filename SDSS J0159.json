@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1503.04870'>Merloni et al. 2015</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"TDE",
@@ -26,12 +32,6 @@
 			{
 				"value":"79396",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"SDSS, BOSS, ROSAT, XMM-Newton, Chandra, GROND",
-				"source":"1"
 			}
 		],
 		"lumdist":[

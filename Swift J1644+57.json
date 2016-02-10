@@ -10,6 +10,12 @@
 				"alias":"1"
 			}
 		],
+		"citations":[
+			{
+				"value":"<a href='http://adsabs.harvard.edu/abs/2011Sci...333..203B'>Bloom et al. 2011</a>*&Dagger;",
+				"source":"1"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"MS + SMBH",
@@ -26,12 +32,6 @@
 			{
 				"value":"88230",
 				"source":"D"
-			}
-		],
-		"instruments":[
-			{
-				"value":"Swift (BAT, UVOT&Dagger;, XRT), CARMA, SMA, HST, VLA, NVSS&Dagger;, FIRST&Dagger;, AMI Large Array, OVRO, WISE&Dagger;, MMT*, GMOS*, Keck*",
-				"source":"1"
 			}
 		],
 		"lumdist":[
