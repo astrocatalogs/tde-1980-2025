@@ -32,10 +32,6 @@
 			{
 				"value":"2015/12/17",
 				"source":"D"
-			},
-			{
-				"value":"2016/12/17",
-				"source":"D"
 			}
 		],
 		"discoverday":[
@@ -535,6 +531,14 @@
 				"band":"I",
 				"magnitude":"19.385",
 				"e_magnitude":"0.067",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57429.03453",
+				"band":"I",
+				"magnitude":"19.384",
+				"e_magnitude":"0.043",
 				"source":"1,2"
 			}
 		]
