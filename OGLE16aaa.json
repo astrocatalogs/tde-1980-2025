@@ -560,6 +560,22 @@
 				"magnitude":"19.416",
 				"e_magnitude":"0.053",
 				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57435.02375",
+				"band":"I",
+				"magnitude":"19.562",
+				"e_magnitude":"0.075",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57437.02141",
+				"band":"I",
+				"magnitude":"19.529",
+				"e_magnitude":"0.060",
+				"source":"1,2"
 			}
 		]
 	}
