@@ -2032,6 +2032,14 @@
 				"magnitude":"19.613",
 				"e_magnitude":"0.080",
 				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57447.01154",
+				"band":"I",
+				"magnitude":"19.794",
+				"e_magnitude":"0.105",
+				"source":"1,2"
 			}
 		]
 	}
