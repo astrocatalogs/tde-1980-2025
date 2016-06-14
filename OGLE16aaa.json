@@ -2040,6 +2040,38 @@
 				"magnitude":"19.794",
 				"e_magnitude":"0.105",
 				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57450.00715",
+				"band":"I",
+				"magnitude":"20.033",
+				"e_magnitude":"0.115",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57450.01020",
+				"band":"I",
+				"magnitude":"19.796",
+				"e_magnitude":"0.093",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57547.43808",
+				"band":"I",
+				"magnitude":"21.216",
+				"e_magnitude":"0.345",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57547.44309",
+				"band":"I",
+				"magnitude":"21.772",
+				"e_magnitude":"0.748",
+				"source":"1,2"
 			}
 		]
 	}
