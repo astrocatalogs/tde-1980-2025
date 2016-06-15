@@ -1,0 +1,51 @@
+{
+	"ATLAS16bdg":{
+		"name":"ATLAS16bdg",
+		"aliases":[
+			"ATLAS16bdg"
+		],
+		"sources":[
+			{
+				"name":"ATel #9151",
+				"url":"http://www.astronomerstelegram.org/?read=9151",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE?",
+				"source":"1"
+			}
+		],
+		"discoverdate":[
+			{
+				"value":"2016/06/05",
+				"source":"D"
+			}
+		],
+		"discoverday":[
+			{
+				"value":"5",
+				"source":"D"
+			}
+		],
+		"discovermonth":[
+			{
+				"value":"6",
+				"source":"D"
+			}
+		],
+		"discoveryear":[
+			{
+				"value":"2016",
+				"source":"D"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 4708",
+				"source":"1"
+			}
+		]
+	}
+}
