@@ -1,13 +1,33 @@
 {
 	"Swift J1112-82":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"Swift J1112-82",
-		"aliases":[
-			"Swift J1112-82"
-		],
 		"sources":[
 			{
-				"name":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150703582B'>Brown et al. 2015</a>*&Dagger;",
+				"name":"2015arXiv150703582B",
+				"bibcode":"2015arXiv150703582B",
+				"reference":"Brown et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"Swift J1112-82",
+				"source":"1"
 			}
 		],
 		"citations":[
@@ -22,28 +42,55 @@
 				"source":"1"
 			}
 		],
+		"comovingdist":[
+			{
+				"value":"3100",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
+			}
+		],
 		"host":[
 			{
-				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150703582B'>Swift J1112.2-8238</a>",
+				"value":"Swift J1112.2-8238",
 				"source":"1"
 			}
 		],
-		"hvel":[
+		"hostdec":[
 			{
-				"value":"170000",
-				"source":"D"
+				"value":"-82:38:00",
+				"derived":true,
+				"u_value":"degrees",
+				"source":"3"
+			}
+		],
+		"hostra":[
+			{
+				"value":"11:12:2",
+				"derived":true,
+				"u_value":"hours",
+				"source":"3"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"5900",
-				"source":"D"
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.89",
 				"source":"1"
+			}
+		],
+		"velocity":[
+			{
+				"value":"170000",
+				"u_value":"km/s",
+				"source":"3"
 			}
 		]
 	}

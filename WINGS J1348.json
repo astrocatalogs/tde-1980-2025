@@ -1,49 +1,96 @@
 {
 	"WINGS J1348":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"WINGS J1348",
-		"aliases":[
-			"WINGS J1348"
-		],
 		"sources":[
 			{
-				"name":"<a href='http://adsabs.harvard.edu/abs/2013MNRAS.435.1904M'>Maksym et al. 2013</a>*&Dagger;",
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"2013MNRAS.435.1904M",
+				"bibcode":"2013MNRAS.435.1904M",
+				"reference":"Maksym et al. (2013)",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"WINGS J1348",
+				"source":"2"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/2013MNRAS.435.1904M'>Maksym et al. 2013</a>*&Dagger;",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"TDE",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"270",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"host":[
 			{
-				"value":"<a href='http://goo.gl/WUrFc9'>WINGS J134849.88+263557.5</a>",
-				"source":"1"
+				"value":"WINGS J134849.88+263557.5",
+				"source":"2"
 			}
 		],
-		"hvel":[
+		"hostdec":[
 			{
-				"value":"18000",
-				"source":"D"
+				"value":"+26:35:57.5",
+				"derived":true,
+				"u_value":"degrees",
+				"source":"3"
+			}
+		],
+		"hostra":[
+			{
+				"value":"13:48:49.88",
+				"derived":true,
+				"u_value":"hours",
+				"source":"3"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"290",
-				"source":"D"
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.062",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"velocity":[
+			{
+				"value":"18000",
+				"u_value":"km/s",
+				"source":"3"
 			}
 		]
 	}

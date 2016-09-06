@@ -1,49 +1,80 @@
 {
 	"LEDA 095953":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"LEDA 095953",
-		"aliases":[
-			"LEDA 095953"
-		],
 		"sources":[
 			{
-				"name":"<a href='http://adsabs.harvard.edu/abs/2009A%26A...495L...9C'>Cappelluti et al. 2009</a>*&Dagger;",
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"2009A&A...495L...9C",
+				"bibcode":"2009A&A...495L...9C",
+				"reference":"Cappelluti et al. (2009)",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"LEDA 095953",
+				"source":"2"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/2009A%26A...495L...9C'>Cappelluti et al. 2009</a>*&Dagger;",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"TDE",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"161",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"host":[
 			{
-				"value":"<a href='http://goo.gl/8nouyZ'>LEDA 095953</a>",
-				"source":"1"
-			}
-		],
-		"hvel":[
-			{
-				"value":"10800",
-				"source":"D"
+				"value":"LEDA 095953",
+				"source":"2"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"166",
-				"source":"D"
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0366",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"velocity":[
+			{
+				"value":"10800",
+				"u_value":"km/s",
+				"source":"3"
 			}
 		]
 	}

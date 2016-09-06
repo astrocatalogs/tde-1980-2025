@@ -1,12 +1,12 @@
 {
-	"PGC 1127938":{
+	"SDSSJ0159":{
 		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
-		"name":"PGC 1127938",
+		"name":"SDSSJ0159",
 		"sources":[
 			{
-				"name":"2015arXiv150506612H",
-				"bibcode":"2015arXiv150506612H",
-				"reference":"Hryniewicz & Walter (2015)",
+				"name":"2015MNRAS.452...69M",
+				"bibcode":"2015MNRAS.452...69M",
+				"reference":"Merloni et al. (2015)",
 				"alias":"1"
 			},
 			{
@@ -26,13 +26,13 @@
 		],
 		"alias":[
 			{
-				"value":"PGC 1127938",
+				"value":"SDSSJ0159",
 				"source":"1"
 			}
 		],
 		"citations":[
 			{
-				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015MNRAS.452...69M'>Merloni et al. 2015</a>*&Dagger;",
 				"source":"1"
 			}
 		],
@@ -44,7 +44,7 @@
 		],
 		"comovingdist":[
 			{
-				"value":"90",
+				"value":"1275.8",
 				"derived":true,
 				"u_value":"Mpc",
 				"source":"1,2,3"
@@ -52,13 +52,13 @@
 		],
 		"host":[
 			{
-				"value":"2SLAQ J011844.35-010906.8",
+				"value":"SDSS J015957.64+003310.4",
 				"source":"1"
 			}
 		],
 		"hostdec":[
 			{
-				"value":"-01:09:06.8",
+				"value":"+00:33:10.4",
 				"derived":true,
 				"u_value":"degrees",
 				"source":"3"
@@ -66,7 +66,7 @@
 		],
 		"hostra":[
 			{
-				"value":"01:18:44.35",
+				"value":"01:59:57.64",
 				"derived":true,
 				"u_value":"hours",
 				"source":"3"
@@ -74,21 +74,27 @@
 		],
 		"lumdist":[
 			{
-				"value":"90",
+				"value":"1673.4",
 				"derived":true,
 				"u_value":"Mpc",
 				"source":"1,2,3"
 			}
 		],
+		"notes":[
+			{
+				"value":"Very long duration (~decade)",
+				"source":"1"
+			}
+		],
 		"redshift":[
 			{
-				"value":"0.02",
+				"value":"0.31167",
 				"source":"1"
 			}
 		],
 		"velocity":[
 			{
-				"value":"6000",
+				"value":"79396",
 				"u_value":"km/s",
 				"source":"3"
 			}

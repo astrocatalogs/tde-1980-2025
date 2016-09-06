@@ -1,55 +1,86 @@
 {
 	"NGC 1097":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"NGC 1097",
-		"aliases":[
-			"NGC 1097"
-		],
 		"sources":[
 			{
-				"name":"<a href='http://adsabs.harvard.edu/abs/1995ApJ...443..617S'>Storchi-Bergmann et al. 1995</a>*&Dagger;",
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"1995ApJ...443..617S",
+				"bibcode":"1995ApJ...443..617S",
+				"reference":"Storchi-Bergmann et al. (1995)",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"NGC 1097",
+				"source":"2"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/1995ApJ...443..617S'>Storchi-Bergmann et al. 1995</a>*&Dagger;",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Giant + SMBH",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"19",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"host":[
 			{
-				"value":"<a href='http://goo.gl/2Wr8lv'>NGC 1097</a>",
-				"source":"1"
-			}
-		],
-		"hvel":[
-			{
-				"value":"1300",
-				"source":"D"
+				"value":"NGC 1097",
+				"source":"2"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"19",
-				"source":"D"
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"notes":[
 			{
 				"value":"BH mass precludes MS disruption",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0042",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"velocity":[
+			{
+				"value":"1300",
+				"u_value":"km/s",
+				"source":"3"
 			}
 		]
 	}

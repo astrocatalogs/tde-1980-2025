@@ -1,55 +1,86 @@
 {
 	"IC 3599":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"IC 3599",
-		"aliases":[
-			"IC 3599"
-		],
 		"sources":[
 			{
-				"name":"and Fink 1995</a>*&Dagger;",
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"1995MNRAS.273L..47B",
+				"bibcode":"1995MNRAS.273L..47B",
+				"reference":"Brandt, Pounds, & Fink (1995)",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"IC 3599",
+				"source":"2"
 			}
 		],
 		"citations":[
 			{
-				"value":"<a href='http://adsabs.harvard.edu/abs/1995MNRAS.273L..47B'>Brandt, Pounds, and Fink 1995</a>*&Dagger;",
-				"source":"1"
+				"value":"<a href='http://adsabs.harvard.edu/abs/1995MNRAS.273L..47B'>Brandt et al. 1995</a>*&Dagger;",
+				"source":"2"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"TDE",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"93.558",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"host":[
 			{
-				"value":"<a href='http://goo.gl/Ff57FM'>IC 3599</a>",
-				"source":"1"
-			}
-		],
-		"hvel":[
-			{
-				"value":"6301.5",
-				"source":"D"
+				"value":"IC 3599",
+				"source":"2"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"95.545",
-				"source":"D"
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"notes":[
 			{
 				"value":"Seyfert 1 features in spectrum",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.021245",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"velocity":[
+			{
+				"value":"6301.5",
+				"u_value":"km/s",
+				"source":"3"
 			}
 		]
 	}

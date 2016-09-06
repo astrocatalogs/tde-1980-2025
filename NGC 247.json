@@ -1,18 +1,38 @@
 {
 	"NGC 247":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"NGC 247",
-		"aliases":[
-			"NGC 247"
-		],
 		"sources":[
 			{
-				"name":"<a href='http://goo.gl/pde8py'>Feng et al. 2015</a>*&Dagger;",
+				"name":"2015ApJ...807..185F",
+				"bibcode":"2015ApJ...807..185F",
+				"reference":"Feng et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"NGC 247",
+				"source":"1"
 			}
 		],
 		"citations":[
 			{
-				"value":"<a href='http://goo.gl/pde8py'>Feng et al. 2015</a>*&Dagger;",
+				"value":"<a href='http://adsabs.harvard.edu/abs/2015ApJ...807..185F'>Feng et al. 2015</a>*&Dagger;",
 				"source":"1"
 			}
 		],
@@ -22,22 +42,26 @@
 				"source":"1"
 			}
 		],
-		"host":[
+		"comovingdist":[
 			{
-				"value":"<a href='http://goo.gl/oYXebN'>NGC 247</a>",
-				"source":"1"
+				"value":"2.35",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
-		"hvel":[
+		"host":[
 			{
-				"value":"159",
-				"source":"D"
+				"value":"NGC 247",
+				"source":"1"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"2.35",
-				"source":"D"
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"notes":[
@@ -50,6 +74,13 @@
 			{
 				"value":"0.000531",
 				"source":"1"
+			}
+		],
+		"velocity":[
+			{
+				"value":"159",
+				"u_value":"km/s",
+				"source":"3"
 			}
 		]
 	}

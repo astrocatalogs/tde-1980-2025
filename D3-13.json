@@ -1,1122 +1,763 @@
 {
 	"D3-13":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"D3-13",
-		"aliases":[
-			"D3-13"
-		],
 		"sources":[
 			{
-				"name":"<a href='http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2006ApJ...653L..25G&db_key=AST&link_type=ABSTRACT&high=4df54da3c231258'>Gezari et al. 2006</a>*&Dagger;",
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
+				"alias":"2"
+			},
+			{
+				"name":"2008ApJ...676..944G",
+				"bibcode":"2008ApJ...676..944G",
+				"reference":"Gezari et al. (2008)",
+				"alias":"3"
+			},
+			{
+				"name":"2006ApJ...653L..25G",
+				"bibcode":"2006ApJ...653L..25G",
+				"reference":"Gezari et al. (2006)",
+				"alias":"4"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"5"
+			}
+		],
+		"alias":[
+			{
+				"value":"D3-13",
+				"source":"3"
 			}
 		],
 		"citations":[
 			{
-				"value":"<a href='http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2006ApJ...653L..25G&db_key=AST&link_type=ABSTRACT&high=4df54da3c231258'>Gezari et al. 2006</a>*&Dagger;, <a href='http://adsabs.harvard.edu/abs/2008ApJ...676..944G'>Gezari et al. 2008</a>",
-				"source":"1"
+				"value":"<a href='http://adsabs.harvard.edu/abs/2006ApJ...653L..25G'>Gezari et al. 2006</a>*&Dagger;, <a href='http://adsabs.harvard.edu/abs/2008ApJ...676..944G'>Gezari et al. 2008</a>",
+				"source":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"TDE",
-				"source":"1"
+				"source":"4"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"1491",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,4,5"
+			}
+		],
+		"dec":[
+			{
+				"value":"+52:52:06.24",
+				"u_value":"degrees",
+				"source":"3"
+			}
+		],
+		"discoverdate":[
+			{
+				"value":"2004/01/15",
+				"derived":true,
+				"source":"4,5"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.0067",
+				"derived":true,
+				"e_value":"0.0006",
+				"source":"2,5"
 			}
 		],
 		"host":[
 			{
-				"value":"<a href='http://goo.gl/LK08LH'>GALEX J141929.8+525206</a>",
-				"source":"1"
+				"value":"GALEX J141929.8+525206",
+				"source":"4"
 			}
 		],
-		"hvel":[
+		"hostdec":[
 			{
-				"value":"91340",
-				"source":"D"
+				"value":"+52:52:06",
+				"derived":true,
+				"u_value":"degrees",
+				"source":"5"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.6462",
+				"derived":true,
+				"u_value":"arcseconds",
+				"source":"3,5"
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"3.41",
+				"source":"1,3,4,5"
+			}
+		],
+		"hostra":[
+			{
+				"value":"14:19:29.8",
+				"derived":true,
+				"u_value":"hours",
+				"source":"5"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"2042",
-				"source":"D"
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,4,5"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-18.89",
-				"source":"D"
+				"value":"-17.79",
+				"derived":true,
+				"source":"1,4,5"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"22.66",
-				"source":"D"
+				"value":"23.76",
+				"derived":true,
+				"source":"4,5"
+			}
+		],
+		"maxband":[
+			{
+				"value":"g",
+				"derived":true,
+				"source":"4,5"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2004/03/20",
+				"derived":true,
+				"source":"4,5"
 			}
 		],
 		"nh":[
 			{
 				"value":"1.3e+20",
-				"source":"1"
+				"source":"4"
+			}
+		],
+		"ra":[
+			{
+				"value":"14:19:29.76",
+				"u_value":"hours",
+				"source":"3"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.3698",
-				"source":"1"
+				"source":"4"
+			}
+		],
+		"velocity":[
+			{
+				"value":"91340",
+				"u_value":"km/s",
+				"source":"5"
 			}
 		],
 		"photometry":[
 			{
-				"timeunit":"yrs",
-				"time":"0.0000000000000000",
-				"band":"i",
-				"magnitude":"24.49969132566889",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.00051771088965324",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.01154495283662981",
-				"band":"i",
-				"magnitude":"24.49969132566889",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.05513620973511024",
-				"band":"i",
-				"magnitude":"24.49969132566889",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.05775064972726795",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.05775064972726795",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.05984737882977242",
+				"time":"52815.57000000001",
 				"band":"FUV",
-				"magnitude":"24.37449767620645",
 				"instrument":"GALEX",
-				"source":"1",
-				"upperlimit":true
+				"magnitude":"24.370",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.05984737882977242",
+				"time":"52815.57000000001",
 				"band":"NUV",
-				"magnitude":"24.399541065334127",
 				"instrument":"GALEX",
-				"source":"1",
-				"upperlimit":true
+				"magnitude":"24.400",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.0661375661375132",
+				"time":"53019.014250000015",
 				"band":"i",
-				"magnitude":"24.49969132566889",
+				"e_magnitude":"0.048",
 				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
+				"magnitude":"23.148",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.06877789167424453",
+				"time":"53019.014250000015",
+				"band":"r",
+				"e_magnitude":"0.046",
+				"instrument":"MegaCam",
+				"magnitude":"23.021",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"53023.76249999998",
+				"band":"i",
+				"e_magnitude":"0.196",
+				"instrument":"MegaCam",
+				"magnitude":"23.692",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"53024.85825000004",
+				"band":"i",
+				"e_magnitude":"0.048",
+				"instrument":"MegaCam",
+				"magnitude":"23.105",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"53024.85825000004",
+				"band":"r",
+				"e_magnitude":"0.029",
+				"instrument":"MegaCam",
+				"magnitude":"23.029",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"53032.89375000002",
+				"band":"i",
+				"e_magnitude":"0.100",
+				"instrument":"MegaCam",
+				"magnitude":"23.533",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"53081.83725000002",
+				"band":"i",
+				"e_magnitude":"0.109",
+				"instrument":"MegaCam",
+				"magnitude":"24.157",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"53082.933",
+				"band":"r",
+				"e_magnitude":"0.058",
+				"instrument":"MegaCam",
+				"magnitude":"23.817",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"53084.75925000004",
 				"band":"g",
-				"magnitude":"25.",
+				"e_magnitude":"0.037",
 				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
+				"magnitude":"23.756",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.06877789167424453",
+				"time":"53084.75925000004",
+				"band":"i",
+				"e_magnitude":"0.131",
+				"instrument":"MegaCam",
+				"magnitude":"24.352",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"53084.75925000004",
 				"band":"r",
-				"magnitude":"24.899849739665235",
+				"e_magnitude":"0.078",
 				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
+				"magnitude":"23.886",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.08767433914204048",
+				"time":"53095.71675000003",
 				"band":"i",
-				"magnitude":"24.49969132566889",
+				"e_magnitude":"0.101",
 				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
+				"magnitude":"23.974",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.6168007537871745",
-				"band":"i",
-				"magnitude":"23.1483384002516",
-				"e_magnitude":"0.04795517815750472",
-				"instrument":"MegaCam",
-				"source":"1"
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.6168007537871745",
+				"time":"53095.71675000003",
 				"band":"r",
-				"magnitude":"23.02125776053861",
-				"e_magnitude":"0.04653411142560948",
+				"e_magnitude":"0.068",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"23.934",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.6304424357263088",
-				"band":"i",
-				"magnitude":"23.691383909331282",
-				"e_magnitude":"0.19606061664977759",
-				"instrument":"MegaCam",
-				"source":"1"
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.6330827612628127",
-				"band":"i",
-				"magnitude":"23.105345307567763",
-				"e_magnitude":"0.04747760655088484",
-				"instrument":"MegaCam",
-				"source":"1"
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.6330827612628127",
-				"band":"r",
-				"magnitude":"23.028572759781483",
-				"e_magnitude":"0.029294941235395555",
-				"instrument":"MegaCam",
-				"source":"1"
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.6551113596124196",
-				"band":"i",
-				"magnitude":"23.532900024460986",
-				"e_magnitude":"0.09991729857543952",
-				"instrument":"MegaCam",
-				"source":"1"
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.7889913956450982",
-				"band":"i",
-				"magnitude":"24.15719094710603",
-				"e_magnitude":"0.10960850776344877",
-				"instrument":"MegaCam",
-				"source":"1"
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.791605835637256",
-				"band":"r",
-				"magnitude":"23.816577558793725",
-				"e_magnitude":"0.05858988247079289",
-				"instrument":"MegaCam",
-				"source":"1"
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.7968606011659176",
-				"band":"i",
-				"magnitude":"24.35183049702391",
-				"e_magnitude":"0.1308779163900251",
-				"instrument":"MegaCam",
-				"source":"1"
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.7973783120553435",
+				"time":"53110.692",
 				"band":"g",
-				"magnitude":"23.75633364783171",
-				"e_magnitude":"0.03708751208489147",
+				"e_magnitude":"0.053",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"23.862",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.7973783120553435",
-				"band":"r",
-				"magnitude":"23.88555753573051",
-				"e_magnitude":"0.07794900467088439",
-				"instrument":"MegaCam",
-				"source":"1"
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.8273020014703434",
+				"time":"53110.692",
 				"band":"i",
-				"magnitude":"23.974129596626714",
-				"e_magnitude":"0.10133836530733475",
+				"e_magnitude":"0.102",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.048",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.8273020014703434",
+				"time":"53110.692",
 				"band":"r",
-				"magnitude":"23.934211599165998",
-				"e_magnitude":"0.0685024053301646",
+				"e_magnitude":"0.064",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"23.848",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.8682529328323199",
+				"time":"53118.72749999998",
 				"band":"g",
-				"magnitude":"23.861923565246762",
-				"e_magnitude":"0.05291726363117455",
+				"e_magnitude":"0.039",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"23.911",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.8682529328323199",
+				"time":"53118.72749999998",
 				"band":"i",
-				"magnitude":"24.04783869727784",
-				"e_magnitude":"0.10180428882599024",
+				"e_magnitude":"0.274",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.283",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.8682529328323199",
+				"time":"53118.72749999998",
 				"band":"r",
-				"magnitude":"23.847992452038998",
-				"e_magnitude":"0.06402953955108259",
+				"e_magnitude":"0.081",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.189",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.8897638202922735",
-				"band":"i",
-				"magnitude":"24.283083481846454",
-				"e_magnitude":"0.27424258307998706",
-				"instrument":"MegaCam",
-				"source":"1"
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.8897638202922735",
-				"band":"r",
-				"magnitude":"24.189083411957927",
-				"e_magnitude":"0.08053488019941568",
-				"instrument":"MegaCam",
-				"source":"1"
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.8902815311816994",
+				"time":"53122.74524999997",
 				"band":"g",
-				"magnitude":"23.911532771895494",
-				"e_magnitude":"0.039207464094767275",
+				"e_magnitude":"0.043",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"23.982",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.9007910622392501",
-				"band":"r",
-				"magnitude":"24.070039952941727",
-				"e_magnitude":"0.07960303316210648",
-				"instrument":"MegaCam",
-				"source":"1"
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.901308773128676",
-				"band":"g",
-				"magnitude":"23.981456243957556",
-				"e_magnitude":"0.043459016202490375",
-				"instrument":"MegaCam",
-				"source":"1"
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.901308773128676",
+				"time":"53122.74524999997",
 				"band":"i",
-				"magnitude":"24.40000698885278",
-				"e_magnitude":"0.1610930565747637",
+				"e_magnitude":"0.161",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.400",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.906563538657565",
-				"band":"i",
-				"magnitude":"24.45032672886746",
-				"e_magnitude":"0.11927642077552925",
-				"instrument":"MegaCam",
-				"source":"1"
-			},
-			{
-				"timeunit":"yrs",
-				"time":"0.906563538657565",
+				"time":"53122.74524999997",
 				"band":"r",
-				"magnitude":"24.102386693224307",
-				"e_magnitude":"0.08220055677860572",
+				"e_magnitude":"0.080",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.070",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.9338469025358336",
+				"time":"53124.571500000005",
+				"band":"i",
+				"e_magnitude":"0.119",
+				"instrument":"MegaCam",
+				"magnitude":"24.451",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"53124.571500000005",
+				"band":"r",
+				"e_magnitude":"0.082",
+				"instrument":"MegaCam",
+				"magnitude":"24.102",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"53134.79850000002",
 				"band":"FUV",
-				"magnitude":"22.661972487216225",
-				"e_magnitude":"0.09826327008421565",
+				"e_magnitude":"0.10",
 				"instrument":"GALEX",
-				"source":"1"
+				"magnitude":"22.660",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.9338469025358336",
+				"time":"53134.79850000002",
 				"band":"NUV",
-				"magnitude":"22.85566854200883",
-				"e_magnitude":"0.08408754702915644",
+				"e_magnitude":"0.08",
 				"instrument":"GALEX",
-				"source":"1"
+				"magnitude":"22.860",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.9359695171829117",
+				"time":"53135.528999999995",
 				"band":"i",
-				"magnitude":"24.424339844614508",
-				"e_magnitude":"0.12213020232728766",
+				"e_magnitude":"0.122",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.425",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.9364872280723375",
+				"time":"53135.528999999995",
 				"band":"r",
-				"magnitude":"24.253089655333078",
-				"e_magnitude":"0.10582287917438293",
+				"e_magnitude":"0.106",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.253",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.9475144700193141",
+				"time":"53139.54674999999",
 				"band":"g",
-				"magnitude":"24.126964158833328",
-				"e_magnitude":"0.05149619689927931",
+				"e_magnitude":"0.051",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.127",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.9475144700193141",
+				"time":"53139.54674999999",
 				"band":"r",
-				"magnitude":"24.36032195315139",
-				"e_magnitude":"0.09259065124459909",
+				"e_magnitude":"0.093",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.360",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.969543068368921",
+				"time":"53147.58224999996",
 				"band":"g",
-				"magnitude":"24.05539830636801",
-				"e_magnitude":"0.04748925463885101",
+				"e_magnitude":"0.047",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.055",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.969543068368921",
+				"time":"53147.58224999996",
 				"band":"r",
-				"magnitude":"24.68465131448673",
-				"e_magnitude":"0.14621844824172037",
+				"e_magnitude":"0.146",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.685",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"0.9832106358526289",
+				"time":"53152.695750000006",
 				"band":"r",
-				"magnitude":"24.184587250002913",
-				"e_magnitude":"0.10299239379855685",
+				"e_magnitude":"0.103",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.185",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.0210035307882208",
+				"time":"53166.57525000001",
 				"band":"i",
-				"magnitude":"24.345458992906316",
-				"e_magnitude":"0.10228186043261012",
+				"e_magnitude":"0.102",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.346",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.0320307727354248",
+				"time":"53170.593",
 				"band":"r",
-				"magnitude":"24.514111658571245",
-				"e_magnitude":"0.11219438329198184",
+				"e_magnitude":"0.112",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.514",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.0482868946664894",
+				"time":"53176.43700000003",
 				"band":"i",
-				"magnitude":"24.460728471421415",
-				"e_magnitude":"0.17408067465725452",
+				"e_magnitude":"0.174",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.461",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.0488304911004889",
+				"time":"53176.802250000015",
 				"band":"g",
-				"magnitude":"24.022795308150165",
-				"e_magnitude":"0.04416954956843888",
+				"e_magnitude":"0.044",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.023",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.0488304911004889",
+				"time":"53176.802250000015",
 				"band":"r",
-				"magnitude":"24.268208873513412",
-				"e_magnitude":"0.09447764149514981",
+				"e_magnitude":"0.094",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.268",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.0566996966215356",
+				"time":"53179.724250000036",
 				"band":"g",
-				"magnitude":"24.092229560517644",
-				"e_magnitude":"0.04653411142560948",
+				"e_magnitude":"0.046",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.092",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.0566996966215356",
+				"time":"53179.724250000036",
 				"band":"i",
-				"magnitude":"24.353006953908515",
-				"e_magnitude":"0.16322465667260744",
+				"e_magnitude":"0.163",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.353",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.0566996966215356",
+				"time":"53179.724250000036",
 				"band":"r",
-				"magnitude":"24.171587983832453",
-				"e_magnitude":"0.07063400542800835",
+				"e_magnitude":"0.071",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.172",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.0677269385685122",
+				"time":"53183.74200000002",
 				"band":"r",
-				"magnitude":"24.484583755576523",
-				"e_magnitude":"0.11905510710416856",
+				"e_magnitude":"0.119",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.485",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.0976506279832847",
+				"time":"53194.69950000001",
 				"band":"r",
-				"magnitude":"24.413239216782564",
-				"e_magnitude":"0.14124471468008437",
+				"e_magnitude":"0.141",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.413",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.1034231044015996",
+				"time":"53196.525749999964",
 				"band":"g",
-				"magnitude":"24.138297748424595",
-				"e_magnitude":"0.05386075875644991",
+				"e_magnitude":"0.054",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.138",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.108651984385915",
+				"time":"53198.71725",
 				"band":"r",
-				"magnitude":"24.207033115514086",
-				"e_magnitude":"0.09848458375557634",
+				"e_magnitude":"0.098",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.207",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.111292309922419",
+				"time":"53199.447749999985",
 				"band":"g",
-				"magnitude":"24.988456744825335",
-				"e_magnitude":"0.7117331190085157",
+				"e_magnitude":"0.712",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.989",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.111292309922419",
+				"time":"53199.447749999985",
 				"band":"r",
-				"magnitude":"24.407578246030916",
-				"e_magnitude":"0.10345831731721233",
+				"e_magnitude":"0.103",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.408",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.116547075451308",
+				"time":"53201.639250000015",
 				"band":"g",
-				"magnitude":"24.262303292914467",
-				"e_magnitude":"0.05740177749822273",
+				"e_magnitude":"0.057",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.262",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.1223195518693956",
+				"time":"53203.46549999997",
 				"band":"i",
-				"magnitude":"24.431200568426693",
-				"e_magnitude":"0.12141966896134093",
+				"e_magnitude":"0.121",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.431",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.1280920282877105",
+				"time":"53205.657",
 				"band":"r",
-				"magnitude":"24.28050925440589",
-				"e_magnitude":"0.08692968049294691",
+				"e_magnitude":"0.087",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.281",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.193194172646372",
+				"time":"53229.39825000002",
 				"band":"r",
-				"magnitude":"24.47725710824568",
-				"e_magnitude":"0.11976564047011706",
+				"e_magnitude":"0.120",
 				"instrument":"MegaCam",
-				"source":"1"
+				"magnitude":"24.477",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.6283560608414973",
+				"time":"53412.75375",
 				"band":"r",
-				"magnitude":"24.899849739665235",
+				"e_magnitude":"0.165",
 				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
+				"magnitude":"24.779",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.6393833027884739",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.6393833027884739",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.6955290487580896",
-				"band":"r",
-				"magnitude":"24.77866303246322",
-				"e_magnitude":"0.1646340753165365",
-				"instrument":"MegaCam",
-				"source":"1"
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.6971080669711682",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.7076175980284916",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.7186448399756955",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.7847824061132087",
+				"time":"53445.62624999997",
 				"band":"FUV",
-				"magnitude":"23.48753072183201",
-				"e_magnitude":"0.06731430035759622",
+				"e_magnitude":"0.07",
 				"instrument":"GALEX",
-				"source":"1"
+				"magnitude":"23.490",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.7847824061132087",
+				"time":"53445.62624999997",
 				"band":"NUV",
-				"magnitude":"23.363991100860794",
-				"e_magnitude":"0.03495591198704773",
+				"e_magnitude":"0.04",
 				"instrument":"GALEX",
-				"source":"1"
+				"magnitude":"23.360",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.792651611634028",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.792651611634028",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.8336025429960046",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.839375019414092",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.847270110479485",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.8477619358245647",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.8550875449113846",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.8556570268899577",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.8666842688369343",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.8666842688369343",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.9049948746621794",
+				"time":"53445.99149999997",
 				"band":"NUV",
-				"magnitude":"23.58649287719421",
-				"e_magnitude":"0.0703893955807171",
+				"e_magnitude":"0.07",
 				"instrument":"GALEX",
-				"source":"1"
+				"magnitude":"23.460",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"1.923917207674549",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.9265316476667067",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.9265316476667067",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.9343749676431798",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.938050714958763",
-				"band":"g",
-				"magnitude":"24.913314929354346",
-				"e_magnitude":"0.09283526109189211",
-				"instrument":"MegaCam",
-				"source":"1"
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.9454539806790763",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.9454539806790763",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.9537891260004017",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.9537891260004017",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.9617101026103683",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.9894852918337165",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"1.9894852918337165",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"2.003152859317197",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"2.003152859317197",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"2.0057672993093547",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"2.013636504830174",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"2.0199525776824885",
+				"time":"53489.45625000002",
 				"band":"NUV",
-				"magnitude":"23.97885872034106",
-				"e_magnitude":"0.1462068001537542",
+				"e_magnitude":"0.07",
 				"instrument":"GALEX",
-				"source":"1"
+				"magnitude":"23.590",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"2.024663746777378",
+				"time":"53501.50949999998",
 				"band":"g",
-				"magnitude":"25.",
+				"e_magnitude":"0.093",
 				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
+				"magnitude":"24.913",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"2.024663746777378",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
+				"time":"53531.46000000002",
+				"band":"NUV",
+				"e_magnitude":"0.15",
+				"instrument":"GALEX",
+				"magnitude":"23.980",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"2.0330506631876233",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"2.0771337454311833",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"2.079799956512261",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"2.08505472204115",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"2.08505472204115",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"2.0986705184357106",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"2.112312200374845",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"2.11808467679316",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"2.166930699220302",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"2.1753176156307745",
-				"band":"g",
-				"magnitude":"25.",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"2.1753176156307745",
-				"band":"r",
-				"magnitude":"24.899849739665235",
-				"instrument":"MegaCam",
-				"source":"1",
-				"upperlimit":true
-			},
-			{
-				"timeunit":"yrs",
-				"time":"2.8871183176468094",
+				"time":"53848.13175000001",
 				"band":"FUV",
-				"magnitude":"24.32608822261826",
-				"e_magnitude":"0.14196689613399904",
+				"e_magnitude":"0.14",
 				"instrument":"GALEX",
-				"source":"1"
+				"magnitude":"24.330",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"2.8871183176468094",
+				"time":"53848.13175000001",
 				"band":"NUV",
-				"magnitude":"24.14892080464992",
-				"e_magnitude":"0.0857532236083447",
+				"e_magnitude":"0.09",
 				"instrument":"GALEX",
-				"source":"1"
+				"magnitude":"24.150",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"3.8498793733626826",
+				"time":"54199.86749999999",
 				"band":"FUV",
-				"magnitude":"24.34451549778104",
-				"e_magnitude":"0.2520413274161051",
+				"e_magnitude":"0.25",
 				"instrument":"GALEX",
-				"source":"1"
+				"magnitude":"24.340",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
-				"timeunit":"yrs",
-				"time":"3.8498793733626826",
+				"time":"54199.86749999999",
 				"band":"NUV",
-				"magnitude":"24.013104098962156",
-				"e_magnitude":"0.1568298563790762",
+				"e_magnitude":"0.16",
 				"instrument":"GALEX",
-				"source":"1"
+				"magnitude":"24.010",
+				"u_time":"MJD",
+				"source":"4"
 			}
 		]
 	}

@@ -1,18 +1,18 @@
 {
-	"DES14C1kia":{
+	"PTF10iam":{
 		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
-		"name":"DES14C1kia",
+		"name":"PTF10iam",
 		"sources":[
-			{
-				"name":"2015ATel.6877....1F",
-				"bibcode":"2015ATel.6877....1F",
-				"reference":"Foley et al. (2015)",
-				"alias":"1"
-			},
 			{
 				"name":"2015arXiv150201589P",
 				"bibcode":"2015arXiv150201589P",
 				"reference":"Planck Collaboration et al. (2015)",
+				"alias":"1"
+			},
+			{
+				"name":"2014ApJ...793...38A",
+				"bibcode":"2014ApJ...793...38A",
+				"reference":"Arcavi et al. (2014)",
 				"alias":"2"
 			},
 			{
@@ -40,25 +40,25 @@
 		],
 		"alias":[
 			{
-				"value":"DES14C1kia",
+				"value":"PTF10iam",
 				"source":"5"
 			}
 		],
 		"citations":[
 			{
-				"value":"<a href='http://adsabs.harvard.edu/abs/2015ATel.6877....1F'>ATEL 6877</a>*",
-				"source":"1"
+				"value":"<a href='http://adsabs.harvard.edu/abs/2014ApJ...793...38A'>Arcavi et al. 2014</a>*&Dagger;",
+				"source":"2"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"TDE",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"comovingdist":[
 			{
-				"value":"689",
+				"value":"470",
 				"derived":true,
 				"u_value":"Mpc",
 				"source":"1,2,4"
@@ -66,35 +66,65 @@
 		],
 		"dec":[
 			{
-				"value":"-26:19:35.0",
+				"value":"+54:02:33.0",
 				"u_value":"degrees",
-				"source":"1,5"
+				"source":"2,5"
 			}
 		],
 		"discoverdate":[
 			{
-				"value":"2014",
+				"value":"2010",
 				"derived":true,
 				"source":"4"
 			}
 		],
 		"ebv":[
 			{
-				"value":"0.0095",
+				"value":"0.0089",
 				"derived":true,
-				"e_value":"0.0003",
+				"e_value":"0.0008",
 				"source":"3,4"
 			}
 		],
 		"host":[
 			{
-				"value":"Uncatalogued, 03:34:47.49 -26:19:35.0",
-				"source":"1"
+				"value":"SDSS J154530.83+540231.9",
+				"source":"2"
+			}
+		],
+		"hostdec":[
+			{
+				"value":"+54:02:31.9",
+				"derived":true,
+				"u_value":"degrees",
+				"source":"4"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"1.14",
+				"derived":true,
+				"u_value":"arcseconds",
+				"source":"2,4,5"
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"2.34",
+				"source":"1,2,4,5"
+			}
+		],
+		"hostra":[
+			{
+				"value":"15:45:30.83",
+				"derived":true,
+				"u_value":"hours",
+				"source":"4"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"801",
+				"value":"521",
 				"derived":true,
 				"u_value":"Mpc",
 				"source":"1,2,4"
@@ -102,26 +132,26 @@
 		],
 		"notes":[
 			{
-				"value":"HeII and HeI emission lines, no X-rays or radio",
-				"source":"1"
+				"value":"Significantly off-center from host galaxy",
+				"source":"2"
 			}
 		],
 		"ra":[
 			{
-				"value":"03:34:47.49",
+				"value":"15:45:30.85",
 				"u_value":"hours",
-				"source":"1,5"
+				"source":"2,5"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.162",
-				"source":"1"
+				"value":"0.109",
+				"source":"2"
 			}
 		],
 		"velocity":[
 			{
-				"value":"44700",
+				"value":"30900",
 				"u_value":"km/s",
 				"source":"4"
 			}

@@ -1,55 +1,86 @@
 {
 	"NGC 3599":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"NGC 3599",
-		"aliases":[
-			"NGC 3599"
-		],
 		"sources":[
 			{
-				"name":"<a href='http://adsabs.harvard.edu/abs/2007A%26A...462L..49E'>Esquej et al. 2007</a>*&Dagger;",
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"2007A&A...462L..49E",
+				"bibcode":"2007A&A...462L..49E",
+				"reference":"Esquej et al. (2007)",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"NGC 3599",
+				"source":"2"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/2007A%26A...462L..49E'>Esquej et al. 2007</a>*&Dagger;",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"TDE",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"11.94",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"host":[
 			{
-				"value":"<a href='http://goo.gl/wnl9Mm'>NGC 3599</a>",
-				"source":"1"
-			}
-		],
-		"hvel":[
-			{
-				"value":"808",
-				"source":"D"
+				"value":"NGC 3599",
+				"source":"2"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"11.97",
-				"source":"D"
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"notes":[
 			{
 				"value":"LLAGN features in spectrum, <a href='http://adsabs.harvard.edu/abs/2015arXiv150905193S'>bright for &gt;18 months</a>.",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.002699",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"velocity":[
+			{
+				"value":"808",
+				"u_value":"km/s",
+				"source":"3"
 			}
 		]
 	}

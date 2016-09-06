@@ -1,12 +1,12 @@
 {
-	"PGC 1127938":{
+	"SDSSJ1011":{
 		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
-		"name":"PGC 1127938",
+		"name":"SDSSJ1011",
 		"sources":[
 			{
-				"name":"2015arXiv150506612H",
-				"bibcode":"2015arXiv150506612H",
-				"reference":"Hryniewicz & Walter (2015)",
+				"name":"2016MNRAS.455.1691R",
+				"bibcode":"2016MNRAS.455.1691R",
+				"reference":"Runnoe et al. (2016)",
 				"alias":"1"
 			},
 			{
@@ -26,25 +26,25 @@
 		],
 		"alias":[
 			{
-				"value":"PGC 1127938",
+				"value":"SDSSJ1011",
 				"source":"1"
 			}
 		],
 		"citations":[
 			{
-				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
+				"value":"<a href='http://adsabs.harvard.edu/abs/2016MNRAS.455.1691R'>Runnoe et al. 2016</a>*&Dagger;",
 				"source":"1"
 			}
 		],
 		"claimedtype":[
 			{
-				"value":"TDE",
+				"value":"AGN variability",
 				"source":"1"
 			}
 		],
 		"comovingdist":[
 			{
-				"value":"90",
+				"value":"1024.8",
 				"derived":true,
 				"u_value":"Mpc",
 				"source":"1,2,3"
@@ -52,13 +52,13 @@
 		],
 		"host":[
 			{
-				"value":"2SLAQ J011844.35-010906.8",
+				"value":"SDSS J101152.98+544206.4",
 				"source":"1"
 			}
 		],
 		"hostdec":[
 			{
-				"value":"-01:09:06.8",
+				"value":"+54:42:06.4",
 				"derived":true,
 				"u_value":"degrees",
 				"source":"3"
@@ -66,7 +66,7 @@
 		],
 		"hostra":[
 			{
-				"value":"01:18:44.35",
+				"value":"10:11:52.98",
 				"derived":true,
 				"u_value":"hours",
 				"source":"3"
@@ -74,21 +74,27 @@
 		],
 		"lumdist":[
 			{
-				"value":"90",
+				"value":"1277",
 				"derived":true,
 				"u_value":"Mpc",
 				"source":"1,2,3"
 			}
 		],
+		"notes":[
+			{
+				"value":"Bright for 6 years, large broad line region suggests not TDE",
+				"source":"1"
+			}
+		],
 		"redshift":[
 			{
-				"value":"0.02",
+				"value":"0.24608",
 				"source":"1"
 			}
 		],
 		"velocity":[
 			{
-				"value":"6000",
+				"value":"64911",
 				"u_value":"km/s",
 				"source":"3"
 			}

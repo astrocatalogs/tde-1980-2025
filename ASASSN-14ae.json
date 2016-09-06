@@ -1,2178 +1,2317 @@
 {
 	"ASASSN-14ae":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"ASASSN-14ae",
-		"aliases":[
-			"ASASSN-14ae"
-		],
 		"sources":[
 			{
-				"name":"<a href='http://arxiv.org/abs/1405.1417v1'>Holoien et al. 2014</a>*&Dagger;",
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"2014MNRAS.445.3263H",
+				"bibcode":"2014MNRAS.445.3263H",
+				"reference":"Holoien et al. (2014)",
+				"alias":"2"
+			},
+			{
+				"name":"ATel 5831",
+				"bibcode":"2014ATel.5831....1P",
+				"reference":"Prieto et al. (2014)",
+				"url":"http://www.astronomerstelegram.org/?read=5831",
+				"alias":"3"
+			},
+			{
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
+				"alias":"4"
+			},
+			{
+				"name":"ASAS-SN Supernovae",
+				"url":"http://www.astronomy.ohio-state.edu/~assassin/transients.html",
+				"alias":"5"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"6"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"7"
+			}
+		],
+		"alias":[
+			{
+				"value":"ASASSN-14ae",
+				"source":"3,5,7"
 			}
 		],
 		"citations":[
 			{
-				"value":"<a href='http://arxiv.org/abs/1405.1417v1'>Holoien et al. 2014</a>*&Dagger;",
-				"source":"1"
+				"value":"<a href='http://adsabs.harvard.edu/abs/2014MNRAS.445.3263H'>Holoien et al. 2014</a>*&Dagger;",
+				"source":"2"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"TDE",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"191.3",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,3,5,6"
+			}
+		],
+		"dec":[
+			{
+				"value":"34:5:56.3",
+				"u_value":"floatdegrees",
+				"source":"3,5"
+			},
+			{
+				"value":"+34:05:52.4",
+				"u_value":"degrees",
+				"source":"3,7"
 			}
 		],
 		"discoverdate":[
 			{
-				"value":"2013/01/25",
-				"source":"D"
+				"value":"2014/01/25.51",
+				"source":"3,5"
 			}
 		],
-		"discoverday":[
+		"ebv":[
 			{
-				"value":"25",
-				"source":"D"
-			}
-		],
-		"discovermonth":[
-			{
-				"value":"1",
-				"source":"D"
-			}
-		],
-		"discoveryear":[
-			{
-				"value":"2013",
-				"source":"D"
+				"value":"0.0155",
+				"derived":true,
+				"e_value":"0.0007",
+				"source":"4,6"
 			}
 		],
 		"host":[
 			{
-				"value":"<a href='http://goo.gl/0aHg5G'>SDSS J110840.11+340552.2</a>",
-				"source":"1"
+				"value":"SDSS J110840.11+340552.2",
+				"source":"2"
 			}
 		],
-		"hvel":[
+		"hostdec":[
 			{
-				"value":"12800",
-				"source":"D"
+				"value":"+34:05:52.2",
+				"derived":true,
+				"u_value":"degrees",
+				"source":"6"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"6.78",
+				"derived":true,
+				"u_value":"arcseconds",
+				"source":"3,5,6"
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"6.02",
+				"source":"1,3,5,6"
+			}
+		],
+		"hostra":[
+			{
+				"value":"11:08:40.11",
+				"derived":true,
+				"u_value":"hours",
+				"source":"6"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"199",
-				"source":"D"
+				"value":"199.65",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,3,5,6"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-20",
-				"source":"D"
+				"value":"-19.591",
+				"derived":true,
+				"source":"1,3,5,6"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"16.47",
-				"source":"D"
+				"value":"16.91",
+				"derived":true,
+				"source":"2,6"
+			}
+		],
+		"maxband":[
+			{
+				"value":"B",
+				"derived":true,
+				"source":"2,6"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2013/01/27",
-				"source":"D"
-			}
-		],
-		"maxday":[
-			{
-				"value":"27",
-				"source":"D"
-			}
-		],
-		"maxmonth":[
-			{
-				"value":"1",
-				"source":"D"
-			}
-		],
-		"maxyear":[
-			{
-				"value":"2013",
-				"source":"D"
+				"derived":true,
+				"source":"2,6"
 			}
 		],
 		"nh":[
 			{
 				"value":"1.2597e+20",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"ra":[
+			{
+				"value":"11:8:39.75",
+				"u_value":"floatdegrees",
+				"source":"3,5"
+			},
+			{
+				"value":"11:08:40.11",
+				"u_value":"hours",
+				"source":"3,7"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.0436",
-				"source":"1"
+				"value":"0.043671",
+				"source":"3,5"
+			}
+		],
+		"velocity":[
+			{
+				"value":"12807",
+				"u_value":"km/s",
+				"source":"6"
 			}
 		],
 		"photometry":[
 			{
-				"timeunit":"MJD",
 				"time":"56293.0",
 				"band":"V",
-				"magnitude":"18.02",
 				"instrument":"Bessel",
-				"source":"1",
-				"upperlimit":true
+				"magnitude":"18.02",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56317.00051259746",
 				"band":"V",
-				"magnitude":"16.905585389755473",
 				"e_magnitude":"0.1753209833521288",
 				"instrument":"Bessel",
-				"source":"1"
+				"magnitude":"16.905585389755473",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56318.60919695536",
 				"band":"g",
-				"magnitude":"17.04205496169239",
 				"e_magnitude":"0.038655646271583854",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.04205496169239",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56318.610146975654",
 				"band":"r",
-				"magnitude":"17.381783501106316",
 				"e_magnitude":"0.058368525657297964",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.381783501106316",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56318.61105699509",
 				"band":"i",
-				"magnitude":"17.511885832671823",
 				"e_magnitude":"0.08336554110557405",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.511885832671823",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56318.82303152239",
 				"band":"g",
-				"magnitude":"17.034075098924394",
 				"e_magnitude":"0.058592427909941146",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.034075098924394",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56319.38276347703",
 				"band":"W1",
-				"magnitude":"16.646362472897835",
 				"e_magnitude":"0.04305587723731759",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"16.646362472897835",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56319.38652355733",
 				"band":"U",
-				"magnitude":"16.697988388586424",
 				"e_magnitude":"0.04951356404967897",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"16.697988388586424",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56319.388423597906",
 				"band":"B",
-				"magnitude":"16.906011320831155",
 				"e_magnitude":"0.06512357011518485",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"16.906011320831155",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56319.390363639344",
 				"band":"W2",
-				"magnitude":"16.806405949797004",
 				"e_magnitude":"0.042648600557762074",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"16.806405949797004",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56319.39782379868",
 				"band":"V",
-				"magnitude":"17.090305623020736",
 				"e_magnitude":"0.08865699256356813",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.090305623020736",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56319.401583878986",
 				"band":"M2",
-				"magnitude":"16.47253803604505",
 				"e_magnitude":"0.04249316579456972",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"16.47253803604505",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56319.57371755537",
 				"band":"g",
-				"magnitude":"17.01501192183894",
 				"e_magnitude":"0.03824314123595203",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.01501192183894",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56319.57466757567",
 				"band":"r",
-				"magnitude":"17.30581939236576",
 				"e_magnitude":"0.05767360541655777",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.30581939236576",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56319.57558759532",
 				"band":"i",
-				"magnitude":"17.48639771829939",
 				"e_magnitude":"0.07143915530619768",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.48639771829939",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56320.5636486981",
 				"band":"g",
-				"magnitude":"17.003948512021864",
 				"e_magnitude":"0.03508420337475953",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.003948512021864",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56320.56459871839",
 				"band":"r",
-				"magnitude":"17.27015215319768",
 				"e_magnitude":"0.05232190108786013",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.27015215319768",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56320.565508737825",
 				"band":"i",
-				"magnitude":"17.370574836574615",
 				"e_magnitude":"0.07050073880080959",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.370574836574615",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56320.56643875769",
 				"band":"z",
-				"magnitude":"17.680683211951187",
 				"e_magnitude":"0.10964526250095448",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.680683211951187",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56320.56764878354",
 				"band":"u",
-				"magnitude":"16.74111099123022",
 				"e_magnitude":"0.028982526463000185",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"16.74111099123022",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56321.52260917936",
 				"band":"W1",
-				"magnitude":"16.6258755236139",
 				"e_magnitude":"0.051225028803224396",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"16.6258755236139",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56321.52416921267",
 				"band":"U",
-				"magnitude":"16.63248916272643",
 				"e_magnitude":"0.06876974580999021",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"16.63248916272643",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56321.524729224635",
 				"band":"B",
-				"magnitude":"16.947488442902507",
 				"e_magnitude":"0.1036273236386896",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"16.947488442902507",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56321.525309237026",
 				"band":"W2",
-				"magnitude":"16.918169929319347",
 				"e_magnitude":"0.0508532177102023",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"16.918169929319347",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56321.52787929192",
 				"band":"V",
-				"magnitude":"16.927551596178876",
 				"e_magnitude":"0.17912379374830573",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"16.927551596178876",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56321.528439303875",
 				"band":"M2",
-				"magnitude":"16.482654727777508",
 				"e_magnitude":"0.04249783236809561",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"16.482654727777508",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56323.869579305414",
 				"band":"g",
-				"magnitude":"16.99449833808361",
 				"e_magnitude":"0.0439753143292782",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"16.99449833808361",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56323.87145934556",
 				"band":"r",
-				"magnitude":"17.27015215319768",
 				"e_magnitude":"0.07568257336776078",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.27015215319768",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56323.873329385504",
 				"band":"i",
-				"magnitude":"17.406263607667075",
 				"e_magnitude":"0.11544649793977109",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.406263607667075",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56326.6898495401",
 				"band":"g",
-				"magnitude":"17.14290755635725",
 				"e_magnitude":"0.06105807538985082",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.14290755635725",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56326.69172958025",
 				"band":"r",
-				"magnitude":"17.352003328625184",
 				"e_magnitude":"0.1145597054136285",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.352003328625184",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56326.69359962019",
 				"band":"i",
-				"magnitude":"17.430498120819458",
 				"e_magnitude":"0.2988853329476844",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.430498120819458",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56328.49603811625",
 				"band":"g",
-				"magnitude":"17.1346380713547",
 				"e_magnitude":"0.03859636739522871",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.1346380713547",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56328.49698813655",
 				"band":"r",
-				"magnitude":"17.339736956509277",
 				"e_magnitude":"0.06106463648805019",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.339736956509277",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56328.4979081562",
 				"band":"i",
-				"magnitude":"17.379424363003913",
 				"e_magnitude":"0.07342576681053295",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.379424363003913",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56328.49883817606",
 				"band":"z",
-				"magnitude":"17.672493579976585",
 				"e_magnitude":"0.1263188926881558",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.672493579976585",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56328.50004820191",
 				"band":"u",
-				"magnitude":"16.95032659956193",
 				"e_magnitude":"0.03302248945939074",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"16.95032659956193",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56329.544210502885",
 				"band":"g",
-				"magnitude":"17.141251665083313",
 				"e_magnitude":"0.0387056860879321",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.141251665083313",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56329.54516052318",
 				"band":"r",
-				"magnitude":"17.339736956509277",
 				"e_magnitude":"0.05680403960077651",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.339736956509277",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56329.54608054282",
 				"band":"i",
-				"magnitude":"17.358849025334894",
 				"e_magnitude":"0.07487280841404985",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.358849025334894",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56329.547000562474",
 				"band":"z",
-				"magnitude":"17.68891984326626",
 				"e_magnitude":"0.12075026511994909",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.68891984326626",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56329.54821058832",
 				"band":"u",
-				"magnitude":"16.985443118608153",
 				"e_magnitude":"0.01749904171685106",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"16.985443118608153",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56330.63892388352",
 				"band":"g",
-				"magnitude":"17.109977199214644",
 				"e_magnitude":"0.03974188118535353",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.109977199214644",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56330.6398639036",
 				"band":"r",
-				"magnitude":"17.344633660059266",
 				"e_magnitude":"0.05698299690216506",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.344633660059266",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56330.64078392325",
 				"band":"i",
-				"magnitude":"17.341414909618532",
 				"e_magnitude":"0.07647988432920168",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.341414909618532",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56330.64169394268",
 				"band":"z",
-				"magnitude":"17.65625285265923",
 				"e_magnitude":"0.12479345617168493",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.65625285265923",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56330.642913968746",
 				"band":"u",
-				"magnitude":"16.95371918170979",
 				"e_magnitude":"0.043159958603891345",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"16.95371918170979",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56330.66259438907",
 				"band":"g",
-				"magnitude":"17.08391020457279",
 				"e_magnitude":"0.06764127147249357",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.08391020457279",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56330.66446442901",
 				"band":"r",
-				"magnitude":"17.3227004003905",
 				"e_magnitude":"0.08714362427503027",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.3227004003905",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56330.66633446895",
 				"band":"i",
-				"magnitude":"17.424405415206078",
 				"e_magnitude":"0.1486225965939409",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.424405415206078",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56331.50230232336",
 				"band":"g",
-				"magnitude":"17.1462223452025",
 				"e_magnitude":"0.04350085446827456",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.1462223452025",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56331.50325234365",
 				"band":"r",
-				"magnitude":"17.3227004003905",
 				"e_magnitude":"0.06256341069905151",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.3227004003905",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56331.50416236308",
 				"band":"i",
-				"magnitude":"17.350109017361824",
 				"e_magnitude":"0.08461646447524285",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.350109017361824",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56331.50509238295",
 				"band":"z",
-				"magnitude":"17.612508949677178",
 				"e_magnitude":"0.14183392661010816",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.612508949677178",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56331.506302408794",
 				"band":"u",
-				"magnitude":"17.013861419836367",
 				"e_magnitude":"0.03214859904758591",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.013861419836367",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56332.18677694221",
 				"band":"W1",
-				"magnitude":"17.09977918367048",
 				"e_magnitude":"0.05191101305343173",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.09977918367048",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56332.18982700735",
 				"band":"U",
-				"magnitude":"16.90777881002339",
 				"e_magnitude":"0.06050455797297427",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"16.90777881002339",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56332.19087702978",
 				"band":"B",
-				"magnitude":"17.103594975519695",
 				"e_magnitude":"0.08199981586810647",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.103594975519695",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56332.19193705242",
 				"band":"W2",
-				"magnitude":"17.56267708790846",
 				"e_magnitude":"0.04331953931794796",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.56267708790846",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56332.1969971605",
 				"band":"V",
-				"magnitude":"17.32688785095607",
 				"e_magnitude":"0.17756281160066348",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.32688785095607",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56332.1980371827",
 				"band":"M2",
-				"magnitude":"17.143138963113135",
 				"e_magnitude":"0.04292288672278879",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.143138963113135",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56332.51805401756",
 				"band":"g",
-				"magnitude":"17.17959435639258",
 				"e_magnitude":"0.03622068931236422",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.17959435639258",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56332.51899403763",
 				"band":"r",
-				"magnitude":"17.281966014811204",
 				"e_magnitude":"0.056819668786492285",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.281966014811204",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56332.519904057066",
 				"band":"i",
-				"magnitude":"17.37351938517343",
 				"e_magnitude":"0.0731238911509697",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.37351938517343",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56332.52084407714",
 				"band":"z",
-				"magnitude":"17.573849970874164",
 				"e_magnitude":"0.11406710550742172",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.573849970874164",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56332.5220641032",
 				"band":"u",
-				"magnitude":"17.040086387454476",
 				"e_magnitude":"0.027734738761532315",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.040086387454476",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56333.46598426323",
 				"band":"g",
-				"magnitude":"17.154526954195124",
 				"e_magnitude":"0.038927300276414806",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.154526954195124",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56333.46693428352",
 				"band":"r",
-				"magnitude":"17.41971253998806",
 				"e_magnitude":"0.0642559935787528",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.41971253998806",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56333.46785430318",
 				"band":"i",
-				"magnitude":"17.3764692193477",
 				"e_magnitude":"0.0732744817191405",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.3764692193477",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56333.46878432303",
 				"band":"z",
-				"magnitude":"17.55489540040556",
 				"e_magnitude":"0.11910106616770048",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.55489540040556",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56333.469994348874",
 				"band":"u",
-				"magnitude":"16.985443118608153",
 				"e_magnitude":"0.03090996939002791",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"16.985443118608153",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56334.44011506849",
 				"band":"g",
-				"magnitude":"17.20659351919855",
 				"e_magnitude":"0.05111737644219185",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.20659351919855",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56334.44106508878",
 				"band":"r",
-				"magnitude":"17.352003328625184",
 				"e_magnitude":"0.059383771404679604",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.352003328625184",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56334.44198510843",
 				"band":"i",
-				"magnitude":"17.361772667540468",
 				"e_magnitude":"0.08010212498292711",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.361772667540468",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56334.44290512808",
 				"band":"z",
-				"magnitude":"17.676582559979828",
 				"e_magnitude":"0.11269908474941427",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.676582559979828",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56334.44411515393",
 				"band":"u",
-				"magnitude":"17.11924388304905",
 				"e_magnitude":"0.04289322658558036",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.11924388304905",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56335.4574967975",
 				"band":"g",
-				"magnitude":"17.215087386303235",
 				"e_magnitude":"0.03997619733576638",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.215087386303235",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56335.45843681758",
 				"band":"r",
-				"magnitude":"17.448048268257214",
 				"e_magnitude":"0.07704053386483209",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.448048268257214",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56335.45935683723",
 				"band":"i",
-				"magnitude":"17.38238484020885",
 				"e_magnitude":"0.08384065326961809",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.38238484020885",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56335.46027685687",
 				"band":"z",
-				"magnitude":"17.632229182814545",
 				"e_magnitude":"0.1331239196089982",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.632229182814545",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56335.46148688272",
 				"band":"u",
-				"magnitude":"17.076705129130364",
 				"e_magnitude":"0.08039564855128455",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.076705129130364",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56336.42147738597",
 				"band":"g",
-				"magnitude":"17.211686558296954",
 				"e_magnitude":"0.07106201729092602",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.211686558296954",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56336.42241740606",
 				"band":"r",
-				"magnitude":"17.492756093841844",
 				"e_magnitude":"0.06739209036254208",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.492756093841844",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56336.4233374257",
 				"band":"i",
-				"magnitude":"17.391298516218693",
 				"e_magnitude":"0.08434976254776978",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.391298516218693",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56336.42425744535",
 				"band":"z",
-				"magnitude":"17.676582559979828",
 				"e_magnitude":"0.12670661465780522",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.676582559979828",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56336.4254674712",
 				"band":"u",
-				"magnitude":"17.160845841172943",
 				"e_magnitude":"0.08355572617181352",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.160845841172943",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56337.25562520151",
 				"band":"W1",
-				"magnitude":"17.266231481118613",
 				"e_magnitude":"0.060575585026732284",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.266231481118613",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56337.25702523142",
 				"band":"U",
-				"magnitude":"17.065036687954457",
 				"e_magnitude":"0.08297679268787199",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.065036687954457",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56337.25753524231",
 				"band":"B",
-				"magnitude":"17.060353933595938",
 				"e_magnitude":"0.11977836228053335",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.060353933595938",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56337.2580452532",
 				"band":"W2",
-				"magnitude":"17.74867554731685",
 				"e_magnitude":"0.06014007589410194",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.74867554731685",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56337.26036530275",
 				"band":"V",
-				"magnitude":"17.034828410313775",
 				"e_magnitude":"0.20544393824351134",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.034828410313775",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56337.26085531322",
 				"band":"M2",
-				"magnitude":"17.358141054977473",
 				"e_magnitude":"0.05133547944542891",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.358141054977473",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56342.32800353621",
 				"band":"W1",
-				"magnitude":"17.47582668183948",
 				"e_magnitude":"0.05272704053607131",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.47582668183948",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56342.33070359388",
 				"band":"U",
-				"magnitude":"17.294517630680918",
 				"e_magnitude":"0.0738378272814318",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.294517630680918",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56342.33164361396",
 				"band":"B",
-				"magnitude":"17.64011227242625",
 				"e_magnitude":"0.33433776936750975",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.64011227242625",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56342.414005373015",
 				"band":"W2",
-				"magnitude":"17.800532710128387",
 				"e_magnitude":"0.06024658849775561",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.800532710128387",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56342.41589541338",
 				"band":"V",
-				"magnitude":"17.30615762511249",
 				"e_magnitude":"0.273590922789113",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.30615762511249",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56342.41630542214",
 				"band":"M2",
-				"magnitude":"17.57424164742866",
 				"e_magnitude":"0.06917166769836405",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.57424164742866",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56344.51063015225",
 				"band":"g",
-				"magnitude":"17.57924912584368",
 				"e_magnitude":"0.0477966754966337",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.57924912584368",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56344.51157017233",
 				"band":"r",
-				"magnitude":"17.785907730944746",
 				"e_magnitude":"0.07973955212425868",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.785907730944746",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56344.51250019219",
 				"band":"i",
-				"magnitude":"17.638981670516394",
 				"e_magnitude":"0.08850904296611255",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.638981670516394",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56344.51343021206",
 				"band":"z",
-				"magnitude":"17.86928442273809",
 				"e_magnitude":"0.15083654302663657",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.86928442273809",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56344.514640237896",
 				"band":"u",
-				"magnitude":"17.466050635647278",
 				"e_magnitude":"0.022675346964591104",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.466050635647278",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56345.52782187719",
 				"band":"g",
-				"magnitude":"17.593160748726298",
 				"e_magnitude":"0.04815448535176329",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.593160748726298",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56345.52877189749",
 				"band":"r",
-				"magnitude":"17.81478590155319",
 				"e_magnitude":"0.07873081149564828",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.81478590155319",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56345.52968191692",
 				"band":"i",
-				"magnitude":"17.61134130153971",
 				"e_magnitude":"0.08672141435898174",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.61134130153971",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56345.530621937",
 				"band":"z",
-				"magnitude":"17.966573113342402",
 				"e_magnitude":"0.14137130322386027",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.966573113342402",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56345.53184196306",
 				"band":"u",
-				"magnitude":"17.443100707716695",
 				"e_magnitude":"0.04862132479301333",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.443100707716695",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56346.641005652324",
 				"band":"g",
-				"magnitude":"17.6764971289289",
 				"e_magnitude":"0.05228586882315455",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.6764971289289",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56346.64196567283",
 				"band":"r",
-				"magnitude":"17.950046141379403",
 				"e_magnitude":"0.08136515069362868",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.950046141379403",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56346.64287569226",
 				"band":"i",
-				"magnitude":"17.804695012553978",
 				"e_magnitude":"0.11333708329272654",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.804695012553978",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56346.64380571213",
 				"band":"z",
-				"magnitude":"18.209196753218592",
 				"e_magnitude":"0.22391679046177035",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.209196753218592",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56346.64501573797",
 				"band":"u",
-				"magnitude":"17.503677703837603",
 				"e_magnitude":"0.038302586093716846",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.503677703837603",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56347.56203532347",
 				"band":"g",
-				"magnitude":"17.701522339285184",
 				"e_magnitude":"0.04922798460835337",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.701522339285184",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56347.56298534375",
 				"band":"r",
-				"magnitude":"17.93247219429801",
 				"e_magnitude":"0.08587067000492737",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.93247219429801",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56347.56390536341",
 				"band":"i",
-				"magnitude":"17.800803669498368",
 				"e_magnitude":"0.09996047236686402",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.800803669498368",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56347.56482538306",
 				"band":"z",
-				"magnitude":"18.0605376789134",
 				"e_magnitude":"0.16595143495546855",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.0605376789134",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56347.56603540889",
 				"band":"u",
-				"magnitude":"17.518305429226135",
 				"e_magnitude":"0.044431406269857074",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.518305429226135",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56349.50719686778",
 				"band":"g",
-				"magnitude":"17.80258639807542",
 				"e_magnitude":"0.05417045873981716",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.80258639807542",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56349.50815688828",
 				"band":"r",
-				"magnitude":"18.162493579976587",
 				"e_magnitude":"0.1023292929196327",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.162493579976587",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56349.509076907925",
 				"band":"i",
-				"magnitude":"17.90136429718038",
 				"e_magnitude":"0.10800369349049842",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.90136429718038",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56349.50999692758",
 				"band":"z",
-				"magnitude":"18.271201093373868",
 				"e_magnitude":"0.20215150605701945",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.271201093373868",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56349.51121695364",
 				"band":"u",
-				"magnitude":"17.65288164195713",
 				"e_magnitude":"0.041909143616696475",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.65288164195713",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56356.37011344438",
 				"band":"g",
-				"magnitude":"18.121079737472932",
 				"e_magnitude":"0.066005154655715",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.121079737472932",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56356.37106346467",
 				"band":"r",
-				"magnitude":"18.49752605073571",
 				"e_magnitude":"0.13770364092292792",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.49752605073571",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56356.37198348432",
 				"band":"i",
-				"magnitude":"18.217961856005488",
 				"e_magnitude":"0.13887288182910348",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.217961856005488",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56356.37291350419",
 				"band":"z",
-				"magnitude":"18.733936202095755",
 				"e_magnitude":"0.31301550381419496",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.733936202095755",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56356.374123530026",
 				"band":"u",
-				"magnitude":"18.082281740774558",
 				"e_magnitude":"0.07484316327691438",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.082281740774558",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56358.354405824444",
 				"band":"g",
-				"magnitude":"18.193181761172156",
 				"e_magnitude":"0.0740006701920962",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.193181761172156",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56358.35535584474",
 				"band":"r",
-				"magnitude":"18.49752605073571",
 				"e_magnitude":"0.13770364092292792",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.49752605073571",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56358.35626586417",
 				"band":"i",
-				"magnitude":"18.25514089185481",
 				"e_magnitude":"0.1517874050664383",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.25514089185481",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56358.35720588425",
 				"band":"z",
-				"magnitude":"18.743166575344944",
 				"e_magnitude":"0.36399399295822993",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.743166575344944",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56358.35841591009",
 				"band":"u",
-				"magnitude":"17.971398868424707",
 				"e_magnitude":"0.06352563183697266",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"17.971398868424707",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56362.50709451662",
 				"band":"g",
-				"magnitude":"18.344280571542967",
 				"e_magnitude":"0.08452104400960038",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.344280571542967",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56362.508034536695",
 				"band":"r",
-				"magnitude":"18.813045147950252",
 				"e_magnitude":"0.19441041328263378",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.813045147950252",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56362.508954556346",
 				"band":"i",
-				"magnitude":"18.626322357304584",
 				"e_magnitude":"0.21186036159301258",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.626322357304584",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56362.50988457621",
 				"band":"z",
-				"magnitude":"18.849624706964285",
 				"e_magnitude":"0.3540693242097661",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.849624706964285",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56362.51109460206",
 				"band":"u",
-				"magnitude":"18.18926489104174",
 				"e_magnitude":"0.07985134739383856",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.18926489104174",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56363.56064701815",
 				"band":"W1",
-				"magnitude":"18.520446482064436",
 				"e_magnitude":"0.08686528760635116",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.520446482064436",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56363.61528818517",
 				"band":"U",
-				"magnitude":"18.43737743218836",
 				"e_magnitude":"0.18096786674625653",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.43737743218836",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56363.61573819478",
 				"band":"B",
-				"magnitude":"18.25361956158718",
 				"e_magnitude":"0.26681276936726483",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.25361956158718",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56363.61620820482",
 				"band":"W2",
-				"magnitude":"18.733382830138222",
 				"e_magnitude":"0.0927807081109751",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.733382830138222",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56363.618718258425",
 				"band":"M2",
-				"magnitude":"18.66072848602229",
 				"e_magnitude":"0.08277825522069206",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.66072848602229",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56366.38494733891",
 				"band":"g",
-				"magnitude":"18.436397718299393",
 				"e_magnitude":"0.12466742016694847",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.436397718299393",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56366.385887358985",
 				"band":"r",
-				"magnitude":"19.280400002384315",
 				"e_magnitude":"0.3121827657565897",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.280400002384315",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56366.386807378636",
 				"band":"i",
-				"magnitude":"18.836753811560463",
 				"e_magnitude":"0.2668940201467525",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.836753811560463",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56366.38772739829",
 				"band":"z",
-				"magnitude":"19.02352040456095",
 				"e_magnitude":"0.4312666217129557",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.02352040456095",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56366.38893742413",
 				"band":"u",
-				"magnitude":"18.495326244829503",
 				"e_magnitude":"0.1673459839748551",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.495326244829503",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56368.3956902839",
 				"band":"g",
-				"magnitude":"18.58898167051638",
 				"e_magnitude":"0.11267737453519314",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.58898167051638",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56368.39664030419",
 				"band":"r",
-				"magnitude":"19.16120738354912",
 				"e_magnitude":"0.2605524349629289",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.16120738354912",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56368.39756032384",
 				"band":"i",
-				"magnitude":"18.670115893349863",
 				"e_magnitude":"0.22584477474167772",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.670115893349863",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56368.39969036933",
 				"band":"u",
-				"magnitude":"18.280567101124326",
 				"e_magnitude":"0.07346557055877949",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.280567101124326",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56368.87079043098",
 				"band":"W1",
-				"magnitude":"18.577535793634915",
 				"e_magnitude":"0.1308653532947168",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.577535793634915",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56368.87170045042",
 				"band":"U",
-				"magnitude":"18.526686780830822",
 				"e_magnitude":"0.2295028994653652",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.526686780830822",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56368.872410465585",
 				"band":"W2",
-				"magnitude":"18.964393726401685",
 				"e_magnitude":"0.11573511690040589",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.964393726401685",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56368.87391049762",
 				"band":"V",
-				"magnitude":"17.768945221164604",
 				"e_magnitude":"0.4543591945478591",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"17.768945221164604",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56368.87426050509",
 				"band":"M2",
-				"magnitude":"18.693382830138223",
 				"e_magnitude":"0.11346050265310544",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.693382830138223",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56370.40835326989",
 				"band":"g",
-				"magnitude":"18.708666884269352",
 				"e_magnitude":"0.10308697619349552",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.708666884269352",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56370.40930329019",
 				"band":"r",
-				"magnitude":"19.370364772088585",
 				"e_magnitude":"0.2955003739205738",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.370364772088585",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56370.41022330984",
 				"band":"i",
-				"magnitude":"18.78681622715009",
 				"e_magnitude":"0.24914509344187014",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.78681622715009",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56370.41114332948",
 				"band":"z",
-				"magnitude":"18.82955871835693",
 				"e_magnitude":"0.3827377313444254",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.82955871835693",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56370.41235335533",
 				"band":"u",
-				"magnitude":"18.444845484772713",
 				"e_magnitude":"0.07151228988621086",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.444845484772713",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56373.01177887326",
 				"band":"W1",
-				"magnitude":"18.774657678298905",
 				"e_magnitude":"0.08983618410645529",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.774657678298905",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56373.014988941824",
 				"band":"U",
-				"magnitude":"18.43737743218836",
 				"e_magnitude":"0.12306969281204555",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.43737743218836",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56373.01609896553",
 				"band":"B",
-				"magnitude":"18.983585512915283",
 				"e_magnitude":"0.32139513177612594",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.983585512915283",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56373.01720898924",
 				"band":"W2",
-				"magnitude":"18.97551054431193",
 				"e_magnitude":"0.06483848601514432",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.97551054431193",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56373.02361912614",
 				"band":"M2",
-				"magnitude":"18.94663886200095",
 				"e_magnitude":"0.07488798769290914",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.94663886200095",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56373.87830738038",
 				"band":"W1",
-				"magnitude":"18.809979521508293",
 				"e_magnitude":"0.09031016216741396",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.809979521508293",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56373.88144744744",
 				"band":"U",
-				"magnitude":"18.572279598975076",
 				"e_magnitude":"0.1287544298562235",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.572279598975076",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56373.88253747072",
 				"band":"B",
-				"magnitude":"18.983585512915283",
 				"e_magnitude":"0.32139513177612594",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.983585512915283",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56373.88362749401",
 				"band":"W2",
-				"magnitude":"19.02009412798641",
 				"e_magnitude":"0.07514315640654684",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.02009412798641",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56373.88991762835",
 				"band":"M2",
-				"magnitude":"18.791843622431767",
 				"e_magnitude":"0.0639586551780187",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.791843622431767",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56374.476630159224",
 				"band":"g",
-				"magnitude":"18.826582559979812",
 				"e_magnitude":"0.11269908474941263",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.826582559979812",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56374.4775701793",
 				"band":"r",
-				"magnitude":"19.803941782682823",
 				"e_magnitude":"0.4209410381540736",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.803941782682823",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56374.47851019938",
 				"band":"i",
-				"magnitude":"18.888803935162137",
 				"e_magnitude":"0.2504641551298512",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.888803935162137",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56374.48066024529",
 				"band":"u",
-				"magnitude":"18.65040435735881",
 				"e_magnitude":"0.04772835159883549",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.65040435735881",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56376.38638094724",
 				"band":"g",
-				"magnitude":"19.081728118824355",
 				"e_magnitude":"0.1415706174851416",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.081728118824355",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56376.390381032674",
 				"band":"u",
-				"magnitude":"18.851053876979933",
 				"e_magnitude":"0.07031059954860854",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.851053876979933",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56378.473165516305",
 				"band":"g",
-				"magnitude":"19.05737348502942",
 				"e_magnitude":"0.1429269626833682",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.05737348502942",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56378.474125536806",
 				"band":"r",
-				"magnitude":"19.467615915859295",
 				"e_magnitude":"0.32160015368877093",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.467615915859295",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56378.47505555667",
 				"band":"i",
-				"magnitude":"19.441340234486088",
 				"e_magnitude":"0.4162357355141863",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.441340234486088",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56378.47718560217",
 				"band":"u",
-				"magnitude":"18.88279570459542",
 				"e_magnitude":"0.07807534501669004",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.88279570459542",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56378.67067973477",
 				"band":"W1",
-				"magnitude":"18.929031944541677",
 				"e_magnitude":"0.12546789521978433",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.929031944541677",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56378.67216976659",
 				"band":"U",
-				"magnitude":"18.86151026587542",
 				"e_magnitude":"0.22655891571564413",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.86151026587542",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56378.67269977791",
 				"band":"B",
-				"magnitude":"18.69351938517342",
 				"e_magnitude":"0.37461615844684276",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.69351938517342",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56378.67324978967",
 				"band":"W2",
-				"magnitude":"19.08733333839825",
 				"e_magnitude":"0.09584884684019376",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.08733333839825",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56378.676249853735",
 				"band":"M2",
-				"magnitude":"18.93551054431193",
 				"e_magnitude":"0.09476556482344424",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.93551054431193",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56384.270839341705",
 				"band":"M2",
-				"magnitude":"19.160446482064433",
 				"e_magnitude":"0.11863259279873532",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.160446482064433",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56384.27197936605",
 				"band":"U",
-				"magnitude":"19.12909342290862",
 				"e_magnitude":"0.3074617447397375",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.12909342290862",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56384.27284938463",
 				"band":"W2",
-				"magnitude":"19.132415329368534",
 				"e_magnitude":"0.1177302227485846",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.132415329368534",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56384.27472942478",
 				"band":"W1",
-				"magnitude":"19.099519662509145",
 				"e_magnitude":"0.16487458562402282",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.099519662509145",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56386.42907543681",
 				"band":"g",
-				"magnitude":"19.210537678913376",
 				"e_magnitude":"0.15689335047058633",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.210537678913376",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56386.430955476964",
 				"band":"i",
-				"magnitude":"19.372986230184278",
 				"e_magnitude":"0.4129654525351069",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.372986230184278",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56386.43498556304",
 				"band":"u",
-				"magnitude":"19.07097439458681",
 				"e_magnitude":"0.07986453567448216",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.07097439458681",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56388.43132820047",
 				"band":"g",
-				"magnitude":"19.215956419799326",
 				"e_magnitude":"0.1575790200419733",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.215956419799326",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56388.4331882402",
 				"band":"i",
-				"magnitude":"19.544299149401258",
 				"e_magnitude":"0.4678946288526317",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.544299149401258",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56388.43531828569",
 				"band":"u",
-				"magnitude":"19.023441089062654",
 				"e_magnitude":"0.0995517301981009",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.023441089062654",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56389.53315173296",
 				"band":"g",
-				"magnitude":"19.347143731918752",
 				"e_magnitude":"0.18023625403852964",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.347143731918752",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56389.53505177355",
 				"band":"i",
-				"magnitude":"18.37336691638749",
 				"e_magnitude":"0.17190711397062006",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"18.37336691638749",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56389.53813183933",
 				"band":"u",
-				"magnitude":"19.090269385398823",
 				"e_magnitude":"0.09717583977988889",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.090269385398823",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56389.804647531506",
 				"band":"M2",
-				"magnitude":"19.47362501930452",
 				"e_magnitude":"0.12362671207313622",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.47362501930452",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56389.806187564405",
 				"band":"U",
-				"magnitude":"19.073176776735277",
 				"e_magnitude":"0.2636599832208013",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.073176776735277",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56389.80729758811",
 				"band":"W2",
-				"magnitude":"19.349687312930126",
 				"e_magnitude":"0.11043517042967695",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.349687312930126",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56389.80984764257",
 				"band":"W1",
-				"magnitude":"19.149153910959875",
 				"e_magnitude":"0.14280789855119475",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.149153910959875",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56389.81039765432",
 				"band":"B",
-				"magnitude":"18.323854659655694",
 				"e_magnitude":"0.27742852533045004",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.323854659655694",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56394.67501155163",
 				"band":"W1",
-				"magnitude":"19.71762685455416",
 				"e_magnitude":"0.17722869684161435",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.71762685455416",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56394.67694159285",
 				"band":"U",
-				"magnitude":"19.054828410313778",
 				"e_magnitude":"0.22742937780193342",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.054828410313778",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56394.6783016219",
 				"band":"W2",
-				"magnitude":"19.621055051628804",
 				"e_magnitude":"0.11493341946126244",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.621055051628804",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56394.68216170434",
 				"band":"M2",
-				"magnitude":"19.641514786303848",
 				"e_magnitude":"0.11610499534846418",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.641514786303848",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56396.3945482771",
 				"band":"g",
-				"magnitude":"19.052554171399578",
 				"e_magnitude":"0.1848262618410008",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.052554171399578",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56396.398558362744",
 				"band":"u",
-				"magnitude":"19.29110540368163",
 				"e_magnitude":"0.23865915834927065",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.29110540368163",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56397.38826950077",
 				"band":"g",
-				"magnitude":"19.569169203846908",
 				"e_magnitude":"0.2654278278742274",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.569169203846908",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56397.392269586206",
 				"band":"u",
-				"magnitude":"19.6499641947092",
 				"e_magnitude":"0.2663706098639765",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.6499641947092",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56397.8762899238",
 				"band":"W1",
-				"magnitude":"19.70349423438739",
 				"e_magnitude":"0.18911246288402944",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.70349423438739",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56397.87782995669",
 				"band":"U",
-				"magnitude":"19.305629349911655",
 				"e_magnitude":"0.2935057588396524",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.305629349911655",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56397.87837996844",
 				"band":"B",
-				"magnitude":"18.47286251557053",
 				"e_magnitude":"0.3024067512118144",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.47286251557053",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56397.87891997998",
 				"band":"W2",
-				"magnitude":"19.621055051628804",
 				"e_magnitude":"0.12571201084215855",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.621055051628804",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56397.88202004618",
 				"band":"M2",
-				"magnitude":"19.58105505162881",
 				"e_magnitude":"0.12571201084215863",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.58105505162881",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56403.22263410979",
 				"band":"W1",
-				"magnitude":"20.254635941026784",
 				"e_magnitude":"0.3587951404049877",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"20.254635941026784",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56403.41595823877",
 				"band":"g",
-				"magnitude":"19.688816044502218",
 				"e_magnitude":"0.23925610191056465",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.688816044502218",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56403.419968324415",
 				"band":"u",
-				"magnitude":"19.59678610705694",
 				"e_magnitude":"0.15629082334422775",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.59678610705694",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56404.49733133449",
 				"band":"g",
-				"magnitude":"19.635059717596445",
 				"e_magnitude":"0.22868995664567612",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.635059717596445",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56404.5032314605",
 				"band":"u",
-				"magnitude":"19.54755194652041",
 				"e_magnitude":"0.11740933691207359",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.54755194652041",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56404.539672238796",
 				"band":"W1",
-				"magnitude":"19.967009013859766",
 				"e_magnitude":"0.3092130393199306",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.967009013859766",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56404.54097226656",
 				"band":"B",
-				"magnitude":"18.396832455612486",
 				"e_magnitude":"0.35893688844490335",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"18.396832455612486",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56404.541332274246",
 				"band":"W2",
-				"magnitude":"19.489979521508285",
 				"e_magnitude":"0.14673011344838094",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.489979521508285",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56404.54322231461",
 				"band":"M2",
-				"magnitude":"19.605169207369777",
 				"e_magnitude":"0.16111658171049872",
 				"instrument":"UVOT",
-				"source":"1"
+				"magnitude":"19.605169207369777",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56405.441341496444",
 				"band":"g",
-				"magnitude":"19.612710222652787",
 				"e_magnitude":"0.2066154684485747",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.612710222652787",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
-				"timeunit":"MJD",
 				"time":"56405.445351582086",
 				"band":"u",
-				"magnitude":"19.64483098875588",
 				"e_magnitude":"0.13165172887020896",
 				"instrument":"SDSS",
-				"source":"1"
+				"magnitude":"19.64483098875588",
+				"u_time":"MJD",
+				"source":"2"
 			}
 		]
 	}

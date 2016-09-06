@@ -1,55 +1,86 @@
 {
 	"NGC 2110":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"NGC 2110",
-		"aliases":[
-			"NGC 2110"
-		],
 		"sources":[
 			{
-				"name":"<a href='http://adsabs.harvard.edu/abs/2007ApJ...668L..31M'>Moran et al. 2007</a>*",
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"2007ApJ...668L..31M",
+				"bibcode":"2007ApJ...668L..31M",
+				"reference":"Moran et al. (2007)",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"NGC 2110",
+				"source":"2"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/2007ApJ...668L..31M'>Moran et al. 2007</a>*",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"No claim",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"33.48",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"host":[
 			{
-				"value":"<a href='http://goo.gl/hnYzAb'>NGC 2110</a>",
-				"source":"1"
-			}
-		],
-		"hvel":[
-			{
-				"value":"2264",
-				"source":"D"
+				"value":"NGC 2110",
+				"source":"2"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"33.74",
-				"source":"D"
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"notes":[
 			{
 				"value":"Transient \\({\\rm H}\\alpha\\) feature",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.007579",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"velocity":[
+			{
+				"value":"2264",
+				"u_value":"km/s",
+				"source":"3"
 			}
 		]
 	}

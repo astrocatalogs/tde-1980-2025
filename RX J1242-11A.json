@@ -1,49 +1,96 @@
 {
 	"RX J1242-11A":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"RX J1242-11A",
-		"aliases":[
-			"RX J1242-11A"
-		],
 		"sources":[
 			{
-				"name":"<a href='http://adsabs.harvard.edu/abs/1999A%26A...349L..45K'>Komossa and Greiner 1999</a>*&Dagger;",
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"1999A&A...349L..45K",
+				"bibcode":"1999A&A...349L..45K",
+				"reference":"Komossa & Greiner (1999)",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"RX J1242-11A",
+				"source":"2"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/1999A%26A...349L..45K'>Komossa and Greiner 1999</a>*&Dagger;",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"TDE",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"200",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"host":[
 			{
-				"value":"<a href='http://goo.gl/xs7zAk'>RX J1242.6-1119A</a>",
-				"source":"1"
+				"value":"RX J1242.6-1119A",
+				"source":"2"
 			}
 		],
-		"hvel":[
+		"hostdec":[
 			{
-				"value":"10000",
-				"source":"D"
+				"value":"-11:19:0A",
+				"derived":true,
+				"u_value":"degrees",
+				"source":"3"
+			}
+		],
+		"hostra":[
+			{
+				"value":"12:42:6",
+				"derived":true,
+				"u_value":"hours",
+				"source":"3"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"200",
-				"source":"D"
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.05",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"velocity":[
+			{
+				"value":"10000",
+				"u_value":"km/s",
+				"source":"3"
 			}
 		]
 	}

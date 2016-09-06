@@ -1,49 +1,80 @@
 {
 	"NGC 5905":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"NGC 5905",
-		"aliases":[
-			"NGC 5905"
-		],
 		"sources":[
 			{
-				"name":"and Dahlem 1996</a>*&Dagger;",
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"1996A&A...309L..35B",
+				"bibcode":"1996A&A...309L..35B",
+				"reference":"Bade, Komossa, & Dahlem (1996)",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"NGC 5905",
+				"source":"2"
 			}
 		],
 		"citations":[
 			{
-				"value":"<a href='http://adsabs.harvard.edu/abs/1996A%26A...309L..35B'>Bade, Komossa, and Dahlem 1996</a>*&Dagger;",
-				"source":"1"
+				"value":"<a href='http://adsabs.harvard.edu/abs/1996A%26A...309L..35B'>Bade et al. 1996</a>*&Dagger;",
+				"source":"2"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"TDE",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"49.61",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"host":[
 			{
-				"value":"<a href='http://goo.gl/L5Nriq'>NGC 5905</a>",
-				"source":"1"
-			}
-		],
-		"hvel":[
-			{
-				"value":"3351",
-				"source":"D"
+				"value":"NGC 5905",
+				"source":"2"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"50.17",
-				"source":"D"
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.01124",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"velocity":[
+			{
+				"value":"3351",
+				"u_value":"km/s",
+				"source":"3"
 			}
 		]
 	}

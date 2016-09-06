@@ -1,49 +1,96 @@
 {
 	"RX J1624+75":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"RX J1624+75",
-		"aliases":[
-			"RX J1624+75"
-		],
 		"sources":[
 			{
-				"name":"and Leighly 1999</a>*&Dagger;",
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"1999A&A...350L..31G",
+				"bibcode":"1999A&A...350L..31G",
+				"reference":"Grupe, Thomas, & Leighly (1999)",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"RX J1624+75",
+				"source":"2"
 			}
 		],
 		"citations":[
 			{
-				"value":"<a href='http://adsabs.harvard.edu/abs/1999A%26A...350L..31G'>Grupe, Thomas, and Leighly 1999</a>*&Dagger;",
-				"source":"1"
+				"value":"<a href='http://adsabs.harvard.edu/abs/1999A%26A...350L..31G'>Grupe et al. Leighly 1999</a>*&Dagger;",
+				"source":"2"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"TDE",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"277",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"host":[
 			{
-				"value":"<a href='http://goo.gl/xcdBKe'>RX J1624.9+7554</a>",
-				"source":"1"
+				"value":"RX J1624.9+7554",
+				"source":"2"
 			}
 		],
-		"hvel":[
+		"hostdec":[
 			{
-				"value":"18500",
-				"source":"D"
+				"value":"+75:54:00",
+				"derived":true,
+				"u_value":"degrees",
+				"source":"3"
+			}
+		],
+		"hostra":[
+			{
+				"value":"16:24:9",
+				"derived":true,
+				"u_value":"hours",
+				"source":"3"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"295",
-				"source":"D"
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0636",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"velocity":[
+			{
+				"value":"18500",
+				"u_value":"km/s",
+				"source":"3"
 			}
 		]
 	}

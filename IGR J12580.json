@@ -1,49 +1,80 @@
 {
 	"IGR J12580":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"IGR J12580",
-		"aliases":[
-			"IGR J12580"
-		],
 		"sources":[
 			{
-				"name":"<a href='http://adsabs.harvard.edu/abs/2013A%26A...552A..75N'>Niko&#322;ajuk and Walter 2013</a>*&Dagger;",
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"2013A&A...552A..75N",
+				"bibcode":"2013A&A...552A..75N",
+				"reference":"Nikołajuk & Walter (2013)",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"IGR J12580",
+				"source":"2"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/2013A%26A...552A..75N'>Niko&#322;ajuk and Walter 2013</a>*&Dagger;",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Planet + SMBH",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"18.2",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"host":[
 			{
-				"value":"<a href='http://goo.gl/n8lPvD'>NGC 4845</a>",
-				"source":"1"
-			}
-		],
-		"hvel":[
-			{
-				"value":"1230",
-				"source":"D"
+				"value":"NGC 4845",
+				"source":"2"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"18.2",
-				"source":"D"
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.00411",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"velocity":[
+			{
+				"value":"1230",
+				"u_value":"km/s",
+				"source":"3"
 			}
 		]
 	}

@@ -1,49 +1,96 @@
 {
 	"RBS 1032":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"RBS 1032",
-		"aliases":[
-			"RBS 1032"
-		],
 		"sources":[
 			{
-				"name":"<a href='http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1407.2928'>Maksym et al. 2015</a>*&Dagger;",
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"2014ApJ...792L..29M",
+				"bibcode":"2014ApJ...792L..29M",
+				"reference":"Maksym, Lin, & Irwin (2014)",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"RBS 1032",
+				"source":"2"
 			}
 		],
 		"citations":[
 			{
-				"value":"<a href='http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1407.2928'>Maksym et al. 2015</a>*&Dagger;",
-				"source":"1"
+				"value":"<a href='http://adsabs.harvard.edu/abs/2014ApJ...792L..29M'>Maksym et al. 2014</a>*&Dagger;",
+				"source":"2"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"TDE",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"110",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"host":[
 			{
-				"value":"<a href='http://goo.gl/NN9wNv'>SDSS J114726.69+494257.8</a>",
-				"source":"1"
+				"value":"SDSS J114726.69+494257.8",
+				"source":"2"
 			}
 		],
-		"hvel":[
+		"hostdec":[
 			{
-				"value":"7700",
-				"source":"D"
+				"value":"+49:42:57.8",
+				"derived":true,
+				"u_value":"degrees",
+				"source":"3"
+			}
+		],
+		"hostra":[
+			{
+				"value":"11:47:26.69",
+				"derived":true,
+				"u_value":"hours",
+				"source":"3"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"120",
-				"source":"D"
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.026",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"velocity":[
+			{
+				"value":"7700",
+				"u_value":"km/s",
+				"source":"3"
 			}
 		]
 	}

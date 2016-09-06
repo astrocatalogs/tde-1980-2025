@@ -1,55 +1,86 @@
 {
 	"2MASX J0249":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"2MASX J0249",
-		"aliases":[
-			"2MASX J0249"
-		],
 		"sources":[
 			{
-				"name":"<a href='http://adsabs.harvard.edu/abs/2007A%26A...462L..49E'>Esquej et al. 2007</a>*&Dagger;",
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"2007A&A...462L..49E",
+				"bibcode":"2007A&A...462L..49E",
+				"reference":"Esquej et al. (2007)",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"2MASX J0249",
+				"source":"2"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/2007A%26A...462L..49E'>Esquej et al. 2007</a>*&Dagger;",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"TDE",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"82",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"host":[
 			{
-				"value":"<a href='http://goo.gl/Q223J6'>2MASX J02491731&#8209;0412521</a>",
-				"source":"1"
-			}
-		],
-		"hvel":[
-			{
-				"value":"5520",
-				"source":"D"
+				"value":"2MASX J02491731&#8209;0412521",
+				"source":"2"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"83.5",
-				"source":"D"
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"notes":[
 			{
 				"value":"Star-forming host, possibly pre-TDE AGN",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0186",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"velocity":[
+			{
+				"value":"5520",
+				"u_value":"km/s",
+				"source":"3"
 			}
 		]
 	}

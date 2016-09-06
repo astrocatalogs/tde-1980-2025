@@ -1,13 +1,33 @@
 {
 	"PGC 1190358":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"PGC 1190358",
-		"aliases":[
-			"PGC 1190358"
-		],
 		"sources":[
 			{
-				"name":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
+				"name":"2015arXiv150506612H",
+				"bibcode":"2015arXiv150506612H",
+				"reference":"Hryniewicz & Walter (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"PGC 1190358",
+				"source":"1"
 			}
 		],
 		"citations":[
@@ -22,28 +42,39 @@
 				"source":"1"
 			}
 		],
-		"host":[
+		"comovingdist":[
 			{
-				"value":"<a href='http://goo.gl/8DcAfL'>N5846-162</a>",
-				"source":"1"
+				"value":"33.8",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
-		"hvel":[
+		"host":[
 			{
-				"value":"2290",
-				"source":"D"
+				"value":"N5846-162",
+				"source":"1"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"34.1",
-				"source":"D"
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.00766",
 				"source":"1"
+			}
+		],
+		"velocity":[
+			{
+				"value":"2290",
+				"u_value":"km/s",
+				"source":"3"
 			}
 		]
 	}

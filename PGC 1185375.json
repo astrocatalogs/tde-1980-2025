@@ -1,13 +1,33 @@
 {
 	"PGC 1185375":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"PGC 1185375",
-		"aliases":[
-			"PGC 1185375"
-		],
 		"sources":[
 			{
-				"name":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
+				"name":"2015arXiv150506612H",
+				"bibcode":"2015arXiv150506612H",
+				"reference":"Hryniewicz & Walter (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"PGC 1185375",
+				"source":"1"
 			}
 		],
 		"citations":[
@@ -22,28 +42,55 @@
 				"source":"1"
 			}
 		],
+		"comovingdist":[
+			{
+				"value":"23.1",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
+			}
+		],
 		"host":[
 			{
-				"value":"<a href='http://goo.gl/nI4EGv'>2MASX J15035028+0107366</a>",
+				"value":"2MASX J15035028+0107366",
 				"source":"1"
 			}
 		],
-		"hvel":[
+		"hostdec":[
 			{
-				"value":"1560",
-				"source":"D"
+				"value":"+01:07:36.6",
+				"derived":true,
+				"u_value":"degrees",
+				"source":"3"
+			}
+		],
+		"hostra":[
+			{
+				"value":"15:03:50.28",
+				"derived":true,
+				"u_value":"hours",
+				"source":"3"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"23.2",
-				"source":"D"
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.00523",
 				"source":"1"
+			}
+		],
+		"velocity":[
+			{
+				"value":"1560",
+				"u_value":"km/s",
+				"source":"3"
 			}
 		]
 	}

@@ -1,18 +1,18 @@
 {
-	"PGC 1127938":{
+	"SDSSJ1241":{
 		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
-		"name":"PGC 1127938",
+		"name":"SDSSJ1241",
 		"sources":[
-			{
-				"name":"2015arXiv150506612H",
-				"bibcode":"2015arXiv150506612H",
-				"reference":"Hryniewicz & Walter (2015)",
-				"alias":"1"
-			},
 			{
 				"name":"2015arXiv150201589P",
 				"bibcode":"2015arXiv150201589P",
 				"reference":"Planck Collaboration et al. (2015)",
+				"alias":"1"
+			},
+			{
+				"name":"2012ApJ...749..115W",
+				"bibcode":"2012ApJ...749..115W",
+				"reference":"Wang et al. (2012)",
 				"alias":"2"
 			},
 			{
@@ -26,25 +26,25 @@
 		],
 		"alias":[
 			{
-				"value":"PGC 1127938",
-				"source":"1"
+				"value":"SDSSJ1241",
+				"source":"2"
 			}
 		],
 		"citations":[
 			{
-				"value":"<a href='http://adsabs.harvard.edu/abs/2015arXiv150506612H'>Hryniewicz and Walter 2015</a>*&Dagger;",
-				"source":"1"
+				"value":"<a href='http://adsabs.harvard.edu/abs/2012ApJ...749..115W'>Wang et al. 2012</a>*&Dagger;",
+				"source":"2"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"TDE",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"comovingdist":[
 			{
-				"value":"90",
+				"value":"184",
 				"derived":true,
 				"u_value":"Mpc",
 				"source":"1,2,3"
@@ -52,13 +52,13 @@
 		],
 		"host":[
 			{
-				"value":"2SLAQ J011844.35-010906.8",
-				"source":"1"
+				"value":"SDSS J124134.25+442639.2",
+				"source":"2"
 			}
 		],
 		"hostdec":[
 			{
-				"value":"-01:09:06.8",
+				"value":"+44:26:39.2",
 				"derived":true,
 				"u_value":"degrees",
 				"source":"3"
@@ -66,7 +66,7 @@
 		],
 		"hostra":[
 			{
-				"value":"01:18:44.35",
+				"value":"12:41:34.25",
 				"derived":true,
 				"u_value":"hours",
 				"source":"3"
@@ -74,7 +74,7 @@
 		],
 		"lumdist":[
 			{
-				"value":"90",
+				"value":"191",
 				"derived":true,
 				"u_value":"Mpc",
 				"source":"1,2,3"
@@ -82,13 +82,13 @@
 		],
 		"redshift":[
 			{
-				"value":"0.02",
-				"source":"1"
+				"value":"0.0419",
+				"source":"2"
 			}
 		],
 		"velocity":[
 			{
-				"value":"6000",
+				"value":"12300",
 				"u_value":"km/s",
 				"source":"3"
 			}

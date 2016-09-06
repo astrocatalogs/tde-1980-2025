@@ -1,13 +1,33 @@
 {
 	"3XMM J152130.7+074916":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
 		"name":"3XMM J152130.7+074916",
-		"aliases":[
-			"3XMM J152130.7+074916"
-		],
 		"sources":[
 			{
-				"name":"<a href='http://adsabs.harvard.edu/abs/2015ApJ...811...43L'>Lin et al. 2015</a>*&Dagger;",
+				"name":"2015ApJ...811...43L",
+				"bibcode":"2015ApJ...811...43L",
+				"reference":"Lin et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"reference":"Planck Collaboration et al. (2015)",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2016arXiv160501054G",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"3XMM J152130.7+074916",
+				"source":"1"
 			}
 		],
 		"citations":[
@@ -22,22 +42,42 @@
 				"source":"1"
 			}
 		],
+		"comovingdist":[
+			{
+				"value":"758.44",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
+			}
+		],
 		"host":[
 			{
-				"value":"<a href='http://goo.gl/BSPj6n'>SDSS J152130.72+074916.5</a>",
+				"value":"SDSS J152130.72+074916.5",
 				"source":"1"
 			}
 		],
-		"hvel":[
+		"hostdec":[
 			{
-				"value":"48927",
-				"source":"D"
+				"value":"+07:49:16.5",
+				"derived":true,
+				"u_value":"degrees",
+				"source":"3"
+			}
+		],
+		"hostra":[
+			{
+				"value":"15:21:30.72",
+				"derived":true,
+				"u_value":"hours",
+				"source":"3"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"894.21",
-				"source":"D"
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"nh":[
@@ -50,6 +90,13 @@
 			{
 				"value":"0.17901",
 				"source":"1"
+			}
+		],
+		"velocity":[
+			{
+				"value":"48927",
+				"u_value":"km/s",
+				"source":"3"
 			}
 		]
 	}
