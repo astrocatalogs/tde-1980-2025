@@ -1,6 +1,6 @@
 {
 	"2MASX J0203":{
-		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob/5e77bae/SCHEMA.md",
 		"name":"2MASX J0203",
 		"sources":[
 			{
@@ -16,18 +16,22 @@
 				"alias":"2"
 			},
 			{
+				"name":"Open TDE Catalog",
+				"alias":"3"
+			},
+			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2016arXiv160501054G",
 				"reference":"Guillochon, Parrent, & Margutti (2016)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"3"
+				"alias":"4"
 			}
 		],
 		"alias":[
 			{
 				"value":"2MASX J0203",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"citations":[
@@ -47,13 +51,38 @@
 				"value":"268",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
+			}
+		],
+		"discoverdate":[
+			{
+				"value":"2004/01/14",
+				"derived":true,
+				"source":"3,4"
 			}
 		],
 		"host":[
 			{
 				"value":"2MASX J02030314&#8209;0741514",
 				"source":"2"
+			},
+			{
+				"value":"2MASX J02030314-0741514",
+				"source":"3"
+			}
+		],
+		"hostdec":[
+			{
+				"value":"-07:41:51.41",
+				"u_value":"degrees",
+				"source":"3"
+			}
+		],
+		"hostra":[
+			{
+				"value":"02:03:03.14",
+				"u_value":"hours",
+				"source":"3"
 			}
 		],
 		"lumdist":[
@@ -61,7 +90,7 @@
 				"value":"285",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"notes":[
@@ -73,13 +102,131 @@
 		"redshift":[
 			{
 				"value":"0.0615",
-				"source":"2"
+				"source":"2,3"
 			}
 		],
 		"velocity":[
 			{
 				"value":"17900",
 				"u_value":"km/s",
+				"source":"4"
+			}
+		],
+		"photometry":[
+			{
+				"time":[
+					"48258.1",
+					"48258.104"
+				],
+				"counts":"0.0262948",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"7.55E-14",
+				"luminosity":"6.87E+41",
+				"nhmw":"0.02",
+				"photonindex":"4.5",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"3"
+			},
+			{
+				"time":[
+					"53018",
+					"53018.029"
+				],
+				"counts":"0.00893",
+				"e_counts":"0.002",
+				"e_lower_flux":"3.79E-15",
+				"e_lower_luminosity":"3.45E+40",
+				"e_upper_flux":"5.98E-15",
+				"e_upper_luminosity":"5.44E+40",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"4.90E-15",
+				"luminosity":"4.45E+40",
+				"nhmw":"0.02",
+				"photonindex":"4.5",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":[
+					"53919.2",
+					"53919.310"
+				],
+				"counts":"0.220145",
+				"e_counts":"0.00558891",
+				"e_lower_flux":"2.40E-13",
+				"e_lower_luminosity":"2.18E+42",
+				"e_upper_flux":"2.63E-13",
+				"e_upper_luminosity":"2.39E+42",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"2.52E-13",
+				"luminosity":"2.29E+42",
+				"nhmw":"0.02",
+				"photonindex":"1.62",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":[
+					"54527",
+					"54527.042"
+				],
+				"counts":"0.0363467",
+				"e_counts":"0.00340988",
+				"e_lower_flux":"3.99E-13",
+				"e_lower_luminosity":"3.62E+42",
+				"e_upper_flux":"5.27E-13",
+				"e_upper_luminosity":"4.79E+42",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"4.61E-13",
+				"luminosity":"4.19E+42",
+				"nhmw":"0.02",
+				"photonindex":"1.28",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":[
+					"54755.8",
+					"54755.865"
+				],
+				"counts":"0.034657",
+				"e_counts":"0.00267766",
+				"e_lower_flux":"3.47E-13",
+				"e_lower_luminosity":"3.16E+42",
+				"e_upper_flux":"4.63E-13",
+				"e_upper_luminosity":"4.21E+42",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"4.01E-13",
+				"luminosity":"3.65E+42",
+				"nhmw":"0.02",
+				"photonindex":"1.4",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
 				"source":"3"
 			}
 		]

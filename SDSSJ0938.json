@@ -1,6 +1,6 @@
 {
 	"SDSSJ0938":{
-		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob/5e77bae/SCHEMA.md",
 		"name":"SDSSJ0938",
 		"sources":[
 			{
@@ -16,18 +16,22 @@
 				"alias":"2"
 			},
 			{
+				"name":"Open TDE Catalog",
+				"alias":"3"
+			},
+			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2016arXiv160501054G",
 				"reference":"Guillochon, Parrent, & Margutti (2016)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"3"
+				"alias":"4"
 			}
 		],
 		"alias":[
 			{
 				"value":"SDSSJ0938",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"citations":[
@@ -47,19 +51,18 @@
 				"value":"434.7",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"host":[
 			{
 				"value":"SDSS J093801.64+135317.0",
-				"source":"2"
+				"source":"2,3"
 			}
 		],
 		"hostdec":[
 			{
-				"value":"+13:53:17.0",
-				"derived":true,
+				"value":"+13:53:17.08",
 				"u_value":"degrees",
 				"source":"3"
 			}
@@ -67,7 +70,6 @@
 		"hostra":[
 			{
 				"value":"09:38:01.64",
-				"derived":true,
 				"u_value":"hours",
 				"source":"3"
 			}
@@ -77,19 +79,81 @@
 				"value":"478.4",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.1006",
-				"source":"2"
+				"source":"2,3"
 			}
 		],
 		"velocity":[
 			{
 				"value":"28650",
 				"u_value":"km/s",
+				"source":"4"
+			}
+		],
+		"photometry":[
+			{
+				"time":[
+					"48200",
+					"48200.010"
+				],
+				"counts":"0.0207",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"6.65E-14",
+				"luminosity":"1.74E+42",
+				"nhmw":"0.0335",
+				"photonindex":"4.5",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"3"
+			},
+			{
+				"time":[
+					"52398.6",
+					"52398.634"
+				],
+				"counts":"0.00191",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"1.36E-15",
+				"luminosity":"3.56E+40",
+				"nhmw":"0.0335",
+				"photonindex":"4.5",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"3"
+			},
+			{
+				"time":[
+					"55697.6",
+					"55697.647"
+				],
+				"counts":"0.000688",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"4.89E-16",
+				"luminosity":"1.28E+40",
+				"nhmw":"0.0335",
+				"photonindex":"4.5",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
 				"source":"3"
 			}
 		]

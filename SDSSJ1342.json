@@ -1,6 +1,6 @@
 {
 	"SDSSJ1342":{
-		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob/5e77bae/SCHEMA.md",
 		"name":"SDSSJ1342",
 		"sources":[
 			{
@@ -16,18 +16,22 @@
 				"alias":"2"
 			},
 			{
+				"name":"Open TDE Catalog",
+				"alias":"3"
+			},
+			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2016arXiv160501054G",
 				"reference":"Guillochon, Parrent, & Margutti (2016)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"3"
+				"alias":"4"
 			}
 		],
 		"alias":[
 			{
 				"value":"SDSSJ1342",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"citations":[
@@ -47,27 +51,32 @@
 				"value":"161",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
+			}
+		],
+		"discoverdate":[
+			{
+				"value":"2009/05/17",
+				"derived":true,
+				"source":"3,4"
 			}
 		],
 		"host":[
 			{
 				"value":"SDSS J134244.41+053056.1",
-				"source":"2"
+				"source":"2,3"
 			}
 		],
 		"hostdec":[
 			{
-				"value":"+05:30:56.1",
-				"derived":true,
+				"value":"+05:30:56.14",
 				"u_value":"degrees",
 				"source":"3"
 			}
 		],
 		"hostra":[
 			{
-				"value":"13:42:44.41",
-				"derived":true,
+				"value":"13:42:44.42",
 				"u_value":"hours",
 				"source":"3"
 			}
@@ -77,19 +86,65 @@
 				"value":"166",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0366",
-				"source":"2"
+				"source":"2,3"
 			}
 		],
 		"velocity":[
 			{
 				"value":"10800",
 				"u_value":"km/s",
+				"source":"4"
+			}
+		],
+		"photometry":[
+			{
+				"time":[
+					"48100",
+					"48100.003"
+				],
+				"counts":"0.0383",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"6.36E-14",
+				"luminosity":"1.95E+41",
+				"nhmw":"0.0197",
+				"photonindex":"4.5",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"3"
+			},
+			{
+				"time":[
+					"54968.7",
+					"54968.891"
+				],
+				"counts":"0.00237",
+				"e_counts":"0.000483",
+				"e_lower_flux":"2.59E-14",
+				"e_lower_luminosity":"7.95E+40",
+				"e_upper_flux":"3.93E-14",
+				"e_upper_luminosity":"1.21E+41",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"3.27E-14",
+				"luminosity":"1.00E+41",
+				"nhmw":"0.0197",
+				"photonindex":"4.5",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
 				"source":"3"
 			}
 		]

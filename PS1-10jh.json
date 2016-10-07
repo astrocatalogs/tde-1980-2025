@@ -1,6 +1,6 @@
 {
 	"PS1-10jh":{
-		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob//SCHEMA.md",
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob/5e77bae/SCHEMA.md",
 		"name":"PS1-10jh",
 		"sources":[
 			{
@@ -22,12 +22,16 @@
 				"alias":"3"
 			},
 			{
+				"name":"Open TDE Catalog",
+				"alias":"4"
+			},
+			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2016arXiv160501054G",
 				"reference":"Guillochon, Parrent, & Margutti (2016)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -35,13 +39,13 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"5"
+				"alias":"6"
 			}
 		],
 		"alias":[
 			{
 				"value":"PS1-10jh",
-				"source":"2,5"
+				"source":"2,4,6"
 			}
 		],
 		"citations":[
@@ -61,21 +65,21 @@
 				"value":"720.3",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,4"
+				"source":"1,2,4,5"
 			}
 		],
 		"dec":[
 			{
 				"value":"+53:40:23.52",
 				"u_value":"degrees",
-				"source":"2,5"
+				"source":"2,4,6"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2010/05/16",
 				"derived":true,
-				"source":"2,4"
+				"source":"2,5"
 			}
 		],
 		"ebv":[
@@ -83,41 +87,39 @@
 				"value":"0.0115",
 				"derived":true,
 				"e_value":"0.0003",
-				"source":"3,4"
+				"source":"3,5"
 			}
 		],
 		"host":[
 			{
 				"value":"SDSS J160928.27+534023.9",
-				"source":"2"
+				"source":"2,4"
 			}
 		],
 		"hostdec":[
 			{
-				"value":"+53:40:23.9",
-				"derived":true,
+				"value":"+53:40:23.99",
 				"u_value":"degrees",
 				"source":"4"
 			}
 		],
 		"hostoffsetang":[
 			{
-				"value":"0.5445",
+				"value":"0.4934",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"2,4,5"
+				"source":"2,4,5,6"
 			}
 		],
 		"hostoffsetdist":[
 			{
-				"value":"1.626",
-				"source":"1,2,4,5"
+				"value":"1.473",
+				"source":"1,2,4,5,6"
 			}
 		],
 		"hostra":[
 			{
-				"value":"16:09:28.27",
-				"derived":true,
+				"value":"16:09:28.28",
 				"u_value":"hours",
 				"source":"4"
 			}
@@ -127,35 +129,35 @@
 				"value":"842.4",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,4"
+				"source":"1,2,4,5"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-19.8",
 				"derived":true,
-				"source":"1,2,4"
+				"source":"1,2,4,5"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.83",
 				"derived":true,
-				"source":"2,4"
+				"source":"2,5"
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
 				"derived":true,
-				"source":"2,4"
+				"source":"2,5"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2010/07/12",
 				"derived":true,
-				"source":"2,4"
+				"source":"2,5"
 			}
 		],
 		"nh":[
@@ -172,25 +174,110 @@
 		],
 		"ra":[
 			{
+				"value":"16:09:28.29",
+				"u_value":"hours",
+				"source":"4"
+			},
+			{
 				"value":"16:09:28.296",
 				"u_value":"hours",
-				"source":"2,5"
+				"source":"2,6"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.1696",
-				"source":"2"
+				"source":"2,4"
 			}
 		],
 		"velocity":[
 			{
 				"value":"46590",
 				"u_value":"km/s",
-				"source":"4"
+				"source":"5"
 			}
 		],
 		"photometry":[
+			{
+				"time":[
+					"48083.6",
+					"48083.633"
+				],
+				"counts":"0.0313036",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"5.67E-14",
+				"luminosity":"4.76E+42",
+				"nhmw":"0.0129",
+				"photonindex":"4.5",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"4"
+			},
+			{
+				"time":[
+					"52618.1",
+					"52618.133"
+				],
+				"counts":"0.00183023",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"8.01E-16",
+				"luminosity":"6.72E+40",
+				"nhmw":"0.0129",
+				"photonindex":"4.5",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"4"
+			},
+			{
+				"time":[
+					"52922.5",
+					"52922.514"
+				],
+				"counts":"0.010207",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"4.46E-15",
+				"luminosity":"3.74E+41",
+				"nhmw":"0.0129",
+				"photonindex":"4.5",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"4"
+			},
+			{
+				"time":[
+					"53557.9",
+					"53557.947"
+				],
+				"counts":"0.000418299",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"1.83E-16",
+				"luminosity":"1.53E+40",
+				"nhmw":"0.0129",
+				"photonindex":"4.5",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"4"
+			},
 			{
 				"time":"54940.55",
 				"band":"i",
@@ -1811,6 +1898,26 @@
 				"source":"2"
 			},
 			{
+				"time":[
+					"55704",
+					"55704.114"
+				],
+				"counts":"0.000643159",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"3.82E-15",
+				"luminosity":"3.21E+41",
+				"nhmw":"0.0129",
+				"photonindex":"4.5",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"4"
+			},
+			{
 				"time":"55706.05",
 				"band":"g",
 				"e_magnitude":"0.68",
@@ -1881,6 +1988,26 @@
 				"source":"2"
 			},
 			{
+				"time":[
+					"55757.4",
+					"55757.419"
+				],
+				"counts":"0.00179189",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"7.83E-16",
+				"luminosity":"6.57E+40",
+				"nhmw":"0.0129",
+				"photonindex":"4.5",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"4"
+			},
+			{
 				"time":"55764.30",
 				"band":"g",
 				"e_magnitude":"0.69",
@@ -1919,6 +2046,26 @@
 				"restframe":true,
 				"u_time":"MJD",
 				"source":"2"
+			},
+			{
+				"time":[
+					"55789.8",
+					"55789.855"
+				],
+				"counts":"0.00080935",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"3.54E-16",
+				"luminosity":"2.97E+40",
+				"nhmw":"0.0129",
+				"photonindex":"4.5",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"4"
 			},
 			{
 				"time":"55794.75",
@@ -1961,6 +2108,26 @@
 				"source":"2"
 			},
 			{
+				"time":[
+					"55919.1",
+					"55919.175"
+				],
+				"counts":"0.000261973",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"1.15E-16",
+				"luminosity":"9.62E+39",
+				"nhmw":"0.0129",
+				"photonindex":"4.5",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"4"
+			},
+			{
 				"time":"56821.50",
 				"band":"HN",
 				"e_magnitude":"0.12",
@@ -1968,6 +2135,30 @@
 				"restframe":true,
 				"u_time":"MJD",
 				"source":"2"
+			},
+			{
+				"time":[
+					"56833.1",
+					"56833.144"
+				],
+				"counts":"0.000982517",
+				"e_counts":"0.000580841",
+				"e_lower_flux":"1.76E-16",
+				"e_lower_luminosity":"1.48E+40",
+				"e_upper_flux":"6.82E-16",
+				"e_upper_luminosity":"5.73E+40",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"4.30E-16",
+				"luminosity":"3.61E+40",
+				"nhmw":"0.0129",
+				"photonindex":"4.5",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
 				"time":"56833.93991796288",
