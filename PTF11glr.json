@@ -4,25 +4,27 @@
 		"name":"PTF11glr",
 		"sources":[
 			{
+				"name":"2016arXiv161102291A",
+				"bibcode":"2016arXiv161102291A",
+				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2016)",
+				"alias":"1"
+			},
+			{
 				"name":"2015arXiv150201589P",
 				"bibcode":"2015arXiv150201589P",
 				"reference":"Planck Collaboration et al. (2015)",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
 				"name":"2014ApJ...793...38A",
 				"bibcode":"2014ApJ...793...38A",
 				"reference":"Arcavi et al. (2014)",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
 				"reference":"Schlafly & Finkbeiner (2011)",
-				"alias":"3"
-			},
-			{
-				"name":"Open TDE Catalog",
 				"alias":"4"
 			},
 			{
@@ -45,19 +47,13 @@
 		"alias":[
 			{
 				"value":"PTF11glr",
-				"source":"4,6"
+				"source":"1,6"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/2014ApJ...793...38A'>Arcavi et al. 2014</a>*&Dagger;",
-				"source":"2"
-			}
-		],
-		"claimedtype":[
-			{
-				"value":"TDE",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"comovingdist":[
@@ -65,19 +61,19 @@
 				"value":"871",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,4,5"
+				"source":"1,2,3,5"
 			}
 		],
 		"dec":[
 			{
 				"value":"+41:20:14.80",
 				"u_value":"degrees",
-				"source":"4"
+				"source":"1"
 			},
 			{
 				"value":"+41:20:14.8",
 				"u_value":"degrees",
-				"source":"2,6"
+				"source":"3,6"
 			}
 		],
 		"discoverdate":[
@@ -92,20 +88,20 @@
 				"value":"0.0219",
 				"derived":true,
 				"e_value":"0.002",
-				"source":"3,5"
+				"source":"4,5"
 			}
 		],
 		"host":[
 			{
 				"value":"SDSS J165406.16+412015.4",
-				"source":"2,4"
+				"source":"1,3"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+41:20:15.45",
 				"u_value":"degrees",
-				"source":"4"
+				"source":"1"
 			}
 		],
 		"hostoffsetang":[
@@ -113,20 +109,20 @@
 				"value":"0.8846",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"2,4,5,6"
+				"source":"1,3,5,6"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"3.095",
-				"source":"1,2,4,5,6"
+				"source":"1,2,3,5,6"
 			}
 		],
 		"hostra":[
 			{
 				"value":"16:54:06.17",
 				"u_value":"hours",
-				"source":"4"
+				"source":"1"
 			}
 		],
 		"lumdist":[
@@ -134,26 +130,26 @@
 				"value":"1050",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,4,5"
+				"source":"1,2,3,5"
 			}
 		],
 		"notes":[
 			{
 				"value":"Large position uncertainty",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"ra":[
 			{
 				"value":"16:54:06.13",
 				"u_value":"hours",
-				"source":"2,4,6"
+				"source":"1,3,6"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.207",
-				"source":"2,4"
+				"source":"1,3"
 			}
 		],
 		"velocity":[
@@ -182,7 +178,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"4"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -202,7 +198,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"4"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -222,7 +218,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"4"
+				"source":"1"
 			}
 		]
 	}

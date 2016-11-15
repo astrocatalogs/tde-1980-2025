@@ -4,20 +4,33 @@
 		"name":"Swift J1644+57",
 		"sources":[
 			{
+				"name":"2016arXiv161102291A",
+				"bibcode":"2016arXiv161102291A",
+				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2016)",
+				"alias":"1"
+			},
+			{
 				"name":"2015arXiv150201589P",
 				"bibcode":"2015arXiv150201589P",
 				"reference":"Planck Collaboration et al. (2015)",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
 				"name":"2011Sci...333..203B",
 				"bibcode":"2011Sci...333..203B",
 				"reference":"Bloom et al. (2011)",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
-				"name":"Open TDE Catalog",
-				"alias":"3"
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
+				"alias":"4"
+			},
+			{
+				"name":"Swift TOOs",
+				"url":"https://www.swift.psu.edu/secure/toop/summary.php",
+				"alias":"5"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -25,25 +38,33 @@
 				"reference":"Guillochon, Parrent, & Margutti (2016)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"4"
+				"alias":"6"
 			}
 		],
 		"alias":[
 			{
 				"value":"Swift J1644+57",
+				"source":"1,3"
+			},
+			{
+				"value":"Swift J164449.3+573451",
+				"source":"3"
+			},
+			{
+				"value":"GRB 110328A",
 				"source":"3"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/2011Sci...333..203B'>Bloom et al. 2011</a>*&Dagger;",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"MS + SMBH",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"comovingdist":[
@@ -51,34 +72,63 @@
 				"value":"1434",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3,4"
+				"source":"1,2,3,6"
+			}
+		],
+		"dec":[
+			{
+				"value":"+57:34:58.8",
+				"u_value":"degrees",
+				"source":"5"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2011/03/29",
 				"derived":true,
-				"source":"3,4"
+				"source":"1,6"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.0165",
+				"derived":true,
+				"e_value":"0.0005",
+				"source":"4,6"
 			}
 		],
 		"host":[
 			{
 				"value":"Swift J164449.3+573451",
-				"source":"2,3"
+				"source":"1,3"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+57:34:51.00",
 				"u_value":"degrees",
-				"source":"3"
+				"source":"1"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"12.14",
+				"derived":true,
+				"u_value":"arcseconds",
+				"source":"1,5,6"
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"62.32",
+				"source":"1,2,3,5,6"
 			}
 		],
 		"hostra":[
 			{
 				"value":"16:44:49.30",
 				"u_value":"hours",
-				"source":"3"
+				"source":"1"
 			}
 		],
 		"lumdist":[
@@ -86,20 +136,27 @@
 				"value":"1942",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3,4"
+				"source":"1,2,3,6"
+			}
+		],
+		"ra":[
+			{
+				"value":"16:44:49.92",
+				"u_value":"hours",
+				"source":"5"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.3543",
-				"source":"2,3"
+				"source":"1,3"
 			}
 		],
 		"velocity":[
 			{
 				"value":"88230",
 				"u_value":"km/s",
-				"source":"4"
+				"source":"6"
 			}
 		],
 		"photometry":[
@@ -121,7 +178,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -141,7 +198,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -161,7 +218,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -181,7 +238,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -204,7 +261,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -223,7 +280,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -246,7 +303,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -265,7 +322,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -288,7 +345,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -311,7 +368,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -330,7 +387,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -353,7 +410,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -372,7 +429,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -395,7 +452,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -418,7 +475,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -441,7 +498,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -460,7 +517,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -483,7 +540,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -506,7 +563,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -529,7 +586,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -552,7 +609,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -575,7 +632,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -598,7 +655,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -621,7 +678,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -644,7 +701,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -667,7 +724,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -686,7 +743,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -705,7 +762,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -724,7 +781,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -744,7 +801,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -763,7 +820,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -782,7 +839,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -801,7 +858,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -820,7 +877,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -839,7 +896,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -858,7 +915,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -877,7 +934,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -896,7 +953,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -915,7 +972,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -935,7 +992,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -954,7 +1011,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -973,7 +1030,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -992,7 +1049,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -1011,7 +1068,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			}
 		]
 	}

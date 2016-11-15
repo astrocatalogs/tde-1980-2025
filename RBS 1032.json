@@ -4,19 +4,21 @@
 		"name":"RBS 1032",
 		"sources":[
 			{
+				"name":"2016arXiv161102291A",
+				"bibcode":"2016arXiv161102291A",
+				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2016)",
+				"alias":"1"
+			},
+			{
 				"name":"2015arXiv150201589P",
 				"bibcode":"2015arXiv150201589P",
 				"reference":"Planck Collaboration et al. (2015)",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
 				"name":"2014ApJ...792L..29M",
 				"bibcode":"2014ApJ...792L..29M",
 				"reference":"Maksym, Lin, & Irwin (2014)",
-				"alias":"2"
-			},
-			{
-				"name":"Open TDE Catalog",
 				"alias":"3"
 			},
 			{
@@ -31,19 +33,13 @@
 		"alias":[
 			{
 				"value":"RBS 1032",
-				"source":"3"
+				"source":"1"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/2014ApJ...792L..29M'>Maksym et al. 2014</a>*&Dagger;",
-				"source":"2"
-			}
-		],
-		"claimedtype":[
-			{
-				"value":"TDE",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"comovingdist":[
@@ -58,27 +54,27 @@
 			{
 				"value":"1990/11/05",
 				"derived":true,
-				"source":"3,4"
+				"source":"1,4"
 			}
 		],
 		"host":[
 			{
 				"value":"SDSS J114726.69+494257.8",
-				"source":"2,3"
+				"source":"1,3"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+49:42:59.00",
 				"u_value":"degrees",
-				"source":"3"
+				"source":"1"
 			}
 		],
 		"hostra":[
 			{
 				"value":"11:47:26.80",
 				"u_value":"hours",
-				"source":"3"
+				"source":"1"
 			}
 		],
 		"lumdist":[
@@ -92,7 +88,7 @@
 		"redshift":[
 			{
 				"value":"0.026",
-				"source":"2,3"
+				"source":"1,3"
 			}
 		],
 		"velocity":[
@@ -125,7 +121,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -149,7 +145,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -173,7 +169,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -193,7 +189,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -213,7 +209,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -233,7 +229,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -253,7 +249,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			}
 		]
 	}

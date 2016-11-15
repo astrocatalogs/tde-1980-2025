@@ -4,20 +4,33 @@
 		"name":"NGC 247",
 		"sources":[
 			{
+				"name":"2016arXiv161102291A",
+				"bibcode":"2016arXiv161102291A",
+				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2016)",
+				"alias":"1"
+			},
+			{
 				"name":"2015ApJ...807..185F",
 				"bibcode":"2015ApJ...807..185F",
 				"reference":"Feng et al. (2015)",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
 				"name":"2015arXiv150201589P",
 				"bibcode":"2015arXiv150201589P",
 				"reference":"Planck Collaboration et al. (2015)",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
-				"name":"Open TDE Catalog",
-				"alias":"3"
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
+				"alias":"4"
+			},
+			{
+				"name":"Swift TOOs",
+				"url":"https://www.swift.psu.edu/secure/toop/summary.php",
+				"alias":"5"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -25,25 +38,25 @@
 				"reference":"Guillochon, Parrent, & Margutti (2016)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"4"
+				"alias":"6"
 			}
 		],
 		"alias":[
 			{
 				"value":"NGC 247",
-				"source":"3"
+				"source":"1"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/2015ApJ...807..185F'>Feng et al. 2015</a>*&Dagger;",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Low-mass TDE",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"comovingdist":[
@@ -51,34 +64,63 @@
 				"value":"2.35",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3,4"
+				"source":"1,2,3,6"
+			}
+		],
+		"dec":[
+			{
+				"value":"-20:45:36",
+				"u_value":"degrees",
+				"source":"5"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2014/07/01",
 				"derived":true,
-				"source":"3,4"
+				"source":"1,6"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.0155",
+				"derived":true,
+				"e_value":"0.0001",
+				"source":"4,6"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 247",
-				"source":"1,3"
+				"source":"1,2"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-20:45:37.44",
 				"u_value":"degrees",
-				"source":"3"
+				"source":"1"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"1.974",
+				"derived":true,
+				"u_value":"arcseconds",
+				"source":"1,5,6"
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"0.02248",
+				"source":"1,2,3,5,6"
 			}
 		],
 		"hostra":[
 			{
 				"value":"00:47:08.55",
 				"u_value":"hours",
-				"source":"3"
+				"source":"1"
 			}
 		],
 		"lumdist":[
@@ -86,26 +128,33 @@
 				"value":"2.35",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3,4"
+				"source":"1,2,3,6"
 			}
 		],
 		"notes":[
 			{
 				"value":"Possibly LMXB",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"ra":[
+			{
+				"value":"00:47:08.64",
+				"u_value":"hours",
+				"source":"5"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.000531",
-				"source":"1,3"
+				"source":"1,2"
 			}
 		],
 		"velocity":[
 			{
 				"value":"159",
 				"u_value":"km/s",
-				"source":"4"
+				"source":"6"
 			}
 		],
 		"photometry":[
@@ -127,7 +176,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -147,7 +196,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -166,7 +215,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -185,7 +234,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -204,7 +253,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -223,7 +272,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -242,7 +291,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -261,7 +310,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -284,7 +333,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -307,7 +356,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -330,7 +379,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -353,7 +402,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -372,7 +421,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -391,7 +440,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -410,7 +459,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -429,7 +478,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			}
 		]
 	}

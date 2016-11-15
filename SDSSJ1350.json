@@ -4,19 +4,21 @@
 		"name":"SDSSJ1350",
 		"sources":[
 			{
+				"name":"2016arXiv161102291A",
+				"bibcode":"2016arXiv161102291A",
+				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2016)",
+				"alias":"1"
+			},
+			{
 				"name":"2015arXiv150201589P",
 				"bibcode":"2015arXiv150201589P",
 				"reference":"Planck Collaboration et al. (2015)",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
 				"name":"2012ApJ...749..115W",
 				"bibcode":"2012ApJ...749..115W",
 				"reference":"Wang et al. (2012)",
-				"alias":"2"
-			},
-			{
-				"name":"Open TDE Catalog",
 				"alias":"3"
 			},
 			{
@@ -31,19 +33,13 @@
 		"alias":[
 			{
 				"value":"SDSSJ1350",
-				"source":"3"
+				"source":"1"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/2012ApJ...749..115W'>Wang et al. 2012</a>*&Dagger;",
-				"source":"2"
-			}
-		],
-		"claimedtype":[
-			{
-				"value":"TDE",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"comovingdist":[
@@ -57,21 +53,21 @@
 		"host":[
 			{
 				"value":"SDSS J135001.49+291609.7",
-				"source":"2,3"
+				"source":"1,3"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+29:16:09.71",
 				"u_value":"degrees",
-				"source":"3"
+				"source":"1"
 			}
 		],
 		"hostra":[
 			{
 				"value":"13:50:01.51",
 				"u_value":"hours",
-				"source":"3"
+				"source":"1"
 			}
 		],
 		"lumdist":[
@@ -85,7 +81,7 @@
 		"redshift":[
 			{
 				"value":"0.0777",
-				"source":"2,3"
+				"source":"1,3"
 			}
 		],
 		"velocity":[
@@ -114,7 +110,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -134,7 +130,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -154,7 +150,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"time":[
@@ -174,7 +170,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"3"
+				"source":"1"
 			}
 		]
 	}
