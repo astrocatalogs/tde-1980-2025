@@ -74,8 +74,8 @@
 				"source":"4"
 			},
 			{
-				"value":" 40.70548",
-				"u_value":"floatdegrees",
+				"value":"+40:42:19.8",
+				"u_value":"degrees",
 				"source":"5"
 			},
 			{
@@ -97,6 +97,34 @@
 				"derived":true,
 				"e_value":"0.0006",
 				"source":"3,6"
+			}
+		],
+		"host":[
+			{
+				"value":"SDSS J102912.58+404219.7",
+				"source":"1"
+			}
+		],
+		"hostdec":[
+			{
+				"value":"+40:42:19.76",
+				"u_value":"degrees",
+				"source":"1"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.3189",
+				"derived":true,
+				"u_value":"arcseconds",
+				"source":"1,4,6"
+			}
+		],
+		"hostra":[
+			{
+				"value":"10:29:12.574",
+				"u_value":"hours",
+				"source":"1"
 			}
 		],
 		"maxappmag":[

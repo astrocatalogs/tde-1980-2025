@@ -52,8 +52,8 @@
 				"source":"1"
 			},
 			{
-				"value":" 23.90144",
-				"u_value":"floatdegrees",
+				"value":"+23:54:05.04",
+				"u_value":"degrees",
 				"source":"3"
 			}
 		],
