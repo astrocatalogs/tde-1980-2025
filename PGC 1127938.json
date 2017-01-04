@@ -132,28 +132,6 @@
 				"u_value":"km/s",
 				"source":"5"
 			}
-		],
-		"photometry":[
-			{
-				"time":[
-					"52831.9",
-					"52832.030"
-				],
-				"counts":"0.0194656",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"1.51E-14",
-				"luminosity":"1.34E+40",
-				"nhmw":"0.04",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			}
 		]
 	}
 }

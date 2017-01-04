@@ -190,7 +190,7 @@
 					"2.0"
 				],
 				"flux":"1.15E-13",
-				"luminosity":"4.58E+43",
+				"luminosity":"4.57E+43",
 				"nhmw":"0.0249",
 				"photonindex":"4.5",
 				"u_energy":"keV",
@@ -764,13 +764,13 @@
 					"54051.2",
 					"54051.544"
 				],
-				"counts":"0.000307803",
+				"counts":"3.08E-04",
 				"energy":[
 					"0.3",
 					"2.0"
 				],
 				"flux":"2.46E-15",
-				"luminosity":"9.80E+41",
+				"luminosity":"9.78E+41",
 				"nhmw":"0.0249",
 				"photonindex":"4.5",
 				"u_energy":"keV",

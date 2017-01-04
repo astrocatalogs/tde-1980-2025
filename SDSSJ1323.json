@@ -122,7 +122,7 @@
 					"2.0"
 				],
 				"flux":"4.16E-13",
-				"luminosity":"8.05E+42",
+				"luminosity":"8.04E+42",
 				"nhmw":"0.01",
 				"photonindex":"4.5",
 				"u_energy":"keV",
@@ -134,20 +134,20 @@
 			{
 				"time":[
 					"52975",
-					"52975.053"
+					"52975.000"
 				],
-				"counts":"0.00577715",
-				"e_counts":"0.00120863",
-				"e_lower_flux":"0",
-				"e_lower_luminosity":"0",
-				"e_upper_flux":"0",
-				"e_upper_luminosity":"0",
+				"counts":"3.13",
+				"e_counts":"0.655",
+				"e_lower_flux":"8.13E-12",
+				"e_lower_luminosity":"1.57E+44",
+				"e_upper_flux":"1.24E-11",
+				"e_upper_luminosity":"2.40E+44",
 				"energy":[
 					"0.3",
 					"2.0"
 				],
-				"flux":"2.23E-15",
-				"luminosity":"4.30E+40",
+				"flux":"1.03E-11",
+				"luminosity":"1.99E+44",
 				"nhmw":"0.01",
 				"photonindex":"4.5",
 				"u_energy":"keV",
@@ -158,15 +158,15 @@
 			{
 				"time":[
 					"53521.7",
-					"53521.738"
+					"53521.700"
 				],
-				"counts":"0.00117746",
+				"counts":"0.39",
 				"energy":[
 					"0.3",
 					"2.0"
 				],
-				"flux":"4.54E-16",
-				"luminosity":"8.78E+39",
+				"flux":"1.28E-12",
+				"luminosity":"2.47E+43",
 				"nhmw":"0.01",
 				"photonindex":"4.5",
 				"u_energy":"keV",
@@ -191,7 +191,7 @@
 					"2.0"
 				],
 				"flux":"3.75E-15",
-				"luminosity":"7.24E+40",
+				"luminosity":"7.25E+40",
 				"nhmw":"0.01",
 				"photonindex":"4.5",
 				"u_energy":"keV",
@@ -241,26 +241,6 @@
 			},
 			{
 				"time":[
-					"54612.5",
-					"54612.555"
-				],
-				"counts":"0.00108404",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"4.16E-16",
-				"luminosity":"8.04E+39",
-				"nhmw":"0.01",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
 					"55596",
 					"55596.020"
 				],
@@ -282,15 +262,15 @@
 			{
 				"time":[
 					"56479.5",
-					"56479.570"
+					"56479.500"
 				],
-				"counts":"0.000794541",
+				"counts":"1.4",
 				"energy":[
 					"0.3",
 					"2.0"
 				],
-				"flux":"3.06E-16",
-				"luminosity":"5.92E+39",
+				"flux":"4.61E-12",
+				"luminosity":"8.91E+43",
 				"nhmw":"0.01",
 				"photonindex":"4.5",
 				"u_energy":"keV",

@@ -63,13 +63,6 @@
 				"source":"1"
 			}
 		],
-		"discoverdate":[
-			{
-				"value":"2011/12/27",
-				"derived":true,
-				"source":"1,5"
-			}
-		],
 		"ebv":[
 			{
 				"value":"0.2527",
@@ -138,111 +131,6 @@
 				"value":"170000",
 				"u_value":"km/s",
 				"source":"5"
-			}
-		],
-		"photometry":[
-			{
-				"time":[
-					"48100",
-					"48100.003"
-				],
-				"counts":"0.0335",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"3.91E-13",
-				"luminosity":"7.83E+43",
-				"nhmw":"0.0909",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
-					"54946.4",
-					"54946.448"
-				],
-				"counts":"0.002",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"2.03E-15",
-				"luminosity":"4.07E+41",
-				"nhmw":"0.0909",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
-					"55922.7",
-					"55923.120"
-				],
-				"counts":"0.0681",
-				"e_counts":"0.00147",
-				"e_lower_flux":"6.81E-13",
-				"e_lower_luminosity":"1.36E+44",
-				"e_upper_flux":"7.19E-13",
-				"e_upper_luminosity":"1.44E+44",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"7.03E-13",
-				"luminosity":"1.41E+44",
-				"photonindex":"1.314",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":[
-					"56140.8",
-					"56140.849"
-				],
-				"counts":"0.00086",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"8.73E-16",
-				"luminosity":"1.75E+41",
-				"nhmw":"0.0909",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
-					"56356.1",
-					"56356.124"
-				],
-				"counts":"0.00141",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"1.43E-15",
-				"luminosity":"2.87E+41",
-				"nhmw":"0.0909",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
 			}
 		]
 	}

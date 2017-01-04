@@ -190,7 +190,7 @@
 					"2.0"
 				],
 				"flux":"8.58E-15",
-				"luminosity":"2.64E+40",
+				"luminosity":"2.63E+40",
 				"nhmw":"0.0414",
 				"photonindex":"4.5",
 				"u_energy":"keV",
@@ -202,15 +202,15 @@
 			{
 				"time":[
 					"54664.9",
-					"54664.965"
+					"54664.900"
 				],
-				"counts":"0.00348237",
+				"counts":"3.01",
 				"energy":[
 					"0.3",
 					"2.0"
 				],
-				"flux":"2.73E-15",
-				"luminosity":"8.38E+39",
+				"flux":"1.50E-11",
+				"luminosity":"4.61E+43",
 				"nhmw":"0.0414",
 				"photonindex":"4.5",
 				"u_energy":"keV",
