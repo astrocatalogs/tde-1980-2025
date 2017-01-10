@@ -10,15 +10,15 @@
 				"alias":"1"
 			},
 			{
-				"name":"2015ApJ...807..185F",
-				"bibcode":"2015ApJ...807..185F",
-				"reference":"Feng et al. (2015)",
+				"name":"2016A&A...594A..13P",
+				"bibcode":"2016A&A...594A..13P",
+				"reference":"Planck Collaboration et al. (2016)",
 				"alias":"2"
 			},
 			{
-				"name":"2015arXiv150201589P",
-				"bibcode":"2015arXiv150201589P",
-				"reference":"Planck Collaboration et al. (2015)",
+				"name":"2015ApJ...807..185F",
+				"bibcode":"2015ApJ...807..185F",
+				"reference":"Feng et al. (2015)",
 				"alias":"3"
 			},
 			{
@@ -50,13 +50,13 @@
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/2015ApJ...807..185F'>Feng et al. 2015</a>*&Dagger;",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Low-mass TDE",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"comovingdist":[
@@ -85,7 +85,7 @@
 		"host":[
 			{
 				"value":"NGC 247",
-				"source":"1,2"
+				"source":"1,3"
 			}
 		],
 		"hostdec":[
@@ -127,7 +127,7 @@
 		"notes":[
 			{
 				"value":"Possibly LMXB",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"ra":[
@@ -140,7 +140,7 @@
 		"redshift":[
 			{
 				"value":"0.000531",
-				"source":"1,2"
+				"source":"1,3"
 			}
 		],
 		"velocity":[

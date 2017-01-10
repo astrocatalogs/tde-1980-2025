@@ -22,15 +22,15 @@
 				"alias":"3"
 			},
 			{
-				"name":"2015ATel.7910....1B",
-				"bibcode":"2015ATel.7910....1B",
-				"reference":"Brimacombe et al. (2015)",
+				"name":"2016A&A...594A..13P",
+				"bibcode":"2016A&A...594A..13P",
+				"reference":"Planck Collaboration et al. (2016)",
 				"alias":"4"
 			},
 			{
-				"name":"2015arXiv150201589P",
-				"bibcode":"2015arXiv150201589P",
-				"reference":"Planck Collaboration et al. (2015)",
+				"name":"2015ATel.7910....1B",
+				"bibcode":"2015ATel.7910....1B",
+				"reference":"Brimacombe et al. (2015)",
 				"alias":"5"
 			},
 			{
@@ -64,13 +64,13 @@
 		"alias":[
 			{
 				"value":"ASASSN-15oi",
-				"source":"1,2,4,7,9"
+				"source":"1,2,5,7,9"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/2015ATel.7910....1B'>Brimacombe et. al 2015</a>*, <a href='http://adsabs.harvard.edu/abs/2015ATel.7936....1P'>Prentice et. al 2015</a>&Dagger;",
-				"source":"4"
+				"source":"5"
 			}
 		],
 		"claimedtype":[
@@ -100,13 +100,13 @@
 			{
 				"value":"-30:45:22.6",
 				"u_value":"floatdegrees",
-				"source":"4,7"
+				"source":"5,7"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2015/08/14.2",
-				"source":"4,7"
+				"source":"5,7"
 			}
 		],
 		"ebv":[
@@ -120,7 +120,7 @@
 		"host":[
 			{
 				"value":"2MASX J20390918-3045201",
-				"source":"1,4"
+				"source":"1,5"
 			}
 		],
 		"hostdec":[
@@ -196,7 +196,7 @@
 			{
 				"value":"20:39:08.93",
 				"u_value":"floatdegrees",
-				"source":"4,7"
+				"source":"5,7"
 			},
 			{
 				"value":"20:39:09.096",
@@ -207,7 +207,7 @@
 		"redshift":[
 			{
 				"value":"0.02",
-				"source":"1,4,7"
+				"source":"1,5,7"
 			}
 		],
 		"velocity":[
