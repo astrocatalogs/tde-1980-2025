@@ -2682,6 +2682,51 @@
 				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"6,7"
+			},
+			{
+				"time":"57749.13575",
+				"band":"I",
+				"magnitude":"22",
+				"system":"Vega",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"6,7"
+			},
+			{
+				"time":"57756.04672",
+				"band":"I",
+				"magnitude":"22",
+				"system":"Vega",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"6,7"
+			},
+			{
+				"time":"57761.04620",
+				"band":"I",
+				"magnitude":"22",
+				"system":"Vega",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"6,7"
+			},
+			{
+				"time":"57765.03535",
+				"band":"I",
+				"magnitude":"22",
+				"system":"Vega",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"6,7"
+			},
+			{
+				"time":"57769.03768",
+				"band":"I",
+				"magnitude":"22",
+				"system":"Vega",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"6,7"
 			}
 		]
 	}
