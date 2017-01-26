@@ -19,17 +19,12 @@
 				"alias":"3"
 			},
 			{
-				"name":"Swift TOOs",
-				"url":"https://www.swift.psu.edu/secure/toop/summary.php",
-				"alias":"4"
-			},
-			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"5"
+				"alias":"4"
 			}
 		],
 		"alias":[
@@ -46,16 +41,16 @@
 		],
 		"dec":[
 			{
-				"value":"-71:04:15.6",
+				"value":"-71:04:15.7",
 				"u_value":"degrees",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2016/01/28",
 				"derived":true,
-				"source":"3,5"
+				"source":"3,4"
 			}
 		],
 		"ebv":[
@@ -63,35 +58,65 @@
 				"value":"0.0243",
 				"derived":true,
 				"e_value":"0.0006",
-				"source":"1,5"
+				"source":"1,4"
+			}
+		],
+		"host":[
+			{
+				"value":"GALEXASC J015624.70-710415.8",
+				"source":"2"
+			}
+		],
+		"hostdec":[
+			{
+				"value":"-71:04:15.8",
+				"derived":true,
+				"u_value":"degrees",
+				"source":"4"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"3.451",
+				"derived":true,
+				"u_value":"arcseconds",
+				"source":"2,4"
+			}
+		],
+		"hostra":[
+			{
+				"value":"01:56:24.70",
+				"derived":true,
+				"u_value":"hours",
+				"source":"4"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.71",
 				"derived":true,
-				"source":"3,5"
+				"source":"3,4"
 			}
 		],
 		"maxband":[
 			{
 				"value":"I",
 				"derived":true,
-				"source":"3,5"
+				"source":"3,4"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2017/01/05",
 				"derived":true,
-				"source":"3,5"
+				"source":"3,4"
 			}
 		],
 		"ra":[
 			{
-				"value":"01:56:24.96",
+				"value":"01:56:24.93",
 				"u_value":"hours",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"photometry":[
