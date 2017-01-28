@@ -2168,19 +2168,10 @@
 			},
 			{
 				"time":"56833.93991796288",
-				"band":"NUV",
+				"band":"z",
 				"counts":"0.0009825168337356339734067278669",
 				"e_counts":"0.0005808395811124526290881663071",
 				"instrument":"XMM",
-				"u_time":"MJD",
-				"source":"3"
-			},
-			{
-				"time":"57551.95525691684",
-				"band":"NUV",
-				"e_magnitude":"0.05000000000",
-				"instrument":"GALEX",
-				"magnitude":"23.6900000000",
 				"u_time":"MJD",
 				"source":"3"
 			}
