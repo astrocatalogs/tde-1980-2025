@@ -560,6 +560,15 @@
 				"system":"Vega",
 				"u_time":"MJD",
 				"source":"3"
+			},
+			{
+				"time":"57787.02654",
+				"band":"I",
+				"e_magnitude":"0.104",
+				"magnitude":"20.163",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"3"
 			}
 		]
 	}
