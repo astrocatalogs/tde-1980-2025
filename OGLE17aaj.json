@@ -569,6 +569,24 @@
 				"system":"Vega",
 				"u_time":"MJD",
 				"source":"3"
+			},
+			{
+				"time":"57789.03516",
+				"band":"I",
+				"e_magnitude":"0.104",
+				"magnitude":"19.919",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"57791.04055",
+				"band":"I",
+				"e_magnitude":"0.135",
+				"magnitude":"20.061",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"3"
 			}
 		]
 	}
