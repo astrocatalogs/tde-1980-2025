@@ -61,7 +61,35 @@
 		],
 		"host":[
 			{
-				"value":"ULIRG F01004-2237",
+				"value":"IRAS F01004-2237",
+				"source":"1"
+			}
+		],
+		"hostdec":[
+			{
+				"value":"-22:21:57",
+				"u_value":"degrees",
+				"source":"1"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"1.62",
+				"derived":true,
+				"u_value":"arcseconds",
+				"source":"1,4"
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"3.56",
+				"source":"1,2,4"
+			}
+		],
+		"hostra":[
+			{
+				"value":"01:02:49.9",
+				"u_value":"hours",
 				"source":"1"
 			}
 		],
