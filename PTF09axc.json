@@ -159,7 +159,7 @@
 		],
 		"maxabsmag":[
 			{
-				"value":"-19.52",
+				"value":"-19.404",
 				"derived":true,
 				"source":"1,2,3,6,7"
 			}
@@ -179,6 +179,27 @@
 			}
 		],
 		"maxdate":[
+			{
+				"value":"2009/07/23",
+				"derived":true,
+				"source":"3,6"
+			}
+		],
+		"maxvisualappmag":[
+			{
+				"value":"19.18",
+				"derived":true,
+				"source":"3,6"
+			}
+		],
+		"maxvisualband":[
+			{
+				"value":"r",
+				"derived":true,
+				"source":"3,6"
+			}
+		],
+		"maxvisualdate":[
 			{
 				"value":"2009/07/23",
 				"derived":true,

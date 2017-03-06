@@ -112,6 +112,27 @@
 				"source":"3,4"
 			}
 		],
+		"maxvisualappmag":[
+			{
+				"value":"19.71",
+				"derived":true,
+				"source":"3,4"
+			}
+		],
+		"maxvisualband":[
+			{
+				"value":"I",
+				"derived":true,
+				"source":"3,4"
+			}
+		],
+		"maxvisualdate":[
+			{
+				"value":"2017/01/05",
+				"derived":true,
+				"source":"3,4"
+			}
+		],
 		"ra":[
 			{
 				"value":"01:56:24.93",

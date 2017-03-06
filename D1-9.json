@@ -126,26 +126,47 @@
 		],
 		"maxabsmag":[
 			{
-				"value":"-18",
+				"value":"-18.21",
 				"derived":true,
 				"source":"1,2,4,5"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"23.28",
+				"value":"22.71",
 				"derived":true,
 				"source":"4,5"
 			}
 		],
 		"maxband":[
 			{
-				"value":"g",
+				"value":"NUV",
 				"derived":true,
 				"source":"4,5"
 			}
 		],
 		"maxdate":[
+			{
+				"value":"2004/12/17",
+				"derived":true,
+				"source":"4,5"
+			}
+		],
+		"maxvisualappmag":[
+			{
+				"value":"23.28",
+				"derived":true,
+				"source":"4,5"
+			}
+		],
+		"maxvisualband":[
+			{
+				"value":"g",
+				"derived":true,
+				"source":"4,5"
+			}
+		],
+		"maxvisualdate":[
 			{
 				"value":"2004/08/15",
 				"derived":true,

@@ -168,19 +168,40 @@
 		],
 		"maxappmag":[
 			{
-				"value":"16.09",
+				"value":"14.44",
 				"derived":true,
 				"source":"2,8"
 			}
 		],
 		"maxband":[
 			{
-				"value":"B",
+				"value":"M2",
 				"derived":true,
 				"source":"2,8"
 			}
 		],
 		"maxdate":[
+			{
+				"value":"2015/08/25",
+				"derived":true,
+				"source":"2,8"
+			}
+		],
+		"maxvisualappmag":[
+			{
+				"value":"16.09",
+				"derived":true,
+				"source":"2,8"
+			}
+		],
+		"maxvisualband":[
+			{
+				"value":"B",
+				"derived":true,
+				"source":"2,8"
+			}
+		],
+		"maxvisualdate":[
 			{
 				"value":"2015/08/15",
 				"derived":true,
