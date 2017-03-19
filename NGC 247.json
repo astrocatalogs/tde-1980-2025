@@ -33,11 +33,11 @@
 				"alias":"5"
 			},
 			{
-				"name":"The Open Supernova Catalog",
+				"name":"The Open TDE Catalog",
 				"bibcode":"2017ApJ...835...64G",
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
-				"url":"https://sne.space",
+				"url":"https://tde.space",
 				"alias":"6"
 			}
 		],
