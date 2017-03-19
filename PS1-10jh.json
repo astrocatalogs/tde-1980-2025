@@ -226,86 +226,6 @@
 		],
 		"photometry":[
 			{
-				"time":[
-					"48083.6",
-					"48083.633"
-				],
-				"counts":"0.0313036",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"5.67E-14",
-				"luminosity":"4.76E+42",
-				"nhmw":"0.0129",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
-					"52618.1",
-					"52618.100"
-				],
-				"counts":"0.855",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"3.03E-12",
-				"luminosity":"2.54E+44",
-				"nhmw":"0.0129",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
-					"52922.5",
-					"52922.500"
-				],
-				"counts":"1.39",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"4.93E-12",
-				"luminosity":"4.14E+44",
-				"nhmw":"0.0129",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
-					"53557.9",
-					"53557.900"
-				],
-				"counts":"0.685",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"2.43E-12",
-				"luminosity":"2.04E+44",
-				"nhmw":"0.0129",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
 				"time":"54940.55",
 				"band":"i",
 				"instrument":"Pan-STARRS1",
@@ -1925,26 +1845,6 @@
 				"source":"3"
 			},
 			{
-				"time":[
-					"55704",
-					"55704.114"
-				],
-				"counts":"0.000643159",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"3.82E-15",
-				"luminosity":"3.20E+41",
-				"nhmw":"0.0129",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
 				"time":"55706.05",
 				"band":"g",
 				"e_magnitude":"0.68",
@@ -2015,26 +1915,6 @@
 				"source":"3"
 			},
 			{
-				"time":[
-					"55757.4",
-					"55757.400"
-				],
-				"counts":"2.58",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"9.16E-12",
-				"luminosity":"7.69E+44",
-				"nhmw":"0.0129",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
 				"time":"55764.30",
 				"band":"g",
 				"e_magnitude":"0.69",
@@ -2073,26 +1953,6 @@
 				"restframe":true,
 				"u_time":"MJD",
 				"source":"3"
-			},
-			{
-				"time":[
-					"55789.8",
-					"55789.800"
-				],
-				"counts":"1.15",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"4.08E-12",
-				"luminosity":"3.42E+44",
-				"nhmw":"0.0129",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
 			},
 			{
 				"time":"55794.75",
@@ -2135,26 +1995,6 @@
 				"source":"3"
 			},
 			{
-				"time":[
-					"55919.1",
-					"55919.100"
-				],
-				"counts":"0.258",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"9.16E-13",
-				"luminosity":"7.69E+43",
-				"nhmw":"0.0129",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
 				"time":"56821.50",
 				"band":"HN",
 				"e_magnitude":"0.12",
@@ -2162,30 +2002,6 @@
 				"restframe":true,
 				"u_time":"MJD",
 				"source":"3"
-			},
-			{
-				"time":[
-					"56833.1",
-					"56833.100"
-				],
-				"counts":"0.671",
-				"e_counts":"0.396",
-				"e_lower_flux":"9.72E-13",
-				"e_lower_luminosity":"8.16E+43",
-				"e_upper_flux":"3.80E-12",
-				"e_upper_luminosity":"3.19E+44",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"2.38E-12",
-				"luminosity":"2.00E+44",
-				"nhmw":"0.0129",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"source":"1"
 			},
 			{
 				"time":"56833.93991796288",

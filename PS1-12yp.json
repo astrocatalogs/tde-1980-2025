@@ -102,68 +102,6 @@
 				"u_value":"hours",
 				"source":"1"
 			}
-		],
-		"photometry":[
-			{
-				"time":[
-					"52459.6",
-					"52459.600"
-				],
-				"counts":"3.36",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"2.17E-12",
-				"luminosity":"3.83E+45",
-				"nhmw":"0.012",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"2"
-			},
-			{
-				"time":[
-					"55379.5",
-					"55379.500"
-				],
-				"counts":"2.36",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"1.52E-12",
-				"luminosity":"2.69E+45",
-				"nhmw":"0.012",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"2"
-			},
-			{
-				"time":[
-					"55909",
-					"55909.000"
-				],
-				"counts":"0.683",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"4.41E-13",
-				"luminosity":"7.79E+44",
-				"nhmw":"0.012",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"2"
-			}
 		]
 	}
 }

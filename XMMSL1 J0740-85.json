@@ -70,7 +70,7 @@
 		],
 		"discoverdate":[
 			{
-				"value":"2014/04/01",
+				"value":"2014/04/14",
 				"derived":true,
 				"source":"1,6"
 			}
@@ -197,155 +197,6 @@
 		],
 		"photometry":[
 			{
-				"time":[
-					"47892",
-					"47892.00425925925925925925926"
-				],
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"2.50E-13",
-				"telescope":"ROSAT",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
-					"48100",
-					"48100.008"
-				],
-				"counts":"0.0193",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"2.51E-13",
-				"luminosity":"1.66E+41",
-				"nhmw":"0.106",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"3"
-			},
-			{
-				"time":[
-					"56140",
-					"56140.00004513888888888888889"
-				],
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"7.0E-13",
-				"telescope":"XMM slew",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
-					"56160.8",
-					"56160.800"
-				],
-				"counts":"0.59",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"2.80E-12",
-				"luminosity":"1.85E+42",
-				"nhmw":"0.106",
-				"photonindex":"3.03",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"3"
-			},
-			{
-				"time":[
-					"56740",
-					"56740.00002314814814814814815"
-				],
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"1.70E-12",
-				"telescope":"XMM slew",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
-					"56748",
-					"56748.00011921296296296296296"
-				],
-				"e_flux":"7.0E-13",
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"4.90E-12",
-				"telescope":"XMM slew",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":[
-					"56748.9",
-					"56748.900"
-				],
-				"counts":"6.06",
-				"e_counts":"0.815",
-				"e_lower_flux":"5.31E-12",
-				"e_lower_luminosity":"3.51E+42",
-				"e_upper_flux":"7.11E-12",
-				"e_upper_luminosity":"4.70E+42",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"6.21E-12",
-				"luminosity":"4.10E+42",
-				"nhmw":"0.106",
-				"photonindex":"3.03",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"source":"3"
-			},
-			{
-				"time":[
-					"56761",
-					"56761.02818287037037037037037"
-				],
-				"e_flux":"2.10E-13",
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"3.20E-12",
-				"telescope":"Swift",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
 				"time":"56761",
 				"band":"W2",
 				"e_magnitude":"0.03",
@@ -357,23 +208,6 @@
 				"source":"1"
 			},
 			{
-				"time":[
-					"56769",
-					"56769.03121527777777777777778"
-				],
-				"e_flux":"2.10E-13",
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"4.30E-13",
-				"telescope":"Swift",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
 				"time":"56769",
 				"band":"W2",
 				"e_magnitude":"0.05",
@@ -381,23 +215,6 @@
 				"magnitude":"16.49",
 				"system":"Vega",
 				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":[
-					"56777",
-					"56777.30787037037037037037037"
-				],
-				"e_flux":"1.50E-13",
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"5.0E-13",
-				"telescope":"XMM pointed",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
 				"u_time":"MJD",
 				"source":"1"
 			},
@@ -435,70 +252,6 @@
 				"source":"1"
 			},
 			{
-				"time":[
-					"56777.2",
-					"56777.700"
-				],
-				"counts":"0.262",
-				"e_counts":"0.005",
-				"e_lower_flux":"4.37E-13",
-				"e_lower_luminosity":"2.89E+41",
-				"e_upper_flux":"4.52E-13",
-				"e_upper_luminosity":"2.99E+41",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"4.44E-13",
-				"luminosity":"2.93E+41",
-				"nhmw":"0.106",
-				"photonindex":"3.28",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"source":"3"
-			},
-			{
-				"time":[
-					"56779.6",
-					"56779.720"
-				],
-				"counts":"0.0888",
-				"e_counts":"0.0031",
-				"e_lower_flux":"1.53E-12",
-				"e_lower_luminosity":"1.01E+42",
-				"e_upper_flux":"1.64E-12",
-				"e_upper_luminosity":"1.08E+42",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"1.58E-12",
-				"luminosity":"1.04E+42",
-				"photonindex":"2.9",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"source":"3"
-			},
-			{
-				"time":[
-					"56782",
-					"56782.02193287037037037037037"
-				],
-				"e_flux":"1.20E-13",
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"4.10E-13",
-				"telescope":"Swift",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
 				"time":"56782",
 				"band":"M2",
 				"e_magnitude":"0.08",
@@ -528,23 +281,6 @@
 				"magnitude":"16.80",
 				"system":"Vega",
 				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":[
-					"56789",
-					"56789.02347222222222222222222"
-				],
-				"e_flux":"1.20E-13",
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"1.40E-12",
-				"telescope":"Swift",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
 				"u_time":"MJD",
 				"source":"1"
 			},
@@ -582,23 +318,6 @@
 				"source":"1"
 			},
 			{
-				"time":[
-					"56796",
-					"56796.01619212962962962962963"
-				],
-				"e_flux":"1.20E-13",
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"3.60E-13",
-				"telescope":"Swift",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
 				"time":"56796",
 				"band":"M2",
 				"e_magnitude":"0.20",
@@ -628,40 +347,6 @@
 				"magnitude":"17.14",
 				"system":"Vega",
 				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":[
-					"56803",
-					"56803.00589120370370370370370"
-				],
-				"e_flux":"2.20E-13",
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"3.50E-13",
-				"telescope":"Swift",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":[
-					"56808",
-					"56808.01567129629629629629630"
-				],
-				"e_flux":"1.20E-13",
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"1.10E-12",
-				"telescope":"Swift",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
 				"u_time":"MJD",
 				"source":"1"
 			},
@@ -699,23 +384,6 @@
 				"source":"1"
 			},
 			{
-				"time":[
-					"56842",
-					"56842.01104166666666666666667"
-				],
-				"e_flux":"1.50E-13",
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"4.00E-13",
-				"telescope":"Swift",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
 				"time":"56842",
 				"band":"M2",
 				"e_magnitude":"0.10",
@@ -745,47 +413,6 @@
 				"magnitude":"17.51",
 				"system":"Vega",
 				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":[
-					"56844.7",
-					"56844.780"
-				],
-				"counts":"0.0443",
-				"e_counts":"0.00274",
-				"e_lower_flux":"8.58E-13",
-				"e_lower_luminosity":"5.67E+41",
-				"e_upper_flux":"1.01E-12",
-				"e_upper_luminosity":"6.67E+41",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"9.43E-13",
-				"luminosity":"6.23E+41",
-				"nhmw":"0.106",
-				"photonindex":"2.503",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"source":"3"
-			},
-			{
-				"time":[
-					"56870",
-					"56870.02872685185185185185185"
-				],
-				"e_flux":"1.20E-13",
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"4.10E-13",
-				"telescope":"Swift",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
 				"u_time":"MJD",
 				"source":"1"
 			},
@@ -823,23 +450,6 @@
 				"source":"1"
 			},
 			{
-				"time":[
-					"56898",
-					"56898.01910879629629629629630"
-				],
-				"e_flux":"1.20E-13",
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"1.60E-13",
-				"telescope":"Swift",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
 				"time":"56898",
 				"band":"M2",
 				"e_magnitude":"0.09",
@@ -869,23 +479,6 @@
 				"magnitude":"17.28",
 				"system":"Vega",
 				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":[
-					"56926",
-					"56926.02876157407407407407407"
-				],
-				"e_flux":"1.20E-13",
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"3.30E-13",
-				"telescope":"Swift",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
 				"u_time":"MJD",
 				"source":"1"
 			},
@@ -923,23 +516,6 @@
 				"source":"1"
 			},
 			{
-				"time":[
-					"56954",
-					"56954.02399305555555555555556"
-				],
-				"e_flux":"1.10E-13",
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"2.00E-13",
-				"telescope":"Swift",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
 				"time":"56954",
 				"band":"M2",
 				"e_magnitude":"0.09",
@@ -973,46 +549,6 @@
 				"source":"1"
 			},
 			{
-				"time":[
-					"56962.8",
-					"56962.882"
-				],
-				"counts":"0.0226",
-				"e_counts":"0.00193",
-				"e_lower_flux":"3.90E-13",
-				"e_lower_luminosity":"2.58E+41",
-				"e_upper_flux":"4.68E-13",
-				"e_upper_luminosity":"3.09E+41",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"4.26E-13",
-				"luminosity":"2.81E+41",
-				"photonindex":"2.725",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"source":"3"
-			},
-			{
-				"time":[
-					"56982",
-					"56982.00158564814814814814815"
-				],
-				"e_flux":"2.40E-13",
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"3.00E-13",
-				"telescope":"Swift",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
 				"time":"56982",
 				"band":"W2",
 				"e_magnitude":"0.13",
@@ -1020,23 +556,6 @@
 				"magnitude":"17.54",
 				"system":"Vega",
 				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":[
-					"56987",
-					"56987.02861111111111111111111"
-				],
-				"e_flux":"1.40E-13",
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"2.10E-13",
-				"telescope":"Swift",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
 				"u_time":"MJD",
 				"source":"1"
 			},
@@ -1074,47 +593,6 @@
 				"source":"1"
 			},
 			{
-				"time":[
-					"57033.8",
-					"57034.081"
-				],
-				"counts":"0.169",
-				"e_counts":"0.003",
-				"e_lower_flux":"2.76E-13",
-				"e_lower_luminosity":"1.82E+41",
-				"e_upper_flux":"2.87E-13",
-				"e_upper_luminosity":"1.90E+41",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"2.82E-13",
-				"luminosity":"1.86E+41",
-				"nhmw":"0.106",
-				"photonindex":"2.78",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"source":"3"
-			},
-			{
-				"time":[
-					"57034",
-					"57034.18634259259259259259259"
-				],
-				"e_flux":"1.0E-14",
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"3.00E-13",
-				"telescope":"XMM pointed",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
 				"time":"57034",
 				"band":"B",
 				"e_magnitude":"0.01",
@@ -1145,23 +623,6 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":[
-					"57285",
-					"57285.021875"
-				],
-				"energy":[
-					"0.2",
-					"2.0"
-				],
-				"flux":"7.0E-14",
-				"telescope":"Swift",
-				"u_energy":"keV",
-				"u_flux":"ergs s^-1 cm^-2",
-				"u_time":"MJD",
-				"upperlimit":true,
 				"source":"1"
 			},
 			{
@@ -1196,234 +657,6 @@
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
-			},
-			{
-				"time":[
-					"57285.5",
-					"57285.517"
-				],
-				"counts":"0.00481",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"8.72E-14",
-				"luminosity":"5.76E+40",
-				"nhmw":"0.14524",
-				"photonindex":"2.70933",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"3"
-			},
-			{
-				"time":[
-					57340.5083,
-					57340.8125
-				],
-				"e_fluxdensity":"11.0",
-				"fluxdensity":"579.0",
-				"frequency":"5.5",
-				"u_fluxdensity":"μJy",
-				"u_frequency":"GHz",
-				"u_time":"MJD",
-				"source":"2"
-			},
-			{
-				"time":[
-					57340.5083,
-					57340.8125
-				],
-				"e_fluxdensity":"11.0",
-				"fluxdensity":"382.0",
-				"frequency":"9",
-				"u_fluxdensity":"μJy",
-				"u_frequency":"GHz",
-				"u_time":"MJD",
-				"source":"2"
-			},
-			{
-				"time":[
-					57357.225,
-					57357.8486
-				],
-				"e_fluxdensity":"60",
-				"fluxdensity":"1190",
-				"frequency":"1.53",
-				"u_fluxdensity":"μJy",
-				"u_frequency":"GHz",
-				"u_time":"MJD",
-				"source":"2"
-			},
-			{
-				"time":[
-					57357.225,
-					57357.8486
-				],
-				"e_fluxdensity":"40",
-				"fluxdensity":"1020",
-				"frequency":"2.11",
-				"u_fluxdensity":"μJy",
-				"u_frequency":"GHz",
-				"u_time":"MJD",
-				"source":"2"
-			},
-			{
-				"time":[
-					57357.225,
-					57357.8486
-				],
-				"e_fluxdensity":"40",
-				"fluxdensity":"870",
-				"frequency":"2.74",
-				"u_fluxdensity":"μJy",
-				"u_frequency":"GHz",
-				"u_time":"MJD",
-				"source":"2"
-			},
-			{
-				"time":[
-					57357.4444,
-					57357.875
-				],
-				"e_fluxdensity":"30",
-				"fluxdensity":"130",
-				"frequency":"18",
-				"u_fluxdensity":"μJy",
-				"u_frequency":"GHz",
-				"u_time":"MJD",
-				"source":"2"
-			},
-			{
-				"time":[
-					57517.125,
-					57517.5819
-				],
-				"e_fluxdensity":"90",
-				"fluxdensity":"890",
-				"frequency":"1.7",
-				"u_fluxdensity":"μJy",
-				"u_frequency":"GHz",
-				"u_time":"MJD",
-				"source":"2"
-			},
-			{
-				"time":[
-					57517.125,
-					57517.5819
-				],
-				"e_fluxdensity":"40",
-				"fluxdensity":"630",
-				"frequency":"2.1",
-				"u_fluxdensity":"μJy",
-				"u_frequency":"GHz",
-				"u_time":"MJD",
-				"source":"2"
-			},
-			{
-				"time":[
-					57517.125,
-					57517.5819
-				],
-				"e_fluxdensity":"50",
-				"fluxdensity":"540",
-				"frequency":"2.8",
-				"u_fluxdensity":"μJy",
-				"u_frequency":"GHz",
-				"u_time":"MJD",
-				"source":"2"
-			},
-			{
-				"time":[
-					57517.125,
-					57517.5819
-				],
-				"e_fluxdensity":"14.0",
-				"fluxdensity":"4.0E+2",
-				"frequency":"5.5",
-				"u_fluxdensity":"μJy",
-				"u_frequency":"GHz",
-				"u_time":"MJD",
-				"source":"2"
-			},
-			{
-				"time":[
-					57517.125,
-					57517.5819
-				],
-				"e_fluxdensity":"13.0",
-				"fluxdensity":"250",
-				"frequency":"9",
-				"u_fluxdensity":"μJy",
-				"u_frequency":"GHz",
-				"u_time":"MJD",
-				"source":"2"
-			},
-			{
-				"time":[
-					57623.6271,
-					57624.0549
-				],
-				"e_fluxdensity":"60",
-				"fluxdensity":"650",
-				"frequency":"1.6",
-				"u_fluxdensity":"μJy",
-				"u_frequency":"GHz",
-				"u_time":"MJD",
-				"source":"2"
-			},
-			{
-				"time":[
-					57623.6271,
-					57624.0549
-				],
-				"e_fluxdensity":"30",
-				"fluxdensity":"580",
-				"frequency":"2.1",
-				"u_fluxdensity":"μJy",
-				"u_frequency":"GHz",
-				"u_time":"MJD",
-				"source":"2"
-			},
-			{
-				"time":[
-					57623.6271,
-					57624.0549
-				],
-				"e_fluxdensity":"30",
-				"fluxdensity":"550",
-				"frequency":"2.7",
-				"u_fluxdensity":"μJy",
-				"u_frequency":"GHz",
-				"u_time":"MJD",
-				"source":"2"
-			},
-			{
-				"time":[
-					57623.6271,
-					57624.0549
-				],
-				"e_fluxdensity":"16.0",
-				"fluxdensity":"420",
-				"frequency":"5.5",
-				"u_fluxdensity":"μJy",
-				"u_frequency":"GHz",
-				"u_time":"MJD",
-				"source":"2"
-			},
-			{
-				"time":[
-					57623.6271,
-					57624.0549
-				],
-				"e_fluxdensity":"17.0",
-				"fluxdensity":"230",
-				"frequency":"9",
-				"u_fluxdensity":"μJy",
-				"u_frequency":"GHz",
-				"u_time":"MJD",
-				"source":"2"
 			}
 		]
 	}

@@ -90,48 +90,6 @@
 				"u_value":"km/s",
 				"source":"4"
 			}
-		],
-		"photometry":[
-			{
-				"time":[
-					"48200",
-					"48200.005"
-				],
-				"counts":"0.0222",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"1.54E-13",
-				"luminosity":"1.40E+42",
-				"nhmw":"0.0584",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
-					"56755.3",
-					"56755.300"
-				],
-				"counts":"3.64",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"1.93E-11",
-				"luminosity":"1.75E+44",
-				"nhmw":"0.0584",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			}
 		]
 	}
 }
