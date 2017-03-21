@@ -122,6 +122,7 @@
 		"velocity":[
 			{
 				"value":"30600",
+				"derived":true,
 				"u_value":"km/s",
 				"source":"4"
 			}
