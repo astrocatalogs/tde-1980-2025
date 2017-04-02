@@ -39,7 +39,11 @@
 		"alias":[
 			{
 				"value":"Swift J1112-82",
-				"source":"1"
+				"source":"1,5"
+			},
+			{
+				"value":"Swift J1112.2-8238",
+				"source":"1,5"
 			}
 		],
 		"citations":[
