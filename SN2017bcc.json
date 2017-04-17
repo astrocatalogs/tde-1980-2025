@@ -300,15 +300,6 @@
 			},
 			{
 				"time":"57822.0",
-				"counts":"0.0286",
-				"e_counts":"0.0037",
-				"instrument":"XRT",
-				"telescope":"Swift",
-				"u_time":"s^-1",
-				"source":"4"
-			},
-			{
-				"time":"57822.0",
 				"band":"B",
 				"e_magnitude":"0.17",
 				"instrument":"UVOT",

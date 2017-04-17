@@ -251,7 +251,7 @@
 					"48200",
 					"48200.003"
 				],
-				"counts":"0.0449",
+				"countrate":"0.0449",
 				"energy":[
 					"0.3",
 					"2.0"
@@ -874,8 +874,8 @@
 					"57277.1",
 					"57277.386"
 				],
-				"counts":"0.17",
-				"e_counts":"0.00278",
+				"countrate":"0.17",
+				"e_countrate":"0.00278",
 				"e_lower_flux":"4.90E-14",
 				"e_lower_luminosity":"2.69E+41",
 				"e_upper_flux":"6.76E-14",
@@ -1907,8 +1907,8 @@
 					"57325.2",
 					"57325.621"
 				],
-				"counts":"0.701",
-				"e_counts":"0.00465",
+				"countrate":"0.701",
+				"e_countrate":"0.00465",
 				"e_lower_flux":"5.83E-14",
 				"e_lower_luminosity":"3.20E+41",
 				"e_upper_flux":"7.43E-14",

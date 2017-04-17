@@ -219,7 +219,7 @@
 					"48100",
 					"48100.008"
 				],
-				"counts":"0.0193",
+				"countrate":"0.0193",
 				"energy":[
 					"0.3",
 					"2.0"
@@ -258,7 +258,7 @@
 					"56160.8",
 					"56160.800"
 				],
-				"counts":"0.59",
+				"countrate":"0.59",
 				"energy":[
 					"0.3",
 					"2.0"
@@ -314,8 +314,8 @@
 					"56748.9",
 					"56748.900"
 				],
-				"counts":"6.06",
-				"e_counts":"0.815",
+				"countrate":"6.06",
+				"e_countrate":"0.815",
 				"e_lower_flux":"5.31E-12",
 				"e_lower_luminosity":"3.51E+42",
 				"e_upper_flux":"7.11E-12",
@@ -446,8 +446,8 @@
 					"56777.2",
 					"56777.700"
 				],
-				"counts":"0.262",
-				"e_counts":"0.005",
+				"countrate":"0.262",
+				"e_countrate":"0.005",
 				"e_lower_flux":"4.37E-13",
 				"e_lower_luminosity":"2.89E+41",
 				"e_upper_flux":"4.52E-13",
@@ -472,8 +472,8 @@
 					"56779.6",
 					"56779.720"
 				],
-				"counts":"0.0888",
-				"e_counts":"0.0031",
+				"countrate":"0.0888",
+				"e_countrate":"0.0031",
 				"e_lower_flux":"1.53E-12",
 				"e_lower_luminosity":"1.01E+42",
 				"e_upper_flux":"1.64E-12",
@@ -765,8 +765,8 @@
 					"56844.7",
 					"56844.780"
 				],
-				"counts":"0.0443",
-				"e_counts":"0.00274",
+				"countrate":"0.0443",
+				"e_countrate":"0.00274",
 				"e_lower_flux":"8.58E-13",
 				"e_lower_luminosity":"5.67E+41",
 				"e_upper_flux":"1.01E-12",
@@ -992,8 +992,8 @@
 					"56962.8",
 					"56962.882"
 				],
-				"counts":"0.0226",
-				"e_counts":"0.00193",
+				"countrate":"0.0226",
+				"e_countrate":"0.00193",
 				"e_lower_flux":"3.90E-13",
 				"e_lower_luminosity":"2.58E+41",
 				"e_upper_flux":"4.68E-13",
@@ -1096,8 +1096,8 @@
 					"57033.8",
 					"57034.081"
 				],
-				"counts":"0.169",
-				"e_counts":"0.003",
+				"countrate":"0.169",
+				"e_countrate":"0.003",
 				"e_lower_flux":"2.76E-13",
 				"e_lower_luminosity":"1.82E+41",
 				"e_upper_flux":"2.87E-13",
@@ -1222,7 +1222,7 @@
 					"57285.5",
 					"57285.517"
 				],
-				"counts":"0.00481",
+				"countrate":"0.00481",
 				"energy":[
 					"0.3",
 					"2.0"

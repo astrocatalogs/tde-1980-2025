@@ -167,8 +167,8 @@
 					"48136.5",
 					"48136.505"
 				],
-				"counts":"0.0222646",
-				"e_counts":"0.00868393",
+				"countrate":"0.0222646",
+				"e_countrate":"0.00868393",
 				"e_lower_flux":"1.88E-13",
 				"e_lower_luminosity":"2.33E+40",
 				"e_upper_flux":"4.29E-13",
@@ -193,8 +193,8 @@
 					"52365.9",
 					"52365.900"
 				],
-				"counts":"3.77",
-				"e_counts":"0.845",
+				"countrate":"3.77",
+				"e_countrate":"0.845",
 				"e_lower_flux":"1.51E-11",
 				"e_lower_luminosity":"1.87E+42",
 				"e_upper_flux":"2.38E-11",
@@ -219,7 +219,7 @@
 					"52703.7",
 					"52703.752"
 				],
-				"counts":"0.124001",
+				"countrate":"0.124001",
 				"energy":[
 					"0.3",
 					"2.0"
@@ -241,8 +241,8 @@
 					"53613.9",
 					"53613.900"
 				],
-				"counts":"8.71",
-				"e_counts":"1.425",
+				"countrate":"8.71",
+				"e_countrate":"1.425",
 				"e_lower_flux":"3.76E-11",
 				"e_lower_luminosity":"4.66E+42",
 				"e_upper_flux":"5.21E-11",
@@ -267,8 +267,8 @@
 					"53830.9",
 					"53831.129"
 				],
-				"counts":"0.687904",
-				"e_counts":"0.00624779",
+				"countrate":"0.687904",
+				"e_countrate":"0.00624779",
 				"e_lower_flux":"1.51E-12",
 				"e_lower_luminosity":"1.87E+41",
 				"e_upper_flux":"1.59E-12",
@@ -293,8 +293,8 @@
 					"54709",
 					"54709.025"
 				],
-				"counts":"0.528859",
-				"e_counts":"0.016316",
+				"countrate":"0.528859",
+				"e_countrate":"0.016316",
 				"e_lower_flux":"7.57E-13",
 				"e_lower_luminosity":"9.39E+40",
 				"e_upper_flux":"9.36E-13",
@@ -319,8 +319,8 @@
 					"55079.9",
 					"55079.900"
 				],
-				"counts":"8.81",
-				"e_counts":"1.147",
+				"countrate":"8.81",
+				"e_countrate":"1.147",
 				"e_lower_flux":"3.95E-11",
 				"e_lower_luminosity":"4.90E+42",
 				"e_upper_flux":"5.14E-11",
@@ -345,8 +345,8 @@
 					"55116.2",
 					"55116.241"
 				],
-				"counts":"0.82023",
-				"e_counts":"0.0160689",
+				"countrate":"0.82023",
+				"e_countrate":"0.0160689",
 				"e_lower_flux":"1.12E-12",
 				"e_lower_luminosity":"1.39E+41",
 				"e_upper_flux":"1.28E-12",
@@ -371,8 +371,8 @@
 					"56205.5",
 					"56205.582"
 				],
-				"counts":"1.13102",
-				"e_counts":"0.0134011",
+				"countrate":"1.13102",
+				"e_countrate":"0.0134011",
 				"e_lower_flux":"2.12E-12",
 				"e_lower_luminosity":"2.63E+41",
 				"e_upper_flux":"2.27E-12",
@@ -397,8 +397,8 @@
 					"56332.1",
 					"56332.274"
 				],
-				"counts":"1.09423",
-				"e_counts":"0.00904772",
+				"countrate":"1.09423",
+				"e_countrate":"0.00904772",
 				"e_lower_flux":"1.96E-12",
 				"e_lower_luminosity":"2.43E+41",
 				"e_upper_flux":"2.06E-12",
@@ -423,8 +423,8 @@
 					"56512",
 					"56512.095"
 				],
-				"counts":"0.451157",
-				"e_counts":"0.00785827",
+				"countrate":"0.451157",
+				"e_countrate":"0.00785827",
 				"e_lower_flux":"7.45E-13",
 				"e_lower_luminosity":"9.24E+40",
 				"e_upper_flux":"8.28E-13",
