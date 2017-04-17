@@ -1051,15 +1051,6 @@
 				"source":"4"
 			},
 			{
-				"time":"55349.09820561337",
-				"band":"z",
-				"countrate":"0.0009400000000006522301376659071",
-				"instrument":"Chandra",
-				"u_time":"s^-1",
-				"upperlimit":true,
-				"source":"4"
-			},
-			{
 				"time":"55350.50",
 				"band":"g",
 				"e_magnitude":"0.13",
@@ -2212,15 +2203,6 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"s^-1",
 				"source":"1"
-			},
-			{
-				"time":"56833.93991796288",
-				"band":"z",
-				"countrate":"0.0009825168337356339734067278669",
-				"e_countrate":"0.0005808395811124526290881663071",
-				"instrument":"XMM",
-				"u_time":"s^-1",
-				"source":"4"
 			}
 		]
 	}
