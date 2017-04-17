@@ -4,28 +4,34 @@
 		"name":"IGR J12580",
 		"sources":[
 			{
+				"name":"2017ApJ...838..149A",
+				"bibcode":"2017ApJ...838..149A",
+				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2017)",
+				"alias":"1"
+			},
+			{
 				"name":"2016arXiv161102291A",
 				"bibcode":"2016arXiv161102291A",
 				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2016)",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
 				"name":"2016A&A...594A..13P",
 				"bibcode":"2016A&A...594A..13P",
 				"reference":"Planck Collaboration et al. (2016)",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"2013A&A...552A..75N",
 				"bibcode":"2013A&A...552A..75N",
 				"reference":"Nikołajuk & Walter (2013)",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
 				"reference":"Schlafly & Finkbeiner (2011)",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"The Open TDE Catalog",
@@ -33,29 +39,29 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://tde.space",
-				"alias":"5"
+				"alias":"6"
 			}
 		],
 		"alias":[
 			{
 				"value":"IGR J12580",
-				"source":"1"
+				"source":"1,2"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/2013A%26A...552A..75N'>Niko&#322;ajuk and Walter 2013</a>*&Dagger;",
-				"source":"3"
+				"source":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"AGN",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"Planet + SMBH",
-				"source":"3"
+				"source":"4"
 			}
 		],
 		"comovingdist":[
@@ -63,7 +69,7 @@
 				"value":"18.2",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3,5"
+				"source":"1,3,4,6"
 			}
 		],
 		"dec":[
@@ -78,13 +84,13 @@
 				"value":"0.0171",
 				"derived":true,
 				"e_value":"0.0002",
-				"source":"4,5"
+				"source":"5,6"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 4845",
-				"source":"1,3"
+				"source":"1,4"
 			}
 		],
 		"hostdec":[
@@ -99,13 +105,13 @@
 				"value":"58.1",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"1,5"
+				"source":"1,6"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"5.11",
-				"source":"1,2,3,5"
+				"source":"1,3,4,6"
 			}
 		],
 		"hostra":[
@@ -120,7 +126,7 @@
 				"value":"18.2",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3,5"
+				"source":"1,3,4,6"
 			}
 		],
 		"ra":[
@@ -133,7 +139,7 @@
 		"redshift":[
 			{
 				"value":"0.00411",
-				"source":"1,3"
+				"source":"1,4"
 			}
 		],
 		"velocity":[
@@ -141,7 +147,152 @@
 				"value":"1230",
 				"derived":true,
 				"u_value":"km/s",
-				"source":"5"
+				"source":"6"
+			}
+		],
+		"photometry":[
+			{
+				"time":[
+					"48083.6",
+					"48083.603"
+				],
+				"counts":"0.0459781",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"9.67E-14",
+				"instrument":"PSPC",
+				"luminosity":"3.51E+39",
+				"nhmw":"0.015",
+				"photonindex":"4.5",
+				"telescope":"ROSAT",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
+			{
+				"time":[
+					"52267.9",
+					"52267.900"
+				],
+				"counts":"0.573",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"2.50E-12",
+				"instrument":"PN",
+				"luminosity":"9.08E+40",
+				"nhmw":"0.015",
+				"photonindex":"2.3",
+				"telescope":"XMM",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
+			{
+				"time":[
+					"55574.1",
+					"55574.159"
+				],
+				"counts":"0.499648",
+				"e_counts":"0.0104767",
+				"e_lower_flux":"3.00E-13",
+				"e_lower_luminosity":"1.09E+40",
+				"e_upper_flux":"5.58E-13",
+				"e_upper_luminosity":"2.03E+40",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"4.34E-13",
+				"instrument":"XRT",
+				"luminosity":"1.58E+40",
+				"mode":"PC",
+				"photonindex":"1.73",
+				"telescope":"Swift",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"source":"1"
+			},
+			{
+				"time":[
+					"55583.6",
+					"55583.677"
+				],
+				"counts":"0.0279955",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"2.63E-14",
+				"instrument":"PN",
+				"luminosity":"9.55E+38",
+				"nhmw":"0.015",
+				"photonindex":"2.3",
+				"telescope":"XMM",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
+			{
+				"time":[
+					"55583.7",
+					"55583.907"
+				],
+				"counts":"5.85901",
+				"e_counts":"0.0203924",
+				"e_lower_flux":"3.32E-13",
+				"e_lower_luminosity":"1.21E+40",
+				"e_upper_flux":"3.46E-13",
+				"e_upper_luminosity":"1.26E+40",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"3.39E-13",
+				"instrument":"PN",
+				"luminosity":"1.23E+40",
+				"photonindex":"2.3",
+				"telescope":"XMM",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"source":"1"
+			},
+			{
+				"time":[
+					"56107.3",
+					"56107.338"
+				],
+				"counts":"0.00315055",
+				"e_counts":"0.00120412",
+				"e_lower_flux":"1.28E-14",
+				"e_lower_luminosity":"4.65E+38",
+				"e_upper_flux":"2.85E-14",
+				"e_upper_luminosity":"1.04E+39",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"2.07E-14",
+				"instrument":"XRT",
+				"luminosity":"7.52E+38",
+				"mode":"PC",
+				"photonindex":"1.73",
+				"telescope":"Swift",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"source":"1"
 			}
 		]
 	}

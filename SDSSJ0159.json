@@ -4,9 +4,9 @@
 		"name":"SDSSJ0159",
 		"sources":[
 			{
-				"name":"2016arXiv161102291A",
-				"bibcode":"2016arXiv161102291A",
-				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2016)",
+				"name":"2017ApJ...838..149A",
+				"bibcode":"2017ApJ...838..149A",
+				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2017)",
 				"alias":"1"
 			},
 			{
@@ -96,6 +96,104 @@
 				"derived":true,
 				"u_value":"km/s",
 				"source":"4"
+			}
+		],
+		"photometry":[
+			{
+				"time":[
+					"48260",
+					"48260.004"
+				],
+				"counts":"0.0357411",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"1.45E-13",
+				"instrument":"PSPC",
+				"luminosity":"5.16E+43",
+				"nhmw":"0.0266",
+				"photonindex":"4.5",
+				"telescope":"ROSAT",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
+			{
+				"time":[
+					"48733",
+					"48733.081"
+				],
+				"counts":"0.0148527",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"3.55E-14",
+				"instrument":"PSPC",
+				"luminosity":"1.26E+43",
+				"nhmw":"0.0266",
+				"photonindex":"4.5",
+				"telescope":"ROSAT",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
+			{
+				"time":[
+					"51754.9",
+					"51754.968"
+				],
+				"counts":"0.113035",
+				"e_counts":"0.00520953",
+				"e_lower_flux":"2.82E-13",
+				"e_lower_luminosity":"1.00E+44",
+				"e_upper_flux":"3.15E-13",
+				"e_upper_luminosity":"1.12E+44",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"2.98E-13",
+				"instrument":"PN",
+				"luminosity":"1.06E+44",
+				"nhmw":"0.0266",
+				"photonindex":"2.03",
+				"telescope":"XMM",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"source":"1"
+			},
+			{
+				"time":[
+					"53615.3",
+					"53615.530"
+				],
+				"counts":"0.000783399",
+				"e_counts":"0.000216515",
+				"e_lower_flux":"2.77E-14",
+				"e_lower_luminosity":"9.86E+42",
+				"e_upper_flux":"4.89E-14",
+				"e_upper_luminosity":"1.74E+43",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"3.83E-14",
+				"instrument":"ACIS-S",
+				"luminosity":"1.36E+43",
+				"nhmw":"0.0266",
+				"photonindex":"4.5",
+				"telescope":"Chandra",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"source":"1"
 			}
 		]
 	}

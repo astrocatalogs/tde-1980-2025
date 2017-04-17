@@ -4,34 +4,40 @@
 		"name":"D3-13",
 		"sources":[
 			{
+				"name":"2017ApJ...838..149A",
+				"bibcode":"2017ApJ...838..149A",
+				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2017)",
+				"alias":"1"
+			},
+			{
 				"name":"2016arXiv161102291A",
 				"bibcode":"2016arXiv161102291A",
 				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2016)",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
 				"name":"2016A&A...594A..13P",
 				"bibcode":"2016A&A...594A..13P",
 				"reference":"Planck Collaboration et al. (2016)",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
 				"reference":"Schlafly & Finkbeiner (2011)",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"2008ApJ...676..944G",
 				"bibcode":"2008ApJ...676..944G",
 				"reference":"Gezari et al. (2008)",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"2006ApJ...653L..25G",
 				"bibcode":"2006ApJ...653L..25G",
 				"reference":"Gezari et al. (2006)",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"The Open TDE Catalog",
@@ -39,7 +45,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://tde.space",
-				"alias":"6"
+				"alias":"7"
 			}
 		],
 		"alias":[
@@ -51,13 +57,13 @@
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/2006ApJ...653L..25G'>Gezari et al. 2006</a>*&Dagger;, <a href='http://adsabs.harvard.edu/abs/2008ApJ...676..944G'>Gezari et al. 2008</a>",
-				"source":"5"
+				"source":"6"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"TDE?",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"comovingdist":[
@@ -65,21 +71,21 @@
 				"value":"1491",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,5,6"
+				"source":"1,3,6,7"
 			}
 		],
 		"dec":[
 			{
 				"value":"+52:52:06.24",
 				"u_value":"degrees",
-				"source":"4"
+				"source":"5"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2004/01/15",
 				"derived":true,
-				"source":"5,6"
+				"source":"6,7"
 			}
 		],
 		"ebv":[
@@ -87,13 +93,13 @@
 				"value":"0.0067",
 				"derived":true,
 				"e_value":"0.0006",
-				"source":"3,6"
+				"source":"4,7"
 			}
 		],
 		"host":[
 			{
 				"value":"GALEX J141929.8+525206",
-				"source":"1,5"
+				"source":"1,6"
 			}
 		],
 		"hostdec":[
@@ -108,13 +114,13 @@
 				"value":"0.7612",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"1,4,6"
+				"source":"1,5,7"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"4.017",
-				"source":"1,2,4,5,6"
+				"source":"1,3,5,6,7"
 			}
 		],
 		"hostra":[
@@ -129,75 +135,75 @@
 				"value":"2042",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,5,6"
+				"source":"1,3,6,7"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-18.548",
 				"derived":true,
-				"source":"1,2,5,6"
+				"source":"1,3,6,7"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"22.66",
 				"derived":true,
-				"source":"5,6"
+				"source":"6,7"
 			}
 		],
 		"maxband":[
 			{
 				"value":"FUV",
 				"derived":true,
-				"source":"5,6"
+				"source":"6,7"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2004/05/09",
 				"derived":true,
-				"source":"5,6"
+				"source":"6,7"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"23.76",
 				"derived":true,
-				"source":"5,6"
+				"source":"6,7"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"g",
 				"derived":true,
-				"source":"5,6"
+				"source":"6,7"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2004/03/20",
 				"derived":true,
-				"source":"5,6"
+				"source":"6,7"
 			}
 		],
 		"nh":[
 			{
 				"value":"1.3e+20",
-				"source":"5"
+				"source":"6"
 			}
 		],
 		"ra":[
 			{
 				"value":"14:19:29.76",
 				"u_value":"hours",
-				"source":"4"
+				"source":"5"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.3698",
-				"source":"1,5"
+				"source":"1,6"
 			}
 		],
 		"velocity":[
@@ -205,10 +211,54 @@
 				"value":"91340",
 				"derived":true,
 				"u_value":"km/s",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"photometry":[
+			{
+				"time":[
+					"48083.6",
+					"48083.608"
+				],
+				"counts":"0.0348557",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"6.56E-14",
+				"instrument":"PSPC",
+				"luminosity":"3.58E+43",
+				"nhmw":"0.0134",
+				"photonindex":"4.5",
+				"telescope":"ROSAT",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
+			{
+				"time":[
+					"52808.8",
+					"52808.800"
+				],
+				"counts":"0.575",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"2.06E-12",
+				"instrument":"PN",
+				"luminosity":"1.12E+45",
+				"nhmw":"0.0134",
+				"photonindex":"4.5",
+				"telescope":"XMM",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
 			{
 				"time":"52815.57000000001",
 				"band":"FUV",
@@ -216,7 +266,7 @@
 				"magnitude":"24.370",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"52815.57000000001",
@@ -225,7 +275,7 @@
 				"magnitude":"24.400",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53019.014250000015",
@@ -234,7 +284,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"23.148",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53019.014250000015",
@@ -243,7 +293,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"23.021",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53023.76249999998",
@@ -252,7 +302,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"23.692",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53024.85825000004",
@@ -261,7 +311,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"23.105",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53024.85825000004",
@@ -270,7 +320,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"23.029",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53032.89375000002",
@@ -279,7 +329,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"23.533",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53081.83725000002",
@@ -288,7 +338,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.157",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53082.933",
@@ -297,7 +347,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"23.817",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53084.75925000004",
@@ -306,7 +356,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"23.756",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53084.75925000004",
@@ -315,7 +365,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.352",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53084.75925000004",
@@ -324,7 +374,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"23.886",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53095.71675000003",
@@ -333,7 +383,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"23.974",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53095.71675000003",
@@ -342,7 +392,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"23.934",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53110.692",
@@ -351,7 +401,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"23.862",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53110.692",
@@ -360,7 +410,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.048",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53110.692",
@@ -369,7 +419,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"23.848",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53118.72749999998",
@@ -378,7 +428,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"23.911",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53118.72749999998",
@@ -387,7 +437,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.283",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53118.72749999998",
@@ -396,7 +446,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.189",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53122.74524999997",
@@ -405,7 +455,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"23.982",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53122.74524999997",
@@ -414,7 +464,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.400",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53122.74524999997",
@@ -423,7 +473,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.070",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53124.571500000005",
@@ -432,7 +482,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.451",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53124.571500000005",
@@ -441,7 +491,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.102",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53134.79850000002",
@@ -450,7 +500,7 @@
 				"instrument":"GALEX",
 				"magnitude":"22.660",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53134.79850000002",
@@ -459,7 +509,7 @@
 				"instrument":"GALEX",
 				"magnitude":"22.860",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53135.528999999995",
@@ -468,7 +518,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.425",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53135.528999999995",
@@ -477,7 +527,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.253",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53139.54674999999",
@@ -486,7 +536,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.127",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53139.54674999999",
@@ -495,7 +545,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.360",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53147.58224999996",
@@ -504,7 +554,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.055",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53147.58224999996",
@@ -513,7 +563,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.685",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53152.695750000006",
@@ -522,7 +572,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.185",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53166.57525000001",
@@ -531,7 +581,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.346",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53170.593",
@@ -540,7 +590,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.514",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53176.43700000003",
@@ -549,7 +599,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.461",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53176.802250000015",
@@ -558,7 +608,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.023",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53176.802250000015",
@@ -567,7 +617,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.268",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53179.724250000036",
@@ -576,7 +626,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.092",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53179.724250000036",
@@ -585,7 +635,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.353",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53179.724250000036",
@@ -594,7 +644,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.172",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53183.74200000002",
@@ -603,7 +653,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.485",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53194.69950000001",
@@ -612,7 +662,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.413",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53196.525749999964",
@@ -621,7 +671,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.138",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53198.71725",
@@ -630,7 +680,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.207",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53199.447749999985",
@@ -639,7 +689,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.989",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53199.447749999985",
@@ -648,7 +698,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.408",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53201.639250000015",
@@ -657,7 +707,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.262",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53203.46549999997",
@@ -666,7 +716,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.431",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53205.657",
@@ -675,7 +725,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.281",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53229.39825000002",
@@ -684,7 +734,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.477",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53412.75375",
@@ -693,7 +743,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.779",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53445.62624999997",
@@ -702,7 +752,7 @@
 				"instrument":"GALEX",
 				"magnitude":"23.490",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53445.62624999997",
@@ -711,7 +761,7 @@
 				"instrument":"GALEX",
 				"magnitude":"23.360",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53445.99149999997",
@@ -720,7 +770,7 @@
 				"instrument":"GALEX",
 				"magnitude":"23.460",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53489.45625000002",
@@ -729,7 +779,7 @@
 				"instrument":"GALEX",
 				"magnitude":"23.590",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53501.50949999998",
@@ -738,7 +788,7 @@
 				"instrument":"MegaCam",
 				"magnitude":"24.913",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53531.46000000002",
@@ -747,7 +797,33 @@
 				"instrument":"GALEX",
 				"magnitude":"23.980",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
+			},
+			{
+				"time":[
+					"53556.3",
+					"53558.429"
+				],
+				"counts":"0.000106453",
+				"e_counts":"0.0000289876",
+				"e_lower_flux":"4.32E-15",
+				"e_lower_luminosity":"2.36E+42",
+				"e_upper_flux":"7.53E-15",
+				"e_upper_luminosity":"4.11E+42",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"5.91E-15",
+				"instrument":"ACIS-S",
+				"luminosity":"3.22E+42",
+				"nhmw":"0.0134",
+				"photonindex":"4.5",
+				"telescope":"Chandra",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"source":"1"
 			},
 			{
 				"time":"53848.13175000001",
@@ -756,7 +832,7 @@
 				"instrument":"GALEX",
 				"magnitude":"24.330",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"53848.13175000001",
@@ -765,7 +841,7 @@
 				"instrument":"GALEX",
 				"magnitude":"24.150",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"54199.86749999999",
@@ -774,7 +850,7 @@
 				"instrument":"GALEX",
 				"magnitude":"24.340",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"54199.86749999999",
@@ -783,7 +859,120 @@
 				"instrument":"GALEX",
 				"magnitude":"24.010",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
+			},
+			{
+				"time":[
+					"54700",
+					"54706.858"
+				],
+				"counts":"0.0000633976",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"3.54E-15",
+				"instrument":"ACIS-S",
+				"luminosity":"1.93E+42",
+				"nhmw":"0.0134",
+				"photonindex":"4.5",
+				"telescope":"Chandra",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
+			{
+				"time":[
+					"56475.2",
+					"56475.200"
+				],
+				"counts":"0.501",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"1.80E-12",
+				"instrument":"PN",
+				"luminosity":"9.82E+44",
+				"nhmw":"0.0134",
+				"photonindex":"4.5",
+				"telescope":"XMM",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
+			{
+				"time":[
+					"56797.2",
+					"56797.241"
+				],
+				"counts":"0.00424594",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"1.01E-13",
+				"instrument":"XRT",
+				"luminosity":"5.51E+43",
+				"mode":"PC",
+				"nhmw":"0.0134",
+				"photonindex":"4.5",
+				"telescope":"Swift",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
+			{
+				"time":[
+					"56800.4",
+					"56800.426"
+				],
+				"counts":"0.0127885",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"3.05E-13",
+				"instrument":"XRT",
+				"luminosity":"1.66E+44",
+				"mode":"PC",
+				"nhmw":"0.0134",
+				"photonindex":"4.5",
+				"telescope":"Swift",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
+			{
+				"time":[
+					"56904.2",
+					"56904.214"
+				],
+				"counts":"0.00351683",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"8.39E-14",
+				"instrument":"XRT",
+				"luminosity":"4.58E+43",
+				"mode":"PC",
+				"nhmw":"0.0134",
+				"photonindex":"4.5",
+				"telescope":"Swift",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
 			}
 		]
 	}

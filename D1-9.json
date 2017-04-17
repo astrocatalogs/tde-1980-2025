@@ -4,9 +4,9 @@
 		"name":"D1-9",
 		"sources":[
 			{
-				"name":"2016arXiv161102291A",
-				"bibcode":"2016arXiv161102291A",
-				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2016)",
+				"name":"2017ApJ...838..149A",
+				"bibcode":"2017ApJ...838..149A",
+				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2017)",
 				"alias":"1"
 			},
 			{
@@ -201,6 +201,50 @@
 			}
 		],
 		"photometry":[
+			{
+				"time":[
+					"48262.3",
+					"48262.302"
+				],
+				"counts":"0.0308981",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"1.15E-13",
+				"instrument":"PSPC",
+				"luminosity":"4.57E+43",
+				"nhmw":"0.0249",
+				"photonindex":"4.5",
+				"telescope":"ROSAT",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
+			{
+				"time":[
+					"52304.7",
+					"52305.093"
+				],
+				"counts":"0.0276843",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"1.70E-14",
+				"instrument":"PN",
+				"luminosity":"6.76E+42",
+				"nhmw":"0.0249",
+				"photonindex":"4.5",
+				"telescope":"XMM",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
 			{
 				"time":"52954.36499999996",
 				"band":"FUV",
@@ -740,6 +784,28 @@
 				"magnitude":"23.310",
 				"u_time":"MJD",
 				"source":"4"
+			},
+			{
+				"time":[
+					"54051.2",
+					"54051.544"
+				],
+				"counts":"3.08E-04",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"2.46E-15",
+				"instrument":"ACIS-S",
+				"luminosity":"9.78E+41",
+				"nhmw":"0.0249",
+				"photonindex":"4.5",
+				"telescope":"Chandra",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
 			},
 			{
 				"time":"54058.51575000001",

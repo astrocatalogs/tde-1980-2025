@@ -4,9 +4,9 @@
 		"name":"Dougie",
 		"sources":[
 			{
-				"name":"2016arXiv161102291A",
-				"bibcode":"2016arXiv161102291A",
-				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2016)",
+				"name":"2017ApJ...838..149A",
+				"bibcode":"2017ApJ...838..149A",
+				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2017)",
 				"alias":"1"
 			},
 			{
@@ -325,7 +325,7 @@
 				"counts":"0.002259000000414234946663065620",
 				"instrument":"XRT",
 				"telescope":"Swift",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"source":"4"
 			},
@@ -344,7 +344,7 @@
 				"counts":"0.003030000003472334737474903287",
 				"instrument":"XRT",
 				"telescope":"Swift",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"source":"4"
 			},
@@ -391,7 +391,7 @@
 				"counts":"0.005339999999648875879455697324",
 				"instrument":"XRT",
 				"telescope":"Swift",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"source":"4"
 			},
@@ -467,7 +467,7 @@
 				"counts":"0.001559999998726762337480531433",
 				"instrument":"XRT",
 				"telescope":"Swift",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"source":"4"
 			},
@@ -572,7 +572,7 @@
 				"counts":"0.003119999999867505773428233431",
 				"instrument":"XRT",
 				"telescope":"Swift",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"source":"4"
 			},
@@ -593,6 +593,29 @@
 				"magnitude":"17.9638",
 				"u_time":"MJD",
 				"source":"4"
+			},
+			{
+				"time":[
+					"54873.8",
+					"54874.012"
+				],
+				"counts":"0.00169",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"1.95E-14",
+				"instrument":"XRT",
+				"luminosity":"2.15E+42",
+				"mode":"PC",
+				"nhmw":"0.013",
+				"photonindex":"4.5",
+				"telescope":"Swift",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
 			},
 			{
 				"time":"54874.27",
@@ -675,7 +698,7 @@
 				"counts":"0.003689999998648537371929341899",
 				"instrument":"XRT",
 				"telescope":"Swift",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"source":"4"
 			},
@@ -781,7 +804,7 @@
 				"counts":"0.005520000003441954997809172417",
 				"instrument":"XRT",
 				"telescope":"Swift",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"source":"4"
 			},
@@ -791,7 +814,7 @@
 				"counts":"0.001769999998525429732147809053",
 				"instrument":"XRT",
 				"telescope":"Swift",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"source":"4"
 			},
@@ -869,9 +892,54 @@
 				"counts":"0.002984999996801288261068991951",
 				"instrument":"XRT",
 				"telescope":"Swift",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"upperlimit":true,
 				"source":"4"
+			},
+			{
+				"time":[
+					"55323.6",
+					"55323.643"
+				],
+				"counts":"0.0146702",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"6.41E-15",
+				"instrument":"PN",
+				"luminosity":"7.07E+41",
+				"nhmw":"0.0128",
+				"photonindex":"4.5",
+				"telescope":"XMM",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
+			{
+				"time":[
+					"55583.9",
+					"55583.986"
+				],
+				"counts":"0.00221",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"2.55E-14",
+				"instrument":"XRT",
+				"luminosity":"2.81E+42",
+				"mode":"PC",
+				"nhmw":"0.013",
+				"photonindex":"4.5",
+				"telescope":"Swift",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
 			}
 		]
 	}

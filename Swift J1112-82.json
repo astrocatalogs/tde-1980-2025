@@ -4,9 +4,9 @@
 		"name":"Swift J1112-82",
 		"sources":[
 			{
-				"name":"2016arXiv161102291A",
-				"bibcode":"2016arXiv161102291A",
-				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2016)",
+				"name":"2017ApJ...838..149A",
+				"bibcode":"2017ApJ...838..149A",
+				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2017)",
 				"alias":"1"
 			},
 			{
@@ -136,6 +136,122 @@
 				"derived":true,
 				"u_value":"km/s",
 				"source":"5"
+			}
+		],
+		"photometry":[
+			{
+				"time":[
+					"48100",
+					"48100.003"
+				],
+				"counts":"0.0335",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"3.91E-13",
+				"instrument":"PSPC",
+				"luminosity":"2.26E+45",
+				"nhmw":"0.0909",
+				"photonindex":"4.5",
+				"telescope":"ROSAT",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
+			{
+				"time":[
+					"54946.4",
+					"54946.400"
+				],
+				"counts":"1.21",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"6.64E-12",
+				"instrument":"PN",
+				"luminosity":"3.83E+46",
+				"nhmw":"0.0909",
+				"photonindex":"4.5",
+				"telescope":"XMM",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
+			{
+				"time":[
+					"55922.7",
+					"55923.120"
+				],
+				"counts":"0.0681",
+				"e_counts":"0.00147",
+				"e_lower_flux":"6.81E-13",
+				"e_lower_luminosity":"3.93E+45",
+				"e_upper_flux":"7.19E-13",
+				"e_upper_luminosity":"4.15E+45",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"7.03E-13",
+				"instrument":"XRT",
+				"luminosity":"4.06E+45",
+				"mode":"PC",
+				"photonindex":"1.314",
+				"telescope":"Swift",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"source":"1"
+			},
+			{
+				"time":[
+					"56140.8",
+					"56140.800"
+				],
+				"counts":"0.514",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"8.20E-13",
+				"instrument":"PN",
+				"luminosity":"4.73E+45",
+				"nhmw":"0.0909",
+				"photonindex":"4.5",
+				"telescope":"XMM",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
+			{
+				"time":[
+					"56356.1",
+					"56356.100"
+				],
+				"counts":"0.308",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"1.69E-12",
+				"instrument":"PN",
+				"luminosity":"9.75E+45",
+				"nhmw":"0.0909",
+				"photonindex":"4.5",
+				"telescope":"XMM",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
 			}
 		]
 	}

@@ -4,9 +4,9 @@
 		"name":"PTF11glr",
 		"sources":[
 			{
-				"name":"2016arXiv161102291A",
-				"bibcode":"2016arXiv161102291A",
-				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2016)",
+				"name":"2017ApJ...838..149A",
+				"bibcode":"2017ApJ...838..149A",
+				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2017)",
 				"alias":"1"
 			},
 			{
@@ -158,6 +158,75 @@
 				"derived":true,
 				"u_value":"km/s",
 				"source":"5"
+			}
+		],
+		"photometry":[
+			{
+				"time":[
+					"48100",
+					"48100.006"
+				],
+				"counts":"0.0134",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"2.42E-14",
+				"instrument":"PSPC",
+				"luminosity":"3.22E+42",
+				"nhmw":"0.0212",
+				"photonindex":"4.5",
+				"telescope":"ROSAT",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
+			{
+				"time":[
+					"53574.6",
+					"53574.600"
+				],
+				"counts":"1.91",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"7.90E-12",
+				"instrument":"PN",
+				"luminosity":"1.05E+45",
+				"nhmw":"0.0212",
+				"photonindex":"4.5",
+				"telescope":"XMM",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
+			{
+				"time":[
+					"55784.8",
+					"55784.845"
+				],
+				"counts":"0.00324",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"4.61E-14",
+				"instrument":"XRT",
+				"luminosity":"6.13E+42",
+				"mode":"PC",
+				"nhmw":"0.0212",
+				"photonindex":"4.5",
+				"telescope":"Swift",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
 			}
 		]
 	}

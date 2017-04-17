@@ -10,9 +10,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"2016arXiv161102291A",
-				"bibcode":"2016arXiv161102291A",
-				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2016)",
+				"name":"2017ApJ...838..149A",
+				"bibcode":"2017ApJ...838..149A",
+				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2017)",
 				"alias":"2"
 			},
 			{
@@ -232,6 +232,28 @@
 			}
 		],
 		"photometry":[
+			{
+				"time":[
+					"48100",
+					"48100.004"
+				],
+				"counts":"0.0206",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"1.36E-13",
+				"instrument":"PSPC",
+				"luminosity":"7.96E+40",
+				"nhmw":"0.0561",
+				"photonindex":"4.5",
+				"telescope":"ROSAT",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"2"
+			},
 			{
 				"time":"54832.5",
 				"band":"R",
@@ -1518,6 +1540,29 @@
 				"source":"1"
 			},
 			{
+				"time":[
+					"57656.6",
+					"57657.030"
+				],
+				"counts":"0.0027",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"5.62E-14",
+				"instrument":"XRT",
+				"luminosity":"3.29E+40",
+				"mode":"PC",
+				"nhmw":"0.0561",
+				"photonindex":"4.5",
+				"telescope":"Swift",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"2"
+			},
+			{
 				"time":"57657.5",
 				"band":"B",
 				"e_magnitude":"0.04",
@@ -2636,6 +2681,29 @@
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
+			},
+			{
+				"time":[
+					"57718.6",
+					"57718.707"
+				],
+				"counts":"0.00245",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"5.10E-14",
+				"instrument":"XRT",
+				"luminosity":"2.98E+40",
+				"mode":"PC",
+				"nhmw":"0.0561",
+				"photonindex":"4.5",
+				"telescope":"Swift",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":"57720.0",

@@ -4,9 +4,9 @@
 		"name":"TDE2",
 		"sources":[
 			{
-				"name":"2016arXiv161102291A",
-				"bibcode":"2016arXiv161102291A",
-				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2016)",
+				"name":"2017ApJ...838..149A",
+				"bibcode":"2017ApJ...838..149A",
+				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2017)",
 				"alias":"1"
 			},
 			{
@@ -197,6 +197,28 @@
 			}
 		],
 		"photometry":[
+			{
+				"time":[
+					"48200",
+					"48200.004"
+				],
+				"counts":"0.024",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"1.06E-13",
+				"instrument":"PSPC",
+				"luminosity":"2.24E+43",
+				"nhmw":"0.0423",
+				"photonindex":"4.5",
+				"telescope":"ROSAT",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
+			},
 			{
 				"time":"54059.20845",
 				"band":"G",
@@ -676,6 +698,28 @@
 				"magnitude":"20.59",
 				"u_time":"MJD",
 				"source":"3"
+			},
+			{
+				"time":[
+					"56995.9",
+					"56995.900"
+				],
+				"counts":"0.563",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"2.82E-12",
+				"instrument":"PN",
+				"luminosity":"5.95E+44",
+				"nhmw":"0.0423",
+				"photonindex":"4.5",
+				"telescope":"XMM",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"source":"1"
 			}
 		]
 	}

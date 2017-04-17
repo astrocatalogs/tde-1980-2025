@@ -304,7 +304,7 @@
 				"e_counts":"0.0037",
 				"instrument":"XRT",
 				"telescope":"Swift",
-				"u_time":"MJD",
+				"u_time":"s^-1",
 				"source":"4"
 			},
 			{
