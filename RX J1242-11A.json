@@ -75,6 +75,13 @@
 				"source":"1"
 			}
 		],
+		"discoverdate":[
+			{
+				"value":"1992/07/15",
+				"derived":true,
+				"source":"1,6"
+			}
+		],
 		"ebv":[
 			{
 				"value":"0.0442",
@@ -163,9 +170,10 @@
 				"nhmw":"0.11",
 				"photonindex":"7.48",
 				"telescope":"ROSAT",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			},
@@ -189,9 +197,10 @@
 				"luminosity":"3.97E+42",
 				"photonindex":"7.48",
 				"telescope":"ROSAT",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"source":"1"
 			},
 			{
@@ -210,9 +219,10 @@
 				"nhmw":"0.0352",
 				"photonindex":"4.5",
 				"telescope":"Chandra",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			},
@@ -232,9 +242,10 @@
 				"nhmw":"0.0352",
 				"photonindex":"4.5",
 				"telescope":"XMM",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			},
@@ -254,9 +265,10 @@
 				"nhmw":"0.0352",
 				"photonindex":"4.5",
 				"telescope":"Chandra",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			},
@@ -276,9 +288,10 @@
 				"nhmw":"0.0352",
 				"photonindex":"4.5",
 				"telescope":"Chandra",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			},
@@ -298,9 +311,10 @@
 				"nhmw":"0.0352",
 				"photonindex":"4.5",
 				"telescope":"XMM",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			}

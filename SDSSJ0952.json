@@ -50,6 +50,13 @@
 				"source":"1,2,3,4"
 			}
 		],
+		"discoverdate":[
+			{
+				"value":"2008/02/05",
+				"derived":true,
+				"source":"1,4"
+			}
+		],
 		"host":[
 			{
 				"value":"SDSS J095209.56+214313.3",
@@ -109,9 +116,10 @@
 				"nhmw":"0.0279",
 				"photonindex":"4.5",
 				"telescope":"ROSAT",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			},
@@ -136,9 +144,10 @@
 				"nhmw":"0.0279",
 				"photonindex":"4.5",
 				"telescope":"Chandra",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"source":"1"
 			},
 			{
@@ -162,9 +171,10 @@
 				"nhmw":"0.0279",
 				"photonindex":"4.5",
 				"telescope":"Chandra",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"source":"1"
 			},
 			{
@@ -188,9 +198,10 @@
 				"nhmw":"0.0279",
 				"photonindex":"4.5",
 				"telescope":"Chandra",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"source":"1"
 			},
 			{
@@ -210,9 +221,10 @@
 				"nhmw":"0.0279",
 				"photonindex":"4.5",
 				"telescope":"Swift",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			}

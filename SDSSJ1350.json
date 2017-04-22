@@ -109,9 +109,10 @@
 				"nhmw":"0.012",
 				"photonindex":"4.5",
 				"telescope":"ROSAT",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			},
@@ -132,9 +133,10 @@
 				"nhmw":"0.012",
 				"photonindex":"4.5",
 				"telescope":"Swift",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			},
@@ -154,9 +156,10 @@
 				"nhmw":"0.012",
 				"photonindex":"4.5",
 				"telescope":"XMM",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			},
@@ -177,9 +180,10 @@
 				"nhmw":"0.012",
 				"photonindex":"4.5",
 				"telescope":"Swift",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			}

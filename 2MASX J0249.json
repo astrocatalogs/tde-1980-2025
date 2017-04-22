@@ -50,6 +50,13 @@
 				"source":"1,2,3,4"
 			}
 		],
+		"discoverdate":[
+			{
+				"value":"2006/07/14",
+				"derived":true,
+				"source":"1,4"
+			}
+		],
 		"host":[
 			{
 				"value":"2MASX J02491731&#8209;0412521",
@@ -118,9 +125,10 @@
 				"luminosity":"2.73E+41",
 				"photonindex":"7.7",
 				"telescope":"ROSAT",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			},
@@ -144,9 +152,10 @@
 				"luminosity":"3.35E+41",
 				"photonindex":"7.7",
 				"telescope":"XMM",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"source":"1"
 			},
 			{
@@ -166,9 +175,10 @@
 				"nhmw":"0.44",
 				"photonindex":"4.5",
 				"telescope":"Swift",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			},
@@ -194,9 +204,10 @@
 				"nhmw":"0.44",
 				"photonindex":"4.5",
 				"telescope":"Swift",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"source":"1"
 			},
 			{
@@ -221,9 +232,10 @@
 				"nhmw":"0.44",
 				"photonindex":"4.5",
 				"telescope":"Swift",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"source":"1"
 			},
 			{
@@ -243,9 +255,10 @@
 				"nhmw":"0.44",
 				"photonindex":"4.5",
 				"telescope":"Swift",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			},
@@ -266,9 +279,10 @@
 				"nhmw":"0.44",
 				"photonindex":"4.5",
 				"telescope":"Swift",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			},
@@ -289,9 +303,10 @@
 				"nhmw":"0.44",
 				"photonindex":"4.5",
 				"telescope":"Swift",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			},
@@ -312,9 +327,10 @@
 				"nhmw":"0.44",
 				"photonindex":"4.5",
 				"telescope":"Swift",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			},
@@ -335,9 +351,10 @@
 				"nhmw":"0.44",
 				"photonindex":"4.5",
 				"telescope":"Swift",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			}

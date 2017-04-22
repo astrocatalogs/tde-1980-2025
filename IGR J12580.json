@@ -79,6 +79,13 @@
 				"source":"1"
 			}
 		],
+		"discoverdate":[
+			{
+				"value":"2011/01/13",
+				"derived":true,
+				"source":"1,6"
+			}
+		],
 		"ebv":[
 			{
 				"value":"0.0171",
@@ -167,9 +174,10 @@
 				"nhmw":"0.015",
 				"photonindex":"4.5",
 				"telescope":"ROSAT",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			},
@@ -189,9 +197,10 @@
 				"nhmw":"0.015",
 				"photonindex":"2.3",
 				"telescope":"XMM",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			},
@@ -216,9 +225,10 @@
 				"mode":"PC",
 				"photonindex":"1.73",
 				"telescope":"Swift",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"source":"1"
 			},
 			{
@@ -237,9 +247,10 @@
 				"nhmw":"0.015",
 				"photonindex":"2.3",
 				"telescope":"XMM",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"upperlimit":true,
 				"source":"1"
 			},
@@ -263,9 +274,10 @@
 				"luminosity":"1.23E+40",
 				"photonindex":"2.3",
 				"telescope":"XMM",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"source":"1"
 			},
 			{
@@ -289,9 +301,10 @@
 				"mode":"PC",
 				"photonindex":"1.73",
 				"telescope":"Swift",
+				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
-				"u_time":"s^-1",
+				"u_time":"MJD",
 				"source":"1"
 			}
 		]
