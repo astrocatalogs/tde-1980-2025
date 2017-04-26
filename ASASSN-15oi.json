@@ -10,45 +10,39 @@
 				"alias":"1"
 			},
 			{
-				"name":"2016arXiv161102291A",
-				"bibcode":"2016arXiv161102291A",
-				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2016)",
-				"alias":"2"
-			},
-			{
 				"name":"2016arXiv160201088H",
 				"bibcode":"2016arXiv160201088H",
 				"reference":"Holoien et al. (2016)",
-				"alias":"3"
+				"alias":"2"
 			},
 			{
 				"name":"2016ApJ...818L..21F",
 				"bibcode":"2016ApJ...818L..21F",
 				"reference":"French, Arcavi, & Zabludoff (2016)",
-				"alias":"4"
+				"alias":"3"
 			},
 			{
 				"name":"2016A&A...594A..13P",
 				"bibcode":"2016A&A...594A..13P",
 				"reference":"Planck Collaboration et al. (2016)",
-				"alias":"5"
+				"alias":"4"
 			},
 			{
 				"name":"2015ATel.7910....1B",
 				"bibcode":"2015ATel.7910....1B",
 				"reference":"Brimacombe et al. (2015)",
-				"alias":"6"
+				"alias":"5"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
 				"reference":"Schlafly & Finkbeiner (2011)",
-				"alias":"7"
+				"alias":"6"
 			},
 			{
 				"name":"ASAS-SN Supernovae",
 				"url":"http://www.astronomy.ohio-state.edu/~assassin/transients.html",
-				"alias":"8"
+				"alias":"7"
 			},
 			{
 				"name":"The Open TDE Catalog",
@@ -56,7 +50,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://tde.space",
-				"alias":"9"
+				"alias":"8"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -64,29 +58,29 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"10"
+				"alias":"9"
 			}
 		],
 		"alias":[
 			{
 				"value":"ASASSN-15oi",
-				"source":"1,2,3,6,8,10"
+				"source":"1,2,5,7,9"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/2015ATel.7910....1B'>Brimacombe et. al 2015</a>*, <a href='http://adsabs.harvard.edu/abs/2015ATel.7936....1P'>Prentice et. al 2015</a>&Dagger;",
-				"source":"6"
+				"source":"5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"TDE?",
-				"source":"2"
+				"source":"1"
 			},
 			{
 				"value":"TDE",
-				"source":"8"
+				"source":"7"
 			}
 		],
 		"comovingdist":[
@@ -94,25 +88,25 @@
 				"value":"90",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,5,6,8,9"
+				"source":"1,4,5,7,8"
 			}
 		],
 		"dec":[
 			{
 				"value":"-30:45:20.71",
 				"u_value":"degrees",
-				"source":"1,4,10"
+				"source":"1,3,9"
 			},
 			{
 				"value":"-30:45:22.6",
 				"u_value":"floatdegrees",
-				"source":"6,8"
+				"source":"5,7"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2015/08/14.2",
-				"source":"6,8"
+				"source":"5,7"
 			}
 		],
 		"ebv":[
@@ -120,13 +114,13 @@
 				"value":"0.059",
 				"derived":true,
 				"e_value":"0.0039",
-				"source":"7,9"
+				"source":"6,8"
 			}
 		],
 		"host":[
 			{
 				"value":"2MASX J20390918-3045201",
-				"source":"1,6"
+				"source":"1,5"
 			}
 		],
 		"hostdec":[
@@ -141,13 +135,13 @@
 				"value":"1.346",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"1,4,9,10"
+				"source":"1,3,8,9"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"0.5758",
-				"source":"1,4,5,6,8,9,10"
+				"source":"1,3,4,5,7,8,9"
 			}
 		],
 		"hostra":[
@@ -162,56 +156,56 @@
 				"value":"90",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,5,6,8,9"
+				"source":"1,4,5,7,8"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-20",
 				"derived":true,
-				"source":"1,5,6,8,9"
+				"source":"1,4,5,7,8"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"14.44",
 				"derived":true,
-				"source":"3,9"
+				"source":"2,8"
 			}
 		],
 		"maxband":[
 			{
 				"value":"M2",
 				"derived":true,
-				"source":"3,9"
+				"source":"2,8"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2015/08/25",
 				"derived":true,
-				"source":"3,9"
+				"source":"2,8"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"16.09",
 				"derived":true,
-				"source":"3,9"
+				"source":"2,8"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"B",
 				"derived":true,
-				"source":"3,9"
+				"source":"2,8"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2015/08/15",
 				"derived":true,
-				"source":"3,9"
+				"source":"2,8"
 			}
 		],
 		"ra":[
@@ -223,18 +217,18 @@
 			{
 				"value":"20:39:08.93",
 				"u_value":"floatdegrees",
-				"source":"6,8"
+				"source":"5,7"
 			},
 			{
 				"value":"20:39:09.096",
 				"u_value":"hours",
-				"source":"4,10"
+				"source":"3,9"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.02",
-				"source":"1,6,8"
+				"source":"1,5,7"
 			}
 		],
 		"velocity":[
@@ -242,7 +236,7 @@
 				"value":"6000",
 				"derived":true,
 				"u_value":"km/s",
-				"source":"9"
+				"source":"8"
 			}
 		],
 		"photometry":[
@@ -276,7 +270,7 @@
 				"magnitude":"16.09",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57249.532",
@@ -285,7 +279,7 @@
 				"magnitude":"15.45",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57249.533",
@@ -294,7 +288,7 @@
 				"magnitude":"16.01",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57252.001",
@@ -303,7 +297,7 @@
 				"magnitude":"16.20",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57252.002",
@@ -312,7 +306,7 @@
 				"magnitude":"15.54",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57252.004",
@@ -321,7 +315,7 @@
 				"magnitude":"16.06",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57256.426",
@@ -330,7 +324,7 @@
 				"magnitude":"16.34",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57256.428",
@@ -339,7 +333,7 @@
 				"magnitude":"15.46",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57256.429",
@@ -348,7 +342,7 @@
 				"magnitude":"16.10",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57257.794",
@@ -358,7 +352,7 @@
 				"magnitude":"14.77",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57258.007",
@@ -367,7 +361,7 @@
 				"magnitude":"16.44",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57258.008",
@@ -376,7 +370,7 @@
 				"magnitude":"15.43",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57258.009",
@@ -385,7 +379,7 @@
 				"magnitude":"16.30",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57259.325",
@@ -395,7 +389,7 @@
 				"magnitude":"14.60",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57259.328",
@@ -404,7 +398,7 @@
 				"magnitude":"15.25",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57259.329",
@@ -413,7 +407,7 @@
 				"magnitude":"16.34",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57259.330",
@@ -423,7 +417,7 @@
 				"magnitude":"14.83",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57259.334",
@@ -432,7 +426,7 @@
 				"magnitude":"16.15",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57259.335",
@@ -442,7 +436,7 @@
 				"magnitude":"14.44",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57262.250",
@@ -451,7 +445,7 @@
 				"magnitude":"16.52",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57262.251",
@@ -460,7 +454,7 @@
 				"magnitude":"15.34",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57262.252",
@@ -469,7 +463,7 @@
 				"magnitude":"16.52",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57264.081",
@@ -478,7 +472,7 @@
 				"magnitude":"16.58",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57264.083",
@@ -487,7 +481,7 @@
 				"magnitude":"15.83",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57264.379",
@@ -497,7 +491,7 @@
 				"magnitude":"15.02",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57264.383",
@@ -506,7 +500,7 @@
 				"magnitude":"15.69",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57264.384",
@@ -515,7 +509,7 @@
 				"magnitude":"16.74",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57264.386",
@@ -525,7 +519,7 @@
 				"magnitude":"15.13",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57264.392",
@@ -534,7 +528,7 @@
 				"magnitude":"16.44",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57264.394",
@@ -544,7 +538,7 @@
 				"magnitude":"14.87",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57266.062",
@@ -553,7 +547,7 @@
 				"magnitude":"16.87",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57266.065",
@@ -562,7 +556,7 @@
 				"magnitude":"16.55",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57268.051",
@@ -571,7 +565,7 @@
 				"magnitude":"16.99",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57268.052",
@@ -580,7 +574,7 @@
 				"magnitude":"15.72",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57268.053",
@@ -589,7 +583,7 @@
 				"magnitude":"16.63",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57268.719",
@@ -599,7 +593,7 @@
 				"magnitude":"15.30",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57268.722",
@@ -608,7 +602,7 @@
 				"magnitude":"15.99",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57268.724",
@@ -617,7 +611,7 @@
 				"magnitude":"16.96",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57268.725",
@@ -627,7 +621,7 @@
 				"magnitude":"15.21",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57268.788",
@@ -636,7 +630,7 @@
 				"magnitude":"16.91",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57268.789",
@@ -646,7 +640,7 @@
 				"magnitude":"15.21",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57269.906",
@@ -655,7 +649,7 @@
 				"magnitude":"17.05",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57269.908",
@@ -664,7 +658,7 @@
 				"magnitude":"15.71",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57269.909",
@@ -673,7 +667,7 @@
 				"magnitude":"16.76",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57271.880",
@@ -682,7 +676,7 @@
 				"magnitude":"17.19",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57271.882",
@@ -691,7 +685,7 @@
 				"magnitude":"15.70",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57271.883",
@@ -700,7 +694,7 @@
 				"magnitude":"16.79",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57272.503",
@@ -710,7 +704,7 @@
 				"magnitude":"15.55",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57272.506",
@@ -719,7 +713,7 @@
 				"magnitude":"16.19",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57272.507",
@@ -728,7 +722,7 @@
 				"magnitude":"17.27",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57272.508",
@@ -738,7 +732,7 @@
 				"magnitude":"15.48",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57272.514",
@@ -747,7 +741,7 @@
 				"magnitude":"16.88",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57272.515",
@@ -757,7 +751,7 @@
 				"magnitude":"15.36",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57273.923",
@@ -766,7 +760,7 @@
 				"magnitude":"17.38",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57273.924",
@@ -775,7 +769,7 @@
 				"magnitude":"15.80",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57273.926",
@@ -784,7 +778,7 @@
 				"magnitude":"16.83",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57276.085",
@@ -794,7 +788,7 @@
 				"magnitude":"15.89",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57276.088",
@@ -803,7 +797,7 @@
 				"magnitude":"16.51",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57276.089",
@@ -812,7 +806,7 @@
 				"magnitude":"17.34",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57276.089",
@@ -821,7 +815,7 @@
 				"magnitude":"17.35",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57276.091",
@@ -831,7 +825,7 @@
 				"magnitude":"15.68",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57276.096",
@@ -840,7 +834,7 @@
 				"magnitude":"17.00",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57276.098",
@@ -850,7 +844,7 @@
 				"magnitude":"15.63",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57276.874",
@@ -859,7 +853,7 @@
 				"magnitude":"15.80",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57276.875",
@@ -868,7 +862,7 @@
 				"magnitude":"16.93",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -905,7 +899,7 @@
 				"magnitude":"17.42",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57278.172",
@@ -914,7 +908,7 @@
 				"magnitude":"16.94",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57279.895",
@@ -923,7 +917,7 @@
 				"magnitude":"15.81",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57280.675",
@@ -933,7 +927,7 @@
 				"magnitude":"16.07",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57280.678",
@@ -942,7 +936,7 @@
 				"magnitude":"16.73",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57280.679",
@@ -951,7 +945,7 @@
 				"magnitude":"17.47",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57280.681",
@@ -961,7 +955,7 @@
 				"magnitude":"15.91",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57280.688",
@@ -970,7 +964,7 @@
 				"magnitude":"17.05",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57280.689",
@@ -980,7 +974,7 @@
 				"magnitude":"15.79",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57282.474",
@@ -989,7 +983,7 @@
 				"magnitude":"17.47",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57282.475",
@@ -998,7 +992,7 @@
 				"magnitude":"16.98",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57282.476",
@@ -1007,7 +1001,7 @@
 				"magnitude":"15.85",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57285.411",
@@ -1017,7 +1011,7 @@
 				"magnitude":"16.24",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57285.412",
@@ -1026,7 +1020,7 @@
 				"magnitude":"16.99",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57285.413",
@@ -1035,7 +1029,7 @@
 				"magnitude":"17.58",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57285.413",
@@ -1045,7 +1039,7 @@
 				"magnitude":"16.01",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57285.415",
@@ -1054,7 +1048,7 @@
 				"magnitude":"17.00",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57285.416",
@@ -1064,7 +1058,7 @@
 				"magnitude":"15.97",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57285.423",
@@ -1073,7 +1067,7 @@
 				"magnitude":"17.62",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57285.424",
@@ -1082,7 +1076,7 @@
 				"magnitude":"16.90",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57291.381",
@@ -1091,7 +1085,7 @@
 				"magnitude":"17.70",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57291.382",
@@ -1100,7 +1094,7 @@
 				"magnitude":"17.03",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57291.383",
@@ -1109,7 +1103,7 @@
 				"magnitude":"15.98",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57291.384",
@@ -1119,7 +1113,7 @@
 				"magnitude":"16.52",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57291.387",
@@ -1128,7 +1122,7 @@
 				"magnitude":"16.96",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57291.388",
@@ -1137,7 +1131,7 @@
 				"magnitude":"17.68",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57291.389",
@@ -1147,7 +1141,7 @@
 				"magnitude":"16.12",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57291.590",
@@ -1156,7 +1150,7 @@
 				"magnitude":"17.02",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57291.591",
@@ -1166,7 +1160,7 @@
 				"magnitude":"16.18",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57294.520",
@@ -1175,7 +1169,7 @@
 				"magnitude":"17.58",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57294.521",
@@ -1184,7 +1178,7 @@
 				"magnitude":"17.13",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57294.522",
@@ -1193,7 +1187,7 @@
 				"magnitude":"15.99",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57294.579",
@@ -1203,7 +1197,7 @@
 				"magnitude":"16.66",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57294.581",
@@ -1212,7 +1206,7 @@
 				"magnitude":"17.26",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57294.582",
@@ -1221,7 +1215,7 @@
 				"magnitude":"17.69",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57294.583",
@@ -1231,7 +1225,7 @@
 				"magnitude":"16.17",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57294.588",
@@ -1240,7 +1234,7 @@
 				"magnitude":"17.07",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57294.589",
@@ -1250,7 +1244,7 @@
 				"magnitude":"16.38",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57295.130",
@@ -1259,7 +1253,7 @@
 				"magnitude":"17.67",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57297.048",
@@ -1269,7 +1263,7 @@
 				"magnitude":"16.91",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57299.493",
@@ -1278,7 +1272,7 @@
 				"magnitude":"17.95",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57299.495",
@@ -1287,7 +1281,7 @@
 				"magnitude":"15.80",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57300.226",
@@ -1297,7 +1291,7 @@
 				"magnitude":"16.91",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57300.229",
@@ -1306,7 +1300,7 @@
 				"magnitude":"17.36",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57300.230",
@@ -1315,7 +1309,7 @@
 				"magnitude":"17.72",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57300.231",
@@ -1325,7 +1319,7 @@
 				"magnitude":"16.35",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57300.236",
@@ -1334,7 +1328,7 @@
 				"magnitude":"17.49",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57300.237",
@@ -1344,7 +1338,7 @@
 				"magnitude":"16.67",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57302.481",
@@ -1353,7 +1347,7 @@
 				"magnitude":"15.95",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57303.618",
@@ -1363,7 +1357,7 @@
 				"magnitude":"17.07",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57303.621",
@@ -1372,7 +1366,7 @@
 				"magnitude":"17.47",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57303.622",
@@ -1381,7 +1375,7 @@
 				"magnitude":"17.81",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57303.623",
@@ -1391,7 +1385,7 @@
 				"magnitude":"16.42",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57303.628",
@@ -1400,7 +1394,7 @@
 				"magnitude":"17.31",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57303.629",
@@ -1410,7 +1404,7 @@
 				"magnitude":"16.81",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57304.918",
@@ -1419,7 +1413,7 @@
 				"magnitude":"17.59",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57304.919",
@@ -1428,7 +1422,7 @@
 				"magnitude":"17.22",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57304.921",
@@ -1437,7 +1431,7 @@
 				"magnitude":"15.86",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57306.483",
@@ -1447,7 +1441,7 @@
 				"magnitude":"17.14",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57306.486",
@@ -1456,7 +1450,7 @@
 				"magnitude":"17.45",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57306.487",
@@ -1465,7 +1459,7 @@
 				"magnitude":"17.69",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57306.488",
@@ -1475,7 +1469,7 @@
 				"magnitude":"16.57",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57306.494",
@@ -1484,7 +1478,7 @@
 				"magnitude":"17.09",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57306.495",
@@ -1494,7 +1488,7 @@
 				"magnitude":"16.93",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57307.104",
@@ -1503,7 +1497,7 @@
 				"magnitude":"17.18",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57307.106",
@@ -1512,7 +1506,7 @@
 				"magnitude":"15.93",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57307.137",
@@ -1521,7 +1515,7 @@
 				"magnitude":"17.93",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57307.138",
@@ -1530,7 +1524,7 @@
 				"magnitude":"17.18",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57307.140",
@@ -1539,7 +1533,7 @@
 				"magnitude":"15.96",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57309.407",
@@ -1549,7 +1543,7 @@
 				"magnitude":"17.16",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57309.408",
@@ -1558,7 +1552,7 @@
 				"magnitude":"17.67",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57309.409",
@@ -1567,7 +1561,7 @@
 				"magnitude":"17.81",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57309.410",
@@ -1577,7 +1571,7 @@
 				"magnitude":"16.56",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57309.413",
@@ -1587,7 +1581,7 @@
 				"magnitude":"17.00",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57309.413",
@@ -1596,7 +1590,7 @@
 				"magnitude":"17.56",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57312.128",
@@ -1606,7 +1600,7 @@
 				"magnitude":"17.41",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57312.131",
@@ -1615,7 +1609,7 @@
 				"magnitude":"17.79",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57312.132",
@@ -1624,7 +1618,7 @@
 				"magnitude":"17.69",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57312.133",
@@ -1634,7 +1628,7 @@
 				"magnitude":"16.79",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57312.137",
@@ -1643,7 +1637,7 @@
 				"magnitude":"17.10",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57312.138",
@@ -1653,7 +1647,7 @@
 				"magnitude":"17.07",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57312.168",
@@ -1662,7 +1656,7 @@
 				"magnitude":"17.98",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57312.170",
@@ -1671,7 +1665,7 @@
 				"magnitude":"17.20",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57315.873",
@@ -1680,7 +1674,7 @@
 				"magnitude":"18.27",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57315.877",
@@ -1689,7 +1683,7 @@
 				"magnitude":"17.28",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57315.891",
@@ -1698,7 +1692,7 @@
 				"magnitude":"18.09",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57315.894",
@@ -1707,7 +1701,7 @@
 				"magnitude":"17.14",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57316.015",
@@ -1716,7 +1710,7 @@
 				"magnitude":"18.09",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57316.016",
@@ -1725,7 +1719,7 @@
 				"magnitude":"17.24",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57316.018",
@@ -1734,7 +1728,7 @@
 				"magnitude":"15.98",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57318.666",
@@ -1744,7 +1738,7 @@
 				"magnitude":"17.55",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57318.667",
@@ -1753,7 +1747,7 @@
 				"magnitude":"17.46",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57318.668",
@@ -1762,7 +1756,7 @@
 				"magnitude":"18.14",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57318.668",
@@ -1772,7 +1766,7 @@
 				"magnitude":"16.94",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57318.671",
@@ -1781,7 +1775,7 @@
 				"magnitude":"17.29",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57318.869",
@@ -1791,7 +1785,7 @@
 				"magnitude":"17.40",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57319.055",
@@ -1800,7 +1794,7 @@
 				"magnitude":"18.21",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57319.057",
@@ -1809,7 +1803,7 @@
 				"magnitude":"17.23",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57319.059",
@@ -1818,7 +1812,7 @@
 				"magnitude":"16.05",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57321.792",
@@ -1827,7 +1821,7 @@
 				"magnitude":"18.45",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57321.794",
@@ -1836,7 +1830,7 @@
 				"magnitude":"17.14",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57321.796",
@@ -1845,7 +1839,7 @@
 				"magnitude":"16.04",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57324.047",
@@ -1855,7 +1849,7 @@
 				"magnitude":"17.98",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57324.048",
@@ -1864,7 +1858,7 @@
 				"magnitude":"17.75",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57324.049",
@@ -1873,7 +1867,7 @@
 				"magnitude":"17.92",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57324.049",
@@ -1883,7 +1877,7 @@
 				"magnitude":"17.16",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57324.051",
@@ -1892,7 +1886,7 @@
 				"magnitude":"17.85",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57324.052",
@@ -1902,7 +1896,7 @@
 				"magnitude":"17.59",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -1939,7 +1933,7 @@
 				"magnitude":"18.12",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57327.129",
@@ -1948,7 +1942,7 @@
 				"magnitude":"17.26",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57327.133",
@@ -1957,7 +1951,7 @@
 				"magnitude":"16.03",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57327.909",
@@ -1967,7 +1961,7 @@
 				"magnitude":"17.68",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57327.910",
@@ -1976,7 +1970,7 @@
 				"magnitude":"17.68",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57327.911",
@@ -1985,7 +1979,7 @@
 				"magnitude":"18.44",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57327.911",
@@ -1995,7 +1989,7 @@
 				"magnitude":"16.94",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57327.961",
@@ -2004,7 +1998,7 @@
 				"magnitude":"17.15",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57327.962",
@@ -2014,7 +2008,7 @@
 				"magnitude":"17.56",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57329.839",
@@ -2023,7 +2017,7 @@
 				"magnitude":"18.14",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57329.844",
@@ -2032,7 +2026,7 @@
 				"magnitude":"17.25",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57329.849",
@@ -2041,7 +2035,7 @@
 				"magnitude":"15.88",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57330.416",
@@ -2051,7 +2045,7 @@
 				"magnitude":"17.63",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57330.418",
@@ -2060,7 +2054,7 @@
 				"magnitude":"18.09",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57330.418",
@@ -2069,7 +2063,7 @@
 				"magnitude":"17.68",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57330.418",
@@ -2079,7 +2073,7 @@
 				"magnitude":"17.42",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57330.420",
@@ -2088,7 +2082,7 @@
 				"magnitude":"17.27",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57330.421",
@@ -2098,7 +2092,7 @@
 				"magnitude":"17.41",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57332.786",
@@ -2107,7 +2101,7 @@
 				"magnitude":"18.31",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57332.791",
@@ -2116,7 +2110,7 @@
 				"magnitude":"17.28",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57332.796",
@@ -2125,7 +2119,7 @@
 				"magnitude":"16.02",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57333.412",
@@ -2135,7 +2129,7 @@
 				"magnitude":"17.60",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57333.413",
@@ -2144,7 +2138,7 @@
 				"magnitude":"17.79",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57333.414",
@@ -2153,7 +2147,7 @@
 				"magnitude":"18.09",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57333.480",
@@ -2162,7 +2156,7 @@
 				"magnitude":"17.31",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57333.481",
@@ -2172,7 +2166,7 @@
 				"magnitude":"17.86",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57335.812",
@@ -2181,7 +2175,7 @@
 				"magnitude":"18.18",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57335.816",
@@ -2190,7 +2184,7 @@
 				"magnitude":"17.29",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57335.821",
@@ -2199,7 +2193,7 @@
 				"magnitude":"16.06",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57336.132",
@@ -2209,7 +2203,7 @@
 				"magnitude":"17.89",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57336.134",
@@ -2218,7 +2212,7 @@
 				"magnitude":"17.47",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57336.135",
@@ -2227,7 +2221,7 @@
 				"magnitude":"18.19",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57336.136",
@@ -2237,7 +2231,7 @@
 				"magnitude":"17.29",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57336.141",
@@ -2246,7 +2240,7 @@
 				"magnitude":"17.63",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57336.142",
@@ -2256,7 +2250,7 @@
 				"magnitude":"17.82",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57339.330",
@@ -2266,7 +2260,7 @@
 				"magnitude":"17.72",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57339.331",
@@ -2275,7 +2269,7 @@
 				"magnitude":"17.81",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57339.332",
@@ -2285,7 +2279,7 @@
 				"magnitude":"17.47",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57339.334",
@@ -2295,7 +2289,7 @@
 				"magnitude":"17.84",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57339.334",
@@ -2304,7 +2298,7 @@
 				"magnitude":"16.85",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57342.064",
@@ -2314,7 +2308,7 @@
 				"magnitude":"18.06",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57342.066",
@@ -2323,7 +2317,7 @@
 				"magnitude":"17.85",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57342.066",
@@ -2332,7 +2326,7 @@
 				"magnitude":"17.84",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57342.067",
@@ -2342,7 +2336,7 @@
 				"magnitude":"17.39",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57342.069",
@@ -2352,7 +2346,7 @@
 				"magnitude":"17.84",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57342.069",
@@ -2361,7 +2355,7 @@
 				"magnitude":"16.89",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57344.411",
@@ -2370,7 +2364,7 @@
 				"magnitude":"18.25",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57344.415",
@@ -2379,7 +2373,7 @@
 				"magnitude":"17.22",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57345.784",
@@ -2389,7 +2383,7 @@
 				"magnitude":"18.26",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57345.787",
@@ -2398,7 +2392,7 @@
 				"magnitude":"18.08",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57345.788",
@@ -2407,7 +2401,7 @@
 				"magnitude":"18.27",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57345.789",
@@ -2417,7 +2411,7 @@
 				"magnitude":"17.51",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57345.793",
@@ -2426,7 +2420,7 @@
 				"magnitude":"17.13",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57345.794",
@@ -2436,7 +2430,7 @@
 				"magnitude":"17.94",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57346.415",
@@ -2445,7 +2439,7 @@
 				"magnitude":"18.11",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57346.420",
@@ -2454,7 +2448,7 @@
 				"magnitude":"17.17",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57346.424",
@@ -2463,7 +2457,7 @@
 				"magnitude":"15.83",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57348.374",
@@ -2473,7 +2467,7 @@
 				"magnitude":"18.11",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57348.377",
@@ -2482,7 +2476,7 @@
 				"magnitude":"17.82",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57348.378",
@@ -2491,7 +2485,7 @@
 				"magnitude":"18.28",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57348.379",
@@ -2501,7 +2495,7 @@
 				"magnitude":"17.60",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57348.384",
@@ -2510,7 +2504,7 @@
 				"magnitude":"17.25",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57348.385",
@@ -2520,7 +2514,7 @@
 				"magnitude":"17.92",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57349.414",
@@ -2529,7 +2523,7 @@
 				"magnitude":"18.27",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57349.419",
@@ -2538,7 +2532,7 @@
 				"magnitude":"15.87",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57349.423",
@@ -2547,7 +2541,7 @@
 				"magnitude":"17.32",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57353.420",
@@ -2556,7 +2550,7 @@
 				"magnitude":"18.24",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57355.030",
@@ -2565,7 +2559,7 @@
 				"magnitude":"18.35",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57355.035",
@@ -2574,7 +2568,7 @@
 				"magnitude":"17.25",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57355.039",
@@ -2583,7 +2577,7 @@
 				"magnitude":"15.92",
 				"telescope":"LCOGT",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			}
 		]
 	}
