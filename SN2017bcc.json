@@ -164,14 +164,14 @@
 		],
 		"maxabsmag":[
 			{
-				"value":"-21.61",
+				"value":"-22.88",
 				"derived":true,
 				"source":"1,3,7"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"17.54",
+				"value":"16.27",
 				"derived":true,
 				"source":"5,6,7"
 			}
@@ -185,7 +185,7 @@
 		],
 		"maxdate":[
 			{
-				"value":"2017/03/24",
+				"value":"2017/05/19",
 				"derived":true,
 				"source":"5,6,7"
 			}
@@ -402,6 +402,150 @@
 				"e_magnitude":"0.1497",
 				"magnitude":"18.3972",
 				"observatory":"K.Wiersema-Leicester",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57892.769",
+				"band":"r",
+				"e_magnitude":"0.0909",
+				"magnitude":"18.1221",
+				"observatory":"TRT-TNO0.5, Supachai",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57892.7705",
+				"band":"r",
+				"e_magnitude":"0.0864",
+				"magnitude":"17.9662",
+				"observatory":"TRT-TNO0.5, Supachai",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57892.8238",
+				"band":"r",
+				"e_magnitude":"0.0954",
+				"magnitude":"18.3096",
+				"observatory":"TRT-TNO0.5, Supachai",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57892.8253",
+				"band":"i",
+				"e_magnitude":"0.0608",
+				"magnitude":"16.2658",
+				"observatory":"TRT-TNO0.5, Supachai",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57892.8268",
+				"band":"r",
+				"e_magnitude":"0.1067",
+				"magnitude":"18.1948",
+				"observatory":"TRT-TNO0.5, Supachai",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57892.8282",
+				"band":"i",
+				"e_magnitude":"0.0685",
+				"magnitude":"16.4975",
+				"observatory":"TRT-TNO0.5, Supachai",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57892.8297",
+				"band":"r",
+				"e_magnitude":"0.1024",
+				"magnitude":"18.1221",
+				"observatory":"TRT-TNO0.5, Supachai",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57892.8311",
+				"band":"i",
+				"e_magnitude":"0.0764",
+				"magnitude":"16.9239",
+				"observatory":"TRT-TNO0.5, Supachai",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57983.6326",
+				"band":"i",
+				"e_magnitude":"0.0845",
+				"magnitude":"16.4484",
+				"observatory":"TRT-TNO0.5, Supachai",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57983.6397",
+				"band":"i",
+				"e_magnitude":"0.091",
+				"magnitude":"17.0643",
+				"observatory":"TRT-TNO0.5, Supachai",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57983.6433",
+				"band":"r",
+				"e_magnitude":"0.0652",
+				"magnitude":"17.9427",
+				"observatory":"TRT-TNO0.5, Supachai",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57983.6468",
+				"band":"i",
+				"e_magnitude":"0.0766",
+				"magnitude":"16.6405",
+				"observatory":"TRT-TNO0.5, Supachai",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57983.6504",
+				"band":"r",
+				"e_magnitude":"0.0668",
+				"magnitude":"17.9851",
+				"observatory":"TRT-TNO0.5, Supachai",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57983.6539",
+				"band":"i",
+				"e_magnitude":"0.0739",
+				"magnitude":"16.709",
+				"observatory":"TRT-TNO0.5, Supachai",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57983.6584",
+				"band":"r",
+				"e_magnitude":"0.0603",
+				"magnitude":"17.8443",
+				"observatory":"TRT-TNO0.5, Supachai",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57983.6619",
+				"band":"i",
+				"e_magnitude":"0.0837",
+				"magnitude":"16.8605",
+				"observatory":"TRT-TNO0.5, Supachai",
 				"u_time":"MJD",
 				"source":"5,6"
 			}
