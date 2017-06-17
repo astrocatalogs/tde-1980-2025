@@ -199,6 +199,12 @@
 				"source":"4"
 			}
 		],
+		"nhhost":[
+			{
+				"value":"7.2e+19",
+				"source":"4"
+			}
+		],
 		"notes":[
 			{
 				"value":"HeII \\(\\lambda 4686\\) and HeII \\(\\lambda 3203\\) in emission",
