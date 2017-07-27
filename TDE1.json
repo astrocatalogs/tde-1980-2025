@@ -50,18 +50,12 @@
 				"source":"1,3,6"
 			}
 		],
-		"citations":[
-			{
-				"value":"<a href='http://adsabs.harvard.edu/abs/2011ApJ...741...73V'>Van Velzen et al. 2011</a>*&Dagger;",
-				"source":"3"
-			}
-		],
 		"comovingdist":[
 			{
 				"value":"582",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3,5"
+				"source":"1,2,5"
 			}
 		],
 		"dec":[
@@ -94,7 +88,7 @@
 		"host":[
 			{
 				"value":"SDSS J234201.40+010629.2",
-				"source":"1,3"
+				"source":"1"
 			}
 		],
 		"hostdec":[
@@ -130,14 +124,14 @@
 				"value":"662",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3,5"
+				"source":"1,2,5"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-18.71",
 				"derived":true,
-				"source":"1,2,3,5"
+				"source":"1,2,5"
 			}
 		],
 		"maxappmag":[
@@ -182,12 +176,6 @@
 				"source":"3,5"
 			}
 		],
-		"nhhost":[
-			{
-				"value":"2.3e+20",
-				"source":"3"
-			}
-		],
 		"ra":[
 			{
 				"value":"23:42:01.44",
@@ -203,7 +191,7 @@
 		"redshift":[
 			{
 				"value":"0.136",
-				"source":"1,3"
+				"source":"1"
 			}
 		],
 		"velocity":[
