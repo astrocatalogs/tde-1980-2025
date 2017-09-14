@@ -4,28 +4,22 @@
 		"name":"iPTF16axa",
 		"sources":[
 			{
-				"name":"2017arXiv170301299H",
-				"bibcode":"2017arXiv170301299H",
-				"reference":"Hung et al. (2017)",
-				"alias":"1"
-			},
-			{
 				"name":"2017ApJ...842...29H",
 				"bibcode":"2017ApJ...842...29H",
 				"reference":"Hung et al. (2017)",
-				"alias":"2"
+				"alias":"1"
 			},
 			{
 				"name":"2016A&A...594A..13P",
 				"bibcode":"2016A&A...594A..13P",
 				"reference":"Planck Collaboration et al. (2016)",
-				"alias":"3"
+				"alias":"2"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
 				"reference":"Schlafly & Finkbeiner (2011)",
-				"alias":"4"
+				"alias":"3"
 			},
 			{
 				"name":"The Open TDE Catalog",
@@ -33,7 +27,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://tde.space",
-				"alias":"5"
+				"alias":"4"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -41,13 +35,13 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"6"
+				"alias":"5"
 			}
 		],
 		"alias":[
 			{
 				"value":"iPTF16axa",
-				"source":"1,6"
+				"source":"1,5"
 			}
 		],
 		"comovingdist":[
@@ -55,21 +49,21 @@
 				"value":"466",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,3,5"
+				"source":"1,2,4"
 			}
 		],
 		"dec":[
 			{
 				"value":"+30:35:36.8",
 				"u_value":"degrees",
-				"source":"1,2,6"
+				"source":"1,5"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2016/05/29",
 				"derived":true,
-				"source":"1,5"
+				"source":"1,4"
 			}
 		],
 		"ebv":[
@@ -77,7 +71,7 @@
 				"value":"0.0386",
 				"derived":true,
 				"e_value":"0.0005",
-				"source":"4,5"
+				"source":"3,4"
 			}
 		],
 		"host":[
@@ -98,13 +92,13 @@
 				"value":"0.3606",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"1,2,5,6"
+				"source":"1,4,5"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"0.7353",
-				"source":"1,2,3,5,6"
+				"source":"1,2,4,5"
 			}
 		],
 		"hostra":[
@@ -119,63 +113,63 @@
 				"value":"516",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,3,5"
+				"source":"1,2,4"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-19.38",
 				"derived":true,
-				"source":"1,3,5"
+				"source":"1,2,4"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.07",
 				"derived":true,
-				"source":"1,5"
+				"source":"1,4"
 			}
 		],
 		"maxband":[
 			{
 				"value":"W2",
 				"derived":true,
-				"source":"1,5"
+				"source":"1,4"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2016/06/12",
 				"derived":true,
-				"source":"1,5"
+				"source":"1,4"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"19.46",
 				"derived":true,
-				"source":"1,5"
+				"source":"1,4"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"g",
 				"derived":true,
-				"source":"1,5"
+				"source":"1,4"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2016/06/05",
 				"derived":true,
-				"source":"1,5"
+				"source":"1,4"
 			}
 		],
 		"ra":[
 			{
 				"value":"17:03:34.36",
 				"u_value":"hours",
-				"source":"1,2,6"
+				"source":"1,5"
 			}
 		],
 		"redshift":[
@@ -189,7 +183,7 @@
 				"value":"30600",
 				"derived":true,
 				"u_value":"km/s",
-				"source":"5"
+				"source":"4"
 			}
 		],
 		"photometry":[
@@ -198,7 +192,7 @@
 				"band":"g",
 				"e_magnitude":"0.071",
 				"magnitude":"19.486",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P48",
 				"u_time":"MJD",
 				"source":"1"
@@ -208,7 +202,7 @@
 				"band":"r",
 				"e_magnitude":"0.033",
 				"magnitude":"20.045",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -218,7 +212,7 @@
 				"band":"i",
 				"e_magnitude":"0.045",
 				"magnitude":"19.901",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -228,7 +222,7 @@
 				"band":"g",
 				"e_magnitude":"0.032",
 				"magnitude":"19.615",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -238,7 +232,7 @@
 				"band":"r",
 				"e_magnitude":"0.054",
 				"magnitude":"19.972",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -248,7 +242,7 @@
 				"band":"i",
 				"e_magnitude":"0.050",
 				"magnitude":"19.827",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -258,7 +252,7 @@
 				"band":"g",
 				"e_magnitude":"0.031",
 				"magnitude":"19.592",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -268,7 +262,7 @@
 				"band":"g",
 				"e_magnitude":"0.081",
 				"magnitude":"19.464",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P48",
 				"u_time":"MJD",
 				"source":"1"
@@ -279,7 +273,7 @@
 				"e_magnitude":"0.050",
 				"instrument":"UVOT",
 				"magnitude":"19.110",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -289,7 +283,7 @@
 				"band":"r",
 				"e_magnitude":"0.029",
 				"magnitude":"20.090",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -299,7 +293,7 @@
 				"band":"i",
 				"e_magnitude":"0.054",
 				"magnitude":"19.891",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -309,7 +303,7 @@
 				"band":"g",
 				"e_magnitude":"0.027",
 				"magnitude":"19.724",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -319,7 +313,7 @@
 				"band":"g",
 				"e_magnitude":"0.085",
 				"magnitude":"19.626",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P48",
 				"u_time":"MJD",
 				"source":"1"
@@ -329,7 +323,7 @@
 				"band":"g",
 				"e_magnitude":"0.137",
 				"magnitude":"20.119",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"LCO",
 				"u_time":"MJD",
 				"source":"1"
@@ -339,7 +333,7 @@
 				"band":"r",
 				"e_magnitude":"0.391",
 				"magnitude":"19.999",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"LCO",
 				"u_time":"MJD",
 				"source":"1"
@@ -349,7 +343,7 @@
 				"band":"i",
 				"e_magnitude":"0.378",
 				"magnitude":"20.046",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"LCO",
 				"u_time":"MJD",
 				"source":"1"
@@ -360,7 +354,7 @@
 				"e_magnitude":"0.090",
 				"instrument":"UVOT",
 				"magnitude":"19.320",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -371,7 +365,7 @@
 				"e_magnitude":"0.140",
 				"instrument":"UVOT",
 				"magnitude":"19.300",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -382,7 +376,7 @@
 				"e_magnitude":"0.060",
 				"instrument":"UVOT",
 				"magnitude":"19.070",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -393,7 +387,7 @@
 				"e_magnitude":"0.070",
 				"instrument":"UVOT",
 				"magnitude":"19.250",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -403,7 +397,7 @@
 				"band":"r",
 				"e_magnitude":"0.030",
 				"magnitude":"20.162",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -413,7 +407,7 @@
 				"band":"i",
 				"e_magnitude":"0.052",
 				"magnitude":"20.041",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -423,7 +417,7 @@
 				"band":"g",
 				"e_magnitude":"0.103",
 				"magnitude":"19.673",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P48",
 				"u_time":"MJD",
 				"source":"1"
@@ -433,7 +427,7 @@
 				"band":"r",
 				"e_magnitude":"0.074",
 				"magnitude":"20.235",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -443,7 +437,7 @@
 				"band":"i",
 				"e_magnitude":"0.118",
 				"magnitude":"20.063",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -453,7 +447,7 @@
 				"band":"g",
 				"e_magnitude":"0.042",
 				"magnitude":"19.959",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -463,7 +457,7 @@
 				"band":"g",
 				"e_magnitude":"0.157",
 				"magnitude":"20.579",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"LCO",
 				"u_time":"MJD",
 				"source":"1"
@@ -473,7 +467,7 @@
 				"band":"i",
 				"e_magnitude":"0.357",
 				"magnitude":"19.796",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"LCO",
 				"u_time":"MJD",
 				"source":"1"
@@ -484,7 +478,7 @@
 				"e_magnitude":"0.100",
 				"instrument":"UVOT",
 				"magnitude":"19.500",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -495,7 +489,7 @@
 				"e_magnitude":"0.150",
 				"instrument":"UVOT",
 				"magnitude":"19.410",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -506,7 +500,7 @@
 				"e_magnitude":"0.070",
 				"instrument":"UVOT",
 				"magnitude":"19.350",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -517,7 +511,7 @@
 				"e_magnitude":"0.070",
 				"instrument":"UVOT",
 				"magnitude":"19.500",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -527,7 +521,7 @@
 				"band":"r",
 				"e_magnitude":"0.106",
 				"magnitude":"20.404",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -537,7 +531,7 @@
 				"band":"i",
 				"e_magnitude":"0.143",
 				"magnitude":"20.171",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -547,7 +541,7 @@
 				"band":"g",
 				"e_magnitude":"0.127",
 				"magnitude":"20.192",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -557,7 +551,7 @@
 				"band":"r",
 				"e_magnitude":"0.260",
 				"magnitude":"20.401",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -568,7 +562,7 @@
 				"e_magnitude":"0.160",
 				"instrument":"UVOT",
 				"magnitude":"19.650",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -578,7 +572,7 @@
 				"band":"r",
 				"e_magnitude":"0.127",
 				"magnitude":"20.527",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -588,7 +582,7 @@
 				"band":"i",
 				"e_magnitude":"0.356",
 				"magnitude":"20.408",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -598,7 +592,7 @@
 				"band":"g",
 				"e_magnitude":"0.076",
 				"magnitude":"20.165",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -608,7 +602,7 @@
 				"band":"r",
 				"e_magnitude":"0.029",
 				"magnitude":"20.661",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -618,7 +612,7 @@
 				"band":"g",
 				"e_magnitude":"0.027",
 				"magnitude":"20.284",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -628,7 +622,7 @@
 				"band":"r",
 				"e_magnitude":"0.040",
 				"magnitude":"20.711",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -639,7 +633,7 @@
 				"e_magnitude":"0.120",
 				"instrument":"UVOT",
 				"magnitude":"19.780",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -650,7 +644,7 @@
 				"e_magnitude":"0.220",
 				"instrument":"UVOT",
 				"magnitude":"19.950",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -661,7 +655,7 @@
 				"e_magnitude":"0.090",
 				"instrument":"UVOT",
 				"magnitude":"19.920",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -672,7 +666,7 @@
 				"e_magnitude":"0.090",
 				"instrument":"UVOT",
 				"magnitude":"19.980",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -682,7 +676,7 @@
 				"band":"g",
 				"e_magnitude":"0.108",
 				"magnitude":"20.918",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"LCO",
 				"u_time":"MJD",
 				"source":"1"
@@ -692,7 +686,7 @@
 				"band":"r",
 				"e_magnitude":"0.283",
 				"magnitude":"20.543",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"LCO",
 				"u_time":"MJD",
 				"source":"1"
@@ -702,7 +696,7 @@
 				"band":"i",
 				"e_magnitude":"0.311",
 				"magnitude":"20.586",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"LCO",
 				"u_time":"MJD",
 				"source":"1"
@@ -713,7 +707,7 @@
 				"e_magnitude":"0.180",
 				"instrument":"UVOT",
 				"magnitude":"20.320",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -724,7 +718,7 @@
 				"e_magnitude":"0.250",
 				"instrument":"UVOT",
 				"magnitude":"20.090",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -735,7 +729,7 @@
 				"e_magnitude":"0.100",
 				"instrument":"UVOT",
 				"magnitude":"20.040",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -746,7 +740,7 @@
 				"e_magnitude":"0.100",
 				"instrument":"UVOT",
 				"magnitude":"20.070",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -756,7 +750,7 @@
 				"band":"g",
 				"e_magnitude":"0.122",
 				"magnitude":"20.931",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"LCO",
 				"u_time":"MJD",
 				"source":"1"
@@ -766,7 +760,7 @@
 				"band":"r",
 				"e_magnitude":"0.297",
 				"magnitude":"20.671",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"LCO",
 				"u_time":"MJD",
 				"source":"1"
@@ -776,7 +770,7 @@
 				"band":"i",
 				"e_magnitude":"0.326",
 				"magnitude":"20.642",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"LCO",
 				"u_time":"MJD",
 				"source":"1"
@@ -786,7 +780,7 @@
 				"band":"r",
 				"e_magnitude":"0.087",
 				"magnitude":"21.020",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -796,7 +790,7 @@
 				"band":"i",
 				"e_magnitude":"0.127",
 				"magnitude":"20.633",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -806,7 +800,7 @@
 				"band":"g",
 				"e_magnitude":"0.053",
 				"magnitude":"20.611",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -816,7 +810,7 @@
 				"band":"r",
 				"e_magnitude":"0.113",
 				"magnitude":"21.149",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -826,7 +820,7 @@
 				"band":"i",
 				"e_magnitude":"0.093",
 				"magnitude":"20.615",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -836,7 +830,7 @@
 				"band":"g",
 				"e_magnitude":"0.070",
 				"magnitude":"20.749",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -847,7 +841,7 @@
 				"e_magnitude":"0.170",
 				"instrument":"UVOT",
 				"magnitude":"19.910",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -858,7 +852,7 @@
 				"e_magnitude":"0.220",
 				"instrument":"UVOT",
 				"magnitude":"19.820",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -869,7 +863,7 @@
 				"e_magnitude":"0.110",
 				"instrument":"UVOT",
 				"magnitude":"19.920",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -879,7 +873,7 @@
 				"band":"r",
 				"e_magnitude":"0.144",
 				"magnitude":"21.025",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -889,7 +883,7 @@
 				"band":"i",
 				"e_magnitude":"0.144",
 				"magnitude":"20.881",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -899,7 +893,7 @@
 				"band":"g",
 				"e_magnitude":"0.105",
 				"magnitude":"20.699",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -909,7 +903,7 @@
 				"band":"g",
 				"e_magnitude":"0.274",
 				"magnitude":"20.612",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"LCO",
 				"u_time":"MJD",
 				"source":"1"
@@ -919,7 +913,7 @@
 				"band":"r",
 				"e_magnitude":"0.339",
 				"magnitude":"20.580",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"LCO",
 				"u_time":"MJD",
 				"source":"1"
@@ -929,7 +923,7 @@
 				"band":"i",
 				"e_magnitude":"0.462",
 				"magnitude":"20.537",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"LCO",
 				"u_time":"MJD",
 				"source":"1"
@@ -940,7 +934,7 @@
 				"e_magnitude":"0.130",
 				"instrument":"UVOT",
 				"magnitude":"19.820",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -951,7 +945,7 @@
 				"e_magnitude":"0.110",
 				"instrument":"UVOT",
 				"magnitude":"20.110",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -962,7 +956,7 @@
 				"e_magnitude":"0.230",
 				"instrument":"UVOT",
 				"magnitude":"20.020",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -973,7 +967,7 @@
 				"e_magnitude":"0.160",
 				"instrument":"UVOT",
 				"magnitude":"20.220",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -984,7 +978,7 @@
 				"e_magnitude":"0.250",
 				"instrument":"UVOT",
 				"magnitude":"20.450",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -994,7 +988,7 @@
 				"band":"r",
 				"e_magnitude":"0.068",
 				"magnitude":"21.063",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1004,7 +998,7 @@
 				"band":"i",
 				"e_magnitude":"0.082",
 				"magnitude":"20.829",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1014,7 +1008,7 @@
 				"band":"g",
 				"e_magnitude":"0.048",
 				"magnitude":"20.736",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1025,7 +1019,7 @@
 				"e_magnitude":"0.140",
 				"instrument":"UVOT",
 				"magnitude":"20.500",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1036,7 +1030,7 @@
 				"e_magnitude":"0.130",
 				"instrument":"UVOT",
 				"magnitude":"19.940",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1047,7 +1041,7 @@
 				"e_magnitude":"0.060",
 				"instrument":"UVOT",
 				"magnitude":"19.870",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1058,7 +1052,7 @@
 				"e_magnitude":"0.100",
 				"instrument":"UVOT",
 				"magnitude":"20.060",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1068,7 +1062,7 @@
 				"band":"r",
 				"e_magnitude":"0.102",
 				"magnitude":"21.241",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1078,7 +1072,7 @@
 				"band":"i",
 				"e_magnitude":"0.143",
 				"magnitude":"20.879",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1088,7 +1082,7 @@
 				"band":"g",
 				"e_magnitude":"0.048",
 				"magnitude":"20.771",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1098,7 +1092,7 @@
 				"band":"g",
 				"e_magnitude":"0.278",
 				"magnitude":"21.310",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"LCO",
 				"u_time":"MJD",
 				"source":"1"
@@ -1108,7 +1102,7 @@
 				"band":"r",
 				"e_magnitude":"0.342",
 				"magnitude":"20.603",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"LCO",
 				"u_time":"MJD",
 				"source":"1"
@@ -1118,7 +1112,7 @@
 				"band":"i",
 				"e_magnitude":"0.408",
 				"magnitude":"20.747",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"LCO",
 				"u_time":"MJD",
 				"source":"1"
@@ -1128,7 +1122,7 @@
 				"band":"r",
 				"e_magnitude":"0.100",
 				"magnitude":"21.213",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1138,7 +1132,7 @@
 				"band":"i",
 				"e_magnitude":"0.101",
 				"magnitude":"20.769",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1148,7 +1142,7 @@
 				"band":"g",
 				"e_magnitude":"0.056",
 				"magnitude":"20.883",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1159,7 +1153,7 @@
 				"e_magnitude":"0.130",
 				"instrument":"UVOT",
 				"magnitude":"20.190",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1170,7 +1164,7 @@
 				"e_magnitude":"0.190",
 				"instrument":"UVOT",
 				"magnitude":"20.220",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1181,7 +1175,7 @@
 				"e_magnitude":"0.080",
 				"instrument":"UVOT",
 				"magnitude":"20.120",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1192,7 +1186,7 @@
 				"e_magnitude":"0.160",
 				"instrument":"UVOT",
 				"magnitude":"20.160",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1202,7 +1196,7 @@
 				"band":"r",
 				"e_magnitude":"0.077",
 				"magnitude":"21.086",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1212,7 +1206,7 @@
 				"band":"i",
 				"e_magnitude":"0.101",
 				"magnitude":"21.000",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1222,7 +1216,7 @@
 				"band":"g",
 				"e_magnitude":"0.046",
 				"magnitude":"20.875",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1232,7 +1226,7 @@
 				"band":"g",
 				"e_magnitude":"0.081",
 				"magnitude":"20.947",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1242,7 +1236,7 @@
 				"band":"r",
 				"e_magnitude":"0.069",
 				"magnitude":"21.280",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1252,7 +1246,7 @@
 				"band":"i",
 				"e_magnitude":"0.089",
 				"magnitude":"21.116",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1262,7 +1256,7 @@
 				"band":"g",
 				"e_magnitude":"0.048",
 				"magnitude":"21.041",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1272,7 +1266,7 @@
 				"band":"r",
 				"e_magnitude":"0.105",
 				"magnitude":"21.380",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1282,7 +1276,7 @@
 				"band":"i",
 				"e_magnitude":"0.125",
 				"magnitude":"20.975",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1292,7 +1286,7 @@
 				"band":"g",
 				"e_magnitude":"0.052",
 				"magnitude":"20.995",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1303,7 +1297,7 @@
 				"e_magnitude":"0.140",
 				"instrument":"UVOT",
 				"magnitude":"20.430",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1314,7 +1308,7 @@
 				"e_magnitude":"0.170",
 				"instrument":"UVOT",
 				"magnitude":"20.170",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1325,7 +1319,7 @@
 				"e_magnitude":"0.080",
 				"instrument":"UVOT",
 				"magnitude":"20.300",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1336,7 +1330,7 @@
 				"e_magnitude":"0.130",
 				"instrument":"UVOT",
 				"magnitude":"20.640",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1346,7 +1340,7 @@
 				"band":"r",
 				"e_magnitude":"0.124",
 				"magnitude":"21.317",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1356,7 +1350,7 @@
 				"band":"i",
 				"e_magnitude":"0.114",
 				"magnitude":"21.109",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1366,7 +1360,7 @@
 				"band":"g",
 				"e_magnitude":"0.057",
 				"magnitude":"21.011",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1376,7 +1370,7 @@
 				"band":"r",
 				"e_magnitude":"0.108",
 				"magnitude":"21.267",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1386,7 +1380,7 @@
 				"band":"i",
 				"e_magnitude":"0.223",
 				"magnitude":"21.012",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1396,7 +1390,7 @@
 				"band":"g",
 				"e_magnitude":"0.067",
 				"magnitude":"21.079",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1406,7 +1400,7 @@
 				"band":"r",
 				"e_magnitude":"0.150",
 				"magnitude":"21.377",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1416,7 +1410,7 @@
 				"band":"i",
 				"e_magnitude":"0.163",
 				"magnitude":"20.974",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1426,7 +1420,7 @@
 				"band":"g",
 				"e_magnitude":"0.100",
 				"magnitude":"21.038",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1437,7 +1431,7 @@
 				"e_magnitude":"0.130",
 				"instrument":"UVOT",
 				"magnitude":"20.430",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1448,7 +1442,7 @@
 				"e_magnitude":"0.150",
 				"instrument":"UVOT",
 				"magnitude":"20.220",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1459,7 +1453,7 @@
 				"e_magnitude":"0.070",
 				"instrument":"UVOT",
 				"magnitude":"20.380",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1470,7 +1464,7 @@
 				"e_magnitude":"0.120",
 				"instrument":"UVOT",
 				"magnitude":"20.550",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1480,7 +1474,7 @@
 				"band":"r",
 				"e_magnitude":"0.171",
 				"magnitude":"21.320",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1490,7 +1484,7 @@
 				"band":"g",
 				"e_magnitude":"0.141",
 				"magnitude":"21.261",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1500,7 +1494,7 @@
 				"band":"g",
 				"e_magnitude":"0.177",
 				"magnitude":"21.221",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1510,7 +1504,7 @@
 				"band":"r",
 				"e_magnitude":"0.212",
 				"magnitude":"21.284",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1520,7 +1514,7 @@
 				"band":"i",
 				"e_magnitude":"0.189",
 				"magnitude":"21.030",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1530,7 +1524,7 @@
 				"band":"g",
 				"e_magnitude":"0.113",
 				"magnitude":"21.111",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1540,7 +1534,7 @@
 				"band":"r",
 				"e_magnitude":"0.244",
 				"magnitude":"21.155",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1550,7 +1544,7 @@
 				"band":"i",
 				"e_magnitude":"0.286",
 				"magnitude":"21.165",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1560,7 +1554,7 @@
 				"band":"g",
 				"e_magnitude":"0.181",
 				"magnitude":"20.903",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1570,7 +1564,7 @@
 				"band":"g",
 				"e_magnitude":"0.191",
 				"magnitude":"21.329",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1580,7 +1574,7 @@
 				"band":"g",
 				"e_magnitude":"0.143",
 				"magnitude":"20.976",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1591,7 +1585,7 @@
 				"e_magnitude":"0.190",
 				"instrument":"UVOT",
 				"magnitude":"20.740",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1602,7 +1596,7 @@
 				"e_magnitude":"0.200",
 				"instrument":"UVOT",
 				"magnitude":"20.140",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1613,7 +1607,7 @@
 				"e_magnitude":"0.090",
 				"instrument":"UVOT",
 				"magnitude":"20.470",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1624,7 +1618,7 @@
 				"e_magnitude":"0.150",
 				"instrument":"UVOT",
 				"magnitude":"20.740",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1634,7 +1628,7 @@
 				"band":"r",
 				"e_magnitude":"0.170",
 				"magnitude":"21.398",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1644,7 +1638,7 @@
 				"band":"g",
 				"e_magnitude":"0.120",
 				"magnitude":"21.160",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1654,7 +1648,7 @@
 				"band":"r",
 				"e_magnitude":"0.107",
 				"magnitude":"21.358",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1664,7 +1658,7 @@
 				"band":"i",
 				"e_magnitude":"0.125",
 				"magnitude":"21.086",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1674,7 +1668,7 @@
 				"band":"g",
 				"e_magnitude":"0.049",
 				"magnitude":"21.203",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1684,7 +1678,7 @@
 				"band":"r",
 				"e_magnitude":"0.091",
 				"magnitude":"21.478",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1694,7 +1688,7 @@
 				"band":"r",
 				"e_magnitude":"0.160",
 				"magnitude":"21.474",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1704,7 +1698,7 @@
 				"band":"i",
 				"e_magnitude":"0.141",
 				"magnitude":"21.146",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1714,7 +1708,7 @@
 				"band":"g",
 				"e_magnitude":"0.071",
 				"magnitude":"21.218",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1724,7 +1718,7 @@
 				"band":"r",
 				"e_magnitude":"0.113",
 				"magnitude":"21.464",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1734,7 +1728,7 @@
 				"band":"i",
 				"e_magnitude":"0.155",
 				"magnitude":"21.111",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1744,7 +1738,7 @@
 				"band":"g",
 				"e_magnitude":"0.063",
 				"magnitude":"21.297",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1754,7 +1748,7 @@
 				"band":"g",
 				"e_magnitude":"0.138",
 				"magnitude":"21.356",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1764,7 +1758,7 @@
 				"band":"r",
 				"e_magnitude":"0.226",
 				"magnitude":"21.650",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1774,7 +1768,7 @@
 				"band":"r",
 				"e_magnitude":"0.180",
 				"magnitude":"21.634",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1784,7 +1778,7 @@
 				"band":"i",
 				"e_magnitude":"0.244",
 				"magnitude":"21.417",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1794,7 +1788,7 @@
 				"band":"g",
 				"e_magnitude":"0.093",
 				"magnitude":"21.413",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1804,7 +1798,7 @@
 				"band":"r",
 				"e_magnitude":"0.096",
 				"magnitude":"21.489",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1814,7 +1808,7 @@
 				"band":"r",
 				"e_magnitude":"0.356",
 				"magnitude":"21.640",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1824,7 +1818,7 @@
 				"band":"i",
 				"e_magnitude":"0.256",
 				"magnitude":"21.199",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1834,7 +1828,7 @@
 				"band":"g",
 				"e_magnitude":"0.330",
 				"magnitude":"21.328",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1844,7 +1838,7 @@
 				"band":"r",
 				"e_magnitude":"0.527",
 				"magnitude":"21.896",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1854,7 +1848,7 @@
 				"band":"i",
 				"e_magnitude":"0.276",
 				"magnitude":"21.213",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
@@ -1864,7 +1858,7 @@
 				"band":"g",
 				"e_magnitude":"0.277",
 				"magnitude":"21.536",
-				"system":"Vega",
+				"system":"AB",
 				"telescope":"P60",
 				"u_time":"MJD",
 				"source":"1"
