@@ -824,6 +824,24 @@
 				"system":"Vega",
 				"u_time":"MJD",
 				"source":"3"
+			},
+			{
+				"time":"58040.13292",
+				"band":"I",
+				"e_magnitude":"0.167",
+				"magnitude":"20.587",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"58047.08507",
+				"band":"I",
+				"e_magnitude":"0.115",
+				"magnitude":"20.289",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"3"
 			}
 		]
 	}
