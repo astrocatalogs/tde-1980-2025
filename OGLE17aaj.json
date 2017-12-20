@@ -923,6 +923,24 @@
 				"system":"Vega",
 				"u_time":"MJD",
 				"source":"3"
+			},
+			{
+				"time":"58097.11012",
+				"band":"I",
+				"e_magnitude":"0.146",
+				"magnitude":"20.717",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"58104.11412",
+				"band":"I",
+				"e_magnitude":"0.168",
+				"magnitude":"20.659",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"3"
 			}
 		]
 	}
