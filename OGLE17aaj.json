@@ -968,6 +968,15 @@
 				"system":"Vega",
 				"u_time":"MJD",
 				"source":"3"
+			},
+			{
+				"time":"58128.05938",
+				"band":"I",
+				"e_magnitude":"0.151",
+				"magnitude":"20.587",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"3"
 			}
 		]
 	}
