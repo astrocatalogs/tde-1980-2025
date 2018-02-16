@@ -1,7 +1,7 @@
 {
-	"SDSSJ100933.14+232255.8":{
+	"J100933":{
 		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob/f405406/SCHEMA.md",
-		"name":"SDSSJ100933.14+232255.8",
+		"name":"J100933",
 		"sources":[
 			{
 				"name":"2018arXiv180205105W",
@@ -26,7 +26,7 @@
 		],
 		"alias":[
 			{
-				"value":"SDSSJ100933.14+232255.8",
+				"value":"J100933",
 				"source":"1"
 			}
 		],
@@ -38,11 +38,54 @@
 				"source":"1,2,3"
 			}
 		],
+		"dec":[
+			{
+				"value":"+23:22:55.8",
+				"u_value":"degrees",
+				"source":"1"
+			}
+		],
 		"discoverdate":[
 			{
 				"value":"2009/02/20",
 				"derived":true,
 				"source":"1,3"
+			}
+		],
+		"host":[
+			{
+				"value":"SDSS J100933.14+232255.8",
+				"source":"1"
+			}
+		],
+		"hostdec":[
+			{
+				"value":"+23:22:55.8",
+				"derived":true,
+				"u_value":"degrees",
+				"source":"3"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0",
+				"derived":true,
+				"u_value":"arcseconds",
+				"source":"1,3"
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"0",
+				"source":"1,2,3"
+			}
+		],
+		"hostra":[
+			{
+				"value":"10:09:33.14",
+				"derived":true,
+				"u_value":"hours",
+				"source":"3"
 			}
 		],
 		"lumdist":[
@@ -100,6 +143,13 @@
 				"value":"2009/02/20",
 				"derived":true,
 				"source":"1,3"
+			}
+		],
+		"ra":[
+			{
+				"value":"10:09:33.14",
+				"u_value":"hours",
+				"source":"1"
 			}
 		],
 		"redshift":[

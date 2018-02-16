@@ -1,7 +1,7 @@
 {
-	"SDSSJ133737.13+202351.7":{
+	"J030257":{
 		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob/f405406/SCHEMA.md",
-		"name":"SDSSJ133737.13+202351.7",
+		"name":"J030257",
 		"sources":[
 			{
 				"name":"2018arXiv180205105W",
@@ -26,28 +26,71 @@
 		],
 		"alias":[
 			{
-				"value":"SDSSJ133737.13+202351.7",
+				"value":"J030257",
 				"source":"1"
 			}
 		],
 		"comovingdist":[
 			{
-				"value":"315",
+				"value":"455.7",
 				"derived":true,
 				"u_value":"Mpc",
 				"source":"1,2,3"
 			}
 		],
+		"dec":[
+			{
+				"value":"-08:29:42.9",
+				"u_value":"degrees",
+				"source":"1"
+			}
+		],
 		"discoverdate":[
 			{
-				"value":"2009/04/12",
+				"value":"2009/11/08",
 				"derived":true,
 				"source":"1,3"
 			}
 		],
+		"host":[
+			{
+				"value":"SDSS J030257.14-082942.9",
+				"source":"1"
+			}
+		],
+		"hostdec":[
+			{
+				"value":"-08:29:42.9",
+				"derived":true,
+				"u_value":"degrees",
+				"source":"3"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0",
+				"derived":true,
+				"u_value":"arcseconds",
+				"source":"1,3"
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"0",
+				"source":"1,2,3"
+			}
+		],
+		"hostra":[
+			{
+				"value":"03:02:57.14",
+				"derived":true,
+				"u_value":"hours",
+				"source":"3"
+			}
+		],
 		"lumdist":[
 			{
-				"value":"338",
+				"value":"503.8",
 				"derived":true,
 				"u_value":"Mpc",
 				"source":"1,2,3"
@@ -55,14 +98,14 @@
 		],
 		"maxabsmag":[
 			{
-				"value":"-24.97",
+				"value":"-26.352",
 				"derived":true,
 				"source":"1,2,3"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"12.6",
+				"value":"12.05",
 				"derived":true,
 				"source":"1,3"
 			}
@@ -76,14 +119,14 @@
 		],
 		"maxdate":[
 			{
-				"value":"2010/01/08",
+				"value":"2010/01/26",
 				"derived":true,
 				"source":"1,3"
 			}
 		],
 		"maxvisualappmag":[
 			{
-				"value":"16.68",
+				"value":"16.74",
 				"derived":true,
 				"source":"1,3"
 			}
@@ -97,20 +140,27 @@
 		],
 		"maxvisualdate":[
 			{
-				"value":"2009/04/12",
+				"value":"2009/11/08",
 				"derived":true,
 				"source":"1,3"
 			}
 		],
+		"ra":[
+			{
+				"value":"03:02:57.14",
+				"u_value":"hours",
+				"source":"1"
+			}
+		],
 		"redshift":[
 			{
-				"value":"0.0725",
+				"value":"0.1056",
 				"source":"1"
 			}
 		],
 		"velocity":[
 			{
-				"value":"20900",
+				"value":"29990",
 				"derived":true,
 				"u_value":"km/s",
 				"source":"3"
@@ -118,170 +168,170 @@
 		],
 		"photometry":[
 			{
-				"time":"54933.9",
+				"time":"55143.3",
 				"band":"V",
-				"e_magnitude":"0.027",
-				"magnitude":"16.678",
+				"e_magnitude":"0.011",
+				"magnitude":"16.744",
 				"telescope":"CRTS",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
-				"time":"55204.8",
+				"time":"55222.6",
 				"band":"W1",
-				"e_magnitude":"0.019",
+				"e_magnitude":"0.016",
 				"instrument":"UVOT",
-				"magnitude":"13.394",
+				"magnitude":"12.963",
 				"telescope":"WISE",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
-				"time":"55204.8",
+				"time":"55222.6",
 				"band":"W2",
-				"e_magnitude":"0.025",
+				"e_magnitude":"0.018",
 				"instrument":"UVOT",
-				"magnitude":"12.605",
+				"magnitude":"12.046",
 				"telescope":"WISE",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
-				"time":"55378.5",
+				"time":"55411.2",
+				"band":"W1",
+				"e_magnitude":"0.014",
+				"instrument":"UVOT",
+				"magnitude":"13.066",
+				"telescope":"WISE",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"55411.2",
+				"band":"W2",
+				"e_magnitude":"0.012",
+				"instrument":"UVOT",
+				"magnitude":"12.179",
+				"telescope":"WISE",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"55587.1",
+				"band":"W1",
+				"e_magnitude":"0.016",
+				"instrument":"UVOT",
+				"magnitude":"13.225",
+				"telescope":"WISE",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"55587.1",
+				"band":"W2",
+				"e_magnitude":"0.020",
+				"instrument":"UVOT",
+				"magnitude":"12.393",
+				"telescope":"WISE",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"56684.9",
 				"band":"W1",
 				"e_magnitude":"0.019",
 				"instrument":"UVOT",
-				"magnitude":"13.537",
+				"magnitude":"13.322",
 				"telescope":"WISE",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
-				"time":"55378.5",
+				"time":"56684.9",
+				"band":"W2",
+				"e_magnitude":"0.027",
+				"instrument":"UVOT",
+				"magnitude":"12.765",
+				"telescope":"WISE",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"56874.7",
+				"band":"W1",
+				"e_magnitude":"0.023",
+				"instrument":"UVOT",
+				"magnitude":"13.305",
+				"telescope":"WISE",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"56874.7",
+				"band":"W2",
+				"e_magnitude":"0.037",
+				"instrument":"UVOT",
+				"magnitude":"12.687",
+				"telescope":"WISE",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57046.4",
+				"band":"W1",
+				"e_magnitude":"0.015",
+				"instrument":"UVOT",
+				"magnitude":"13.280",
+				"telescope":"WISE",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57046.4",
+				"band":"W2",
+				"e_magnitude":"0.026",
+				"instrument":"UVOT",
+				"magnitude":"12.703",
+				"telescope":"WISE",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57236.7",
+				"band":"W1",
+				"e_magnitude":"0.014",
+				"instrument":"UVOT",
+				"magnitude":"13.290",
+				"telescope":"WISE",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57236.7",
+				"band":"W2",
+				"e_magnitude":"0.056",
+				"instrument":"UVOT",
+				"magnitude":"12.763",
+				"telescope":"WISE",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57408.9",
+				"band":"W1",
+				"e_magnitude":"0.017",
+				"instrument":"UVOT",
+				"magnitude":"13.306",
+				"telescope":"WISE",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57408.9",
 				"band":"W2",
 				"e_magnitude":"0.034",
 				"instrument":"UVOT",
-				"magnitude":"12.884",
-				"telescope":"WISE",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"55566.7",
-				"band":"W1",
-				"e_magnitude":"0.020",
-				"instrument":"UVOT",
-				"magnitude":"13.637",
-				"telescope":"WISE",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"55566.7",
-				"band":"W2",
-				"e_magnitude":"0.035",
-				"instrument":"UVOT",
-				"magnitude":"13.208",
-				"telescope":"WISE",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"56664.4",
-				"band":"W1",
-				"e_magnitude":"0.027",
-				"instrument":"UVOT",
-				"magnitude":"13.702",
-				"telescope":"WISE",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"56664.4",
-				"band":"W2",
-				"e_magnitude":"0.040",
-				"instrument":"UVOT",
-				"magnitude":"13.440",
-				"telescope":"WISE",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"56841.1",
-				"band":"W1",
-				"e_magnitude":"0.025",
-				"instrument":"UVOT",
-				"magnitude":"13.706",
-				"telescope":"WISE",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"56841.1",
-				"band":"W2",
-				"e_magnitude":"0.042",
-				"instrument":"UVOT",
-				"magnitude":"13.449",
-				"telescope":"WISE",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57028.7",
-				"band":"W1",
-				"e_magnitude":"0.028",
-				"instrument":"UVOT",
-				"magnitude":"13.708",
-				"telescope":"WISE",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57028.7",
-				"band":"W2",
-				"e_magnitude":"0.074",
-				"instrument":"UVOT",
-				"magnitude":"13.486",
-				"telescope":"WISE",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57202.4",
-				"band":"W1",
-				"e_magnitude":"0.024",
-				"instrument":"UVOT",
-				"magnitude":"13.708",
-				"telescope":"WISE",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57202.4",
-				"band":"W2",
-				"e_magnitude":"0.051",
-				"instrument":"UVOT",
-				"magnitude":"13.582",
-				"telescope":"WISE",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57393.6",
-				"band":"W1",
-				"e_magnitude":"0.026",
-				"instrument":"UVOT",
-				"magnitude":"13.719",
-				"telescope":"WISE",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57393.6",
-				"band":"W2",
-				"e_magnitude":"0.050",
-				"instrument":"UVOT",
-				"magnitude":"13.521",
+				"magnitude":"12.730",
 				"telescope":"WISE",
 				"u_time":"MJD",
 				"source":"1"
