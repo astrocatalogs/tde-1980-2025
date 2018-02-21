@@ -342,16 +342,6 @@
 			},
 			{
 				"time":"57630.8",
-				"band":"M2",
-				"e_magnitude":"0.04",
-				"instrument":"UVOT",
-				"magnitude":"16.92",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57630.8",
 				"band":"U",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
@@ -362,17 +352,17 @@
 			},
 			{
 				"time":"57630.8",
-				"band":"V",
+				"band":"UVM2",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
-				"magnitude":"15.19",
+				"magnitude":"16.92",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57630.8",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
 				"magnitude":"16.83",
@@ -382,10 +372,20 @@
 			},
 			{
 				"time":"57630.8",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
 				"magnitude":"16.61",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57630.8",
+				"band":"V",
+				"e_magnitude":"0.04",
+				"instrument":"UVOT",
+				"magnitude":"15.19",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -522,16 +522,6 @@
 			},
 			{
 				"time":"57635.2",
-				"band":"M2",
-				"e_magnitude":"0.04",
-				"instrument":"UVOT",
-				"magnitude":"17.09",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57635.2",
 				"band":"U",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
@@ -542,17 +532,17 @@
 			},
 			{
 				"time":"57635.2",
-				"band":"V",
-				"e_magnitude":"0.05",
+				"band":"UVM2",
+				"e_magnitude":"0.04",
 				"instrument":"UVOT",
-				"magnitude":"15.31",
+				"magnitude":"17.09",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57635.2",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
 				"magnitude":"16.95",
@@ -562,10 +552,20 @@
 			},
 			{
 				"time":"57635.2",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
 				"magnitude":"16.84",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57635.2",
+				"band":"V",
+				"e_magnitude":"0.05",
+				"instrument":"UVOT",
+				"magnitude":"15.31",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -642,16 +642,6 @@
 			},
 			{
 				"time":"57636.6",
-				"band":"M2",
-				"e_magnitude":"0.04",
-				"instrument":"UVOT",
-				"magnitude":"17.15",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57636.6",
 				"band":"U",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
@@ -662,17 +652,17 @@
 			},
 			{
 				"time":"57636.6",
-				"band":"V",
+				"band":"UVM2",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
-				"magnitude":"15.38",
+				"magnitude":"17.15",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57636.6",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
 				"magnitude":"17.03",
@@ -682,10 +672,20 @@
 			},
 			{
 				"time":"57636.6",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
 				"magnitude":"16.88",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57636.6",
+				"band":"V",
+				"e_magnitude":"0.04",
+				"instrument":"UVOT",
+				"magnitude":"15.38",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -782,16 +782,6 @@
 			},
 			{
 				"time":"57638.3",
-				"band":"M2",
-				"e_magnitude":"0.05",
-				"instrument":"UVOT",
-				"magnitude":"17.27",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57638.3",
 				"band":"U",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
@@ -802,17 +792,17 @@
 			},
 			{
 				"time":"57638.3",
-				"band":"V",
+				"band":"UVM2",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
-				"magnitude":"15.40",
+				"magnitude":"17.27",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57638.3",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
 				"magnitude":"17.20",
@@ -822,10 +812,20 @@
 			},
 			{
 				"time":"57638.3",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
 				"magnitude":"17.03",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57638.3",
+				"band":"V",
+				"e_magnitude":"0.05",
+				"instrument":"UVOT",
+				"magnitude":"15.40",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -902,16 +902,6 @@
 			},
 			{
 				"time":"57639.4",
-				"band":"M2",
-				"e_magnitude":"0.04",
-				"instrument":"UVOT",
-				"magnitude":"17.36",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57639.4",
 				"band":"U",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
@@ -922,17 +912,17 @@
 			},
 			{
 				"time":"57639.4",
-				"band":"V",
+				"band":"UVM2",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
-				"magnitude":"15.39",
+				"magnitude":"17.36",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57639.4",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
 				"magnitude":"17.23",
@@ -942,10 +932,20 @@
 			},
 			{
 				"time":"57639.4",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
 				"magnitude":"17.11",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57639.4",
+				"band":"V",
+				"e_magnitude":"0.04",
+				"instrument":"UVOT",
+				"magnitude":"15.39",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1002,16 +1002,6 @@
 			},
 			{
 				"time":"57640.1",
-				"band":"M2",
-				"e_magnitude":"0.04",
-				"instrument":"UVOT",
-				"magnitude":"17.40",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57640.1",
 				"band":"U",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
@@ -1022,17 +1012,17 @@
 			},
 			{
 				"time":"57640.1",
-				"band":"V",
+				"band":"UVM2",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
-				"magnitude":"15.37",
+				"magnitude":"17.40",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57640.1",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
 				"magnitude":"17.29",
@@ -1042,10 +1032,20 @@
 			},
 			{
 				"time":"57640.1",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
 				"magnitude":"17.10",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57640.1",
+				"band":"V",
+				"e_magnitude":"0.04",
+				"instrument":"UVOT",
+				"magnitude":"15.37",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1142,16 +1142,6 @@
 			},
 			{
 				"time":"57642.6",
-				"band":"M2",
-				"e_magnitude":"0.06",
-				"instrument":"UVOT",
-				"magnitude":"17.54",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57642.6",
 				"band":"U",
 				"e_magnitude":"0.07",
 				"instrument":"UVOT",
@@ -1162,17 +1152,17 @@
 			},
 			{
 				"time":"57642.6",
-				"band":"V",
-				"e_magnitude":"0.07",
+				"band":"UVM2",
+				"e_magnitude":"0.06",
 				"instrument":"UVOT",
-				"magnitude":"15.34",
+				"magnitude":"17.54",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57642.6",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.07",
 				"instrument":"UVOT",
 				"magnitude":"17.42",
@@ -1182,10 +1172,20 @@
 			},
 			{
 				"time":"57642.6",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
 				"magnitude":"17.31",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57642.6",
+				"band":"V",
+				"e_magnitude":"0.07",
+				"instrument":"UVOT",
+				"magnitude":"15.34",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1202,16 +1202,6 @@
 			},
 			{
 				"time":"57643.6",
-				"band":"M2",
-				"e_magnitude":"0.05",
-				"instrument":"UVOT",
-				"magnitude":"17.69",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57643.6",
 				"band":"U",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
@@ -1222,17 +1212,17 @@
 			},
 			{
 				"time":"57643.6",
-				"band":"V",
+				"band":"UVM2",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
-				"magnitude":"15.39",
+				"magnitude":"17.69",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57643.6",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
 				"magnitude":"17.51",
@@ -1242,10 +1232,20 @@
 			},
 			{
 				"time":"57643.6",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
 				"magnitude":"17.32",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57643.6",
+				"band":"V",
+				"e_magnitude":"0.05",
+				"instrument":"UVOT",
+				"magnitude":"15.39",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1272,16 +1272,6 @@
 			},
 			{
 				"time":"57645.8",
-				"band":"M2",
-				"e_magnitude":"0.05",
-				"instrument":"UVOT",
-				"magnitude":"17.80",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57645.8",
 				"band":"U",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
@@ -1292,17 +1282,17 @@
 			},
 			{
 				"time":"57645.8",
-				"band":"V",
-				"e_magnitude":"0.04",
+				"band":"UVM2",
+				"e_magnitude":"0.05",
 				"instrument":"UVOT",
-				"magnitude":"15.38",
+				"magnitude":"17.80",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57645.8",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
 				"magnitude":"17.65",
@@ -1312,10 +1302,20 @@
 			},
 			{
 				"time":"57645.8",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
 				"magnitude":"17.51",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57645.8",
+				"band":"V",
+				"e_magnitude":"0.04",
+				"instrument":"UVOT",
+				"magnitude":"15.38",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1332,16 +1332,6 @@
 			},
 			{
 				"time":"57648.7",
-				"band":"M2",
-				"e_magnitude":"0.06",
-				"instrument":"UVOT",
-				"magnitude":"17.92",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57648.7",
 				"band":"U",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
@@ -1352,17 +1342,17 @@
 			},
 			{
 				"time":"57648.7",
-				"band":"V",
-				"e_magnitude":"0.07",
+				"band":"UVM2",
+				"e_magnitude":"0.06",
 				"instrument":"UVOT",
-				"magnitude":"15.35",
+				"magnitude":"17.92",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57648.7",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
 				"magnitude":"17.78",
@@ -1372,10 +1362,20 @@
 			},
 			{
 				"time":"57648.7",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
 				"magnitude":"17.70",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57648.7",
+				"band":"V",
+				"e_magnitude":"0.07",
+				"instrument":"UVOT",
+				"magnitude":"15.35",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1392,16 +1392,6 @@
 			},
 			{
 				"time":"57651.4",
-				"band":"M2",
-				"e_magnitude":"0.05",
-				"instrument":"UVOT",
-				"magnitude":"18.19",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57651.4",
 				"band":"U",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
@@ -1412,17 +1402,17 @@
 			},
 			{
 				"time":"57651.4",
-				"band":"V",
-				"e_magnitude":"0.04",
+				"band":"UVM2",
+				"e_magnitude":"0.05",
 				"instrument":"UVOT",
-				"magnitude":"15.41",
+				"magnitude":"18.19",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57651.4",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.06",
 				"instrument":"UVOT",
 				"magnitude":"17.96",
@@ -1432,10 +1422,20 @@
 			},
 			{
 				"time":"57651.4",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
 				"magnitude":"17.99",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57651.4",
+				"band":"V",
+				"e_magnitude":"0.04",
+				"instrument":"UVOT",
+				"magnitude":"15.41",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1482,16 +1482,6 @@
 			},
 			{
 				"time":"57655.4",
-				"band":"M2",
-				"e_magnitude":"0.07",
-				"instrument":"UVOT",
-				"magnitude":"18.35",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57655.4",
 				"band":"U",
 				"e_magnitude":"0.06",
 				"instrument":"UVOT",
@@ -1502,17 +1492,17 @@
 			},
 			{
 				"time":"57655.4",
-				"band":"V",
-				"e_magnitude":"0.06",
+				"band":"UVM2",
+				"e_magnitude":"0.07",
 				"instrument":"UVOT",
-				"magnitude":"15.48",
+				"magnitude":"18.35",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57655.4",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.08",
 				"instrument":"UVOT",
 				"magnitude":"18.10",
@@ -1522,10 +1512,20 @@
 			},
 			{
 				"time":"57655.4",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.06",
 				"instrument":"UVOT",
 				"magnitude":"18.10",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57655.4",
+				"band":"V",
+				"e_magnitude":"0.06",
+				"instrument":"UVOT",
+				"magnitude":"15.48",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1586,16 +1586,6 @@
 			},
 			{
 				"time":"57657.5",
-				"band":"M2",
-				"e_magnitude":"0.06",
-				"instrument":"UVOT",
-				"magnitude":"18.50",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57657.5",
 				"band":"U",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
@@ -1606,20 +1596,30 @@
 			},
 			{
 				"time":"57657.5",
-				"band":"V",
-				"e_magnitude":"0.05",
+				"band":"UVM2",
+				"e_magnitude":"0.06",
 				"instrument":"UVOT",
-				"magnitude":"15.42",
+				"magnitude":"18.50",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57657.5",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.06",
 				"instrument":"UVOT",
 				"magnitude":"18.37",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57657.5",
+				"band":"V",
+				"e_magnitude":"0.05",
+				"instrument":"UVOT",
+				"magnitude":"15.42",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1666,16 +1666,6 @@
 			},
 			{
 				"time":"57660.4",
-				"band":"M2",
-				"e_magnitude":"0.06",
-				"instrument":"UVOT",
-				"magnitude":"18.58",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57660.4",
 				"band":"U",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
@@ -1686,17 +1676,17 @@
 			},
 			{
 				"time":"57660.4",
-				"band":"V",
-				"e_magnitude":"0.05",
+				"band":"UVM2",
+				"e_magnitude":"0.06",
 				"instrument":"UVOT",
-				"magnitude":"15.42",
+				"magnitude":"18.58",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57660.4",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.06",
 				"instrument":"UVOT",
 				"magnitude":"18.25",
@@ -1706,10 +1696,20 @@
 			},
 			{
 				"time":"57660.4",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
 				"magnitude":"18.41",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57660.4",
+				"band":"V",
+				"e_magnitude":"0.05",
+				"instrument":"UVOT",
+				"magnitude":"15.42",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1776,16 +1776,6 @@
 			},
 			{
 				"time":"57663.6",
-				"band":"M2",
-				"e_magnitude":"0.06",
-				"instrument":"UVOT",
-				"magnitude":"18.62",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57663.6",
 				"band":"U",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
@@ -1796,17 +1786,17 @@
 			},
 			{
 				"time":"57663.6",
-				"band":"V",
-				"e_magnitude":"0.05",
+				"band":"UVM2",
+				"e_magnitude":"0.06",
 				"instrument":"UVOT",
-				"magnitude":"15.61",
+				"magnitude":"18.62",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57663.6",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.07",
 				"instrument":"UVOT",
 				"magnitude":"18.32",
@@ -1816,10 +1806,20 @@
 			},
 			{
 				"time":"57663.6",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
 				"magnitude":"18.50",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57663.6",
+				"band":"V",
+				"e_magnitude":"0.05",
+				"instrument":"UVOT",
+				"magnitude":"15.61",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -1896,16 +1896,6 @@
 			},
 			{
 				"time":"57667.6",
-				"band":"M2",
-				"e_magnitude":"0.06",
-				"instrument":"UVOT",
-				"magnitude":"18.75",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57667.6",
 				"band":"U",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
@@ -1916,17 +1906,17 @@
 			},
 			{
 				"time":"57667.6",
-				"band":"V",
-				"e_magnitude":"0.05",
+				"band":"UVM2",
+				"e_magnitude":"0.06",
 				"instrument":"UVOT",
-				"magnitude":"15.49",
+				"magnitude":"18.75",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57667.6",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.07",
 				"instrument":"UVOT",
 				"magnitude":"18.33",
@@ -1936,10 +1926,20 @@
 			},
 			{
 				"time":"57667.6",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.06",
 				"instrument":"UVOT",
 				"magnitude":"18.67",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57667.6",
+				"band":"V",
+				"e_magnitude":"0.05",
+				"instrument":"UVOT",
+				"magnitude":"15.49",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -2006,7 +2006,7 @@
 			},
 			{
 				"time":"57671.6",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.07",
 				"instrument":"UVOT",
 				"magnitude":"18.42",
@@ -2016,7 +2016,7 @@
 			},
 			{
 				"time":"57671.6",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.08",
 				"instrument":"UVOT",
 				"magnitude":"18.81",
@@ -2056,16 +2056,6 @@
 			},
 			{
 				"time":"57676.1",
-				"band":"M2",
-				"e_magnitude":"0.11",
-				"instrument":"UVOT",
-				"magnitude":"18.91",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57676.1",
 				"band":"U",
 				"e_magnitude":"0.06",
 				"instrument":"UVOT",
@@ -2076,17 +2066,17 @@
 			},
 			{
 				"time":"57676.1",
-				"band":"V",
-				"e_magnitude":"0.05",
+				"band":"UVM2",
+				"e_magnitude":"0.11",
 				"instrument":"UVOT",
-				"magnitude":"15.46",
+				"magnitude":"18.91",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57676.1",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.08",
 				"instrument":"UVOT",
 				"magnitude":"18.55",
@@ -2096,10 +2086,20 @@
 			},
 			{
 				"time":"57676.1",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.07",
 				"instrument":"UVOT",
 				"magnitude":"18.95",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57676.1",
+				"band":"V",
+				"e_magnitude":"0.05",
+				"instrument":"UVOT",
+				"magnitude":"15.46",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -2116,16 +2116,6 @@
 			},
 			{
 				"time":"57679.6",
-				"band":"M2",
-				"e_magnitude":"0.07",
-				"instrument":"UVOT",
-				"magnitude":"18.99",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57679.6",
 				"band":"U",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
@@ -2136,17 +2126,17 @@
 			},
 			{
 				"time":"57679.6",
-				"band":"V",
-				"e_magnitude":"0.05",
+				"band":"UVM2",
+				"e_magnitude":"0.07",
 				"instrument":"UVOT",
-				"magnitude":"15.63",
+				"magnitude":"18.99",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57679.6",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.07",
 				"instrument":"UVOT",
 				"magnitude":"18.51",
@@ -2156,10 +2146,20 @@
 			},
 			{
 				"time":"57679.6",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.07",
 				"instrument":"UVOT",
 				"magnitude":"19.01",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57679.6",
+				"band":"V",
+				"e_magnitude":"0.05",
+				"instrument":"UVOT",
+				"magnitude":"15.63",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -2246,16 +2246,6 @@
 			},
 			{
 				"time":"57683.1",
-				"band":"M2",
-				"e_magnitude":"0.07",
-				"instrument":"UVOT",
-				"magnitude":"19.06",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57683.1",
 				"band":"U",
 				"e_magnitude":"0.06",
 				"instrument":"UVOT",
@@ -2266,17 +2256,17 @@
 			},
 			{
 				"time":"57683.1",
-				"band":"V",
-				"e_magnitude":"0.05",
+				"band":"UVM2",
+				"e_magnitude":"0.07",
 				"instrument":"UVOT",
-				"magnitude":"15.55",
+				"magnitude":"19.06",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57683.1",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.08",
 				"instrument":"UVOT",
 				"magnitude":"18.56",
@@ -2286,10 +2276,20 @@
 			},
 			{
 				"time":"57683.1",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.07",
 				"instrument":"UVOT",
 				"magnitude":"18.93",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57683.1",
+				"band":"V",
+				"e_magnitude":"0.05",
+				"instrument":"UVOT",
+				"magnitude":"15.55",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -2366,16 +2366,6 @@
 			},
 			{
 				"time":"57687.8",
-				"band":"M2",
-				"e_magnitude":"0.07",
-				"instrument":"UVOT",
-				"magnitude":"19.18",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57687.8",
 				"band":"U",
 				"e_magnitude":"0.06",
 				"instrument":"UVOT",
@@ -2386,17 +2376,17 @@
 			},
 			{
 				"time":"57687.8",
-				"band":"V",
-				"e_magnitude":"0.05",
+				"band":"UVM2",
+				"e_magnitude":"0.07",
 				"instrument":"UVOT",
-				"magnitude":"15.57",
+				"magnitude":"19.18",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57687.8",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.08",
 				"instrument":"UVOT",
 				"magnitude":"18.74",
@@ -2406,10 +2396,20 @@
 			},
 			{
 				"time":"57687.8",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.07",
 				"instrument":"UVOT",
 				"magnitude":"19.16",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57687.8",
+				"band":"V",
+				"e_magnitude":"0.05",
+				"instrument":"UVOT",
+				"magnitude":"15.57",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -2446,16 +2446,6 @@
 			},
 			{
 				"time":"57691.9",
-				"band":"M2",
-				"e_magnitude":"0.07",
-				"instrument":"UVOT",
-				"magnitude":"19.09",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57691.9",
 				"band":"U",
 				"e_magnitude":"0.06",
 				"instrument":"UVOT",
@@ -2466,17 +2456,17 @@
 			},
 			{
 				"time":"57691.9",
-				"band":"V",
-				"e_magnitude":"0.05",
+				"band":"UVM2",
+				"e_magnitude":"0.07",
 				"instrument":"UVOT",
-				"magnitude":"15.54",
+				"magnitude":"19.09",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
 			},
 			{
 				"time":"57691.9",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.08",
 				"instrument":"UVOT",
 				"magnitude":"18.63",
@@ -2486,10 +2476,20 @@
 			},
 			{
 				"time":"57691.9",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.08",
 				"instrument":"UVOT",
 				"magnitude":"19.16",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57691.9",
+				"band":"V",
+				"e_magnitude":"0.05",
+				"instrument":"UVOT",
+				"magnitude":"15.54",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -2616,16 +2616,6 @@
 			},
 			{
 				"time":"57712.7",
-				"band":"M2",
-				"e_magnitude":"0.08",
-				"instrument":"UVOT",
-				"magnitude":"19.38",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57712.7",
 				"band":"U",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
@@ -2636,7 +2626,17 @@
 			},
 			{
 				"time":"57712.7",
-				"band":"W1",
+				"band":"UVM2",
+				"e_magnitude":"0.08",
+				"instrument":"UVOT",
+				"magnitude":"19.38",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57712.7",
+				"band":"UVW1",
 				"e_magnitude":"0.06",
 				"instrument":"UVOT",
 				"magnitude":"18.65",
@@ -2646,20 +2646,10 @@
 			},
 			{
 				"time":"57712.7",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.06",
 				"instrument":"UVOT",
 				"magnitude":"19.36",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57716.7",
-				"band":"M2",
-				"e_magnitude":"0.09",
-				"instrument":"UVOT",
-				"magnitude":"19.40",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -2676,7 +2666,17 @@
 			},
 			{
 				"time":"57716.7",
-				"band":"W1",
+				"band":"UVM2",
+				"e_magnitude":"0.09",
+				"instrument":"UVOT",
+				"magnitude":"19.40",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57716.7",
+				"band":"UVW1",
 				"e_magnitude":"0.07",
 				"instrument":"UVOT",
 				"magnitude":"18.81",
@@ -2686,7 +2686,7 @@
 			},
 			{
 				"time":"57716.7",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.06",
 				"instrument":"UVOT",
 				"magnitude":"19.33",
@@ -2720,16 +2720,6 @@
 			},
 			{
 				"time":"57720.0",
-				"band":"M2",
-				"e_magnitude":"0.08",
-				"instrument":"UVOT",
-				"magnitude":"19.30",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57720.0",
 				"band":"U",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
@@ -2740,7 +2730,17 @@
 			},
 			{
 				"time":"57720.0",
-				"band":"W1",
+				"band":"UVM2",
+				"e_magnitude":"0.08",
+				"instrument":"UVOT",
+				"magnitude":"19.30",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57720.0",
+				"band":"UVW1",
 				"e_magnitude":"0.07",
 				"instrument":"UVOT",
 				"magnitude":"18.75",
@@ -2750,20 +2750,10 @@
 			},
 			{
 				"time":"57720.0",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.06",
 				"instrument":"UVOT",
 				"magnitude":"19.44",
-				"telescope":"Swift",
-				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":"57724.7",
-				"band":"M2",
-				"e_magnitude":"0.08",
-				"instrument":"UVOT",
-				"magnitude":"19.30",
 				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"1"
@@ -2780,7 +2770,17 @@
 			},
 			{
 				"time":"57724.7",
-				"band":"W1",
+				"band":"UVM2",
+				"e_magnitude":"0.08",
+				"instrument":"UVOT",
+				"magnitude":"19.30",
+				"telescope":"Swift",
+				"u_time":"MJD",
+				"source":"1"
+			},
+			{
+				"time":"57724.7",
+				"band":"UVW1",
 				"e_magnitude":"0.07",
 				"instrument":"UVOT",
 				"magnitude":"18.76",
@@ -2790,7 +2790,7 @@
 			},
 			{
 				"time":"57724.7",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.07",
 				"instrument":"UVOT",
 				"magnitude":"19.48",

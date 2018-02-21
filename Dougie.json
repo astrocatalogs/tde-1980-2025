@@ -305,7 +305,6 @@
 				"e_magnitude":"0.1",
 				"instrument":"UVOT",
 				"magnitude":"17.26",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -315,7 +314,6 @@
 				"e_magnitude":"0.1",
 				"instrument":"UVOT",
 				"magnitude":"18.04",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -324,7 +322,6 @@
 				"band":"W2",
 				"countrate":"0.002259000000414234946663065620",
 				"instrument":"XRT",
-				"telescope":"Swift",
 				"u_countrate":"s^-1",
 				"u_time":"MJD",
 				"upperlimit":true,
@@ -344,7 +341,6 @@
 				"band":"W2",
 				"countrate":"0.003030000003472334737474903287",
 				"instrument":"XRT",
-				"telescope":"Swift",
 				"u_countrate":"s^-1",
 				"u_time":"MJD",
 				"upperlimit":true,
@@ -356,7 +352,6 @@
 				"e_magnitude":"0.1",
 				"instrument":"UVOT",
 				"magnitude":"17.86",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -392,7 +387,6 @@
 				"band":"W2",
 				"countrate":"0.005339999999648875879455697324",
 				"instrument":"XRT",
-				"telescope":"Swift",
 				"u_countrate":"s^-1",
 				"u_time":"MJD",
 				"upperlimit":true,
@@ -404,7 +398,6 @@
 				"e_magnitude":"0.1",
 				"instrument":"UVOT",
 				"magnitude":"18.52",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -423,7 +416,6 @@
 				"e_magnitude":"0.1",
 				"instrument":"UVOT",
 				"magnitude":"18.24",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -451,7 +443,6 @@
 				"e_magnitude":"0.1",
 				"instrument":"UVOT",
 				"magnitude":"17.92",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -469,7 +460,6 @@
 				"band":"W2",
 				"countrate":"0.001559999998726762337480531433",
 				"instrument":"XRT",
-				"telescope":"Swift",
 				"u_countrate":"s^-1",
 				"u_time":"MJD",
 				"upperlimit":true,
@@ -490,7 +480,6 @@
 				"e_magnitude":"0.1",
 				"instrument":"UVOT",
 				"magnitude":"19.05",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -509,7 +498,6 @@
 				"e_magnitude":"0.1",
 				"instrument":"UVOT",
 				"magnitude":"18.66",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -528,7 +516,6 @@
 				"e_magnitude":"0.1",
 				"instrument":"UVOT",
 				"magnitude":"18.17",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -547,7 +534,6 @@
 				"e_magnitude":"0.1",
 				"instrument":"UVOT",
 				"magnitude":"19.49",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -557,7 +543,6 @@
 				"e_magnitude":"0.15",
 				"instrument":"UVOT",
 				"magnitude":"19.07",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -575,7 +560,6 @@
 				"band":"W2",
 				"countrate":"0.003119999999867505773428233431",
 				"instrument":"XRT",
-				"telescope":"Swift",
 				"u_countrate":"s^-1",
 				"u_time":"MJD",
 				"upperlimit":true,
@@ -638,7 +622,6 @@
 				"e_magnitude":"0.18",
 				"instrument":"UVOT",
 				"magnitude":"20.51",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -657,7 +640,6 @@
 				"e_magnitude":"0.14",
 				"instrument":"UVOT",
 				"magnitude":"20.2",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -667,7 +649,6 @@
 				"e_magnitude":"0.15",
 				"instrument":"UVOT",
 				"magnitude":"20.7",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -703,7 +684,6 @@
 				"band":"W2",
 				"countrate":"0.003689999998648537371929341899",
 				"instrument":"XRT",
-				"telescope":"Swift",
 				"u_countrate":"s^-1",
 				"u_time":"MJD",
 				"upperlimit":true,
@@ -715,7 +695,6 @@
 				"e_magnitude":"0.32",
 				"instrument":"UVOT",
 				"magnitude":"20.88",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -734,7 +713,6 @@
 				"e_magnitude":"0.23",
 				"instrument":"UVOT",
 				"magnitude":"20.64",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -744,7 +722,6 @@
 				"e_magnitude":"0.27",
 				"instrument":"UVOT",
 				"magnitude":"20.97",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -772,7 +749,6 @@
 				"e_magnitude":"0.44",
 				"instrument":"UVOT",
 				"magnitude":"21.99",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -782,7 +758,6 @@
 				"e_magnitude":"0.48",
 				"instrument":"UVOT",
 				"magnitude":"22.77",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -801,7 +776,6 @@
 				"e_magnitude":"0.22",
 				"instrument":"UVOT",
 				"magnitude":"21.75",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -810,7 +784,6 @@
 				"band":"W2",
 				"countrate":"0.005520000003441954997809172417",
 				"instrument":"XRT",
-				"telescope":"Swift",
 				"u_countrate":"s^-1",
 				"u_time":"MJD",
 				"upperlimit":true,
@@ -821,7 +794,6 @@
 				"band":"W2",
 				"countrate":"0.001769999998525429732147809053",
 				"instrument":"XRT",
-				"telescope":"Swift",
 				"u_countrate":"s^-1",
 				"u_time":"MJD",
 				"upperlimit":true,
@@ -833,7 +805,6 @@
 				"e_magnitude":"0.43",
 				"instrument":"UVOT",
 				"magnitude":"21.95",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -852,7 +823,6 @@
 				"e_magnitude":"0.39",
 				"instrument":"UVOT",
 				"magnitude":"21.92",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -862,7 +832,6 @@
 				"e_magnitude":"0.45",
 				"instrument":"UVOT",
 				"magnitude":"22.77",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -881,7 +850,6 @@
 				"e_magnitude":"0.62",
 				"instrument":"UVOT",
 				"magnitude":"23.33",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -891,7 +859,6 @@
 				"e_magnitude":"0.51",
 				"instrument":"UVOT",
 				"magnitude":"22.28",
-				"telescope":"Swift",
 				"u_time":"MJD",
 				"source":"4"
 			},
@@ -900,7 +867,6 @@
 				"band":"W2",
 				"countrate":"0.002984999996801288261068991951",
 				"instrument":"XRT",
-				"telescope":"Swift",
 				"u_countrate":"s^-1",
 				"u_time":"MJD",
 				"upperlimit":true,

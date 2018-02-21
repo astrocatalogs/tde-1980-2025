@@ -357,7 +357,7 @@
 			},
 			{
 				"time":"56761",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.03",
 				"instrument":"UVOT",
 				"magnitude":"16.35",
@@ -385,7 +385,7 @@
 			},
 			{
 				"time":"56769",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
 				"magnitude":"16.49",
@@ -435,7 +435,7 @@
 			},
 			{
 				"time":"56777",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
 				"magnitude":"16.59",
@@ -517,7 +517,7 @@
 			},
 			{
 				"time":"56782",
-				"band":"M2",
+				"band":"UVM2",
 				"e_magnitude":"0.08",
 				"instrument":"UVOT",
 				"magnitude":"16.94",
@@ -528,7 +528,7 @@
 			},
 			{
 				"time":"56782",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.10",
 				"instrument":"UVOT",
 				"magnitude":"16.63",
@@ -539,7 +539,7 @@
 			},
 			{
 				"time":"56782",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.10",
 				"instrument":"UVOT",
 				"magnitude":"16.80",
@@ -567,7 +567,7 @@
 			},
 			{
 				"time":"56789",
-				"band":"M2",
+				"band":"UVM2",
 				"e_magnitude":"0.10",
 				"instrument":"UVOT",
 				"magnitude":"17.11",
@@ -578,7 +578,7 @@
 			},
 			{
 				"time":"56789",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.03",
 				"instrument":"UVOT",
 				"magnitude":"16.66",
@@ -589,7 +589,7 @@
 			},
 			{
 				"time":"56789",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.10",
 				"instrument":"UVOT",
 				"magnitude":"17.07",
@@ -617,7 +617,7 @@
 			},
 			{
 				"time":"56796",
-				"band":"M2",
+				"band":"UVM2",
 				"e_magnitude":"0.20",
 				"instrument":"UVOT",
 				"magnitude":"17.23",
@@ -628,7 +628,7 @@
 			},
 			{
 				"time":"56796",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.03",
 				"instrument":"UVOT",
 				"magnitude":"16.76",
@@ -639,7 +639,7 @@
 			},
 			{
 				"time":"56796",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.10",
 				"instrument":"UVOT",
 				"magnitude":"17.14",
@@ -684,7 +684,7 @@
 			},
 			{
 				"time":"56808",
-				"band":"M2",
+				"band":"UVM2",
 				"e_magnitude":"0.07",
 				"instrument":"UVOT",
 				"magnitude":"17.22",
@@ -695,7 +695,7 @@
 			},
 			{
 				"time":"56808",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
 				"magnitude":"16.68",
@@ -706,7 +706,7 @@
 			},
 			{
 				"time":"56808",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.06",
 				"instrument":"UVOT",
 				"magnitude":"17.10",
@@ -734,7 +734,7 @@
 			},
 			{
 				"time":"56842",
-				"band":"M2",
+				"band":"UVM2",
 				"e_magnitude":"0.10",
 				"instrument":"UVOT",
 				"magnitude":"17.52",
@@ -745,7 +745,7 @@
 			},
 			{
 				"time":"56842",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.40",
 				"instrument":"UVOT",
 				"magnitude":"17.24",
@@ -756,7 +756,7 @@
 			},
 			{
 				"time":"56842",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.3",
 				"instrument":"UVOT",
 				"magnitude":"17.51",
@@ -812,7 +812,7 @@
 			},
 			{
 				"time":"56870",
-				"band":"M2",
+				"band":"UVM2",
 				"e_magnitude":"0.10",
 				"instrument":"UVOT",
 				"magnitude":"17.77",
@@ -823,7 +823,7 @@
 			},
 			{
 				"time":"56870",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.03",
 				"instrument":"UVOT",
 				"magnitude":"16.99",
@@ -834,7 +834,7 @@
 			},
 			{
 				"time":"56870",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.08",
 				"instrument":"UVOT",
 				"magnitude":"17.52",
@@ -862,7 +862,7 @@
 			},
 			{
 				"time":"56898",
-				"band":"M2",
+				"band":"UVM2",
 				"e_magnitude":"0.09",
 				"instrument":"UVOT",
 				"magnitude":"17.45",
@@ -873,7 +873,7 @@
 			},
 			{
 				"time":"56898",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
 				"magnitude":"16.96",
@@ -884,7 +884,7 @@
 			},
 			{
 				"time":"56898",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.10",
 				"instrument":"UVOT",
 				"magnitude":"17.28",
@@ -912,7 +912,7 @@
 			},
 			{
 				"time":"56926",
-				"band":"M2",
+				"band":"UVM2",
 				"e_magnitude":"0.09",
 				"instrument":"UVOT",
 				"magnitude":"17.56",
@@ -923,7 +923,7 @@
 			},
 			{
 				"time":"56926",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.08",
 				"instrument":"UVOT",
 				"magnitude":"17.10",
@@ -934,7 +934,7 @@
 			},
 			{
 				"time":"56926",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
 				"magnitude":"17.40",
@@ -962,7 +962,7 @@
 			},
 			{
 				"time":"56954",
-				"band":"M2",
+				"band":"UVM2",
 				"e_magnitude":"0.09",
 				"instrument":"UVOT",
 				"magnitude":"17.58",
@@ -973,7 +973,7 @@
 			},
 			{
 				"time":"56954",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.04",
 				"instrument":"UVOT",
 				"magnitude":"17.01",
@@ -984,7 +984,7 @@
 			},
 			{
 				"time":"56954",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.05",
 				"instrument":"UVOT",
 				"magnitude":"17.53",
@@ -1039,7 +1039,7 @@
 			},
 			{
 				"time":"56982",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.13",
 				"instrument":"UVOT",
 				"magnitude":"17.54",
@@ -1067,7 +1067,7 @@
 			},
 			{
 				"time":"56987",
-				"band":"M2",
+				"band":"UVM2",
 				"e_magnitude":"0.15",
 				"instrument":"UVOT",
 				"magnitude":"17.72",
@@ -1078,7 +1078,7 @@
 			},
 			{
 				"time":"56987",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.06",
 				"instrument":"UVOT",
 				"magnitude":"16.98",
@@ -1089,7 +1089,7 @@
 			},
 			{
 				"time":"56987",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.10",
 				"instrument":"UVOT",
 				"magnitude":"17.55",
@@ -1166,7 +1166,7 @@
 			},
 			{
 				"time":"57034",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.1",
 				"instrument":"UVOT",
 				"magnitude":"17.2",
@@ -1194,7 +1194,7 @@
 			},
 			{
 				"time":"57285",
-				"band":"M2",
+				"band":"UVM2",
 				"e_magnitude":"0.21",
 				"instrument":"UVOT",
 				"magnitude":"18.88",
@@ -1205,7 +1205,7 @@
 			},
 			{
 				"time":"57285",
-				"band":"W1",
+				"band":"UVW1",
 				"e_magnitude":"0.20",
 				"instrument":"UVOT",
 				"magnitude":"17.41",
@@ -1216,7 +1216,7 @@
 			},
 			{
 				"time":"57285",
-				"band":"W2",
+				"band":"UVW2",
 				"e_magnitude":"0.3",
 				"instrument":"UVOT",
 				"magnitude":"19.0",
