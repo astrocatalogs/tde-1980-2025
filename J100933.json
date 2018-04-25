@@ -4,14 +4,44 @@
 		"name":"J100933",
 		"sources":[
 			{
+				"name":"2018arXiv180205105W",
 				"bibcode":"2018arXiv180205105W",
+				"reference":"Wang et al. (2018)",
 				"alias":"1"
+			},
+			{
+				"name":"2016A&A...594A..13P",
+				"bibcode":"2016A&A...594A..13P",
+				"reference":"Planck Collaboration et al. (2016)",
+				"alias":"2"
+			},
+			{
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
+				"alias":"3"
+			},
+			{
+				"name":"The Open TDE Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"reference":"Guillochon et al. (2017)",
+				"secondary":true,
+				"url":"https://tde.space",
+				"alias":"4"
 			}
 		],
 		"alias":[
 			{
 				"value":"J100933",
 				"source":"1"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"313",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,4"
 			}
 		],
 		"dec":[
@@ -21,10 +51,112 @@
 				"source":"1"
 			}
 		],
+		"discoverdate":[
+			{
+				"value":"2009/02/20",
+				"derived":true,
+				"source":"1,4"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.0255",
+				"derived":true,
+				"e_value":"0.0007",
+				"source":"3,4"
+			}
+		],
 		"host":[
 			{
 				"value":"SDSS J100933.14+232255.8",
 				"source":"1"
+			}
+		],
+		"hostdec":[
+			{
+				"value":"+23:22:55.8",
+				"derived":true,
+				"u_value":"degrees",
+				"source":"4"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0",
+				"derived":true,
+				"u_value":"arcseconds",
+				"source":"1,4"
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"0",
+				"source":"1,2,4"
+			}
+		],
+		"hostra":[
+			{
+				"value":"10:09:33.14",
+				"derived":true,
+				"u_value":"hours",
+				"source":"4"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"335",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,4"
+			}
+		],
+		"maxabsmag":[
+			{
+				"value":"-25.34",
+				"derived":true,
+				"source":"1,2,4"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"12.21",
+				"derived":true,
+				"source":"1,4"
+			}
+		],
+		"maxband":[
+			{
+				"value":"W2",
+				"derived":true,
+				"source":"1,4"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2010/05/11",
+				"derived":true,
+				"source":"1,4"
+			}
+		],
+		"maxvisualappmag":[
+			{
+				"value":"17.43",
+				"derived":true,
+				"source":"1,4"
+			}
+		],
+		"maxvisualband":[
+			{
+				"value":"V",
+				"derived":true,
+				"source":"1,4"
+			}
+		],
+		"maxvisualdate":[
+			{
+				"value":"2009/02/20",
+				"derived":true,
+				"source":"1,4"
 			}
 		],
 		"ra":[
@@ -38,6 +170,14 @@
 			{
 				"value":"0.0719",
 				"source":"1"
+			}
+		],
+		"velocity":[
+			{
+				"value":"20800",
+				"derived":true,
+				"u_value":"km/s",
+				"source":"4"
 			}
 		],
 		"photometry":[
