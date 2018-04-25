@@ -4,99 +4,58 @@
 		"name":"SDSSJ1342",
 		"sources":[
 			{
-				"name":"2017ApJ...838..149A",
-				"bibcode":"2017ApJ...838..149A",
-				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2017)",
+				"bibcode":"2012ApJ...749..115W",
 				"alias":"1"
 			},
 			{
-				"name":"2016A&A...594A..13P",
-				"bibcode":"2016A&A...594A..13P",
-				"reference":"Planck Collaboration et al. (2016)",
+				"bibcode":"2017ApJ...838..149A",
 				"alias":"2"
 			},
 			{
-				"name":"2012ApJ...749..115W",
-				"bibcode":"2012ApJ...749..115W",
-				"reference":"Wang et al. (2012)",
+				"bibcode":"2013ApJ...774...46Y",
 				"alias":"3"
 			},
 			{
-				"name":"The Open TDE Catalog",
-				"bibcode":"2017ApJ...835...64G",
-				"reference":"Guillochon et al. (2017)",
-				"secondary":true,
-				"url":"https://tde.space",
+				"bibcode":"2016arXiv160505145D",
 				"alias":"4"
 			}
 		],
 		"alias":[
 			{
 				"value":"SDSSJ1342",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/2012ApJ...749..115W'>Wang et al. 2012</a>*&Dagger;",
-				"source":"3"
-			}
-		],
-		"comovingdist":[
-			{
-				"value":"161",
-				"derived":true,
-				"u_value":"Mpc",
-				"source":"1,2,3,4"
-			}
-		],
-		"discoverdate":[
-			{
-				"value":"2009/05/17",
-				"derived":true,
-				"source":"1,4"
+				"source":"1"
 			}
 		],
 		"host":[
 			{
 				"value":"SDSS J134244.41+053056.1",
-				"source":"1,3"
+				"source":"1,2"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+05:30:56.14",
 				"u_value":"degrees",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"hostra":[
 			{
 				"value":"13:42:44.42",
 				"u_value":"hours",
-				"source":"1"
-			}
-		],
-		"lumdist":[
-			{
-				"value":"166",
-				"derived":true,
-				"u_value":"Mpc",
-				"source":"1,2,3,4"
+				"source":"2"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0366",
-				"source":"1,3"
-			}
-		],
-		"velocity":[
-			{
-				"value":"10800",
-				"derived":true,
-				"u_value":"km/s",
-				"source":"4"
+				"source":"1,2"
 			}
 		],
 		"photometry":[
@@ -121,7 +80,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -149,7 +108,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"1"
+				"source":"2"
 			}
 		]
 	}

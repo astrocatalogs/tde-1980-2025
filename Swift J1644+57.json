@@ -4,176 +4,96 @@
 		"name":"Swift J1644+57",
 		"sources":[
 			{
-				"name":"2017ApJ...838..149A",
-				"bibcode":"2017ApJ...838..149A",
-				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2017)",
+				"bibcode":"2011Sci...333..203B",
 				"alias":"1"
 			},
 			{
-				"name":"2016A&A...594A..13P",
-				"bibcode":"2016A&A...594A..13P",
-				"reference":"Planck Collaboration et al. (2016)",
+				"bibcode":"2017ApJ...838..149A",
 				"alias":"2"
 			},
 			{
-				"name":"2011Sci...333..203B",
-				"bibcode":"2011Sci...333..203B",
-				"reference":"Bloom et al. (2011)",
+				"bibcode":"2011Natur.476..421B",
 				"alias":"3"
 			},
 			{
-				"name":"2011ApJ...737..103S",
-				"bibcode":"2011ApJ...737..103S",
-				"reference":"Schlafly & Finkbeiner (2011)",
+				"bibcode":"2011Natur.476..425Z",
 				"alias":"4"
 			},
 			{
-				"name":"Swift TOOs",
-				"url":"https://www.swift.psu.edu/secure/toop/summary.php",
+				"bibcode":"2011arXiv1104.2528B",
 				"alias":"5"
 			},
 			{
-				"name":"The Open TDE Catalog",
-				"bibcode":"2017ApJ...835...64G",
-				"reference":"Guillochon et al. (2017)",
-				"secondary":true,
-				"url":"https://tde.space",
+				"bibcode":"2016ApJ...817..103M",
 				"alias":"6"
 			}
 		],
 		"alias":[
 			{
 				"value":"Swift J1644+57",
-				"source":"1,3"
+				"source":"1,2"
 			},
 			{
 				"value":"Swift J164449.3+573451",
-				"source":"3"
+				"source":"1"
 			},
 			{
 				"value":"GRB 110328A",
-				"source":"3"
+				"source":"1"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/2011Sci...333..203B'>Bloom et al. 2011</a>*&Dagger;",
-				"source":"3"
+				"source":"1"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"MS + SMBH",
-				"source":"3"
-			}
-		],
-		"comovingdist":[
-			{
-				"value":"1434",
-				"derived":true,
-				"u_value":"Mpc",
-				"source":"1,2,3,6"
-			}
-		],
-		"dec":[
-			{
-				"value":"+57:34:58.8",
-				"u_value":"degrees",
-				"source":"5"
-			}
-		],
-		"discoverdate":[
-			{
-				"value":"2011/03/29",
-				"derived":true,
-				"source":"1,6"
-			}
-		],
-		"ebv":[
-			{
-				"value":"0.0165",
-				"derived":true,
-				"e_value":"0.0005",
-				"source":"4,6"
+				"source":"1"
 			}
 		],
 		"host":[
 			{
 				"value":"Swift J164449.3+573451",
-				"source":"1,3"
+				"source":"1,2"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+57:34:51.00",
 				"u_value":"degrees",
-				"source":"1"
-			}
-		],
-		"hostoffsetang":[
-			{
-				"value":"12.14",
-				"derived":true,
-				"u_value":"arcseconds",
-				"source":"1,5,6"
-			}
-		],
-		"hostoffsetdist":[
-			{
-				"value":"62.32",
-				"source":"1,2,3,5,6"
+				"source":"2"
 			}
 		],
 		"hostra":[
 			{
 				"value":"16:44:49.30",
 				"u_value":"hours",
-				"source":"1"
-			}
-		],
-		"lumdist":[
-			{
-				"value":"1942",
-				"derived":true,
-				"u_value":"Mpc",
-				"source":"1,2,3,6"
-			}
-		],
-		"ra":[
-			{
-				"value":"16:44:49.92",
-				"u_value":"hours",
-				"source":"5"
+				"source":"2"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.3543",
-				"source":"1,3"
-			}
-		],
-		"velocity":[
-			{
-				"value":"88230",
-				"derived":true,
-				"u_value":"km/s",
-				"source":"6"
+				"source":"1,2"
 			}
 		],
 		"photometry":[
 			{
 				"time":[
-					"48000",
-					"48000.010"
+					"48370",
+					"48370.006"
 				],
-				"countrate":"0.0308041",
+				"countrate":"0.0450751",
 				"energy":[
 					"0.3",
 					"2.0"
 				],
-				"flux":"8.75E-14",
+				"flux":"7.53E-14",
 				"instrument":"PSPC",
-				"luminosity":"4.28E+43",
+				"luminosity":"3.69E+43",
 				"nhmw":"0.0198",
 				"photonindex":"4.5",
 				"telescope":"ROSAT",
@@ -182,7 +102,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -205,30 +125,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
-					"48370",
-					"48370.006"
-				],
-				"countrate":"0.0450751",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"7.53E-14",
-				"instrument":"PSPC",
-				"luminosity":"3.69E+43",
-				"nhmw":"0.0198",
-				"photonindex":"4.5",
-				"telescope":"ROSAT",
-				"u_countrate":"s^-1",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -251,34 +148,76 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
-					"55649.6",
-					"55650.177"
+					"48000",
+					"48000.010"
 				],
-				"countrate":"1.0482",
-				"e_countrate":"0.00487032",
-				"e_lower_flux":"8.69E-12",
-				"e_lower_luminosity":"4.25E+45",
-				"e_upper_flux":"8.79E-12",
-				"e_upper_luminosity":"4.30E+45",
+				"countrate":"0.0308041",
 				"energy":[
 					"0.3",
 					"2.0"
 				],
-				"flux":"8.74E-12",
-				"instrument":"XRT",
-				"luminosity":"4.28E+45",
-				"mode":"PC",
-				"photonindex":"1.93",
-				"telescope":"Swift",
+				"flux":"8.75E-14",
+				"instrument":"PSPC",
+				"luminosity":"4.28E+43",
+				"nhmw":"0.0198",
+				"photonindex":"4.5",
+				"telescope":"ROSAT",
 				"u_countrate":"s^-1",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"1"
+				"upperlimit":true,
+				"source":"2"
+			},
+			{
+				"time":[
+					"56257.4",
+					"56257.685"
+				],
+				"countrate":"0.000427131",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"3.05E-15",
+				"instrument":"ACIS-S",
+				"luminosity":"1.49E+42",
+				"nhmw":"0.0198",
+				"photonindex":"4.5",
+				"telescope":"Chandra",
+				"u_countrate":"s^-1",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
+			},
+			{
+				"time":[
+					"57070.2",
+					"57070.521"
+				],
+				"countrate":"0.000399543",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"2.86E-15",
+				"instrument":"ACIS-S",
+				"luminosity":"1.40E+42",
+				"nhmw":"0.0198",
+				"photonindex":"4.5",
+				"telescope":"Chandra",
+				"u_countrate":"s^-1",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
 			},
 			{
 				"time":[
@@ -301,7 +240,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -327,34 +266,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":[
-					"55675.6",
-					"55679.268"
-				],
-				"countrate":"0.6817",
-				"e_countrate":"0.0015564",
-				"e_lower_flux":"5.51E-12",
-				"e_lower_luminosity":"2.70E+45",
-				"e_upper_flux":"5.54E-12",
-				"e_upper_luminosity":"2.71E+45",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"5.53E-12",
-				"instrument":"XRT",
-				"luminosity":"2.71E+45",
-				"mode":"PC",
-				"photonindex":"1.65",
-				"telescope":"Swift",
-				"u_countrate":"s^-1",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -380,7 +292,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -406,30 +318,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":[
-					"55697.6",
-					"55697.600"
-				],
-				"countrate":"17.5",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"3.01E-11",
-				"instrument":"PN",
-				"luminosity":"1.47E+46",
-				"nhmw":"1.0475",
-				"photonindex":"1.51375",
-				"telescope":"XMM",
-				"u_countrate":"s^-1",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -455,34 +344,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":[
-					"55749.3",
-					"55756.546"
-				],
-				"countrate":"0.101597",
-				"e_countrate":"0.000429141",
-				"e_lower_flux":"8.86E-13",
-				"e_lower_luminosity":"4.34E+44",
-				"e_upper_flux":"8.95E-13",
-				"e_upper_luminosity":"4.38E+44",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"8.91E-13",
-				"instrument":"XRT",
-				"luminosity":"4.36E+44",
-				"mode":"PC",
-				"photonindex":"1.59",
-				"telescope":"Swift",
-				"u_countrate":"s^-1",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -508,30 +370,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":[
-					"55757.4",
-					"55757.400"
-				],
-				"countrate":"2.83",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"4.86E-12",
-				"instrument":"PN",
-				"luminosity":"2.38E+45",
-				"nhmw":"1.0475",
-				"photonindex":"1.51375",
-				"telescope":"XMM",
-				"u_countrate":"s^-1",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -557,7 +396,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -583,7 +422,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -609,7 +448,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -636,7 +475,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -663,7 +502,199 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"1"
+				"source":"2"
+			},
+			{
+				"time":[
+					"56197.8",
+					"56198.120"
+				],
+				"countrate":"0.0138642",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"8.22E-15",
+				"instrument":"PN",
+				"luminosity":"4.02E+42",
+				"nhmw":"1.0475",
+				"photonindex":"1.51375",
+				"telescope":"XMM",
+				"u_countrate":"s^-1",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
+			},
+			{
+				"time":[
+					"56205.8",
+					"56206.154"
+				],
+				"countrate":"1.08E-02",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"6.38E-15",
+				"instrument":"PN",
+				"luminosity":"3.12E+42",
+				"nhmw":"1.0475",
+				"photonindex":"1.51375",
+				"telescope":"XMM",
+				"u_countrate":"s^-1",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
+			},
+			{
+				"time":[
+					"55697.6",
+					"55697.600"
+				],
+				"countrate":"17.5",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"3.01E-11",
+				"instrument":"PN",
+				"luminosity":"1.47E+46",
+				"nhmw":"1.0475",
+				"photonindex":"1.51375",
+				"telescope":"XMM",
+				"u_countrate":"s^-1",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
+			},
+			{
+				"time":[
+					"55757.4",
+					"55757.400"
+				],
+				"countrate":"2.83",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"4.86E-12",
+				"instrument":"PN",
+				"luminosity":"2.38E+45",
+				"nhmw":"1.0475",
+				"photonindex":"1.51375",
+				"telescope":"XMM",
+				"u_countrate":"s^-1",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
+			},
+			{
+				"time":[
+					"56296.3",
+					"56296.300"
+				],
+				"countrate":"1.8",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"3.09E-12",
+				"instrument":"PN",
+				"luminosity":"1.51E+45",
+				"nhmw":"1.0475",
+				"photonindex":"1.51375",
+				"telescope":"XMM",
+				"u_countrate":"s^-1",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
+			},
+			{
+				"time":[
+					"57231.4",
+					"57231.400"
+				],
+				"countrate":"5.35E-01",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"9.19E-13",
+				"instrument":"PN",
+				"luminosity":"4.50E+44",
+				"nhmw":"1.0475",
+				"photonindex":"1.51375",
+				"telescope":"XMM",
+				"u_countrate":"s^-1",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"upperlimit":true,
+				"source":"2"
+			},
+			{
+				"time":[
+					"55675.6",
+					"55679.268"
+				],
+				"countrate":"0.6817",
+				"e_countrate":"0.0015564",
+				"e_lower_flux":"5.51E-12",
+				"e_lower_luminosity":"2.70E+45",
+				"e_upper_flux":"5.54E-12",
+				"e_upper_luminosity":"2.71E+45",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"5.53E-12",
+				"instrument":"XRT",
+				"luminosity":"2.71E+45",
+				"mode":"PC",
+				"photonindex":"1.65",
+				"telescope":"Swift",
+				"u_countrate":"s^-1",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":[
+					"55749.3",
+					"55756.546"
+				],
+				"countrate":"0.101597",
+				"e_countrate":"0.000429141",
+				"e_lower_flux":"8.86E-13",
+				"e_lower_luminosity":"4.34E+44",
+				"e_upper_flux":"8.95E-13",
+				"e_upper_luminosity":"4.38E+44",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"8.91E-13",
+				"instrument":"XRT",
+				"luminosity":"4.36E+44",
+				"mode":"PC",
+				"photonindex":"1.59",
+				"telescope":"Swift",
+				"u_countrate":"s^-1",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"source":"2"
 			},
 			{
 				"time":[
@@ -690,7 +721,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -717,7 +748,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -744,7 +775,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -771,53 +802,7 @@
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
-				"source":"1"
-			},
-			{
-				"time":[
-					"56197.8",
-					"56198.120"
-				],
-				"countrate":"0.0138642",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"8.22E-15",
-				"instrument":"PN",
-				"luminosity":"4.02E+42",
-				"nhmw":"1.0475",
-				"photonindex":"1.51375",
-				"telescope":"XMM",
-				"u_countrate":"s^-1",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
-					"56205.8",
-					"56206.154"
-				],
-				"countrate":"1.08E-02",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"6.38E-15",
-				"instrument":"PN",
-				"luminosity":"3.12E+42",
-				"nhmw":"1.0475",
-				"photonindex":"1.51375",
-				"telescope":"XMM",
-				"u_countrate":"s^-1",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -841,53 +826,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
-					"56257.4",
-					"56257.685"
-				],
-				"countrate":"0.000427131",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"3.05E-15",
-				"instrument":"ACIS-S",
-				"luminosity":"1.49E+42",
-				"nhmw":"0.0198",
-				"photonindex":"4.5",
-				"telescope":"Chandra",
-				"u_countrate":"s^-1",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
-					"56296.3",
-					"56296.300"
-				],
-				"countrate":"1.8",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"3.09E-12",
-				"instrument":"PN",
-				"luminosity":"1.51E+45",
-				"nhmw":"1.0475",
-				"photonindex":"1.51375",
-				"telescope":"XMM",
-				"u_countrate":"s^-1",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -911,7 +850,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -935,7 +874,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -959,7 +898,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -983,7 +922,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -1007,7 +946,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -1031,7 +970,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -1055,7 +994,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -1079,30 +1018,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
-					"57070.2",
-					"57070.521"
-				],
-				"countrate":"0.000399543",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"2.86E-15",
-				"instrument":"ACIS-S",
-				"luminosity":"1.40E+42",
-				"nhmw":"0.0198",
-				"photonindex":"4.5",
-				"telescope":"Chandra",
-				"u_countrate":"s^-1",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -1126,30 +1042,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
-					"57231.4",
-					"57231.400"
-				],
-				"countrate":"5.35E-01",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"9.19E-13",
-				"instrument":"PN",
-				"luminosity":"4.50E+44",
-				"nhmw":"1.0475",
-				"photonindex":"1.51375",
-				"telescope":"XMM",
-				"u_countrate":"s^-1",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -1173,7 +1066,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -1197,7 +1090,34 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
+				"source":"2"
+			},
+			{
+				"time":[
+					"55649.6",
+					"55650.177"
+				],
+				"countrate":"1.0482",
+				"e_countrate":"0.00487032",
+				"e_lower_flux":"8.69E-12",
+				"e_lower_luminosity":"4.25E+45",
+				"e_upper_flux":"8.79E-12",
+				"e_upper_luminosity":"4.30E+45",
+				"energy":[
+					"0.3",
+					"2.0"
+				],
+				"flux":"8.74E-12",
+				"instrument":"XRT",
+				"luminosity":"4.28E+45",
+				"mode":"PC",
+				"photonindex":"1.93",
+				"telescope":"Swift",
+				"u_countrate":"s^-1",
+				"u_energy":"keV",
+				"u_flux":"ergs/cm^2/s",
+				"u_time":"MJD",
+				"source":"2"
 			}
 		]
 	}

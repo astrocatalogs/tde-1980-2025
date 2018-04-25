@@ -1,0 +1,24 @@
+{
+	"PS16dtm":{
+		"schema":"https://github.com/astrocatalogs/tidaldisruptions/blob/f405406/SCHEMA.md",
+		"name":"PS16dtm",
+		"sources":[
+			{
+				"bibcode":"2017arXiv170307816B",
+				"alias":"1"
+			}
+		],
+		"alias":[
+			{
+				"value":"PS16dtm",
+				"source":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"TDE",
+				"source":"1"
+			}
+		]
+	}
+}

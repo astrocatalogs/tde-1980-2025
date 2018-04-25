@@ -4,30 +4,12 @@
 		"name":"PS1-12yp",
 		"sources":[
 			{
-				"name":"2017ApJ...838..149A",
-				"bibcode":"2017ApJ...838..149A",
-				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2017)",
+				"bibcode":"2016MNRAS.463..296L",
 				"alias":"1"
 			},
 			{
-				"name":"2016MNRAS.463..296L",
-				"bibcode":"2016MNRAS.463..296L",
-				"reference":"Lawrence et al. (2016)",
+				"bibcode":"2017ApJ...838..149A",
 				"alias":"2"
-			},
-			{
-				"name":"2011ApJ...737..103S",
-				"bibcode":"2011ApJ...737..103S",
-				"reference":"Schlafly & Finkbeiner (2011)",
-				"alias":"3"
-			},
-			{
-				"name":"The Open TDE Catalog",
-				"bibcode":"2017ApJ...835...64G",
-				"reference":"Guillochon et al. (2017)",
-				"secondary":true,
-				"url":"https://tde.space",
-				"alias":"4"
 			}
 		],
 		"alias":[
@@ -37,70 +19,31 @@
 			},
 			{
 				"value":"CSS120301:133156+235405",
-				"source":"2"
+				"source":"1"
 			},
 			{
 				"value":"SDSSJ133155",
-				"source":"2"
+				"source":"1"
 			}
 		],
 		"dec":[
 			{
 				"value":"+23:54:05.7",
 				"u_value":"degrees",
-				"source":"2"
-			}
-		],
-		"discoverdate":[
-			{
-				"value":"2012/03/01",
-				"derived":true,
-				"source":"4"
-			}
-		],
-		"ebv":[
-			{
-				"value":"0.0132",
-				"derived":true,
-				"e_value":"0.0004",
-				"source":"3,4"
+				"source":"1"
 			}
 		],
 		"host":[
 			{
 				"value":"SDSS J133155.90+235405.8",
-				"source":"2"
-			}
-		],
-		"hostdec":[
-			{
-				"value":"+23:54:05.8",
-				"derived":true,
-				"u_value":"degrees",
-				"source":"4"
-			}
-		],
-		"hostoffsetang":[
-			{
-				"value":"0.1803",
-				"derived":true,
-				"u_value":"arcseconds",
-				"source":"2,4"
-			}
-		],
-		"hostra":[
-			{
-				"value":"13:31:55.90",
-				"derived":true,
-				"u_value":"hours",
-				"source":"4"
+				"source":"1"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:31:55.91",
 				"u_value":"hours",
-				"source":"2"
+				"source":"1"
 			}
 		],
 		"photometry":[
@@ -125,7 +68,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -148,7 +91,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":[
@@ -171,7 +114,7 @@
 				"u_flux":"ergs/cm^2/s",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"1"
+				"source":"2"
 			}
 		]
 	}
