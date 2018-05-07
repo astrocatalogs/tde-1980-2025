@@ -26,14 +26,18 @@
 				"alias":"4"
 			},
 			{
-				"name":"Sanders",
+				"name":"Sanders, David B.",
 				"alias":"5"
+			},
+			{
+				"name":"Sanders",
+				"alias":"6"
 			},
 			{
 				"name":"MAST",
 				"secondary":true,
 				"url":"https://mast.stsci.edu",
-				"alias":"6"
+				"alias":"7"
 			},
 			{
 				"name":"The Open TDE Catalog",
@@ -41,13 +45,13 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://tde.space",
-				"alias":"7"
+				"alias":"8"
 			}
 		],
 		"alias":[
 			{
 				"value":"F01004-2237",
-				"source":"1,6"
+				"source":"1,7"
 			},
 			{
 				"value":"CSS:010250.0-222157",
@@ -63,7 +67,7 @@
 				"value":"506.963",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,7"
+				"source":"1,2,8"
 			}
 		],
 		"dec":[
@@ -77,7 +81,7 @@
 			{
 				"value":"2010/06/25",
 				"derived":true,
-				"source":"1,7"
+				"source":"1,8"
 			}
 		],
 		"ebv":[
@@ -85,7 +89,7 @@
 				"value":"0.015",
 				"derived":true,
 				"e_value":"0.0002",
-				"source":"3,7"
+				"source":"3,8"
 			}
 		],
 		"host":[
@@ -106,13 +110,13 @@
 				"value":"1.62",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"1,7"
+				"source":"1,8"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"3.56",
-				"source":"1,2,7"
+				"source":"1,2,8"
 			}
 		],
 		"hostra":[
@@ -127,56 +131,56 @@
 				"value":"566.701",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,7"
+				"source":"1,2,8"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-27.4358",
 				"derived":true,
-				"source":"1,2,7"
+				"source":"1,2,8"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"11.21",
 				"derived":true,
-				"source":"1,7"
+				"source":"1,8"
 			}
 		],
 		"maxband":[
 			{
 				"value":"W2",
 				"derived":true,
-				"source":"1,7"
+				"source":"1,8"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2010/06/25",
 				"derived":true,
-				"source":"1,7"
+				"source":"1,8"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"11.21",
 				"derived":true,
-				"source":"1,7"
+				"source":"1,8"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"W2",
 				"derived":true,
-				"source":"1,7"
+				"source":"1,8"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2010/06/25",
 				"derived":true,
-				"source":"1,7"
+				"source":"1,8"
 			}
 		],
 		"ra":[
@@ -197,7 +201,7 @@
 				"value":"33257.6",
 				"derived":true,
 				"u_value":"km/s",
-				"source":"7"
+				"source":"8"
 			}
 		],
 		"photometry":[
@@ -4286,7 +4290,7 @@
 		],
 		"spectra":[
 			{
-				"time":"51583.736620",
+				"time":"51583.73662865",
 				"filename":"2003966275_o5f901010_x1d.fits",
 				"instrument":"STIS/CCD",
 				"telescope":"HST",
@@ -8391,7 +8395,7 @@
 						"0.26327834"
 					]
 				],
-				"source":"5,6"
+				"source":"5,7"
 			},
 			{
 				"time":"51583.745960",
@@ -12499,10 +12503,10 @@
 						"0.17905171"
 					]
 				],
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
-				"time":"51583.755645",
+				"time":"51583.75565660",
 				"filename":"2003966277_o5f901030_x1d.fits",
 				"instrument":"STIS/CCD",
 				"telescope":"HST",
@@ -16607,10 +16611,10 @@
 						"0.36701727"
 					]
 				],
-				"source":"5,6"
+				"source":"5,7"
 			},
 			{
-				"time":"51583.795985",
+				"time":"51583.79599210",
 				"filename":"2003966278_o5f901040_x1d.fits",
 				"instrument":"STIS/CCD",
 				"telescope":"HST",
@@ -20715,7 +20719,7 @@
 						"0.3021513"
 					]
 				],
-				"source":"5,6"
+				"source":"5,7"
 			},
 			{
 				"time":"51583.807070",
@@ -24823,7 +24827,7 @@
 						"0.021132816"
 					]
 				],
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"51583.815105",
@@ -28931,7 +28935,7 @@
 						"55.146442"
 					]
 				],
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"51583.822455",
@@ -33039,7 +33043,7 @@
 						"-0.008123073"
 					]
 				],
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"51583.864620",
@@ -37147,7 +37151,7 @@
 						"0.0010016977"
 					]
 				],
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"51583.876690",
@@ -41255,7 +41259,7 @@
 						"0.0010009944"
 					]
 				],
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"51583.887635",
@@ -45363,10 +45367,10 @@
 						"-6.754604e-05"
 					]
 				],
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
-				"time":"51583.931815",
+				"time":"51583.93182570",
 				"filename":"2003966286_o5f9010c0_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -49471,7 +49475,7 @@
 						"-6.7496345e-05"
 					]
 				],
-				"source":"5,6"
+				"source":"5,7"
 			},
 			{
 				"time":"51583.943020",
@@ -53579,10 +53583,10 @@
 						"-6.753494e-05"
 					]
 				],
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
-				"time":"51583.954520",
+				"time":"51583.95452825",
 				"filename":"2003966288_o5f9010e0_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -57687,7 +57691,7 @@
 						"0.0019148784"
 					]
 				],
-				"source":"5,6"
+				"source":"5,7"
 			},
 			{
 				"time":"55898.216445",
@@ -123235,7 +123239,7 @@
 						"0.0"
 					]
 				],
-				"source":"4,6"
+				"source":"4,7"
 			}
 		]
 	}

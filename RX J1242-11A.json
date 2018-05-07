@@ -28,14 +28,18 @@
 				"alias":"4"
 			},
 			{
-				"name":"Halpern",
+				"name":"Halpern, Jules P.",
 				"alias":"5"
+			},
+			{
+				"name":"Halpern",
+				"alias":"6"
 			},
 			{
 				"name":"MAST",
 				"secondary":true,
 				"url":"https://mast.stsci.edu",
-				"alias":"6"
+				"alias":"7"
 			},
 			{
 				"name":"The Open TDE Catalog",
@@ -43,13 +47,13 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://tde.space",
-				"alias":"7"
+				"alias":"8"
 			}
 		],
 		"alias":[
 			{
 				"value":"RX J1242-11A",
-				"source":"1,6"
+				"source":"1,7"
 			}
 		],
 		"citations":[
@@ -69,7 +73,7 @@
 				"value":"200",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,4,7"
+				"source":"1,2,4,8"
 			}
 		],
 		"dec":[
@@ -83,7 +87,7 @@
 			{
 				"value":"1992/07/15",
 				"derived":true,
-				"source":"1,7"
+				"source":"1,8"
 			}
 		],
 		"ebv":[
@@ -91,7 +95,7 @@
 				"value":"0.0442",
 				"derived":true,
 				"e_value":"0.0006",
-				"source":"3,7"
+				"source":"3,8"
 			}
 		],
 		"host":[
@@ -112,13 +116,13 @@
 				"value":"28.53",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"1,7"
+				"source":"1,8"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"26.35",
-				"source":"1,2,4,7"
+				"source":"1,2,4,8"
 			}
 		],
 		"hostra":[
@@ -133,7 +137,7 @@
 				"value":"200",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,4,7"
+				"source":"1,2,4,8"
 			}
 		],
 		"ra":[
@@ -154,7 +158,7 @@
 				"value":"10000",
 				"derived":true,
 				"u_value":"km/s",
-				"source":"7"
+				"source":"8"
 			}
 		],
 		"photometry":[
@@ -325,7 +329,7 @@
 		],
 		"spectra":[
 			{
-				"time":"52130.186700",
+				"time":"52130.18671040",
 				"filename":"2003982400_o6dd03010_sx1.fits",
 				"instrument":"STIS/CCD",
 				"telescope":"HST",
@@ -4430,7 +4434,7 @@
 						"0.0014378063"
 					]
 				],
-				"source":"5,6"
+				"source":"5,7"
 			},
 			{
 				"time":"52130.316930",
@@ -8538,7 +8542,7 @@
 						"-0.0028115024"
 					]
 				],
-				"source":"5,6"
+				"source":"6,7"
 			}
 		]
 	}
