@@ -1071,6 +1071,15 @@
 				"system":"Vega",
 				"u_time":"MJD",
 				"source":"4"
+			},
+			{
+				"time":"58286.44375",
+				"band":"I",
+				"e_magnitude":"0.211",
+				"magnitude":"20.580",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"4"
 			}
 		]
 	}
