@@ -4,8 +4,8 @@
 		"name":"iPTF16fnl",
 		"sources":[
 			{
-				"name":"2017arXiv170300965B",
-				"bibcode":"2017arXiv170300965B",
+				"name":"2017ApJ...844...46B",
+				"bibcode":"2017ApJ...844...46B",
 				"reference":"Blagorodnova et al. (2017)",
 				"alias":"1"
 			},
@@ -2187,7 +2187,6 @@
 			{
 				"time":"57681.3",
 				"band":"g",
-				"e_magnitude":"-0.50",
 				"instrument":"CFH12k",
 				"magnitude":"19.56",
 				"telescope":"P48",
@@ -2317,7 +2316,6 @@
 			{
 				"time":"57684.3",
 				"band":"g",
-				"e_magnitude":"-0.50",
 				"instrument":"CFH12k",
 				"magnitude":"19.47",
 				"telescope":"P48",
@@ -2347,7 +2345,6 @@
 			{
 				"time":"57687.3",
 				"band":"r",
-				"e_magnitude":"-0.50",
 				"instrument":"CFH12k",
 				"magnitude":"20.06",
 				"telescope":"P48",
@@ -2527,7 +2524,6 @@
 			{
 				"time":"57695.2",
 				"band":"r",
-				"e_magnitude":"-0.50",
 				"instrument":"CFH12k",
 				"magnitude":"20.47",
 				"telescope":"P48",
@@ -2557,7 +2553,6 @@
 			{
 				"time":"57697.3",
 				"band":"g",
-				"e_magnitude":"-0.50",
 				"instrument":"CFH12k",
 				"magnitude":"19.98",
 				"telescope":"P48",
@@ -2567,7 +2562,6 @@
 			{
 				"time":"57697.3",
 				"band":"r",
-				"e_magnitude":"-0.50",
 				"instrument":"CFH12k",
 				"magnitude":"20.20",
 				"telescope":"P48",
@@ -2587,7 +2581,6 @@
 			{
 				"time":"57698.2",
 				"band":"r",
-				"e_magnitude":"-0.50",
 				"instrument":"CFH12k",
 				"magnitude":"20.08",
 				"telescope":"P48",
@@ -2597,7 +2590,6 @@
 			{
 				"time":"57699.3",
 				"band":"g",
-				"e_magnitude":"-0.50",
 				"instrument":"CFH12k",
 				"magnitude":"19.62",
 				"telescope":"P48",
@@ -2607,7 +2599,6 @@
 			{
 				"time":"57699.3",
 				"band":"r",
-				"e_magnitude":"-0.50",
 				"instrument":"CFH12k",
 				"magnitude":"19.59",
 				"telescope":"P48",
