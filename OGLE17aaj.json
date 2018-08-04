@@ -1080,6 +1080,42 @@
 				"system":"Vega",
 				"u_time":"MJD",
 				"source":"4"
+			},
+			{
+				"time":"58307.39325",
+				"band":"I",
+				"e_magnitude":"0.175",
+				"magnitude":"20.779",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"58314.40687",
+				"band":"I",
+				"e_magnitude":"0.142",
+				"magnitude":"20.406",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"58329.38829",
+				"band":"I",
+				"e_magnitude":"0.245",
+				"magnitude":"20.885",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"58332.38029",
+				"band":"I",
+				"e_magnitude":"0.174",
+				"magnitude":"20.620",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"4"
 			}
 		]
 	}
