@@ -1143,6 +1143,33 @@
 				"system":"Vega",
 				"u_time":"MJD",
 				"source":"4"
+			},
+			{
+				"time":"58357.28395",
+				"band":"I",
+				"e_magnitude":"0.174",
+				"magnitude":"20.623",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"58363.20486",
+				"band":"I",
+				"e_magnitude":"0.090",
+				"magnitude":"20.303",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"58368.19620",
+				"band":"I",
+				"e_magnitude":"0.143",
+				"magnitude":"20.703",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"4"
 			}
 		]
 	}
