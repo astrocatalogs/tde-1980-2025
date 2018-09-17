@@ -2884,6 +2884,46 @@
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
 				"source":"6,7"
+			},
+			{
+				"time":"58345.5867831522",
+				"band":"w",
+				"e_magnitude":"0.00657156",
+				"instrument":"GPC",
+				"magnitude":"17.2094",
+				"telescope":"Pan-STARRS1",
+				"u_time":"MJD",
+				"source":"6,7"
+			},
+			{
+				"time":"58345.5979209897",
+				"band":"w",
+				"e_magnitude":"0.00886747",
+				"instrument":"GPC",
+				"magnitude":"17.2422",
+				"telescope":"Pan-STARRS1",
+				"u_time":"MJD",
+				"source":"6,7"
+			},
+			{
+				"time":"58345.6090967014",
+				"band":"w",
+				"e_magnitude":"0.00873676",
+				"instrument":"GPC",
+				"magnitude":"17.2327",
+				"telescope":"Pan-STARRS1",
+				"u_time":"MJD",
+				"source":"6,7"
+			},
+			{
+				"time":"58345.6202797956",
+				"band":"w",
+				"e_magnitude":"0.00680066",
+				"instrument":"GPC",
+				"magnitude":"17.2125",
+				"telescope":"Pan-STARRS1",
+				"u_time":"MJD",
+				"source":"6,7"
 			}
 		],
 		"spectra":[
