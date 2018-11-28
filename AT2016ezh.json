@@ -209,9 +209,14 @@
 		],
 		"ra":[
 			{
+				"value":"01:58:04.739",
+				"u_value":"hours",
+				"source":"8"
+			},
+			{
 				"value":"01:58:04.74",
 				"u_value":"hours",
-				"source":"6,7,8"
+				"source":"6,7"
 			},
 			{
 				"value":"01:58:05.0",

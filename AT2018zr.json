@@ -132,7 +132,7 @@
 		],
 		"hostoffsetang":[
 			{
-				"value":"0.1503",
+				"value":"0.1055",
 				"derived":true,
 				"u_value":"arcseconds",
 				"source":"5,9"
@@ -140,7 +140,7 @@
 		],
 		"hostoffsetdist":[
 			{
-				"value":"0.2171",
+				"value":"0.1524",
 				"source":"2,3,5,9"
 			}
 		],
@@ -211,7 +211,7 @@
 		],
 		"ra":[
 			{
-				"value":"07:56:54.54",
+				"value":"07:56:54.537",
 				"u_value":"hours",
 				"source":"5"
 			},

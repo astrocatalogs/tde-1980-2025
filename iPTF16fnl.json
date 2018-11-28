@@ -144,7 +144,7 @@
 				"value":"0.5197",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"3,6,7,10,11"
+				"source":"3,6,10,11"
 			}
 		],
 		"hostoffsetdist":[
@@ -222,7 +222,12 @@
 			{
 				"value":"00:29:57.04",
 				"u_value":"hours",
-				"source":"3,6,7,11"
+				"source":"3,6,11"
+			},
+			{
+				"value":"00:29:57.042",
+				"u_value":"hours",
+				"source":"7"
 			}
 		],
 		"redshift":[
