@@ -1323,6 +1323,15 @@
 				"system":"Vega",
 				"u_time":"MJD",
 				"source":"4"
+			},
+			{
+				"time":"58456.22433",
+				"band":"I",
+				"e_magnitude":"0.168",
+				"magnitude":"20.595",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"4"
 			}
 		]
 	}
