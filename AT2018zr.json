@@ -6198,6 +6198,46 @@
 				"telescope":"PO",
 				"u_time":"MJD",
 				"source":"2"
+			},
+			{
+				"time":"58483.4192700529",
+				"band":"w",
+				"e_magnitude":"0.218563",
+				"instrument":"GPC",
+				"magnitude":"20.9701",
+				"telescope":"Pan-STARRS1",
+				"u_time":"MJD",
+				"source":"6"
+			},
+			{
+				"time":"58483.4316263227",
+				"band":"w",
+				"e_magnitude":"0.17079",
+				"instrument":"GPC",
+				"magnitude":"20.8989",
+				"telescope":"Pan-STARRS1",
+				"u_time":"MJD",
+				"source":"6"
+			},
+			{
+				"time":"58483.4440000066",
+				"band":"w",
+				"e_magnitude":"0.241245",
+				"instrument":"GPC",
+				"magnitude":"20.953",
+				"telescope":"Pan-STARRS1",
+				"u_time":"MJD",
+				"source":"6"
+			},
+			{
+				"time":"58483.4564769295",
+				"band":"w",
+				"e_magnitude":"0.180475",
+				"instrument":"GPC",
+				"magnitude":"20.9121",
+				"telescope":"Pan-STARRS1",
+				"u_time":"MJD",
+				"source":"6"
 			}
 		],
 		"spectra":[
