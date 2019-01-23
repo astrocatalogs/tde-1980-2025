@@ -1395,6 +1395,15 @@
 				"system":"Vega",
 				"u_time":"MJD",
 				"source":"4"
+			},
+			{
+				"time":"58503.09957",
+				"band":"I",
+				"e_magnitude":"0.163",
+				"magnitude":"20.552",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"4"
 			}
 		]
 	}
