@@ -6242,7 +6242,7 @@
 		],
 		"spectra":[
 			{
-				"time":"58219.375575115",
+				"time":"58219.37557510",
 				"filename":"2007889270_ods731010_x1d.fits",
 				"instrument":"STIS/NUV-MAMA",
 				"telescope":"HST",
@@ -10350,7 +10350,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58219.409417710",
+				"time":"58219.40941775",
 				"filename":"2007889271_ods731020_x1d.fits",
 				"instrument":"STIS/NUV-MAMA",
 				"telescope":"HST",
@@ -14458,7 +14458,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58219.417773995",
+				"time":"58219.41777400",
 				"filename":"2007889272_ods731030_x1d.fits",
 				"instrument":"STIS/NUV-MAMA",
 				"telescope":"HST",
@@ -18566,7 +18566,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58219.431246145",
+				"time":"58219.43124615",
 				"filename":"2007889273_ods731040_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -22674,7 +22674,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58219.477114270",
+				"time":"58219.47711425",
 				"filename":"2007889274_ods731050_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -26782,7 +26782,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58219.488317975",
+				"time":"58219.48831800",
 				"filename":"2007889275_ods731060_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -30890,7 +30890,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58219.501801705",
+				"time":"58219.50180170",
 				"filename":"2007889276_ods731070_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -34998,7 +34998,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58219.543399105",
+				"time":"58219.54339910",
 				"filename":"2007889277_ods731080_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -39106,7 +39106,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58219.554602795",
+				"time":"58219.55460280",
 				"filename":"2007889278_ods731090_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -43214,7 +43214,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58233.061212580",
+				"time":"58233.06121255",
 				"filename":"2007914693_ods732010_x1d.fits",
 				"instrument":"STIS/NUV-MAMA",
 				"telescope":"HST",
@@ -47322,7 +47322,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58233.070645520",
+				"time":"58233.07064555",
 				"filename":"2007914698_ods732020_x1d.fits",
 				"instrument":"STIS/NUV-MAMA",
 				"telescope":"HST",
@@ -51430,7 +51430,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58233.079002200",
+				"time":"58233.07900220",
 				"filename":"2007914709_ods732030_x1d.fits",
 				"instrument":"STIS/NUV-MAMA",
 				"telescope":"HST",
@@ -55538,7 +55538,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58233.120599155",
+				"time":"58233.12059915",
 				"filename":"2007914708_ods732040_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -59646,7 +59646,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58233.132879515",
+				"time":"58233.13287950",
 				"filename":"2007914705_ods732050_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -63754,7 +63754,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58233.144083215",
+				"time":"58233.14408320",
 				"filename":"2007914704_ods732060_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -67862,7 +67862,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58233.186802855",
+				"time":"58233.18680285",
 				"filename":"2007914694_ods732070_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -71970,7 +71970,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58233.198006565",
+				"time":"58233.19800655",
 				"filename":"2007914710_ods732080_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -76078,7 +76078,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58233.209210265",
+				"time":"58233.20921025",
 				"filename":"2007914703_ods732090_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -80186,7 +80186,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58238.754569215",
+				"time":"58238.75456920",
 				"filename":"2007914696_ods733010_x1d.fits",
 				"instrument":"STIS/NUV-MAMA",
 				"telescope":"HST",
@@ -84294,7 +84294,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58238.764002200",
+				"time":"58238.76400220",
 				"filename":"2007914701_ods733020_x1d.fits",
 				"instrument":"STIS/NUV-MAMA",
 				"telescope":"HST",
@@ -88402,7 +88402,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58238.772358485",
+				"time":"58238.77235845",
 				"filename":"2007914702_ods733030_x1d.fits",
 				"instrument":"STIS/NUV-MAMA",
 				"telescope":"HST",
@@ -92510,7 +92510,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58238.813955805",
+				"time":"58238.81395580",
 				"filename":"2007914707_ods733040_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -96618,7 +96618,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58238.826235795",
+				"time":"58238.82623580",
 				"filename":"2007914700_ods733050_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -100726,7 +100726,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58238.837439505",
+				"time":"58238.83743950",
 				"filename":"2007914706_ods733060_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -104834,7 +104834,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58238.880159490",
+				"time":"58238.88015950",
 				"filename":"2007914695_ods733070_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -108942,7 +108942,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58238.891363195",
+				"time":"58238.89136320",
 				"filename":"2007914697_ods733080_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -113050,7 +113050,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58238.902566915",
+				"time":"58238.90256690",
 				"filename":"2007914699_ods733090_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -117158,7 +117158,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58258.548574190",
+				"time":"58258.54857420",
 				"filename":"2007916057_ods734010_x1d.fits",
 				"instrument":"STIS/NUV-MAMA",
 				"telescope":"HST",
@@ -121266,7 +121266,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58258.558007155",
+				"time":"58258.55800715",
 				"filename":"2007916061_ods734020_x1d.fits",
 				"instrument":"STIS/NUV-MAMA",
 				"telescope":"HST",
@@ -125374,7 +125374,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58258.566363830",
+				"time":"58258.56636380",
 				"filename":"2007916060_ods734030_x1d.fits",
 				"instrument":"STIS/NUV-MAMA",
 				"telescope":"HST",
@@ -129482,7 +129482,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58258.620229285",
+				"time":"58258.62022930",
 				"filename":"2007916059_ods734050_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -133590,7 +133590,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58258.631432985",
+				"time":"58258.63143300",
 				"filename":"2007916058_ods734060_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -137698,7 +137698,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58258.674153010",
+				"time":"58258.67415300",
 				"filename":"2007916064_ods734070_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -141806,7 +141806,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58258.685356695",
+				"time":"58258.68535670",
 				"filename":"2007916065_ods734080_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -145914,7 +145914,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58258.696560415",
+				"time":"58258.69656040",
 				"filename":"2007916138_ods734090_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -150022,7 +150022,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58261.270183080",
+				"time":"58261.27018310",
 				"filename":"2007916447_ods735010_x1d.fits",
 				"instrument":"STIS/NUV-MAMA",
 				"telescope":"HST",
@@ -154130,7 +154130,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58261.279616055",
+				"time":"58261.27961605",
 				"filename":"2007916444_ods735020_x1d.fits",
 				"instrument":"STIS/NUV-MAMA",
 				"telescope":"HST",
@@ -158238,7 +158238,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58261.320623090",
+				"time":"58261.32062310",
 				"filename":"2007916448_ods735030_x1d.fits",
 				"instrument":"STIS/NUV-MAMA",
 				"telescope":"HST",
@@ -162346,7 +162346,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58261.334095220",
+				"time":"58261.33409525",
 				"filename":"2007916441_ods735040_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -166454,7 +166454,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58261.346375215",
+				"time":"58261.34637520",
 				"filename":"2007916450_ods735050_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -170562,7 +170562,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58261.388250425",
+				"time":"58261.38825045",
 				"filename":"2007916440_ods735060_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -174670,7 +174670,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58261.401734105",
+				"time":"58261.40173410",
 				"filename":"2007916443_ods735070_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -178778,7 +178778,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58261.412937815",
+				"time":"58261.41293780",
 				"filename":"2007916449_ods735080_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -182886,7 +182886,7 @@
 				"source":"7,8"
 			},
 			{
-				"time":"58261.454454135",
+				"time":"58261.45445415",
 				"filename":"2007916442_ods735090_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
