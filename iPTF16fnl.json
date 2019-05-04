@@ -73,25 +73,19 @@
 		"alias":[
 			{
 				"value":"iPTF16fnl",
-				"source":"1,2,6,7,9,11"
+				"source":"1,2,6,9,11"
 			},
 			{
 				"value":"AT2016fnl",
 				"source":"6,7"
 			}
 		],
-		"claimedtype":[
-			{
-				"value":"TDE",
-				"source":"7"
-			}
-		],
 		"comovingdist":[
 			{
-				"value":"71.987",
+				"value":"71.9",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"4,7,10"
+				"source":"4,6,10"
 			}
 		],
 		"dec":[
@@ -99,23 +93,12 @@
 				"value":"+32:53:37.5",
 				"u_value":"degrees",
 				"source":"3,6,11"
-			},
-			{
-				"value":"+32:53:37.51",
-				"u_value":"degrees",
-				"source":"7"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2016/08/26",
 				"source":"6"
-			}
-		],
-		"discoverer":[
-			{
-				"value":"iPTF",
-				"source":"7"
 			}
 		],
 		"ebv":[
@@ -149,8 +132,8 @@
 		],
 		"hostoffsetdist":[
 			{
-				"value":"0.1785",
-				"source":"3,4,6,7,10,11"
+				"value":"0.1783",
+				"source":"3,4,6,10,11"
 			}
 		],
 		"hostra":[
@@ -162,18 +145,17 @@
 		],
 		"lumdist":[
 			{
-				"value":"73.163",
+				"value":"73",
 				"derived":true,
-				"kind":"spectroscopic",
 				"u_value":"Mpc",
-				"source":"4,7,10"
+				"source":"4,6,10"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-19.1139",
+				"value":"-19.11",
 				"derived":true,
-				"source":"4,7,10"
+				"source":"4,6,10"
 			}
 		],
 		"maxappmag":[
@@ -223,25 +205,18 @@
 				"value":"00:29:57.04",
 				"u_value":"hours",
 				"source":"3,6,11"
-			},
-			{
-				"value":"00:29:57.042",
-				"u_value":"hours",
-				"source":"7"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.016328",
-				"kind":"spectroscopic",
-				"source":"7"
+				"value":"0.0163",
+				"source":"6"
 			}
 		],
 		"velocity":[
 			{
-				"value":"4855.1",
+				"value":"4850",
 				"derived":true,
-				"kind":"spectroscopic",
 				"u_value":"km/s",
 				"source":"10"
 			}
