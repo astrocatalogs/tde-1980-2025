@@ -16,47 +16,53 @@
 				"alias":"2"
 			},
 			{
+				"name":"2016A&A...594A..13P",
+				"bibcode":"2016A&A...594A..13P",
+				"reference":"Planck Collaboration et al. (2016)",
+				"alias":"3"
+			},
+			{
 				"name":"SOUSA",
 				"bibcode":"2014Ap&SS.354...89B",
 				"reference":"Brown et al. (2014)",
 				"url":"http://people.physics.tamu.edu/pbrown/SwiftSN/swift_sn.html",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
 				"reference":"Schlafly & Finkbeiner (2011)",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"Pan-STARRS 3Pi",
 				"url":"https://star.pst.qub.ac.uk/ps1threepi/psdb/",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"ATel 9401",
 				"url":"http://www.astronomerstelegram.org/?read=9401",
-				"alias":"6"
+				"alias":"7"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"7"
-			},
-			{
-				"name":"Blanchard, Peter",
 				"alias":"8"
 			},
 			{
-				"name":"Swift TOOs",
-				"url":"https://www.swift.psu.edu/secure/toop/summary.php",
+				"name":"Blanchard, Peter",
 				"alias":"9"
+			},
+			{
+				"name":"ASAS-SN Supernovae",
+				"url":"http://www.astronomy.ohio-state.edu/~assassin/transients.html",
+				"alias":"10"
 			},
 			{
 				"name":"MAST",
 				"secondary":true,
 				"url":"https://mast.stsci.edu",
-				"alias":"10"
+				"alias":"11"
 			},
 			{
 				"name":"The Open TDE Catalog",
@@ -64,7 +70,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://tde.space",
-				"alias":"11"
+				"alias":"12"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -72,25 +78,29 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"12"
+				"alias":"13"
 			}
 		],
 		"alias":[
 			{
 				"value":"AT2016ezh",
-				"source":"5,6,10"
+				"source":"6,7,11"
 			},
 			{
 				"value":"CSS160902:015805-005222",
-				"source":"5,6,12"
+				"source":"6,7,13"
 			},
 			{
 				"value":"SN2016ezh",
-				"source":"3,5,6,7,12"
+				"source":"4,6,7,8,13"
 			},
 			{
 				"value":"PS16dtm",
-				"source":"1,12"
+				"source":"1,10,13"
+			},
+			{
+				"value":"PS16dtm (2016ezh)",
+				"source":"10"
 			}
 		],
 		"claimedtype":[
@@ -99,28 +109,35 @@
 				"source":"1"
 			}
 		],
+		"comovingdist":[
+			{
+				"value":"300",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"3,10,12"
+			}
+		],
 		"dec":[
 			{
 				"value":"-00:52:21.7",
 				"u_value":"degrees",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
-				"value":"-00:52:21.72",
-				"u_value":"degrees",
-				"source":"9"
+				"value":"-0:52:20.1",
+				"u_value":"floatdegrees",
+				"source":"10"
 			},
 			{
 				"value":"-00:52:22",
 				"u_value":"degrees",
-				"source":"2,12"
+				"source":"2,13"
 			}
 		],
 		"discoverdate":[
 			{
-				"value":"2016/08/12",
-				"derived":true,
-				"source":"7,11"
+				"value":"2016/08/26.63",
+				"source":"10"
 			}
 		],
 		"ebv":[
@@ -128,66 +145,95 @@
 				"value":"0.0222",
 				"derived":true,
 				"e_value":"0.0004",
-				"source":"4,11"
+				"source":"5,12"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"400",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"3,10,12"
+			}
+		],
+		"maxabsmag":[
+			{
+				"value":"-23",
+				"derived":true,
+				"source":"3,10,12"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"14.79",
 				"derived":true,
-				"source":"3,11"
+				"source":"4,12"
 			}
 		],
 		"maxband":[
 			{
 				"value":"U",
 				"derived":true,
-				"source":"3,11"
+				"source":"4,12"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2016/09/22",
 				"derived":true,
-				"source":"3,11"
+				"source":"4,12"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"15.93",
 				"derived":true,
-				"source":"3,11"
+				"source":"4,12"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"B",
 				"derived":true,
-				"source":"3,11"
+				"source":"4,12"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2016/12/03",
 				"derived":true,
-				"source":"3,11"
+				"source":"4,12"
 			}
 		],
 		"ra":[
 			{
 				"value":"01:58:04.74",
 				"u_value":"hours",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
-				"value":"01:58:04.752",
-				"u_value":"hours",
-				"source":"9"
+				"value":"1:58:04.78",
+				"u_value":"floatdegrees",
+				"source":"10"
 			},
 			{
 				"value":"01:58:05.0",
 				"u_value":"hours",
-				"source":"2,12"
+				"source":"2,13"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.08",
+				"source":"10"
+			}
+		],
+		"velocity":[
+			{
+				"value":"20000",
+				"derived":true,
+				"u_value":"km/s",
+				"source":"12"
 			}
 		],
 		"photometry":[
@@ -200,7 +246,7 @@
 				"telescope":"P48",
 				"u_time":"MJD",
 				"upperlimit":true,
-				"source":"7"
+				"source":"8"
 			},
 			{
 				"time":"57612.5739931",
@@ -211,7 +257,7 @@
 				"observer":"Robot",
 				"telescope":"PS1",
 				"u_time":"MJD",
-				"source":"7"
+				"source":"8"
 			},
 			{
 				"time":"57612.5741272877",
@@ -221,7 +267,7 @@
 				"magnitude":"17.1185",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"57612.5854597286",
@@ -231,7 +277,7 @@
 				"magnitude":"17.0316",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"57612.5967851681",
@@ -241,7 +287,7 @@
 				"magnitude":"17.0336",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"57612.6081027207",
@@ -251,7 +297,7 @@
 				"magnitude":"17.0218",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"57632.2306",
@@ -262,7 +308,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57632.2319",
@@ -273,7 +319,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57632.2326",
@@ -284,7 +330,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57632.2342",
@@ -295,7 +341,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57632.2362",
@@ -306,7 +352,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57632.2385",
@@ -317,7 +363,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57635.8279",
@@ -328,7 +374,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57635.8290",
@@ -339,7 +385,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57635.8296",
@@ -350,7 +396,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57635.8312",
@@ -361,7 +407,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57635.8329",
@@ -372,7 +418,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57635.8352",
@@ -383,7 +429,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57638.5815",
@@ -394,7 +440,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57638.5824",
@@ -405,7 +451,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57638.5830",
@@ -416,7 +462,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57638.5846",
@@ -427,7 +473,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57638.5861",
@@ -438,7 +484,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57638.5884",
@@ -449,7 +495,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57641.9701",
@@ -460,7 +506,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57641.9719",
@@ -471,7 +517,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57641.9728",
@@ -482,7 +528,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57641.9754",
@@ -493,7 +539,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57641.9780",
@@ -504,7 +550,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57641.9816",
@@ -515,7 +561,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57644.2351",
@@ -526,7 +572,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57644.2354",
@@ -537,7 +583,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57647.7842",
@@ -548,7 +594,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57647.7854",
@@ -559,7 +605,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57647.7861",
@@ -570,7 +616,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57647.7882",
@@ -581,7 +627,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57647.7898",
@@ -592,7 +638,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57647.7929",
@@ -603,7 +649,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57653.4303",
@@ -614,7 +660,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57653.4314",
@@ -625,7 +671,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57653.4320",
@@ -636,7 +682,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57653.4340",
@@ -647,7 +693,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57653.4356",
@@ -658,7 +704,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57653.4385",
@@ -669,7 +715,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57658.7761",
@@ -680,7 +726,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57658.7766",
@@ -691,7 +737,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57658.7770",
@@ -702,7 +748,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57659.8840",
@@ -713,7 +759,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57659.8848",
@@ -724,7 +770,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57659.8852",
@@ -735,7 +781,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57659.8863",
@@ -746,7 +792,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57659.8875",
@@ -757,7 +803,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57659.8892",
@@ -768,7 +814,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57661.620625907",
@@ -778,7 +824,7 @@
 				"magnitude":"16.1602",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"57661.6286629661",
@@ -788,7 +834,7 @@
 				"magnitude":"16.2419",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"57663.7254",
@@ -799,7 +845,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57663.7266",
@@ -810,7 +856,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57663.7272",
@@ -821,7 +867,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57663.7286",
@@ -832,7 +878,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57663.7305",
@@ -843,7 +889,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57663.7324",
@@ -854,7 +900,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57668.5058",
@@ -865,7 +911,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57668.5070",
@@ -876,7 +922,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57668.5076",
@@ -887,7 +933,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57668.5092",
@@ -898,7 +944,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57668.5111",
@@ -909,7 +955,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57668.5133",
@@ -920,7 +966,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57673.7039",
@@ -931,7 +977,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57673.7052",
@@ -942,7 +988,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57673.7059",
@@ -953,7 +999,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57673.7076",
@@ -964,7 +1010,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57673.7097",
@@ -975,7 +1021,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57673.7121",
@@ -986,7 +1032,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57681.49",
@@ -996,7 +1042,7 @@
 				"observer":"iPTF",
 				"telescope":"P48",
 				"u_time":"MJD",
-				"source":"7"
+				"source":"8"
 			},
 			{
 				"time":"57688.4094361406",
@@ -1006,7 +1052,7 @@
 				"magnitude":"16.1811",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"57688.4237108013",
@@ -1016,7 +1062,7 @@
 				"magnitude":"16.2085",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"57688.4380824976",
@@ -1026,7 +1072,7 @@
 				"magnitude":"16.2635",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"57688.4523848417",
@@ -1036,7 +1082,7 @@
 				"magnitude":"16.2225",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"57690.4001",
@@ -1047,7 +1093,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57690.4021",
@@ -1058,7 +1104,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57690.4031",
@@ -1069,7 +1115,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57690.4062",
@@ -1080,7 +1126,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57690.4093",
@@ -1091,7 +1137,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57690.4136",
@@ -1102,7 +1148,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57700.2996",
@@ -1113,7 +1159,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57700.3004",
@@ -1124,7 +1170,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57700.3009",
@@ -1135,7 +1181,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57700.3021",
@@ -1146,7 +1192,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57700.3033",
@@ -1157,7 +1203,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57700.3053",
@@ -1168,7 +1214,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57707.2118",
@@ -1179,7 +1225,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57707.2133",
@@ -1190,7 +1236,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57707.2141",
@@ -1201,7 +1247,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57707.2164",
@@ -1212,7 +1258,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57707.2187",
@@ -1223,7 +1269,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57707.2221",
@@ -1234,7 +1280,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57710.2330",
@@ -1245,7 +1291,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57710.2344",
@@ -1256,7 +1302,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57710.2351",
@@ -1267,7 +1313,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57710.2367",
@@ -1278,7 +1324,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57710.2389",
@@ -1289,7 +1335,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57710.2412",
@@ -1300,7 +1346,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57713.4928",
@@ -1311,7 +1357,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57713.4941",
@@ -1322,7 +1368,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57713.4948",
@@ -1333,7 +1379,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57713.4964",
@@ -1344,7 +1390,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57713.4984",
@@ -1355,7 +1401,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57713.5004",
@@ -1366,7 +1412,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57715.364604026",
@@ -1376,7 +1422,7 @@
 				"magnitude":"16.2001",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"57716.5881",
@@ -1387,7 +1433,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57716.5894",
@@ -1398,7 +1444,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57716.5901",
@@ -1409,7 +1455,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57716.5916",
@@ -1420,7 +1466,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57716.5936",
@@ -1431,7 +1477,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57716.5958",
@@ -1442,7 +1488,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57720.5995",
@@ -1453,7 +1499,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57720.6010",
@@ -1464,7 +1510,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57720.6017",
@@ -1475,7 +1521,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57720.6035",
@@ -1486,7 +1532,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57720.6057",
@@ -1497,7 +1543,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57720.6083",
@@ -1508,7 +1554,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57725.4394",
@@ -1519,7 +1565,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57725.4405",
@@ -1530,7 +1576,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57725.4411",
@@ -1541,7 +1587,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57725.4419",
@@ -1552,7 +1598,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57730.5100",
@@ -1563,7 +1609,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57730.5111",
@@ -1574,7 +1620,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57730.5119",
@@ -1585,7 +1631,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57730.5144",
@@ -1596,7 +1642,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57730.5160",
@@ -1607,7 +1653,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57730.5205",
@@ -1618,7 +1664,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57735.6493",
@@ -1629,7 +1675,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57735.6514",
@@ -1640,7 +1686,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57735.6525",
@@ -1651,7 +1697,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57735.6555",
@@ -1662,7 +1708,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57735.6586",
@@ -1673,7 +1719,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57735.6629",
@@ -1684,7 +1730,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57741.1652",
@@ -1695,7 +1741,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57741.1668",
@@ -1706,7 +1752,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57741.1675",
@@ -1717,7 +1763,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57741.1688",
@@ -1728,7 +1774,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57741.1713",
@@ -1739,7 +1785,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57741.1731",
@@ -1750,7 +1796,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57745.0175",
@@ -1761,7 +1807,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57745.0196",
@@ -1772,7 +1818,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57745.0207",
@@ -1783,7 +1829,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57745.0232",
@@ -1794,7 +1840,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57747.268098673",
@@ -1804,7 +1850,7 @@
 				"magnitude":"16.1695",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"57747.2816841944",
@@ -1814,7 +1860,7 @@
 				"magnitude":"16.1326",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"57747.2952326089",
@@ -1824,7 +1870,7 @@
 				"magnitude":"16.1894",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"57747.3087783671",
@@ -1834,7 +1880,7 @@
 				"magnitude":"16.1824",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"57750.6639",
@@ -1845,7 +1891,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57750.6656",
@@ -1856,7 +1902,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57750.6663",
@@ -1867,7 +1913,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57750.6677",
@@ -1878,7 +1924,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57750.6704",
@@ -1889,7 +1935,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57750.6723",
@@ -1900,7 +1946,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57755.7464",
@@ -1911,7 +1957,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57755.7480",
@@ -1922,7 +1968,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57755.7487",
@@ -1933,7 +1979,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57755.7501",
@@ -1944,7 +1990,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57755.7526",
@@ -1955,7 +2001,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57755.7544",
@@ -1966,7 +2012,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57761.7597",
@@ -1977,7 +2023,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57761.7614",
@@ -1988,7 +2034,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57761.7622",
@@ -1999,7 +2045,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57761.7637",
@@ -2010,7 +2056,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57761.7665",
@@ -2021,7 +2067,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57761.7686",
@@ -2032,7 +2078,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57765.9459",
@@ -2043,7 +2089,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57765.9466",
@@ -2054,7 +2100,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57765.9471",
@@ -2065,7 +2111,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57765.9482",
@@ -2076,7 +2122,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57765.9493",
@@ -2087,7 +2133,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57765.9508",
@@ -2098,7 +2144,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57770.1376",
@@ -2109,7 +2155,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57770.1388",
@@ -2120,7 +2166,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57770.1394",
@@ -2131,7 +2177,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57770.1411",
@@ -2142,7 +2188,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57774.9497",
@@ -2153,7 +2199,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57774.9506",
@@ -2164,7 +2210,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57774.9512",
@@ -2175,7 +2221,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57774.9529",
@@ -2186,7 +2232,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57774.9542",
@@ -2197,7 +2243,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57774.9558",
@@ -2208,7 +2254,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57777.4411",
@@ -2219,7 +2265,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57777.4431",
@@ -2230,7 +2276,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57777.4441",
@@ -2241,7 +2287,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57777.4471",
@@ -2252,7 +2298,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57777.4501",
@@ -2263,7 +2309,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57777.4545",
@@ -2274,7 +2320,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57784.1826",
@@ -2285,7 +2331,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57784.1844",
@@ -2296,7 +2342,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57784.1851",
@@ -2307,7 +2353,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57784.1866",
@@ -2318,7 +2364,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57784.1894",
@@ -2329,7 +2375,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57784.1914",
@@ -2340,7 +2386,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57791.0690",
@@ -2351,7 +2397,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57791.0707",
@@ -2362,7 +2408,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57791.0713",
@@ -2373,7 +2419,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57791.0727",
@@ -2384,7 +2430,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57791.0752",
@@ -2395,7 +2441,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57791.0771",
@@ -2406,7 +2452,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57798.6702",
@@ -2417,7 +2463,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57798.6713",
@@ -2428,7 +2474,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57798.6719",
@@ -2439,7 +2485,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57798.6735",
@@ -2450,7 +2496,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57798.6752",
@@ -2461,7 +2507,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57798.6780",
@@ -2472,7 +2518,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57809.0991",
@@ -2483,7 +2529,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57809.1004",
@@ -2494,7 +2540,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57809.1011",
@@ -2505,7 +2551,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57809.1030",
@@ -2516,7 +2562,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57809.1049",
@@ -2527,7 +2573,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57809.1074",
@@ -2538,7 +2584,7 @@
 				"system":"Vega",
 				"telescope":"Swift",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57971.5699856789",
@@ -2548,7 +2594,7 @@
 				"magnitude":"16.5473",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"57971.5823179134",
@@ -2558,7 +2604,7 @@
 				"magnitude":"16.5528",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"57971.5946699443",
@@ -2568,7 +2614,7 @@
 				"magnitude":"16.58",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"57971.6070290572",
@@ -2578,7 +2624,7 @@
 				"magnitude":"16.5471",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58012.5635242528",
@@ -2588,7 +2634,7 @@
 				"magnitude":"16.699",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58012.5780830133",
@@ -2598,7 +2644,7 @@
 				"magnitude":"16.6865",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58021.4854356145",
@@ -2608,7 +2654,7 @@
 				"magnitude":"16.7228",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58021.4982258198",
@@ -2618,7 +2664,7 @@
 				"magnitude":"16.7106",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58021.5111355305",
@@ -2628,7 +2674,7 @@
 				"magnitude":"16.6935",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58021.5240388187",
@@ -2638,7 +2684,7 @@
 				"magnitude":"16.7298",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58022.4459039718",
@@ -2648,7 +2694,7 @@
 				"magnitude":"16.7392",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58022.4584104944",
@@ -2658,7 +2704,7 @@
 				"magnitude":"16.7406",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58022.4709016426",
@@ -2668,7 +2714,7 @@
 				"magnitude":"16.7249",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58022.4831643604",
@@ -2678,7 +2724,7 @@
 				"magnitude":"16.7622",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58047.4470475763",
@@ -2688,7 +2734,7 @@
 				"magnitude":"16.9991",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58047.5158829987",
@@ -2698,7 +2744,7 @@
 				"magnitude":"16.9322",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58047.5294292085",
@@ -2708,7 +2754,7 @@
 				"magnitude":"16.9446",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58047.5429821037",
@@ -2718,7 +2764,7 @@
 				"magnitude":"17.0215",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58074.3598398376",
@@ -2728,7 +2774,7 @@
 				"magnitude":"16.9194",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58074.3702796884",
@@ -2738,7 +2784,7 @@
 				"magnitude":"16.8864",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58074.3806939926",
@@ -2748,7 +2794,7 @@
 				"magnitude":"16.9073",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58074.3911388716",
@@ -2758,7 +2804,7 @@
 				"magnitude":"16.8985",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58101.2658786444",
@@ -2768,7 +2814,7 @@
 				"magnitude":"17.0002",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58101.2778370026",
@@ -2778,7 +2824,7 @@
 				"magnitude":"17.0074",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58101.2897571801",
@@ -2788,7 +2834,7 @@
 				"magnitude":"16.9925",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58101.3017026987",
@@ -2798,7 +2844,7 @@
 				"magnitude":"16.9094",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58338.5946754217",
@@ -2808,7 +2854,7 @@
 				"magnitude":"17.301",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58338.6018110503",
@@ -2818,7 +2864,7 @@
 				"magnitude":"17.175",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58338.6089484148",
@@ -2828,7 +2874,7 @@
 				"magnitude":"17.2092",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58338.6161018294",
@@ -2838,7 +2884,7 @@
 				"magnitude":"17.233",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58345.5867831522",
@@ -2848,7 +2894,7 @@
 				"magnitude":"17.2094",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58345.5979209897",
@@ -2858,7 +2904,7 @@
 				"magnitude":"17.2422",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58345.6090967014",
@@ -2868,7 +2914,7 @@
 				"magnitude":"17.2327",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58345.6202797956",
@@ -2878,7 +2924,7 @@
 				"magnitude":"17.2125",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58488.2245509731",
@@ -2888,7 +2934,7 @@
 				"magnitude":"17.6236",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58488.2358745695",
@@ -2898,7 +2944,7 @@
 				"magnitude":"17.5955",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58488.2471807245",
@@ -2908,7 +2954,7 @@
 				"magnitude":"17.6439",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58488.2584731743",
@@ -2918,7 +2964,7 @@
 				"magnitude":"17.6503",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58489.2261402933",
@@ -2928,7 +2974,7 @@
 				"magnitude":"17.6779",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58489.2386395726",
@@ -2938,7 +2984,7 @@
 				"magnitude":"17.593",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58489.2511173026",
@@ -2948,7 +2994,7 @@
 				"magnitude":"17.6866",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"58489.263616785",
@@ -2958,7 +3004,7 @@
 				"magnitude":"17.7058",
 				"telescope":"Pan-STARRS1",
 				"u_time":"MJD",
-				"source":"5,6"
+				"source":"6,7"
 			}
 		],
 		"spectra":[
@@ -7057,7 +7103,7 @@
 						"5.938835E-17"
 					]
 				],
-				"source":"7"
+				"source":"8"
 			},
 			{
 				"time":"57806.222097570",
@@ -11165,7 +11211,7 @@
 						"0.0015889634"
 					]
 				],
-				"source":"8,10"
+				"source":"9,11"
 			}
 		]
 	}
