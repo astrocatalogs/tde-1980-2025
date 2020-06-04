@@ -320,7 +320,7 @@
 		],
 		"spectra":[
 			{
-				"time":"52193.68827305",
+				"time":"52193.688273065",
 				"filename":"2003982397_o6dd02010_sx1.fits",
 				"instrument":"STIS/CCD",
 				"telescope":"HST",
@@ -4428,7 +4428,7 @@
 				"source":"5,6"
 			},
 			{
-				"time":"52193.81681465",
+				"time":"52193.816814640",
 				"filename":"2003982399_o6dd02030_sx1.fits",
 				"instrument":"STIS/CCD",
 				"telescope":"HST",
