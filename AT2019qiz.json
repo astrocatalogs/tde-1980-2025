@@ -25,15 +25,10 @@
 				"alias":"4"
 			},
 			{
-				"name":"ASAS-SN Supernovae",
-				"url":"http://www.astronomy.ohio-state.edu/~assassin/transients.html",
-				"alias":"5"
-			},
-			{
 				"name":"MAST",
 				"secondary":true,
 				"url":"https://mast.stsci.edu",
-				"alias":"6"
+				"alias":"5"
 			},
 			{
 				"name":"The Open TDE Catalog",
@@ -41,23 +36,19 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://tde.space",
-				"alias":"7"
+				"alias":"6"
 			}
 		],
 		"alias":[
 			{
 				"value":"AT2019qiz",
-				"source":"1,3,5,6"
-			},
-			{
-				"value":"AT2019qiz (= ZTF19abzrhgq)",
-				"source":"5"
+				"source":"1,3,5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Candidate",
-				"source":"7"
+				"source":"6"
 			}
 		],
 		"comovingdist":[
@@ -65,7 +56,7 @@
 				"value":"66.72",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,7"
+				"source":"1,2,6"
 			}
 		],
 		"dec":[
@@ -73,17 +64,13 @@
 				"value":"-10:13:34.90",
 				"u_value":"degrees",
 				"source":"1"
-			},
-			{
-				"value":"-10:13:31.5",
-				"u_value":"floatdegrees",
-				"source":"5"
 			}
 		],
 		"discoverdate":[
 			{
-				"value":"2019/09/24.41",
-				"source":"5"
+				"value":"2019/09/18",
+				"derived":true,
+				"source":"3,6"
 			}
 		],
 		"ebv":[
@@ -103,49 +90,49 @@
 			{
 				"value":"-20",
 				"derived":true,
-				"source":"1,7"
+				"source":"1,6"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"14.05",
 				"derived":true,
-				"source":"1,7"
+				"source":"1,6"
 			}
 		],
 		"maxband":[
 			{
 				"value":"W2",
 				"derived":true,
-				"source":"1,7"
+				"source":"1,6"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2019/10/07",
 				"derived":true,
-				"source":"1,7"
+				"source":"1,6"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"15.78",
 				"derived":true,
-				"source":"1,7"
+				"source":"1,6"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"g",
 				"derived":true,
-				"source":"1,7"
+				"source":"1,6"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2019/10/07",
 				"derived":true,
-				"source":"1,7"
+				"source":"1,6"
 			}
 		],
 		"ra":[
@@ -153,11 +140,6 @@
 				"value":"04:46:37.880",
 				"u_value":"hours",
 				"source":"1"
-			},
-			{
-				"value":"4:46:37.99",
-				"u_value":"floatdegrees",
-				"source":"5"
 			}
 		],
 		"redshift":[
@@ -171,7 +153,7 @@
 				"value":"4502",
 				"derived":true,
 				"u_value":"km/s",
-				"source":"7"
+				"source":"6"
 			}
 		],
 		"photometry":[
@@ -24489,7 +24471,7 @@
 						"-6.625376e-05"
 					]
 				],
-				"source":"4,6"
+				"source":"4,5"
 			},
 			{
 				"time":"58777.639543150",
@@ -28597,7 +28579,7 @@
 						"-6.661523e-05"
 					]
 				],
-				"source":"4,6"
+				"source":"4,5"
 			},
 			{
 				"time":"58777.643976125",
@@ -32705,7 +32687,7 @@
 						"0.0028063431"
 					]
 				],
-				"source":"4,6"
+				"source":"4,5"
 			},
 			{
 				"time":"58777.651146445",
@@ -36813,7 +36795,7 @@
 						"-0.0003939001"
 					]
 				],
-				"source":"4,6"
+				"source":"4,5"
 			},
 			{
 				"time":"58777.654745700",
@@ -40921,7 +40903,7 @@
 						"-0.00025149866"
 					]
 				],
-				"source":"4,6"
+				"source":"4,5"
 			},
 			{
 				"time":"58777.657269065",
@@ -45029,7 +45011,7 @@
 						"0.005548828"
 					]
 				],
-				"source":"4,6"
+				"source":"4,5"
 			},
 			{
 				"time":"58829.540554085",
@@ -49137,7 +49119,7 @@
 						"-6.6469394e-05"
 					]
 				],
-				"source":"4,6"
+				"source":"4,5"
 			},
 			{
 				"time":"58829.546063345",
@@ -53245,7 +53227,7 @@
 						"-6.6808476e-05"
 					]
 				],
-				"source":"4,6"
+				"source":"4,5"
 			},
 			{
 				"time":"58829.550496295",
@@ -57353,7 +57335,7 @@
 						"-6.708133e-05"
 					]
 				],
-				"source":"4,6"
+				"source":"4,5"
 			},
 			{
 				"time":"58829.557666235",
@@ -61461,7 +61443,7 @@
 						"0.005595541"
 					]
 				],
-				"source":"4,6"
+				"source":"4,5"
 			},
 			{
 				"time":"58829.561265890",
@@ -65569,7 +65551,7 @@
 						"0.0011334688"
 					]
 				],
-				"source":"4,6"
+				"source":"4,5"
 			},
 			{
 				"time":"58829.563789205",
@@ -69677,7 +69659,7 @@
 						"0.004741654"
 					]
 				],
-				"source":"4,6"
+				"source":"4,5"
 			},
 			{
 				"time":"58863.578304250",
@@ -73785,7 +73767,7 @@
 						"-0.0002486045"
 					]
 				],
-				"source":"4,6"
+				"source":"4,5"
 			},
 			{
 				"time":"58863.587945355",
@@ -77893,7 +77875,7 @@
 						"-0.00026063292"
 					]
 				],
-				"source":"4,6"
+				"source":"4,5"
 			},
 			{
 				"time":"58863.633547220",
@@ -82001,7 +81983,7 @@
 						"-0.0038238023"
 					]
 				],
-				"source":"4,6"
+				"source":"4,5"
 			},
 			{
 				"time":"58863.646869065",
@@ -86109,7 +86091,7 @@
 						"-6.6681045e-05"
 					]
 				],
-				"source":"4,6"
+				"source":"4,5"
 			},
 			{
 				"time":"58863.700815745",
@@ -90217,7 +90199,7 @@
 						"-6.6981884e-05"
 					]
 				],
-				"source":"4,6"
+				"source":"4,5"
 			},
 			{
 				"time":"58863.711510165",
@@ -94325,7 +94307,7 @@
 						"-6.721089e-05"
 					]
 				],
-				"source":"4,6"
+				"source":"4,5"
 			}
 		]
 	}
