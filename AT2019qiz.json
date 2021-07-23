@@ -20384,7 +20384,7 @@
 				"source":"3"
 			},
 			{
-				"time":"58777.634033890",
+				"time":"58777.634033894675",
 				"filename":"26247889_oe7d01010_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -24492,7 +24492,7 @@
 				"source":"4,6"
 			},
 			{
-				"time":"58777.639543150",
+				"time":"58777.639543153935",
 				"filename":"26247890_oe7d01020_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -28600,7 +28600,7 @@
 				"source":"4,6"
 			},
 			{
-				"time":"58777.643976125",
+				"time":"58777.643976122685",
 				"filename":"26247896_oe7d01030_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -45032,7 +45032,7 @@
 				"source":"4,6"
 			},
 			{
-				"time":"58829.540554085",
+				"time":"58829.540554085650",
 				"filename":"26255097_oe7d03010_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -49140,7 +49140,7 @@
 				"source":"4,6"
 			},
 			{
-				"time":"58829.546063345",
+				"time":"58829.546063344910",
 				"filename":"26255098_oe7d03020_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -53248,7 +53248,7 @@
 				"source":"4,6"
 			},
 			{
-				"time":"58829.550496295",
+				"time":"58829.550496296295",
 				"filename":"26255096_oe7d03030_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -82004,7 +82004,7 @@
 				"source":"4,6"
 			},
 			{
-				"time":"58863.646869065",
+				"time":"58863.646869062500",
 				"filename":"26259162_oe7d04040_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -86112,7 +86112,7 @@
 				"source":"4,6"
 			},
 			{
-				"time":"58863.700815745",
+				"time":"58863.700815740740",
 				"filename":"26259191_oe7d04050_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -90220,7 +90220,7 @@
 				"source":"4,6"
 			},
 			{
-				"time":"58863.711510165",
+				"time":"58863.7115101678220",
 				"filename":"26259177_oe7d04060_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",

@@ -10808,7 +10808,7 @@
 				"source":"7,9"
 			},
 			{
-				"time":"57303.662341885",
+				"time":"57303.662341880785",
 				"filename":"25001930_ocsg07030_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -14916,7 +14916,7 @@
 				"source":"7,9"
 			},
 			{
-				"time":"57303.728615220",
+				"time":"57303.728615219910",
 				"filename":"25001931_ocsg07040_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
@@ -19024,7 +19024,7 @@
 				"source":"7,9"
 			},
 			{
-				"time":"57303.794876700",
+				"time":"57303.794876701385",
 				"filename":"25001932_ocsg07050_x1d.fits",
 				"instrument":"STIS/FUV-MAMA",
 				"telescope":"HST",
