@@ -2592,7 +2592,7 @@
 		],
 		"spectra":[
 			{
-				"time":"57303.535710035",
+				"time":"57303.5357100347250",
 				"filename":"25001928_ocsg07010_x1d.fits",
 				"instrument":"STIS/NUV-MAMA",
 				"telescope":"HST",
@@ -6700,7 +6700,7 @@
 				"source":"7,9"
 			},
 			{
-				"time":"57303.596080405",
+				"time":"57303.5960804050930",
 				"filename":"25001929_ocsg07020_x1d.fits",
 				"instrument":"STIS/NUV-MAMA",
 				"telescope":"HST",
